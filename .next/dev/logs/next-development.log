@@ -1615,3 +1615,39 @@ Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
 [01:21:04.847] Server  LOG      ✓ Compiled in 169ms
 [01:21:06.102] Server  LOG      ✓ Compiled in 155ms
 [01:21:07.737] Server  LOG      ✓ Compiled in 101ms
+[02:00:55.422] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[02:00:55.900] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[02:00:56.007] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[02:00:56.891] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[02:00:56.995] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[02:01:27.621] Server  LOG      ✓ Compiled in 199ms
+[02:01:36.651] Server  LOG      ✓ Compiled in 140ms
+[02:01:41.093] Server  LOG      ✓ Compiled in 1538ms
+[02:02:07.175] Server  LOG      ✓ Compiled in 358ms
+[02:02:24.271] Server  LOG      ✓ Compiled in 150ms
+[02:02:34.633] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[02:02:36.422] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:09:30.506] Server  LOG      ✓ Compiled in 330ms
+[02:11:16.453] Server  LOG      ✓ Compiled in 264ms
+[02:11:25.815] Server  LOG      ✓ Compiled in 124ms
+[02:11:32.509] Server  LOG      ✓ Compiled in 217ms
+[02:11:43.168] Server  LOG      ✓ Compiled in 115ms
+[02:11:46.131] Server  LOG      ✓ Compiled in 97ms
+[02:25:13.374] Server  LOG      ✓ Compiled in 484ms
+[02:25:25.577] Server  LOG      ✓ Compiled in 120ms
+[02:25:36.419] Server  LOG      ✓ Compiled in 100ms
+[02:37:49.234] Server  LOG      ✓ Compiled in 585ms
+[02:37:58.238] Server  LOG      ✓ Compiled in 69ms
+[02:38:11.242] Server  LOG      ✓ Compiled in 107ms
+[02:38:28.277] Server  LOG      ✓ Compiled in 133ms
+[02:38:46.225] Server  LOG      ✓ Compiled in 69ms
+[02:40:39.602] Server  LOG      ✓ Compiled in 66ms
+[02:40:42.933] Server  LOG      ✓ Compiled in 75ms
+[03:01:40.914] Server  LOG      ✓ Compiled in 418ms
+[03:03:43.307] Server  LOG      ✓ Compiled in 84ms
+[03:03:53.530] Server  LOG      ✓ Compiled in 91ms

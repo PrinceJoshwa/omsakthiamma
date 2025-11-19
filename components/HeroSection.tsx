@@ -147,7 +147,7 @@ import Image from 'next/image';
 
 export default function HeroSection() {
   // Using om1.jpg as the main hero image
-  const posterUrl = '/hero.jpeg';
+  const posterUrl = '/herofin.jpeg';
   
   return (
     <section className="relative w-full overflow-hidden mt-16"> {/* Added mt-16 to account for fixed header */}
