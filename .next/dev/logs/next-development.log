@@ -1651,3 +1651,36 @@ Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
 [03:01:40.914] Server  LOG      ✓ Compiled in 418ms
 [03:03:43.307] Server  LOG      ✓ Compiled in 84ms
 [03:03:53.530] Server  LOG      ✓ Compiled in 91ms
+[03:07:48.300] Server  LOG      ✓ Compiled in 220ms
+[03:12:03.275] Server  LOG      ✓ Compiled in 459ms
+[03:12:06.461] Browser WARN    Image with src "http://localhost:3000/herofin.jpeg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[03:12:19.186] Server  LOG      ✓ Compiled in 76ms
+[03:12:39.286] Server  LOG      ✓ Compiled in 81ms
+[03:12:44.030] Server  LOG      ✓ Compiled in 65ms
+[03:12:48.878] Server  LOG      ✓ Compiled in 107ms
+[03:12:54.889] Server  LOG      ✓ Compiled in 86ms
+[03:14:39.555] Server  LOG      ✓ Compiled in 83ms
+[03:14:42.252] Server  LOG      ✓ Compiled in 107ms
+[03:14:48.365] Server  LOG      ✓ Compiled in 91ms
+[03:14:49.846] Server  LOG      ✓ Compiled in 106ms
+[03:15:11.174] Server  LOG      ✓ Compiled in 113ms
+[03:15:12.958] Server  LOG      ✓ Compiled in 85ms
+[03:45:26.198] Server  LOG      ✓ Compiled in 1473ms
+[03:45:26.555] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `Home`.
+[03:45:27.539] Server  LOG      ✓ Compiled in 849ms
+[03:45:27.572] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[03:45:28.962] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:45:29.941] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:45:31.007] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:45:32.190] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:45:32.544] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:45:33.453] Browser WARN    Image with src "http://localhost:3000/hero-mobile.jpeg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[03:47:22.122] Server  LOG      ✓ Compiled in 216ms
+[03:47:57.061] Server  LOG      ✓ Compiled in 229ms
+[03:48:18.343] Server  LOG      ✓ Compiled in 138ms

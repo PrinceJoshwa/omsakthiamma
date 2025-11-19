@@ -1040,6 +1040,10 @@
     height: 1.15rem;
   }
 
+  .h-\[60vh\] {
+    height: 60vh;
+  }
+
   .h-\[75vh\] {
     height: 75vh;
   }
@@ -3852,6 +3856,12 @@
   }
 
   @media (min-width: 40rem) {
+    .sm\:h-\[70vh\] {
+      height: 70vh;
+    }
+  }
+
+  @media (min-width: 40rem) {
     .sm\:max-w-lg {
       max-width: var(--container-lg);
     }
@@ -3944,6 +3954,12 @@
   @media (min-width: 48rem) {
     .md\:hidden {
       display: none;
+    }
+  }
+
+  @media (min-width: 48rem) {
+    .md\:h-\[75vh\] {
+      height: 75vh;
     }
   }
 
@@ -4149,6 +4165,12 @@
   }
 
   @media (min-width: 64rem) {
+    .lg\:h-\[90vh\] {
+      height: 90vh;
+    }
+  }
+
+  @media (min-width: 64rem) {
     .lg\:grid-cols-3 {
       grid-template-columns: repeat(3, minmax(0, 1fr));
     }
@@ -4157,6 +4179,18 @@
   @media (min-width: 64rem) {
     .lg\:grid-cols-4 {
       grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+  }
+
+  @media (min-width: 64rem) {
+    .lg\:object-fill {
+      object-fit: fill;
+    }
+  }
+
+  @media (min-width: 80rem) {
+    .xl\:h-\[100vh\] {
+      height: 100vh;
     }
   }
 
