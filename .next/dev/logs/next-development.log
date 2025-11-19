@@ -1,6 +1,1617 @@
-[00:00:03.507] Server  LOG      ✓ Ready in 2.2s
-[00:00:11.108] Server  LOG      ○ Compiling / ...
-[00:00:19.102] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+[00:00:03.948] Server  LOG      ✓ Ready in 2.6s
+[00:00:30.844] Server  LOG      ○ Compiling /activities/spiritual-conferences ...
+[00:00:42.157] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /activities/spiritual-conferences. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:00:20.627] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:21.542] Browser LOG     [v0] WordPress fetch - using placeholder instead: {}
+[00:00:44.032] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:09.407] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /activities/spiritual-tours. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:02:09.626] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:02:31.981] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /activities/spiritual-tours. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:02:38.473] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /activities/spiritual-tours. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:03:14.517] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /activities/spiritual-tours. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:03:23.451] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /activities/spiritual-tours. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:03:40.443] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /activities/spiritual-tours. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:03:50.165] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /activities/spiritual-tours. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:03:59.483] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /activities/spiritual-tours. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:07:21.851] Server  LOG      ✓ Compiled in 364ms
+[00:07:23.164] Server  LOG      ✓ Compiled in 186ms
+[00:07:46.222] Server  LOG      ✓ Compiled in 295ms
+[00:07:51.458] Server  LOG      ✓ Compiled in 172ms
+[00:07:52.456] Browser ERROR   ./components/PageTemplate.tsx:620:16
+Parsing ecmascript source code failed
+  618 |
+  619 |       {/* PAGE HEADER */}
+> 620 |       <section className={`${noTopPadding ? "py-4" : "py-20"} px-4`}>
+      |                ^^^^^^^^^
+  621 |         <motion.div
+  622 |           initial={{ opacity: 0, y: 20 }}
+  623 |           animate={{ opacity: 1, y: 0 }}
+
+Expected ',', got 'className'
+
+Import trace:
+  Server Component:
+    ./components/PageTemplate.tsx
+    ./app/activities/spiritual-conferences/page.tsx
+[00:07:54.130] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /activities/spiritual-tours. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:07:54.232] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /activities/spiritual-tours. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:08:07.809] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /festivals/poojas. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:08:18.675] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /activities/social-activity. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:11:08.122] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /activities/social-activity. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:11:22.537] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /activities/social-activity. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:11:23.569] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:11:26.736] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /activities/social-activity. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:15:32.916] Server  LOG      ✓ Compiled in 373ms
+[00:15:40.725] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/articles. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:15:57.483] Server  LOG      ✓ Compiled in 119ms
+[00:16:12.147] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:12.170] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_e07d799d._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:12.182] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:12.197] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:12.202] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:12.205] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:12.217] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:12.222] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:12.236] Server  ERROR    ⨯ Error: The default export is not a React Component in "/publications/articles/page"
+[00:16:12.253] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:12.254] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_e07d799d._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:12.255] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:12.260] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:12.263] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:12.264] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:12.265] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:12.266] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:12.270] Server  ERROR    ⨯ Error: The default export is not a React Component in "/publications/articles/page"
+[00:16:12.402] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:12.413] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_e07d799d._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:12.418] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:12.425] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:12.429] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:12.437] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:12.444] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:12.453] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:12.472] Server  ERROR    ⨯ Error: The default export is not a React Component in "/publications/articles/page"
+[00:16:12.487] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/articles. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:16:12.511] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:12.518] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_e07d799d._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:12.532] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:12.546] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:12.550] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:12.553] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:12.555] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:12.567] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:12.583] Server  ERROR    ⨯ Error: The default export is not a React Component in "/publications/articles/page"
+[00:16:14.796] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:14.797] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_e07d799d._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:14.798] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:14.799] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:14.799] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:14.800] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:14.801] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:14.802] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:14.803] Server  ERROR    ⨯ Error: The default export is not a React Component in "/publications/articles/page"
+[00:16:14.811] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/articles. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:16:14.819] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:14.823] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_e07d799d._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:14.827] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:14.829] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:14.830] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:14.832] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:14.834] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:14.835] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:14.837] Server  ERROR    ⨯ Error: The default export is not a React Component in "/publications/articles/page"
+[00:16:15.285] Server  LOG      ✓ Compiled in 144ms
+[00:16:15.374] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/publications/articles/page"
+[00:18:34.134] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/articles. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:18:35.286] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:36.589] Browser WARN    Image with src "/placeholder.svg?key=v8e3f" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:18:53.281] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:53.334] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_e07d799d._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:53.335] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:53.336] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:53.337] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:53.338] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:53.339] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:53.341] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:53.345] Server  ERROR    ⨯ Error: The default export is not a React Component in "/publications/articles/page"
+[00:18:53.348] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:53.349] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_e07d799d._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:53.350] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:53.352] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:53.352] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:53.353] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:53.353] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:53.354] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:53.357] Server  ERROR    ⨯ Error: The default export is not a React Component in "/publications/articles/page"
+[00:18:53.471] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:53.474] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_e07d799d._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:53.475] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:53.476] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:53.477] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:53.478] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:53.480] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:53.481] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:53.481] Server  ERROR    ⨯ Error: The default export is not a React Component in "/publications/articles/page"
+[00:18:53.484] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/articles. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:18:53.513] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:53.515] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_e07d799d._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:53.518] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:53.520] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:53.524] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:53.525] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:53.529] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:53.531] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:53.532] Server  ERROR    ⨯ Error: The default export is not a React Component in "/publications/articles/page"
+[00:18:53.733] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:53.735] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_e07d799d._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:53.736] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:53.739] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:53.747] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:53.750] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:53.752] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:53.753] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:53.757] Server  ERROR    ⨯ Error: The default export is not a React Component in "/publications/articles/page"
+[00:18:53.769] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/articles. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:18:53.781] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:53.782] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_e07d799d._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:53.783] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:53.784] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:53.785] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:53.787] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:53.792] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:53.795] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:53.797] Server  ERROR    ⨯ Error: The default export is not a React Component in "/publications/articles/page"
+[00:18:54.194] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/publications/articles/page"
+[00:18:55.025] Server  LOG      ✓ Compiled in 234ms
+[00:21:28.452] Browser ERROR   ./app/publications/articles/page.tsx:102:1
+Parsing ecmascript source code failed
+  100 |   );
+  101 | }
+> 102 | 
+      | ^
+
+Expected '</', got '<eof>'
+
+Import traces:
+  Client Component Browser:
+    ./app/publications/articles/page.tsx [Client Component Browser]
+    ./app/publications/articles/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/publications/articles/page.tsx [Client Component SSR]
+    ./app/publications/articles/page.tsx [Server Component]
+[00:22:03.459] Browser ERROR   ./app/publications/articles/page.tsx:102:1
+Parsing ecmascript source code failed
+  100 |   );
+  101 | }
+> 102 | 
+      | ^
+
+Expected '</', got '<eof>'
+
+Import traces:
+  Client Component Browser:
+    ./app/publications/articles/page.tsx [Client Component Browser]
+    ./app/publications/articles/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/publications/articles/page.tsx [Client Component SSR]
+    ./app/publications/articles/page.tsx [Server Component]
+[00:22:07.461] Browser ERROR   ./app/publications/articles/page.tsx:102:1
+Parsing ecmascript source code failed
+  100 |   );
+  101 | }
+> 102 | 
+      | ^
+
+Expected '</', got '<eof>'
+
+Import traces:
+  Client Component Browser:
+    ./app/publications/articles/page.tsx [Client Component Browser]
+    ./app/publications/articles/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/publications/articles/page.tsx [Client Component SSR]
+    ./app/publications/articles/page.tsx [Server Component]
+[00:22:10.456] Browser ERROR   ./app/publications/articles/page.tsx:100:6
+Parsing ecmascript source code failed
+   98 |       </div>
+   99 |          `}
+> 100 |     />
+      |      ^
+  101 |   );
+  102 | }
+  103 |
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+
+Import traces:
+  Client Component Browser:
+    ./app/publications/articles/page.tsx [Client Component Browser]
+    ./app/publications/articles/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/publications/articles/page.tsx [Client Component SSR]
+    ./app/publications/articles/page.tsx [Server Component]
+[00:22:10.456] Browser ERROR   ./app/publications/articles/page.tsx:102:1
+Parsing ecmascript source code failed
+  100 |     />
+  101 |   );
+> 102 | }
+      | ^
+  103 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./app/publications/articles/page.tsx [Client Component Browser]
+    ./app/publications/articles/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/publications/articles/page.tsx [Client Component SSR]
+    ./app/publications/articles/page.tsx [Server Component]
+[00:22:12.454] Browser ERROR   ./app/publications/articles/page.tsx:100:6
+Parsing ecmascript source code failed
+   98 |       </div>
+   99 |      `}
+> 100 |     />
+      |      ^
+  101 |   );
+  102 | }
+  103 |
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+
+Import traces:
+  Client Component Browser:
+    ./app/publications/articles/page.tsx [Client Component Browser]
+    ./app/publications/articles/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/publications/articles/page.tsx [Client Component SSR]
+    ./app/publications/articles/page.tsx [Server Component]
+[00:22:12.455] Browser ERROR   ./app/publications/articles/page.tsx:102:1
+Parsing ecmascript source code failed
+  100 |     />
+  101 |   );
+> 102 | }
+      | ^
+  103 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./app/publications/articles/page.tsx [Client Component Browser]
+    ./app/publications/articles/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/publications/articles/page.tsx [Client Component SSR]
+    ./app/publications/articles/page.tsx [Server Component]
+[00:26:35.087] Browser ERROR   ./app/publications/articles/page.tsx:100:6
+Parsing ecmascript source code failed
+   98 |       </div>
+   99 |          `}
+> 100 |     />
+      |      ^
+  101 |   );
+  102 | }
+  103 |
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+
+Import traces:
+  Client Component Browser:
+    ./app/publications/articles/page.tsx [Client Component Browser]
+    ./app/publications/articles/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/publications/articles/page.tsx [Client Component SSR]
+    ./app/publications/articles/page.tsx [Server Component]
+[00:26:35.087] Browser ERROR   ./app/publications/articles/page.tsx:102:1
+Parsing ecmascript source code failed
+  100 |     />
+  101 |   );
+> 102 | }
+      | ^
+  103 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./app/publications/articles/page.tsx [Client Component Browser]
+    ./app/publications/articles/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/publications/articles/page.tsx [Client Component SSR]
+    ./app/publications/articles/page.tsx [Server Component]
+[00:26:35.087] Browser ERROR   ./app/publications/articles/page.tsx:102:1
+Parsing ecmascript source code failed
+  100 |   );
+  101 | }
+> 102 | 
+      | ^
+
+Expected '</', got '<eof>'
+
+Import traces:
+  Client Component Browser:
+    ./app/publications/articles/page.tsx [Client Component Browser]
+    ./app/publications/articles/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/publications/articles/page.tsx [Client Component SSR]
+    ./app/publications/articles/page.tsx [Server Component]
+[00:26:35.087] Browser ERROR   ./app/publications/articles/page.tsx:101:1
+Parsing ecmascript source code failed
+   99 |   );
+  100 | }
+> 101 | 
+      | ^
+
+Expected '</', got '<eof>'
+
+Import traces:
+  Client Component Browser:
+    ./app/publications/articles/page.tsx [Client Component Browser]
+    ./app/publications/articles/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/publications/articles/page.tsx [Client Component SSR]
+    ./app/publications/articles/page.tsx [Server Component]
+[00:26:35.087] Browser ERROR   ./app/publications/articles/page.tsx:99:6
+Parsing ecmascript source code failed
+   97 |       </div>
+   98 |       `}
+>  99 |     />
+      |      ^
+  100 |   );
+  101 | }
+  102 |
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+
+Import traces:
+  Client Component Browser:
+    ./app/publications/articles/page.tsx [Client Component Browser]
+    ./app/publications/articles/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/publications/articles/page.tsx [Client Component SSR]
+    ./app/publications/articles/page.tsx [Server Component]
+[00:26:35.087] Browser ERROR   ./app/publications/articles/page.tsx:101:1
+Parsing ecmascript source code failed
+   99 |     />
+  100 |   );
+> 101 | }
+      | ^
+  102 |
+  103 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./app/publications/articles/page.tsx [Client Component Browser]
+    ./app/publications/articles/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/publications/articles/page.tsx [Client Component SSR]
+    ./app/publications/articles/page.tsx [Server Component]
+[00:26:35.087] Browser ERROR   ./app/publications/articles/page.tsx:97:6
+Parsing ecmascript source code failed
+   95 |       </div>
+   96 |       `}
+>  97 |     />
+      |      ^
+   98 |   );
+   99 | }
+  100 |
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+
+Import traces:
+  Client Component Browser:
+    ./app/publications/articles/page.tsx [Client Component Browser]
+    ./app/publications/articles/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/publications/articles/page.tsx [Client Component SSR]
+    ./app/publications/articles/page.tsx [Server Component]
+[00:26:35.087] Browser ERROR   ./app/publications/articles/page.tsx:99:1
+Parsing ecmascript source code failed
+   97 |     />
+   98 |   );
+>  99 | }
+      | ^
+  100 |
+  101 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./app/publications/articles/page.tsx [Client Component Browser]
+    ./app/publications/articles/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/publications/articles/page.tsx [Client Component SSR]
+    ./app/publications/articles/page.tsx [Server Component]
+[00:26:35.087] Browser ERROR   ./app/publications/articles/page.tsx:95:6
+Parsing ecmascript source code failed
+  93 |       </div>
+  94 |       `}
+> 95 |     />
+     |      ^
+  96 |   );
+  97 | }
+  98 |
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+
+Import traces:
+  Client Component Browser:
+    ./app/publications/articles/page.tsx [Client Component Browser]
+    ./app/publications/articles/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/publications/articles/page.tsx [Client Component SSR]
+    ./app/publications/articles/page.tsx [Server Component]
+[00:26:35.087] Browser ERROR   ./app/publications/articles/page.tsx:97:1
+Parsing ecmascript source code failed
+  95 |     />
+  96 |   );
+> 97 | }
+     | ^
+  98 |
+  99 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./app/publications/articles/page.tsx [Client Component Browser]
+    ./app/publications/articles/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/publications/articles/page.tsx [Client Component SSR]
+    ./app/publications/articles/page.tsx [Server Component]
+[00:26:35.087] Browser ERROR   ./app/publications/articles/page.tsx:92:6
+Parsing ecmascript source code failed
+  90 |           </div>
+  91 |       `}
+> 92 |     />
+     |      ^
+  93 |   );
+  94 | }
+  95 |
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+
+Import traces:
+  Client Component Browser:
+    ./app/publications/articles/page.tsx [Client Component Browser]
+    ./app/publications/articles/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/publications/articles/page.tsx [Client Component SSR]
+    ./app/publications/articles/page.tsx [Server Component]
+[00:26:35.087] Browser ERROR   ./app/publications/articles/page.tsx:94:1
+Parsing ecmascript source code failed
+  92 |     />
+  93 |   );
+> 94 | }
+     | ^
+  95 |
+  96 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./app/publications/articles/page.tsx [Client Component Browser]
+    ./app/publications/articles/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/publications/articles/page.tsx [Client Component SSR]
+    ./app/publications/articles/page.tsx [Server Component]
+[00:26:35.087] Browser ERROR   ./app/publications/articles/page.tsx:24:51
+Parsing ecmascript source code failed
+  22 |       imageSrc=""          // ❗ no image
+  23 |   
+> 24 |       {/* ⭐ CUSTOM ARTICLES CONTENT BELOW ⭐ */}
+     |                                                   ^
+  25 |       content={`
+  26 |           {/* ARTICLE 1 */}
+  27 |           <div>
+
+Expected '...', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./app/publications/articles/page.tsx [Client Component Browser]
+    ./app/publications/articles/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/publications/articles/page.tsx [Client Component SSR]
+    ./app/publications/articles/page.tsx [Server Component]
+[00:26:39.661] Server  ERROR    ⨯ ./app/publications/articles/page.tsx:24:51
+Parsing ecmascript source code failed
+  22 |       imageSrc=""          // ❗ no image
+  23 |   
+> 24 |       {/* ⭐ CUSTOM ARTICLES CONTENT BELOW ⭐ */}
+     |                                                   ^
+  25 |       content={`
+  26 |           {/* ARTICLE 1 */}
+  27 |           <div>
+
+Expected '...', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./app/publications/articles/page.tsx [Client Component Browser]
+    ./app/publications/articles/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/publications/articles/page.tsx [Client Component SSR]
+    ./app/publications/articles/page.tsx [Server Component]
+
+
+[00:26:40.327] Browser ERROR   uncaughtError: Error: ./app/publications/articles/page.tsx:24:51
+Parsing ecmascript source code failed
+  22 |       imageSrc=""          // ❗ no image
+  23 |   
+> 24 |       {/* ⭐ CUSTOM ARTICLES CONTENT BELOW ⭐ */}
+     |                                                   ^
+  25 |       content={`
+  26 |           {/* ARTICLE 1 */}
+  27 |           <div>
+
+Expected '...', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./app/publications/articles/page.tsx [Client Component Browser]
+    ./app/publications/articles/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/publications/articles/page.tsx [Client Component SSR]
+    ./app/publications/articles/page.tsx [Server Component]
+
+
+[00:26:40.522] Browser ERROR   ./app/publications/articles/page.tsx:24:51
+Parsing ecmascript source code failed
+  22 |       imageSrc=""          // ❗ no image
+  23 |   
+> 24 |       {/* ⭐ CUSTOM ARTICLES CONTENT BELOW ⭐ */}
+     |                                                   ^
+  25 |       content={`
+  26 |           {/* ARTICLE 1 */}
+  27 |           <div>
+
+Expected '...', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./app/publications/articles/page.tsx [Client Component Browser]
+    ./app/publications/articles/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/publications/articles/page.tsx [Client Component SSR]
+    ./app/publications/articles/page.tsx [Server Component]
+[00:26:40.522] Browser ERROR   ./app/publications/articles/page.tsx:24:51
+Parsing ecmascript source code failed
+  22 |       imageSrc=""          // ❗ no image
+  23 |   
+> 24 |       {/* ⭐ CUSTOM ARTICLES CONTENT BELOW ⭐ */}
+     |                                                   ^
+  25 |       content={`
+  26 |           {/* ARTICLE 1 */}
+  27 |           <div>
+
+Expected '...', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./app/publications/articles/page.tsx [Client Component Browser]
+    ./app/publications/articles/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/publications/articles/page.tsx [Client Component SSR]
+    ./app/publications/articles/page.tsx [Server Component]
+[00:27:41.456] Browser ERROR   ./app/publications/articles/page.tsx:93:6
+Parsing ecmascript source code failed
+  91 | 
+  92 |       `}
+> 93 |     />
+     |      ^
+  94 |   );
+  95 | }
+  96 |
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+
+Import traces:
+  Client Component Browser:
+    ./app/publications/articles/page.tsx [Client Component Browser]
+    ./app/publications/articles/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/publications/articles/page.tsx [Client Component SSR]
+    ./app/publications/articles/page.tsx [Server Component]
+[00:27:41.456] Browser ERROR   ./app/publications/articles/page.tsx:95:1
+Parsing ecmascript source code failed
+  93 |     />
+  94 |   );
+> 95 | }
+     | ^
+  96 |
+  97 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./app/publications/articles/page.tsx [Client Component Browser]
+    ./app/publications/articles/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/publications/articles/page.tsx [Client Component SSR]
+    ./app/publications/articles/page.tsx [Server Component]
+[00:27:43.453] Browser ERROR   ./app/publications/articles/page.tsx:95:6
+Parsing ecmascript source code failed
+  93 |       </div>
+  94 |       `}
+> 95 |     />
+     |      ^
+  96 |   );
+  97 | }
+  98 |
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+
+Import traces:
+  Client Component Browser:
+    ./app/publications/articles/page.tsx [Client Component Browser]
+    ./app/publications/articles/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/publications/articles/page.tsx [Client Component SSR]
+    ./app/publications/articles/page.tsx [Server Component]
+[00:27:43.454] Browser ERROR   ./app/publications/articles/page.tsx:97:1
+Parsing ecmascript source code failed
+  95 |     />
+  96 |   );
+> 97 | }
+     | ^
+  98 |
+  99 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./app/publications/articles/page.tsx [Client Component Browser]
+    ./app/publications/articles/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/publications/articles/page.tsx [Client Component SSR]
+    ./app/publications/articles/page.tsx [Server Component]
+[00:27:49.453] Browser ERROR   ./app/publications/articles/page.tsx:23:51
+Parsing ecmascript source code failed
+  21 |        // ❗ hide default PageTemplate content section
+  22 |       imageSrc=""          // ❗ no image
+> 23 |       {/* ⭐ CUSTOM ARTICLES CONTENT BELOW ⭐ */}
+     |                                                   ^
+  24 |       content={`
+  25 |           {/* ARTICLE 1 */}
+  26 |           <div>
+
+Expected '...', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./app/publications/articles/page.tsx [Client Component Browser]
+    ./app/publications/articles/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/publications/articles/page.tsx [Client Component SSR]
+    ./app/publications/articles/page.tsx [Server Component]
+[00:27:51.520] Server  ERROR    ⨯ ./app/publications/articles/page.tsx:23:51
+Parsing ecmascript source code failed
+  21 |        // ❗ hide default PageTemplate content section
+  22 |       imageSrc=""          // ❗ no image
+> 23 |       {/* ⭐ CUSTOM ARTICLES CONTENT BELOW ⭐ */}
+     |                                                   ^
+  24 |       content={`
+  25 |           {/* ARTICLE 1 */}
+  26 |           <div>
+
+Expected '...', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./app/publications/articles/page.tsx [Client Component Browser]
+    ./app/publications/articles/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/publications/articles/page.tsx [Client Component SSR]
+    ./app/publications/articles/page.tsx [Server Component]
+
+
+[00:27:51.819] Browser ERROR   uncaughtError: Error: ./app/publications/articles/page.tsx:23:51
+Parsing ecmascript source code failed
+  21 |        // ❗ hide default PageTemplate content section
+  22 |       imageSrc=""          // ❗ no image
+> 23 |       {/* ⭐ CUSTOM ARTICLES CONTENT BELOW ⭐ */}
+     |                                                   ^
+  24 |       content={`
+  25 |           {/* ARTICLE 1 */}
+  26 |           <div>
+
+Expected '...', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./app/publications/articles/page.tsx [Client Component Browser]
+    ./app/publications/articles/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/publications/articles/page.tsx [Client Component SSR]
+    ./app/publications/articles/page.tsx [Server Component]
+
+
+[00:27:51.986] Browser ERROR   ./app/publications/articles/page.tsx:23:51
+Parsing ecmascript source code failed
+  21 |        // ❗ hide default PageTemplate content section
+  22 |       imageSrc=""          // ❗ no image
+> 23 |       {/* ⭐ CUSTOM ARTICLES CONTENT BELOW ⭐ */}
+     |                                                   ^
+  24 |       content={`
+  25 |           {/* ARTICLE 1 */}
+  26 |           <div>
+
+Expected '...', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./app/publications/articles/page.tsx [Client Component Browser]
+    ./app/publications/articles/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/publications/articles/page.tsx [Client Component SSR]
+    ./app/publications/articles/page.tsx [Server Component]
+[00:27:51.986] Browser ERROR   ./app/publications/articles/page.tsx:23:51
+Parsing ecmascript source code failed
+  21 |        // ❗ hide default PageTemplate content section
+  22 |       imageSrc=""          // ❗ no image
+> 23 |       {/* ⭐ CUSTOM ARTICLES CONTENT BELOW ⭐ */}
+     |                                                   ^
+  24 |       content={`
+  25 |           {/* ARTICLE 1 */}
+  26 |           <div>
+
+Expected '...', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./app/publications/articles/page.tsx [Client Component Browser]
+    ./app/publications/articles/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/publications/articles/page.tsx [Client Component SSR]
+    ./app/publications/articles/page.tsx [Server Component]
+[00:27:53.624] Server  ERROR    ⨯ ./app/publications/articles/page.tsx:23:51
+Parsing ecmascript source code failed
+  21 |        // ❗ hide default PageTemplate content section
+  22 |       imageSrc=""          // ❗ no image
+> 23 |       {/* ⭐ CUSTOM ARTICLES CONTENT BELOW ⭐ */}
+     |                                                   ^
+  24 |       content={`
+  25 |           {/* ARTICLE 1 */}
+  26 |           <div>
+
+Expected '...', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./app/publications/articles/page.tsx [Client Component Browser]
+    ./app/publications/articles/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/publications/articles/page.tsx [Client Component SSR]
+    ./app/publications/articles/page.tsx [Server Component]
+
+
+[00:27:54.074] Browser ERROR   uncaughtError: Error: ./app/publications/articles/page.tsx:23:51
+Parsing ecmascript source code failed
+  21 |        // ❗ hide default PageTemplate content section
+  22 |       imageSrc=""          // ❗ no image
+> 23 |       {/* ⭐ CUSTOM ARTICLES CONTENT BELOW ⭐ */}
+     |                                                   ^
+  24 |       content={`
+  25 |           {/* ARTICLE 1 */}
+  26 |           <div>
+
+Expected '...', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./app/publications/articles/page.tsx [Client Component Browser]
+    ./app/publications/articles/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/publications/articles/page.tsx [Client Component SSR]
+    ./app/publications/articles/page.tsx [Server Component]
+
+
+[00:27:54.233] Browser ERROR   ./app/publications/articles/page.tsx:23:51
+Parsing ecmascript source code failed
+  21 |        // ❗ hide default PageTemplate content section
+  22 |       imageSrc=""          // ❗ no image
+> 23 |       {/* ⭐ CUSTOM ARTICLES CONTENT BELOW ⭐ */}
+     |                                                   ^
+  24 |       content={`
+  25 |           {/* ARTICLE 1 */}
+  26 |           <div>
+
+Expected '...', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./app/publications/articles/page.tsx [Client Component Browser]
+    ./app/publications/articles/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/publications/articles/page.tsx [Client Component SSR]
+    ./app/publications/articles/page.tsx [Server Component]
+[00:27:54.233] Browser ERROR   ./app/publications/articles/page.tsx:23:51
+Parsing ecmascript source code failed
+  21 |        // ❗ hide default PageTemplate content section
+  22 |       imageSrc=""          // ❗ no image
+> 23 |       {/* ⭐ CUSTOM ARTICLES CONTENT BELOW ⭐ */}
+     |                                                   ^
+  24 |       content={`
+  25 |           {/* ARTICLE 1 */}
+  26 |           <div>
+
+Expected '...', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./app/publications/articles/page.tsx [Client Component Browser]
+    ./app/publications/articles/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/publications/articles/page.tsx [Client Component SSR]
+    ./app/publications/articles/page.tsx [Server Component]
+[00:28:14.160] Server  LOG      ✓ Compiled in 101ms
+[00:28:14.344] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/articles. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:28:14.535] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\components_PageTemplate_tsx_3ec7bb5e._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:28:14.536] Server  ERROR    ⨯ TypeError: content.replace is not a function
+[00:28:14.560] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/articles. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:28:15.224] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:28:16.035] Browser ERROR   uncaughtError: TypeError: content.replace is not a function
+[00:30:30.179] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/articles. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:30:30.343] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:30.344] Server  ERROR    ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+[00:30:30.361] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/articles. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:30:30.375] Server  LOG      ✓ Compiled in 388ms
+[00:30:30.410] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:30:30.510] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/articles. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:30:30.564] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:30.565] Server  ERROR    ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+[00:30:30.607] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/articles. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:30:31.144] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:30:31.483] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `ArticlesPage`.
+[00:30:32.377] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/articles. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:30:33.010] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:18.609] Server  LOG      ✓ Compiled in 85ms
+[00:32:18.683] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/articles. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:32:29.064] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/books. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:32:29.461] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:35:05.597] Server  LOG      ✓ Compiled in 108ms
+[00:35:08.034] Server  LOG      ✓ Compiled in 348ms
+[00:36:54.959] Server  LOG      ✓ Compiled in 104ms
+[00:36:56.027] Server  LOG      ✓ Compiled in 123ms
+[00:37:45.150] Server  LOG      ✓ Compiled in 89ms
+[00:37:47.562] Server  LOG      ✓ Compiled in 72ms
+[00:37:52.757] Server  LOG      ✓ Compiled in 66ms
+[00:37:56.235] Server  LOG      ✓ Compiled in 95ms
+[00:37:58.514] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/books. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:37:58.597] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/books. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:37:58.670] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/books. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:37:59.254] Browser ERROR   ./app/publications/books/page.tsx:52:7
+Parsing ecmascript source code failed
+  50 |       hideContent={true}
+  51 |     
+> 52 |       <div className="grid md:grid-cols-2 gap-12 mt-10">
+     |       ^
+  53 |         {books.map((book, index) => (
+  54 |           <div key={index} className="pb-10">
+  55 |
+
+Expression expected
+[00:37:59.254] Browser ERROR   ./app/publications/books/page.tsx:52:7
+Parsing ecmascript source code failed
+  50 |       hideContent={true}
+  51 |     
+> 52 |       <div className="grid md:grid-cols-2 gap-12 mt-10">
+     |       ^
+  53 |         {books.map((book, index) => (
+  54 |           <div key={index} className="pb-10">
+  55 |
+
+Expression expected
+[00:37:59.254] Browser ERROR   ./app/publications/books/page.tsx:52:7
+Parsing ecmascript source code failed
+  50 |       hideContent={true}
+  51 |     
+> 52 |       <div className="grid md:grid-cols-2 gap-12 mt-10">
+     |       ^
+  53 |         {books.map((book, index) => (
+  54 |           <div key={index} className="pb-10">
+  55 |
+
+Expression expected
+[00:37:59.255] Browser ERROR   ./app/publications/books/page.tsx:52:7
+Parsing ecmascript source code failed
+  50 |       hideContent={true}
+  51 |     
+> 52 |       <div className="grid md:grid-cols-2 gap-12 mt-10">
+     |       ^
+  53 |         {books.map((book, index) => (
+  54 |           <div key={index} className="pb-10">
+  55 |
+
+Expression expected
+[00:37:59.255] Browser ERROR   ./app/publications/books/page.tsx:52:7
+Parsing ecmascript source code failed
+  50 |       hideContent={true}
+  51 |     
+> 52 |       <div className="grid md:grid-cols-2 gap-12 mt-10">
+     |       ^
+  53 |         {books.map((book, index) => (
+  54 |           <div key={index} className="pb-10">
+  55 |
+
+Expression expected
+[00:37:59.255] Browser ERROR   ./app/publications/books/page.tsx:52:7
+Parsing ecmascript source code failed
+  50 |       hideContent={true}
+  51 |     
+> 52 |       <div className="grid md:grid-cols-2 gap-12 mt-10">
+     |       ^
+  53 |         {books.map((book, index) => (
+  54 |           <div key={index} className="pb-10">
+  55 |
+
+Expression expected
+[00:37:59.255] Browser ERROR   ./app/publications/books/page.tsx:52:7
+Parsing ecmascript source code failed
+  50 |       hideContent={true}
+  51 |     
+> 52 |       <div className="grid md:grid-cols-2 gap-12 mt-10">
+     |       ^
+  53 |         {books.map((book, index) => (
+  54 |           <div key={index} className="pb-10">
+  55 |
+
+Expression expected
+[00:37:59.683] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:37:59.872] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:38:12.613] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/books. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:38:37.669] Server  LOG      ✓ Compiled in 86ms
+[00:38:37.765] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/books. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:38:38.871] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/books. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:38:46.564] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/books. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:39:02.256] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/books. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:40:09.100] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/books. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:41:13.580] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/magazine. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:41:14.453] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:43:20.501] Browser ERROR   ./app/publications/magazine/page.tsx:12:1
+Parsing ecmascript source code failed
+  10 | //     />
+  11 | //   );
+> 12 | }
+     | ^
+  13 |
+
+Expression expected
+[00:43:21.178] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/magazine. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:43:23.664] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:23.689] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_78c1b753._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:23.690] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:23.690] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:23.691] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:23.691] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:23.692] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:23.696] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:23.699] Server  ERROR    ⨯ Error: The default export is not a React Component in "/publications/magazine/page"
+[00:43:23.704] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:23.705] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_78c1b753._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:23.706] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:23.707] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:23.708] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:23.709] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:23.711] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:23.717] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:23.719] Server  ERROR    ⨯ Error: The default export is not a React Component in "/publications/magazine/page"
+[00:43:23.769] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:23.770] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_78c1b753._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:23.771] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:23.771] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:23.771] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:23.772] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:23.772] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:23.773] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:23.773] Server  ERROR    ⨯ Error: The default export is not a React Component in "/publications/magazine/page"
+[00:43:23.774] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/magazine. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:43:23.788] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:23.789] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_78c1b753._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:23.790] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:23.791] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:23.792] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:23.794] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:23.796] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:23.799] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:23.801] Server  ERROR    ⨯ Error: The default export is not a React Component in "/publications/magazine/page"
+[00:43:23.899] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:23.901] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_78c1b753._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:23.902] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:23.903] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:23.903] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:23.903] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:23.904] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:23.905] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:23.906] Server  ERROR    ⨯ Error: The default export is not a React Component in "/publications/magazine/page"
+[00:43:23.914] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/magazine. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:43:23.920] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:23.921] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_78c1b753._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:23.922] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:23.922] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:23.923] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:23.923] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:23.923] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:23.924] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:23.924] Server  ERROR    ⨯ Error: The default export is not a React Component in "/publications/magazine/page"
+[00:43:24.147] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/publications/magazine/page"
+[00:43:25.981] Server  LOG      ✓ Compiled in 119ms
+[00:43:33.054] Server  LOG      ✓ Compiled in 73ms
+[00:43:35.118] Server  LOG      ✓ Compiled in 95ms
+[00:43:36.620] Server  LOG      ✓ Compiled in 105ms
+[00:43:51.870] Server  LOG      ✓ Compiled in 60ms
+[00:43:56.952] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/magazine. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:43:57.734] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:43:58.962] Browser WARN    Image with src "/mega.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:44:10.272] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/magazine. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:44:11.840] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/magazine. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:44:19.069] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/magazine. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:44:20.475] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/magazine. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:45:01.064] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:01.083] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_78c1b753._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:01.084] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:01.085] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:01.087] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:01.088] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:01.089] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:01.090] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:01.092] Server  ERROR    ⨯ Error: The default export is not a React Component in "/publications/magazine/page"
+[00:45:01.100] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:01.104] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_78c1b753._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:01.107] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:01.109] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:01.111] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:01.112] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:01.114] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:01.117] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:01.120] Server  ERROR    ⨯ Error: The default export is not a React Component in "/publications/magazine/page"
+[00:45:01.179] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:01.180] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_78c1b753._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:01.180] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:01.181] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:01.181] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:01.182] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:01.182] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:01.182] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:01.183] Server  ERROR    ⨯ Error: The default export is not a React Component in "/publications/magazine/page"
+[00:45:01.187] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/magazine. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:45:01.193] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:01.194] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_78c1b753._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:01.195] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:01.196] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:01.196] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:01.197] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:01.197] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:01.198] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:01.199] Server  ERROR    ⨯ Error: The default export is not a React Component in "/publications/magazine/page"
+[00:45:01.297] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:01.298] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_78c1b753._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:01.301] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:01.303] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:01.317] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:01.319] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:01.321] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:01.321] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:01.323] Server  ERROR    ⨯ Error: The default export is not a React Component in "/publications/magazine/page"
+[00:45:01.326] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/magazine. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:45:01.331] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:01.332] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_78c1b753._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:01.333] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:01.333] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:01.334] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:01.337] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:01.342] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:01.344] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:01.345] Server  ERROR    ⨯ Error: The default export is not a React Component in "/publications/magazine/page"
+[00:45:01.557] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/publications/magazine/page"
+[00:45:02.271] Server  LOG      ✓ Compiled in 122ms
+[00:45:10.096] Server  LOG      ✓ Compiled in 89ms
+[00:45:19.651] Server  LOG      ✓ Compiled in 78ms
+[00:45:24.433] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/magazine. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:45:25.095] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:45:26.312] Browser WARN    Image with src "/mega.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:45:48.015] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:48.034] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_78c1b753._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:48.034] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:48.035] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:48.035] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:48.036] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:48.036] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:48.036] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:48.037] Server  ERROR    ⨯ Error: The default export is not a React Component in "/publications/magazine/page"
+[00:45:48.039] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:48.040] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_78c1b753._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:48.041] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:48.042] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:48.043] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:48.044] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:48.045] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:48.047] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:48.047] Server  ERROR    ⨯ Error: The default export is not a React Component in "/publications/magazine/page"
+[00:45:48.085] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:48.086] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_78c1b753._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:48.086] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:48.087] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:48.087] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:48.088] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:48.088] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:48.088] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:48.089] Server  ERROR    ⨯ Error: The default export is not a React Component in "/publications/magazine/page"
+[00:45:48.090] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/magazine. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:45:48.103] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:48.103] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_78c1b753._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:48.105] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:48.106] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:48.106] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:48.106] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:48.107] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:48.109] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:48.111] Server  ERROR    ⨯ Error: The default export is not a React Component in "/publications/magazine/page"
+[00:45:48.164] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:48.165] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_78c1b753._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:48.167] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:48.167] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:48.168] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:48.168] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:48.169] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:48.169] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:48.169] Server  ERROR    ⨯ Error: The default export is not a React Component in "/publications/magazine/page"
+[00:45:48.171] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/magazine. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:45:48.173] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:48.173] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_78c1b753._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:48.174] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:48.177] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:48.178] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:48.180] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:48.181] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:48.183] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:45:48.184] Server  ERROR    ⨯ Error: The default export is not a React Component in "/publications/magazine/page"
+[00:45:48.379] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/publications/magazine/page"
+[00:45:58.093] Server  LOG      ✓ Compiled in 112ms
+[00:46:07.410] Server  LOG      ✓ Compiled in 65ms
+[00:46:10.775] Server  LOG      ✓ Compiled in 93ms
+[00:46:14.331] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/magazine. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:46:14.865] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:46:16.068] Browser WARN    Image with src "/mega.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:46:56.307] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/magazine. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:47:18.094] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/magazine. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:47:19.206] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/magazine. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:47:24.456] Browser ERROR   ./app/publications/magazine/page.tsx:37:21
+Parsing ecmascript source code failed
+  35 |       content={
+  36 |
+> 37 |           {magazines.map((mag, index) => (
+     |                     ^
+  38 |             <div key={index} className="pb-10 flex gap-6">
+  39 |
+  40 |               {/* LEFT: Magazine Image */}
+
+Expected a semicolon
+[00:47:25.779] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/magazine. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:47:27.254] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/magazine. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:47:50.989] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/magazine. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:47:57.575] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/magazine. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:48:00.332] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/magazine. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:48:25.523] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /visit-us. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:48:26.461] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:49:57.848] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:57.897] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_ca860173._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:57.909] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:57.914] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:57.916] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:57.917] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:57.918] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:57.919] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:57.920] Server  ERROR    ⨯ Error: The default export is not a React Component in "/visit-us/page"
+[00:49:57.930] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:57.934] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_ca860173._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:57.935] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:57.938] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:57.942] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:57.948] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:57.950] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:57.951] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:57.952] Server  ERROR    ⨯ Error: The default export is not a React Component in "/visit-us/page"
+[00:49:58.068] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:58.070] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_ca860173._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:58.071] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:58.072] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:58.073] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:58.074] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:58.076] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:58.077] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:58.078] Server  ERROR    ⨯ Error: The default export is not a React Component in "/visit-us/page"
+[00:49:58.079] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /visit-us. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:49:58.084] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:58.085] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_ca860173._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:58.086] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:58.087] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:58.088] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:58.089] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:58.094] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:58.097] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:58.098] Server  ERROR    ⨯ Error: The default export is not a React Component in "/visit-us/page"
+[00:49:58.185] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:58.186] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_ca860173._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:58.187] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:58.189] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:58.201] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:58.203] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:58.210] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:58.212] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:58.213] Server  ERROR    ⨯ Error: The default export is not a React Component in "/visit-us/page"
+[00:49:58.215] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /visit-us. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:49:58.221] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:58.223] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_ca860173._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:58.225] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:58.226] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:58.229] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:58.231] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:58.233] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:58.234] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:49:58.235] Server  ERROR    ⨯ Error: The default export is not a React Component in "/visit-us/page"
+[00:49:58.751] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/visit-us/page"
+[00:50:01.018] Server  LOG      ✓ Compiled in 262ms
+[00:50:06.458] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /visit-us. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:50:07.217] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:50:26.811] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /poojas-donations. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:50:26.900] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /poojas-donations. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:50:27.095] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:53:37.729] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:37.745] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_093721ae._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:37.755] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:37.758] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:37.759] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:37.760] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:37.761] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:37.762] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:37.765] Server  ERROR    ⨯ Error: The default export is not a React Component in "/poojas-donations/page"
+[00:53:37.773] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:37.775] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_093721ae._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:37.776] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:37.778] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:37.779] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:37.780] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:37.781] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:37.781] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:37.782] Server  ERROR    ⨯ Error: The default export is not a React Component in "/poojas-donations/page"
+[00:53:37.911] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:37.913] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_093721ae._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:37.914] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:37.915] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:37.916] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:37.920] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:37.922] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:37.924] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:37.926] Server  ERROR    ⨯ Error: The default export is not a React Component in "/poojas-donations/page"
+[00:53:37.927] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /poojas-donations. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:53:37.933] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:37.936] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_093721ae._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:37.938] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:37.940] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:37.942] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:37.943] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:37.943] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:37.944] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:37.945] Server  ERROR    ⨯ Error: The default export is not a React Component in "/poojas-donations/page"
+[00:53:38.043] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:38.044] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_093721ae._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:38.048] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:38.054] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:38.055] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:38.056] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:38.058] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:38.059] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:38.060] Server  ERROR    ⨯ Error: The default export is not a React Component in "/poojas-donations/page"
+[00:53:38.061] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /poojas-donations. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:53:38.066] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:38.067] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_093721ae._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:38.070] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:38.073] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:38.074] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:38.076] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:38.078] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:38.080] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:38.081] Server  ERROR    ⨯ Error: The default export is not a React Component in "/poojas-donations/page"
+[00:53:38.435] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/poojas-donations/page"
+[00:53:40.672] Server  LOG      ✓ Compiled in 418ms
+[00:53:46.325] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /poojas-donations. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:53:47.116] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:54:10.248] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:54:10.641] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:57:57.043] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /amma/miracles. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:58:27.283] Server  LOG      ✓ Compiled in 186ms
+[00:58:29.530] Server  LOG      ✓ Compiled in 169ms
+[00:58:32.125] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:59:59.254] Server  LOG      ✓ Compiled in 192ms
+[01:00:03.390] Server  LOG      ✓ Compiled in 129ms
+[01:04:25.697] Server  LOG      ✓ Compiled in 176ms
+[01:04:26.030] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:04:38.664] Server  LOG      ✓ Compiled in 116ms
+[01:04:38.739] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:04:40.582] Server  LOG      ✓ Compiled in 120ms
+[01:05:59.251] Server  LOG      ✓ Compiled in 105ms
+[01:09:37.950] Server  LOG      ✓ Compiled in 119ms
+[01:09:43.272] Server  LOG      ✓ Compiled in 479ms
+[01:09:44.681] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:09:44.681] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `Home`.
+[01:09:45.088] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:09:46.597] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:10:53.620] Server  LOG      ✓ Compiled in 271ms
+[01:11:08.979] Server  LOG      ✓ Compiled in 174ms
+[01:13:21.239] Server  LOG      ✓ Compiled in 190ms
+[01:13:34.964] Server  LOG      ✓ Compiled in 154ms
+[01:13:46.032] Server  LOG      ✓ Compiled in 178ms
+[01:13:47.078] Server  LOG      ✓ Compiled in 118ms
+[01:13:49.931] Server  LOG      ✓ Compiled in 160ms
+[01:13:51.009] Server  LOG      ✓ Compiled in 110ms
+[01:13:52.962] Server  LOG      ✓ Compiled in 165ms
+[01:14:08.582] Server  LOG      ✓ Compiled in 122ms
+[01:14:13.303] Server  LOG      ✓ Compiled in 126ms
+[01:14:16.636] Server  LOG      ✓ Compiled in 115ms
+[01:14:35.685] Server  LOG      ✓ Compiled in 112ms
+[01:14:38.499] Server  LOG      ✓ Compiled in 108ms
+[01:14:40.337] Server  LOG      ✓ Compiled in 118ms
+[01:14:42.044] Server  LOG      ✓ Compiled in 108ms
+[01:14:56.913] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /amma/miracles. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:14:57.339] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:16:08.628] Server  LOG      ✓ Compiled in 159ms
+[01:16:08.763] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /amma/miracles. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:16:19.308] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /siddhar-peedam/introduction. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:16:19.402] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /siddhar-peedam/introduction. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:16:49.622] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /siddhar-peedam/introduction. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:18:11.879] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /siddhar-peedam/introduction. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:18:11.882] Server  LOG      ✓ Compiled in 125ms
+[01:18:35.661] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /festivals/programmes. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:18:48.145] Server  LOG      ✓ Compiled in 104ms
+[01:19:04.579] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /festivals/programmes. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:19:05.526] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:19:29.890] Server  LOG      ✓ Compiled in 116ms
+[01:19:35.793] Server  LOG      ✓ Compiled in 100ms
+[01:19:46.363] Server  LOG      ✓ Compiled in 163ms
+[01:19:47.448] Browser ERROR   ./app/festivals/programmes/page.tsx:32:7
+Parsing ecmascript source code failed
+  30 |
+  31 |
+> 32 |       <div className="max-w-6xl mx-auto px-4 pb-20 -mt-125">
+     |       ^
+  33 |         <Calendar />
+  34 |       </div>
+  35 |         />      {/* CALENDAR BELOW HEADER, GAP REMOVED */}
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/festivals/programmes/page.tsx [Client Component Browser]
+    ./app/festivals/programmes/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/festivals/programmes/page.tsx [Client Component SSR]
+    ./app/festivals/programmes/page.tsx [Server Component]
+[01:19:49.461] Browser ERROR   ./app/festivals/programmes/page.tsx:32:7
+Parsing ecmascript source code failed
+  30 |
+  31 |
+> 32 |       <div className="max-w-6xl mx-auto px-4 pb-20 -mt-125">
+     |       ^
+  33 |         <Calendar />
+  34 |       </div>
+  35 |     </>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/festivals/programmes/page.tsx [Client Component Browser]
+    ./app/festivals/programmes/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/festivals/programmes/page.tsx [Client Component SSR]
+    ./app/festivals/programmes/page.tsx [Server Component]
+[01:20:35.837] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /festivals/programmes. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:20:41.040] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:41.075] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_5c294ebc._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:41.077] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:41.086] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:41.090] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:41.091] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:41.093] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:41.094] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:41.103] Server  ERROR    ⨯ Error: The default export is not a React Component in "/festivals/programmes/page"
+[01:20:41.107] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:41.109] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_5c294ebc._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:41.110] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:41.112] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:41.115] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:41.118] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:41.120] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:41.122] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:41.125] Server  ERROR    ⨯ Error: The default export is not a React Component in "/festivals/programmes/page"
+[01:20:41.191] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:41.192] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_5c294ebc._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:41.193] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:41.194] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:41.196] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:41.200] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:41.201] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:41.202] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:41.203] Server  ERROR    ⨯ Error: The default export is not a React Component in "/festivals/programmes/page"
+[01:20:41.206] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /festivals/programmes. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:20:41.210] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:41.219] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_5c294ebc._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:41.222] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:41.223] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:41.225] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:41.226] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:41.227] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:41.234] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:41.236] Server  ERROR    ⨯ Error: The default export is not a React Component in "/festivals/programmes/page"
+[01:20:41.397] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:41.400] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_5c294ebc._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:41.401] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:41.402] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:41.403] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:41.404] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:41.405] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:41.406] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:41.406] Server  ERROR    ⨯ Error: The default export is not a React Component in "/festivals/programmes/page"
+[01:20:41.409] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /festivals/programmes. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:20:41.416] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:41.418] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_5c294ebc._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:41.419] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:41.420] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:41.421] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:41.422] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:41.423] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:41.424] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:41.425] Server  ERROR    ⨯ Error: The default export is not a React Component in "/festivals/programmes/page"
+[01:20:42.103] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/festivals/programmes/page"
+[01:20:43.730] Server  LOG      ✓ Compiled in 373ms
+[01:20:46.986] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /festivals/programmes. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:20:47.756] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:21:04.847] Server  LOG      ✓ Compiled in 169ms
+[01:21:06.102] Server  LOG      ✓ Compiled in 155ms
+[01:21:07.737] Server  LOG      ✓ Compiled in 101ms

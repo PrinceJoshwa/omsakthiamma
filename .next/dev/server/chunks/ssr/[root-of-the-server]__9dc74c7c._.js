@@ -60,8 +60,14 @@ function WorshippingCentresPage() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$PageTemplate$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
         title: "Worshipping Centres",
         subtitle: "Spiritual Hubs Across the World",
-        imageSrc: "/placeholder.svg?key=o1x5y",
-        content: "Our worshipping centres provide sacred spaces for devotees to practice their spiritual disciplines. Each centre is dedicated to facilitating personal spiritual growth and community spiritual activities."
+        hideFooter: false,
+        noTopPadding: false,
+        noContentTopPadding: true,
+        content: `
+Worshipping centres Micro-Units in different parts of the world. Periodic prayer meetings and religious activities in these centres generate spiritual waves, spreading spirituality throughout the world.
+
+His Holiness, The Adigalar goes on spiritual tours to Sakthi Peedams, in the country and abroad for gracing His devotees with His blessings and personal interactions. During such tours, He also conducts temple consecrations and Yagnas. The world witnesses grand spiritual processions wherever He visits. The Divine Mother has promised that, soon, the Melmaruvathur Peedam will become the centre for spiritual revival. The road has already been paved, for the movement to take the world by storm.
+      `
     }, void 0, false, {
         fileName: "[project]/app/activities/worshipping-centres/page.tsx",
         lineNumber: 5,

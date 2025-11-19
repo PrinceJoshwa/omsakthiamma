@@ -24,9 +24,9 @@ export default function DonationsSection() {
 
         <div className="grid md:grid-cols-3 gap-6 mb-8">
           {[
-            { amount: '$25', label: 'Daily Pooja' },
-            { amount: '$100', label: 'Special Ritual' },
-            { amount: '$500', label: 'Temple Support' },
+            { amount: '₹50', label: 'Daily Pooja' },
+            { amount: '₹100', label: 'Special Ritual' },
+            { amount: '₹1000', label: 'Temple Support' },
           ].map((item, idx) => (
             <motion.button
               key={item.amount}

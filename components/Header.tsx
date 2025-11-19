@@ -22,7 +22,7 @@ const navItems: NavItem[] = [
     label: 'Amma',
     href: '/amma',
     dropdown: [
-      { label: 'About Amma', href: '/amma/about-amma' },
+      // { label: 'About Amma', href: '/amma/about-amma' },
       { label: 'Miracles', href: '/amma/miracles' },
       { label: 'Divine Wisdom', href: '/amma/divine-wisdom' },
       { label: 'Message', href: '/amma/message' },
@@ -90,11 +90,24 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 font-bold text-2xl text-[#1a1a1a] hover:opacity-80 transition">
-            <Heart className="w-8 h-8 fill-[#a7150b] text-[#a7150b]" />
-            <span className="hidden sm:inline">Om Sakthi Amma</span>
-            <span className="sm:hidden">Amma</span>
-          </Link>
+<Link
+  href="/"
+  className="flex items-center gap-3 font-bold text-2xl text-[#1a1a1a] hover:opacity-80 transition"
+>
+  <img
+    src="/logo.png"
+    alt="Om Sakthi Amma Logo"
+    className="w-16 h-16 object-contain"
+  />
+
+  <span className="whitespace-nowrap">
+   Adhiparasakthi
+   <br />
+    Siddhar Peedam
+  </span>
+</Link>
+
+
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-1">

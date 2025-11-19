@@ -5,9 +5,9 @@ export default function SpiritualToursPage() {
     <PageTemplate
       title="Spiritual Tours"
       subtitle="Pilgrimage Journeys of Awakening"
-      imageSrc="/placeholder.svg?key=t6c1d"
-      content="Our guided spiritual tours take devotees to sacred pilgrimage sites. These journeys combine travel with spiritual practice, creating transformative experiences for all participants."
-      imageOnRight={true}
+      noTopPadding={true}
+      noContentTopPadding={true}
+      content={`On the request of the devotees, His Holiness had toured U.S.A., Malaysia, U.A.E and many places in Tami Nadu and Karnataka to shower Her Choicest Blessings and to propagate Her noble Teachings.`}
     />
   );
 }

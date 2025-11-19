@@ -48,6 +48,17 @@ __turbopack_context__.n(__TURBOPACK__imported__module__$5b$project$5d2f$componen
 "[project]/app/publications/articles/page.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+// import PageTemplate from '@/components/PageTemplate';
+// export default function ArticlesPage() {
+//   return (
+//     <PageTemplate
+//       title="Spiritual Articles"
+//       subtitle="Insights from Spiritual Masters"
+//       imageSrc="/placeholder.svg?key=v8e3f"
+//       content="Our collection of spiritual articles provides deep insights into various aspects of spiritual practice. Written by experienced teachers, these articles guide seekers on their spiritual journey."
+//     />
+//   );
+// }
 __turbopack_context__.s([
     "default",
     ()=>ArticlesPage
@@ -58,13 +69,210 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$PageTemplate$2
 ;
 function ArticlesPage() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$PageTemplate$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-        title: "Spiritual Articles",
-        subtitle: "Insights from Spiritual Masters",
-        imageSrc: "/placeholder.svg?key=v8e3f",
-        content: "Our collection of spiritual articles provides deep insights into various aspects of spiritual practice. Written by experienced teachers, these articles guide seekers on their spiritual journey."
+        title: "Articles",
+        subtitle: "",
+        imageSrc: "",
+        noTopPadding: false,
+        noContentTopPadding: true,
+        content: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Fragment"], {
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                            className: "text-3xl font-bold text-blue-900 mb-3",
+                            children: "இந்த நிலை மாறும்!"
+                        }, void 0, false, {
+                            fileName: "[project]/app/publications/articles/page.tsx",
+                            lineNumber: 28,
+                            columnNumber: 13
+                        }, void 0),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: "text-gray-700 mb-2 leading-relaxed",
+                            children: "ஒரு நாட்டின் ராஜாவுக்கு ஒரு சிந்தனை தோன்றியது..."
+                        }, void 0, false, {
+                            fileName: "[project]/app/publications/articles/page.tsx",
+                            lineNumber: 31,
+                            columnNumber: 13
+                        }, void 0),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                            className: "text-blue-700 font-semibold",
+                            children: "Read More"
+                        }, void 0, false, {
+                            fileName: "[project]/app/publications/articles/page.tsx",
+                            lineNumber: 34,
+                            columnNumber: 13
+                        }, void 0)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/app/publications/articles/page.tsx",
+                    lineNumber: 27,
+                    columnNumber: 11
+                }, void 0),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                            className: "text-3xl font-bold text-blue-900 mb-3",
+                            children: "அம்மாவின் ஆன்மிக விதைப் பயணங்கள்"
+                        }, void 0, false, {
+                            fileName: "[project]/app/publications/articles/page.tsx",
+                            lineNumber: 39,
+                            columnNumber: 13
+                        }, void 0),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: "text-gray-700 mb-2 leading-relaxed",
+                            children: "ஒரு தொண்டரின் காபி, தேநீர் சாப்பிட..."
+                        }, void 0, false, {
+                            fileName: "[project]/app/publications/articles/page.tsx",
+                            lineNumber: 42,
+                            columnNumber: 13
+                        }, void 0),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                            className: "text-blue-700 font-semibold",
+                            children: "Read More"
+                        }, void 0, false, {
+                            fileName: "[project]/app/publications/articles/page.tsx",
+                            lineNumber: 45,
+                            columnNumber: 13
+                        }, void 0)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/app/publications/articles/page.tsx",
+                    lineNumber: 38,
+                    columnNumber: 11
+                }, void 0),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                            className: "text-3xl font-bold text-blue-900 mb-3",
+                            children: "அம்மா இருப்பிக் கொடுத்த உயிர்"
+                        }, void 0, false, {
+                            fileName: "[project]/app/publications/articles/page.tsx",
+                            lineNumber: 50,
+                            columnNumber: 13
+                        }, void 0),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: "text-gray-700 mb-2 leading-relaxed",
+                            children: "எங்கள் குடும்பத்தார் அனைவரும் 1982ம் ஆண்டு..."
+                        }, void 0, false, {
+                            fileName: "[project]/app/publications/articles/page.tsx",
+                            lineNumber: 53,
+                            columnNumber: 13
+                        }, void 0),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                            className: "text-blue-700 font-semibold",
+                            children: "Read More"
+                        }, void 0, false, {
+                            fileName: "[project]/app/publications/articles/page.tsx",
+                            lineNumber: 56,
+                            columnNumber: 13
+                        }, void 0)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/app/publications/articles/page.tsx",
+                    lineNumber: 49,
+                    columnNumber: 11
+                }, void 0),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                            className: "text-3xl font-bold text-blue-900 mb-3",
+                            children: "அருள்திரு அம்மாவின் 76ஆம் ஆண்டு அவதாரத் திருநாளை முன்னிட்டு"
+                        }, void 0, false, {
+                            fileName: "[project]/app/publications/articles/page.tsx",
+                            lineNumber: 61,
+                            columnNumber: 13
+                        }, void 0),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: "text-gray-700 mb-2 leading-relaxed",
+                            children: "அம்மாவரின் ஆசீர்வாதத்துடன்..."
+                        }, void 0, false, {
+                            fileName: "[project]/app/publications/articles/page.tsx",
+                            lineNumber: 64,
+                            columnNumber: 13
+                        }, void 0),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                            className: "text-blue-700 font-semibold",
+                            children: "Read More"
+                        }, void 0, false, {
+                            fileName: "[project]/app/publications/articles/page.tsx",
+                            lineNumber: 67,
+                            columnNumber: 13
+                        }, void 0)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/app/publications/articles/page.tsx",
+                    lineNumber: 60,
+                    columnNumber: 11
+                }, void 0),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                            className: "text-3xl font-bold text-blue-900 mb-3",
+                            children: "அற்புதங்கள் ஒன்று இரண்டா எதுத்துச் சொலவு…!"
+                        }, void 0, false, {
+                            fileName: "[project]/app/publications/articles/page.tsx",
+                            lineNumber: 72,
+                            columnNumber: 13
+                        }, void 0),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: "text-gray-700 mb-2 leading-relaxed",
+                            children: "ஒரு திரு அம்மா அவர்களின் கோவில்..."
+                        }, void 0, false, {
+                            fileName: "[project]/app/publications/articles/page.tsx",
+                            lineNumber: 75,
+                            columnNumber: 13
+                        }, void 0),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                            className: "text-blue-700 font-semibold",
+                            children: "Read More"
+                        }, void 0, false, {
+                            fileName: "[project]/app/publications/articles/page.tsx",
+                            lineNumber: 78,
+                            columnNumber: 13
+                        }, void 0)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/app/publications/articles/page.tsx",
+                    lineNumber: 71,
+                    columnNumber: 11
+                }, void 0),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                            className: "text-3xl font-bold text-blue-900 mb-3",
+                            children: "அன்பான வேண்டுகோள்"
+                        }, void 0, false, {
+                            fileName: "[project]/app/publications/articles/page.tsx",
+                            lineNumber: 83,
+                            columnNumber: 13
+                        }, void 0),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: "text-gray-700 mb-2 leading-relaxed",
+                            children: "ஒவ்வொருவரும் தன்னால் முடிந்த அளவு தர்மம் செய்ய வேண்டும்..."
+                        }, void 0, false, {
+                            fileName: "[project]/app/publications/articles/page.tsx",
+                            lineNumber: 86,
+                            columnNumber: 13
+                        }, void 0),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                            className: "text-blue-700 font-semibold",
+                            children: "Read More"
+                        }, void 0, false, {
+                            fileName: "[project]/app/publications/articles/page.tsx",
+                            lineNumber: 89,
+                            columnNumber: 13
+                        }, void 0)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/app/publications/articles/page.tsx",
+                    lineNumber: 82,
+                    columnNumber: 11
+                }, void 0)
+            ]
+        }, void 0, true)
     }, void 0, false, {
         fileName: "[project]/app/publications/articles/page.tsx",
-        lineNumber: 5,
+        lineNumber: 18,
         columnNumber: 5
     }, this);
 }

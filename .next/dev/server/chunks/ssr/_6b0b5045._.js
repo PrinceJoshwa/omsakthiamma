@@ -2,58 +2,151 @@ module.exports = [
 "[project]/components/HeroSection.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+// 'use client';
+// import { useEffect, useState } from 'react';
+// import { motion } from 'framer-motion';
+// import Image from 'next/image';
+// interface HeroPoster {
+//   hero_poster?: string;
+//   hero_poster_mobile?: string;
+// }
+// export default function HeroSection() {
+//   const [heroData, setHeroData] = useState<HeroPoster | null>(null);
+//   const [isLoading, setIsLoading] = useState(true);
+//   useEffect(() => {
+//     // Fetch hero poster from WordPress REST API
+//     const fetchHeroPoster = async () => {
+//       try {
+//         // Replace with your actual WordPress site URL
+//         const wpSiteUrl = process.env.NEXT_PUBLIC_WP_SITE_URL || 'https://example.com/wp-json';
+//         // Example API endpoint - adjust based on your WordPress setup
+//         const response = await fetch(`${wpSiteUrl}/wp/v2/pages?slug=home`, {
+//           method: 'GET',
+//           headers: {
+//             'Content-Type': 'application/json',
+//           },
+//         });
+//         if (response.ok) {
+//           const data = await response.json();
+//           if (data.length > 0 && data[0].acf) {
+//             setHeroData({
+//               hero_poster: data[0].acf.hero_poster || '',
+//               hero_poster_mobile: data[0].acf.hero_poster_mobile || '',
+//             });
+//           }
+//         }
+//       } catch (error) {
+//         console.log('[v0] WordPress fetch - using placeholder instead:', error);
+//       } finally {
+//         setIsLoading(false);
+//       }
+//     };
+//     fetchHeroPoster();
+//   }, []);
+//   // Fallback poster URL
+//   const posterUrl = heroData?.hero_poster || '/spiritual-om-sakthi-amma-hero-poster.jpg';
+//   const posterMobileUrl = heroData?.hero_poster_mobile || '/spiritual-om-sakthi-amma-mobile-hero.jpg';
+//   return (
+//     <section className="relative w-full overflow-hidden">
+//       {/* Desktop Hero */}
+//       <motion.div
+//         initial={{ opacity: 0 }}
+//         animate={{ opacity: 1 }}
+//         transition={{ duration: 1 }}
+//         className="relative h-screen hidden md:block"
+//       >
+//         <Image
+//           src={posterUrl || "/placeholder.svg"}
+//           alt="Om Sakthi Amma - Divine Grace"
+//           fill
+//           priority
+//           className="object-cover"
+//         />
+//         {/* Overlay */}
+//         <div className="absolute inset-0 bg-black/20"></div>
+//         {/* Content Overlay */}
+//         <motion.div
+//           initial={{ opacity: 0, y: 20 }}
+//           animate={{ opacity: 1, y: 0 }}
+//           transition={{ delay: 0.3, duration: 0.8 }}
+//           className="absolute inset-0 flex flex-col items-center justify-center text-center text-white z-10"
+//         >
+//           <h1 className="text-6xl font-bold mb-4 spiritual-text drop-shadow-lg">
+//             Om Sakthi Amma
+//           </h1>
+//           <p className="text-2xl mb-8 drop-shadow-lg">
+//             Divine Grace • Spiritual Wisdom • Eternal Blessings
+//           </p>
+//           <motion.button
+//             whileHover={{ scale: 1.05 }}
+//             whileTap={{ scale: 0.95 }}
+//             className="px-8 py-3 bg-[#a7150b] text-white rounded-lg font-bold hover:bg-[#8a0d08] transition shadow-lg"
+//           >
+//             Explore Our Teachings
+//           </motion.button>
+//         </motion.div>
+//       </motion.div>
+//       {/* Mobile Hero */}
+//       <motion.div
+//         initial={{ opacity: 0 }}
+//         animate={{ opacity: 1 }}
+//         transition={{ duration: 1 }}
+//         className="relative h-96 md:hidden"
+//       >
+//         <Image
+//           src={posterMobileUrl || "/placeholder.svg"}
+//           alt="Om Sakthi Amma - Divine Grace"
+//           fill
+//           priority
+//           className="object-cover"
+//         />
+//         <div className="absolute inset-0 bg-black/30"></div>
+//         <motion.div
+//           initial={{ opacity: 0, y: 20 }}
+//           animate={{ opacity: 1, y: 0 }}
+//           transition={{ delay: 0.3, duration: 0.8 }}
+//           className="absolute inset-0 flex flex-col items-center justify-center text-center text-white z-10 px-4"
+//         >
+//           <h1 className="text-4xl font-bold mb-2 spiritual-text drop-shadow-lg">
+//             Om Sakthi Amma
+//           </h1>
+//           <p className="text-lg mb-4 drop-shadow-lg">
+//             Divine Grace & Spiritual Wisdom
+//           </p>
+//           <motion.button
+//             whileHover={{ scale: 1.05 }}
+//             whileTap={{ scale: 0.95 }}
+//             className="px-6 py-2 bg-[#a7150b] text-white rounded-lg font-bold text-sm hover:bg-[#8a0d08] transition shadow-lg"
+//           >
+//             Explore
+//           </motion.button>
+//         </motion.div>
+//       </motion.div>
+//       {/* WordPress Integration Info */}
+//       <div className="absolute bottom-4 right-4 text-xs text-gray-400 z-20 hidden lg:block">
+//         <p>API: {process.env.NEXT_PUBLIC_WP_SITE_URL || 'Not configured'}</p>
+//       </div>
+//     </section>
+//   );
+// }
 __turbopack_context__.s([
     "default",
     ()=>HeroSection
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-ssr] (ecmascript)");
 'use client';
 ;
 ;
 ;
-;
 function HeroSection() {
-    const [heroData, setHeroData] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(null);
-    const [isLoading, setIsLoading] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(true);
-    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
-        // Fetch hero poster from WordPress REST API
-        const fetchHeroPoster = async ()=>{
-            try {
-                // Replace with your actual WordPress site URL
-                const wpSiteUrl = process.env.NEXT_PUBLIC_WP_SITE_URL || 'https://example.com/wp-json';
-                // Example API endpoint - adjust based on your WordPress setup
-                const response = await fetch(`${wpSiteUrl}/wp/v2/pages?slug=home`, {
-                    method: 'GET',
-                    headers: {
-                        'Content-Type': 'application/json'
-                    }
-                });
-                if (response.ok) {
-                    const data = await response.json();
-                    if (data.length > 0 && data[0].acf) {
-                        setHeroData({
-                            hero_poster: data[0].acf.hero_poster || '',
-                            hero_poster_mobile: data[0].acf.hero_poster_mobile || ''
-                        });
-                    }
-                }
-            } catch (error) {
-                console.log('[v0] WordPress fetch - using placeholder instead:', error);
-            } finally{
-                setIsLoading(false);
-            }
-        };
-        fetchHeroPoster();
-    }, []);
-    // Fallback poster URL
-    const posterUrl = heroData?.hero_poster || '/spiritual-om-sakthi-amma-hero-poster.jpg';
-    const posterMobileUrl = heroData?.hero_poster_mobile || '/spiritual-om-sakthi-amma-mobile-hero.jpg';
+    // Using om1.jpg as the main hero image
+    const posterUrl = '/hero.jpeg';
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "relative w-full overflow-hidden",
+        className: "relative w-full overflow-hidden mt-16",
         children: [
+            " ",
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
                 initial: {
                     opacity: 0
@@ -64,24 +157,24 @@ function HeroSection() {
                 transition: {
                     duration: 1
                 },
-                className: "relative h-screen hidden md:block",
+                className: "relative h-[85vh] w-full",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                        src: posterUrl || "/placeholder.svg",
+                        src: posterUrl,
                         alt: "Om Sakthi Amma - Divine Grace",
                         fill: true,
                         priority: true,
-                        className: "object-cover"
+                        className: "object-fill"
                     }, void 0, false, {
                         fileName: "[project]/components/HeroSection.tsx",
-                        lineNumber: 63,
+                        lineNumber: 161,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "absolute inset-0 bg-black/20"
+                        className: "absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/60"
                     }, void 0, false, {
                         fileName: "[project]/components/HeroSection.tsx",
-                        lineNumber: 71,
+                        lineNumber: 169,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -97,158 +190,22 @@ function HeroSection() {
                             delay: 0.3,
                             duration: 0.8
                         },
-                        className: "absolute inset-0 flex flex-col items-center justify-center text-center text-white z-10",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                className: "text-6xl font-bold mb-4 spiritual-text drop-shadow-lg",
-                                children: "Om Sakthi Amma"
-                            }, void 0, false, {
-                                fileName: "[project]/components/HeroSection.tsx",
-                                lineNumber: 80,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-2xl mb-8 drop-shadow-lg",
-                                children: "Divine Grace • Spiritual Wisdom • Eternal Blessings"
-                            }, void 0, false, {
-                                fileName: "[project]/components/HeroSection.tsx",
-                                lineNumber: 83,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].button, {
-                                whileHover: {
-                                    scale: 1.05
-                                },
-                                whileTap: {
-                                    scale: 0.95
-                                },
-                                className: "px-8 py-3 bg-[#a7150b] text-white rounded-lg font-bold hover:bg-[#8a0d08] transition shadow-lg",
-                                children: "Explore Our Teachings"
-                            }, void 0, false, {
-                                fileName: "[project]/components/HeroSection.tsx",
-                                lineNumber: 86,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
+                        className: "absolute inset-0 flex flex-col items-center justify-center text-center text-white z-10 px-4"
+                    }, void 0, false, {
                         fileName: "[project]/components/HeroSection.tsx",
-                        lineNumber: 74,
+                        lineNumber: 172,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/HeroSection.tsx",
-                lineNumber: 57,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
-                initial: {
-                    opacity: 0
-                },
-                animate: {
-                    opacity: 1
-                },
-                transition: {
-                    duration: 1
-                },
-                className: "relative h-96 md:hidden",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                        src: posterMobileUrl || "/placeholder.svg",
-                        alt: "Om Sakthi Amma - Divine Grace",
-                        fill: true,
-                        priority: true,
-                        className: "object-cover"
-                    }, void 0, false, {
-                        fileName: "[project]/components/HeroSection.tsx",
-                        lineNumber: 103,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "absolute inset-0 bg-black/30"
-                    }, void 0, false, {
-                        fileName: "[project]/components/HeroSection.tsx",
-                        lineNumber: 110,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
-                        initial: {
-                            opacity: 0,
-                            y: 20
-                        },
-                        animate: {
-                            opacity: 1,
-                            y: 0
-                        },
-                        transition: {
-                            delay: 0.3,
-                            duration: 0.8
-                        },
-                        className: "absolute inset-0 flex flex-col items-center justify-center text-center text-white z-10 px-4",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                className: "text-4xl font-bold mb-2 spiritual-text drop-shadow-lg",
-                                children: "Om Sakthi Amma"
-                            }, void 0, false, {
-                                fileName: "[project]/components/HeroSection.tsx",
-                                lineNumber: 118,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-lg mb-4 drop-shadow-lg",
-                                children: "Divine Grace & Spiritual Wisdom"
-                            }, void 0, false, {
-                                fileName: "[project]/components/HeroSection.tsx",
-                                lineNumber: 121,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].button, {
-                                whileHover: {
-                                    scale: 1.05
-                                },
-                                whileTap: {
-                                    scale: 0.95
-                                },
-                                className: "px-6 py-2 bg-[#a7150b] text-white rounded-lg font-bold text-sm hover:bg-[#8a0d08] transition shadow-lg",
-                                children: "Explore"
-                            }, void 0, false, {
-                                fileName: "[project]/components/HeroSection.tsx",
-                                lineNumber: 124,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/components/HeroSection.tsx",
-                        lineNumber: 112,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/components/HeroSection.tsx",
-                lineNumber: 97,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute bottom-4 right-4 text-xs text-gray-400 z-20 hidden lg:block",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                    children: [
-                        "API: ",
-                        process.env.NEXT_PUBLIC_WP_SITE_URL || 'Not configured'
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/components/HeroSection.tsx",
-                    lineNumber: 136,
-                    columnNumber: 9
-                }, this)
-            }, void 0, false, {
-                fileName: "[project]/components/HeroSection.tsx",
-                lineNumber: 135,
+                lineNumber: 155,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/HeroSection.tsx",
-        lineNumber: 55,
+        lineNumber: 153,
         columnNumber: 5
     }, this);
 }
@@ -256,6 +213,60 @@ function HeroSection() {
 "[project]/components/AboutSection.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+// 'use client';
+// import { motion } from 'framer-motion';
+// import Image from 'next/image';
+// export default function AboutSection() {
+//   return (
+//     <section className="py-20 px-4 max-w-5xl mx-auto">
+//       <motion.div
+//         initial={{ opacity: 0 }}
+//         whileInView={{ opacity: 1 }}
+//         transition={{ duration: 0.8 }}
+//         viewport={{ once: true }}
+//         className="grid md:grid-cols-2 gap-12 items-center"
+//       >
+//         <motion.div
+//           initial={{ opacity: 0, x: -20 }}
+//           whileInView={{ opacity: 1, x: 0 }}
+//           transition={{ duration: 0.8, delay: 0.2 }}
+//           viewport={{ once: true }}
+//           className="relative h-96 rounded-lg overflow-hidden shadow-xl"
+//         >
+//           <Image
+//             src="/om-sakthi-amma-spiritual-portrait.jpg"
+//             alt="Om Sakthi Amma"
+//             fill
+//             className="object-cover"
+//           />
+//         </motion.div>
+//         <motion.div
+//           initial={{ opacity: 0, x: 20 }}
+//           whileInView={{ opacity: 1, x: 0 }}
+//           transition={{ duration: 0.8, delay: 0.2 }}
+//           viewport={{ once: true }}
+//           className="space-y-6"
+//         >
+//           <h2 className="text-4xl font-bold text-[#1a1a1a] spiritual-text">About Om Sakthi Amma</h2>
+//           <p className="text-gray-700 leading-relaxed text-lg">
+//             Om Sakthi Amma represents the pinnacle of spiritual consciousness and divine grace. Her life is dedicated to uplifting humanity and guiding millions toward enlightenment.
+//           </p>
+//           <p className="text-gray-700 leading-relaxed text-lg">
+//             Through sacred teachings and transformative spiritual practices, Amma touches the hearts of devotees worldwide, inspiring them to discover their divine nature.
+//           </p>
+//           <motion.div
+//             whileHover={{ x: 5 }}
+//             className="inline-block"
+//           >
+//             <button className="px-8 py-3 bg-[#a7150b] text-white rounded-lg font-bold hover:bg-[#8a0d08] transition">
+//               Learn More About Amma
+//             </button>
+//           </motion.div>
+//         </motion.div>
+//       </motion.div>
+//     </section>
+//   );
+// }
 __turbopack_context__.s([
     "default",
     ()=>AboutSection
@@ -269,7 +280,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$imag
 ;
 function AboutSection() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "py-20 px-4 max-w-5xl mx-auto",
+        className: "py-24 px-4 max-w-6xl mx-auto",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
             initial: {
                 opacity: 0
@@ -283,12 +294,12 @@ function AboutSection() {
             viewport: {
                 once: true
             },
-            className: "grid md:grid-cols-2 gap-12 items-center",
+            className: "grid md:grid-cols-2 gap-16 items-center",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
                     initial: {
                         opacity: 0,
-                        x: -20
+                        x: -30
                     },
                     whileInView: {
                         opacity: 1,
@@ -301,26 +312,26 @@ function AboutSection() {
                     viewport: {
                         once: true
                     },
-                    className: "relative h-96 rounded-lg overflow-hidden shadow-xl",
+                    className: "relative h-[500px] w-full rounded-2xl overflow-hidden shadow-2xl border-4 border-white",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                        src: "/om-sakthi-amma-spiritual-portrait.jpg",
-                        alt: "Om Sakthi Amma",
+                        src: "/om2.jpeg",
+                        alt: "Arul Thiru Bangaru Adigalar",
                         fill: true,
-                        className: "object-cover"
+                        className: "object-contain hover:scale-105 transition-transform duration-700"
                     }, void 0, false, {
                         fileName: "[project]/components/AboutSection.tsx",
-                        lineNumber: 23,
+                        lineNumber: 81,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/AboutSection.tsx",
-                    lineNumber: 16,
+                    lineNumber: 74,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
                     initial: {
                         opacity: 0,
-                        x: 20
+                        x: 30
                     },
                     whileInView: {
                         opacity: 1,
@@ -328,70 +339,86 @@ function AboutSection() {
                     },
                     transition: {
                         duration: 0.8,
-                        delay: 0.2
+                        delay: 0.4
                     },
                     viewport: {
                         once: true
                     },
-                    className: "space-y-6",
+                    className: "space-y-8",
                     children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "text-4xl font-bold text-[#1a1a1a] spiritual-text",
-                            children: "About Om Sakthi Amma"
-                        }, void 0, false, {
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    className: "text-4xl md:text-5xl font-bold text-[#1a1a1a] spiritual-text mb-2",
+                                    children: "Introduction"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/AboutSection.tsx",
+                                    lineNumber: 97,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "h-1 w-20 bg-[#a7150b]"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/AboutSection.tsx",
+                                    lineNumber: 98,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
                             fileName: "[project]/components/AboutSection.tsx",
-                            lineNumber: 38,
+                            lineNumber: 96,
                             columnNumber: 11
                         }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-gray-700 leading-relaxed text-lg",
-                            children: "Om Sakthi Amma represents the pinnacle of spiritual consciousness and divine grace. Her life is dedicated to uplifting humanity and guiding millions toward enlightenment."
-                        }, void 0, false, {
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "prose prose-lg text-gray-700",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "leading-relaxed",
+                                    children: "Arulmigu Adhiparasakthi Siddhar Peedam, the Holy Shrine is situated at Melmaruvathur, Tamil Nadu, 92 kms south of Chennai along the NH-45. This place, where the Siddhar Peedam is situated, is being considered as the most Holy place for the past 2000 years."
+                                }, void 0, false, {
+                                    fileName: "[project]/components/AboutSection.tsx",
+                                    lineNumber: 102,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "leading-relaxed",
+                                    children: "It is in this place, where 21 Siddhars, both men and women, attained Jeeva Samaadhi (leaving the mortal body, but living in astral plane).  These 21 Siddhars belong to various religions."
+                                }, void 0, false, {
+                                    fileName: "[project]/components/AboutSection.tsx",
+                                    lineNumber: 105,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
                             fileName: "[project]/components/AboutSection.tsx",
-                            lineNumber: 39,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-gray-700 leading-relaxed text-lg",
-                            children: "Through sacred teachings and transformative spiritual practices, Amma touches the hearts of devotees worldwide, inspiring them to discover their divine nature."
-                        }, void 0, false, {
-                            fileName: "[project]/components/AboutSection.tsx",
-                            lineNumber: 42,
+                            lineNumber: 101,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
                             whileHover: {
-                                x: 5
+                                x: 10
                             },
-                            className: "inline-block",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                className: "px-8 py-3 bg-[#a7150b] text-white rounded-lg font-bold hover:bg-[#8a0d08] transition",
-                                children: "Learn More About Amma"
-                            }, void 0, false, {
-                                fileName: "[project]/components/AboutSection.tsx",
-                                lineNumber: 49,
-                                columnNumber: 13
-                            }, this)
+                            className: "inline-block"
                         }, void 0, false, {
                             fileName: "[project]/components/AboutSection.tsx",
-                            lineNumber: 45,
+                            lineNumber: 110,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/AboutSection.tsx",
-                    lineNumber: 31,
+                    lineNumber: 89,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/AboutSection.tsx",
-            lineNumber: 9,
+            lineNumber: 67,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/AboutSection.tsx",
-        lineNumber: 8,
+        lineNumber: 66,
         columnNumber: 5
     }, this);
 }
@@ -768,15 +795,15 @@ function DonationsSection() {
                     className: "grid md:grid-cols-3 gap-6 mb-8",
                     children: [
                         {
-                            amount: '$25',
+                            amount: '₹50',
                             label: 'Daily Pooja'
                         },
                         {
-                            amount: '$100',
+                            amount: '₹100',
                             label: 'Special Ritual'
                         },
                         {
-                            amount: '$500',
+                            amount: '₹1000',
                             label: 'Temple Support'
                         }
                     ].map((item, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].button, {
@@ -856,6 +883,86 @@ function DonationsSection() {
 "[project]/components/ContactSection.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+// 'use client';
+// import { motion } from 'framer-motion';
+// import { MapPin, Phone, Mail, Clock } from 'lucide-react';
+// export default function ContactSection() {
+//   return (
+//     <section className="py-20 px-4 bg-gray-50">
+//       <motion.div
+//         initial={{ opacity: 0 }}
+//         whileInView={{ opacity: 1 }}
+//         transition={{ duration: 0.8 }}
+//         viewport={{ once: true }}
+//         className="max-w-5xl mx-auto"
+//       >
+//         <h2 className="text-4xl font-bold text-[#1a1a1a] text-center mb-12 spiritual-text">
+//           Contact & Location
+//         </h2>
+//         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+//           {[
+//             {
+//               icon: MapPin,
+//               title: 'Address',
+//               details: ['123 Spiritual Lane', 'Holy City, State 12345'],
+//             },
+//             {
+//               icon: Phone,
+//               title: 'Phone',
+//               details: ['+1 (123) 456-7890', '+1 (123) 456-7891'],
+//             },
+//             {
+//               icon: Mail,
+//               title: 'Email',
+//               details: ['info@omsakhtiamma.com', 'contact@omsakhtiamma.com'],
+//             },
+//             {
+//               icon: Clock,
+//               title: 'Hours',
+//               details: ['5:00 AM - 9:00 PM', 'Open All Days'],
+//             },
+//           ].map((item, idx) => (
+//             <motion.div
+//               key={item.title}
+//               initial={{ opacity: 0, y: 20 }}
+//               whileInView={{ opacity: 1, y: 0 }}
+//               transition={{ delay: idx * 0.1 }}
+//               viewport={{ once: true }}
+//               className="p-6 bg-white rounded-lg shadow-lg text-center"
+//             >
+//               <item.icon className="w-8 h-8 mx-auto mb-4 text-[#a7150b]" />
+//               <h3 className="font-bold text-[#1a1a1a] mb-3">{item.title}</h3>
+//               {item.details.map((detail, i) => (
+//                 <p key={i} className="text-sm text-gray-600">
+//                   {detail}
+//                 </p>
+//               ))}
+//             </motion.div>
+//           ))}
+//         </div>
+//         {/* CTA */}
+//         <motion.div
+//           initial={{ opacity: 0 }}
+//           whileInView={{ opacity: 1 }}
+//           transition={{ delay: 0.4 }}
+//           viewport={{ once: true }}
+//           className="mt-12 text-center"
+//         >
+//           <p className="text-lg text-gray-700 mb-6">
+//             Have questions? We're here to help you on your spiritual journey.
+//           </p>
+//           <motion.button
+//             whileHover={{ scale: 1.05 }}
+//             whileTap={{ scale: 0.95 }}
+//             className="px-8 py-3 bg-[#a7150b] text-white rounded-lg font-bold hover:bg-[#8a0d08] transition"
+//           >
+//             Send us a Message
+//           </motion.button>
+//         </motion.div>
+//       </motion.div>
+//     </section>
+//   );
+// }
 __turbopack_context__.s([
     "default",
     ()=>ContactSection
@@ -893,7 +1000,7 @@ function ContactSection() {
                     children: "Contact & Location"
                 }, void 0, false, {
                     fileName: "[project]/components/ContactSection.tsx",
-                    lineNumber: 16,
+                    lineNumber: 101,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -903,32 +1010,32 @@ function ContactSection() {
                             icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__["MapPin"],
                             title: 'Address',
                             details: [
-                                '123 Spiritual Lane',
-                                'Holy City, State 12345'
+                                'Adhiparasakthi Siddhar Peedam',
+                                'Melmaruvathur, Chengalpattu District',
+                                'Tamil Nadu - 603319'
                             ]
                         },
                         {
                             icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__["Phone"],
                             title: 'Phone',
                             details: [
-                                '+1 (123) 456-7890',
-                                '+1 (123) 456-7891'
+                                '044-27529391',
+                                '044-27529313'
                             ]
                         },
                         {
                             icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mail$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Mail$3e$__["Mail"],
                             title: 'Email',
                             details: [
-                                'info@omsakhtiamma.com',
-                                'contact@omsakhtiamma.com'
+                                'asqwjd@gmail.com'
                             ]
                         },
                         {
                             icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$clock$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Clock$3e$__["Clock"],
                             title: 'Hours',
                             details: [
-                                '5:00 AM - 9:00 PM',
-                                'Open All Days'
+                                'Morning: 5:00 AM - 12:00 PM',
+                                'Evening: 4:00 PM - 9:00 PM'
                             ]
                         }
                     ].map((item, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -952,7 +1059,7 @@ function ContactSection() {
                                     className: "w-8 h-8 mx-auto mb-4 text-[#a7150b]"
                                 }, void 0, false, {
                                     fileName: "[project]/components/ContactSection.tsx",
-                                    lineNumber: 51,
+                                    lineNumber: 143,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -960,7 +1067,7 @@ function ContactSection() {
                                     children: item.title
                                 }, void 0, false, {
                                     fileName: "[project]/components/ContactSection.tsx",
-                                    lineNumber: 52,
+                                    lineNumber: 144,
                                     columnNumber: 15
                                 }, this),
                                 item.details.map((detail, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -968,18 +1075,18 @@ function ContactSection() {
                                         children: detail
                                     }, i, false, {
                                         fileName: "[project]/components/ContactSection.tsx",
-                                        lineNumber: 54,
+                                        lineNumber: 146,
                                         columnNumber: 17
                                     }, this))
                             ]
                         }, item.title, true, {
                             fileName: "[project]/components/ContactSection.tsx",
-                            lineNumber: 43,
+                            lineNumber: 135,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/components/ContactSection.tsx",
-                    lineNumber: 20,
+                    lineNumber: 105,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1002,7 +1109,7 @@ function ContactSection() {
                             children: "Have questions? We're here to help you on your spiritual journey."
                         }, void 0, false, {
                             fileName: "[project]/components/ContactSection.tsx",
-                            lineNumber: 70,
+                            lineNumber: 162,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].button, {
@@ -1016,24 +1123,24 @@ function ContactSection() {
                             children: "Send us a Message"
                         }, void 0, false, {
                             fileName: "[project]/components/ContactSection.tsx",
-                            lineNumber: 73,
+                            lineNumber: 165,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/ContactSection.tsx",
-                    lineNumber: 63,
+                    lineNumber: 155,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/ContactSection.tsx",
-            lineNumber: 9,
+            lineNumber: 94,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/ContactSection.tsx",
-        lineNumber: 8,
+        lineNumber: 93,
         columnNumber: 5
     }, this);
 }
@@ -1041,12 +1148,88 @@ function ContactSection() {
 "[project]/app/page.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+// 'use client';
+// import { useEffect, useState } from 'react';
+// import { motion } from 'framer-motion';
+// import Image from 'next/image';
+// import Link from 'next/link';
+// import HeroSection from '@/components/HeroSection';
+// import AboutSection from '@/components/AboutSection';
+// import EventsSection from '@/components/EventsSection';
+// import PoojaTimingsSection from '@/components/PoojaTimingsSection';
+// import DonationsSection from '@/components/DonationsSection';
+// import ContactSection from '@/components/ContactSection';
+// export default function Home() {
+//   return (
+//     <main className="bg-white">
+//       {/* Hero Section - WordPress Integrated */}
+//       <HeroSection />
+//       {/* About Section */}
+//       <AboutSection />
+//       {/* Temple Info Section */}
+//       <section className="py-20 px-4 bg-gray-50">
+//         <motion.div
+//           initial={{ opacity: 0, y: 20 }}
+//           whileInView={{ opacity: 1, y: 0 }}
+//           transition={{ duration: 0.8 }}
+//           viewport={{ once: true }}
+//           className="max-w-5xl mx-auto"
+//         >
+//           <h2 className="text-4xl font-bold text-[#1a1a1a] text-center mb-12 spiritual-text">
+//             Welcome to Om Sakthi Amma Temple
+//           </h2>
+//           <div className="grid md:grid-cols-3 gap-8">
+//             {[
+//               {
+//                 icon: '🕉️',
+//                 title: 'Sacred Traditions',
+//                 description: 'Preserving ancient spiritual practices and wisdom for modern seekers.',
+//               },
+//               {
+//                 icon: '✨',
+//                 title: 'Divine Grace',
+//                 description: 'Experience the transformative power of spiritual blessings and guidance.',
+//               },
+//               {
+//                 icon: '🙏',
+//                 title: 'Community',
+//                 description: 'Join a loving community of devotees dedicated to spiritual growth.',
+//               },
+//             ].map((item, idx) => (
+//               <motion.div
+//                 key={item.title}
+//                 initial={{ opacity: 0, y: 20 }}
+//                 whileInView={{ opacity: 1, y: 0 }}
+//                 transition={{ delay: idx * 0.2 }}
+//                 viewport={{ once: true }}
+//                 className="p-6 bg-white rounded-lg shadow-lg text-center border-t-4 border-[#ffc107]"
+//               >
+//                 <div className="text-4xl mb-4">{item.icon}</div>
+//                 <h3 className="text-2xl font-bold text-[#a7150b] mb-3">{item.title}</h3>
+//                 <p className="text-gray-600">{item.description}</p>
+//               </motion.div>
+//             ))}
+//           </div>
+//         </motion.div>
+//       </section>
+//       {/* Events Section */}
+//       <EventsSection />
+//       {/* Pooja Timings Section */}
+//       <PoojaTimingsSection />
+//       {/* Donations Section */}
+//       <DonationsSection />
+//       {/* Contact Section */}
+//       <ContactSection />
+//     </main>
+//   );
+// }
 __turbopack_context__.s([
     "default",
     ()=>Home
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$HeroSection$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/HeroSection.tsx [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$AboutSection$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/AboutSection.tsx [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$EventsSection$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/EventsSection.tsx [app-ssr] (ecmascript)");
@@ -1062,22 +1245,23 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ContactSection
 ;
 ;
 ;
+;
 function Home() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
         className: "bg-white",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$HeroSection$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 18,
+                lineNumber: 103,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$AboutSection$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 21,
+                lineNumber: 106,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                className: "py-20 px-4 bg-gray-50",
+                className: "py-20 px-4 bg-orange-50 pattern-bg",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
                     initial: {
                         opacity: 0,
@@ -1093,14 +1277,14 @@ function Home() {
                     viewport: {
                         once: true
                     },
-                    className: "max-w-5xl mx-auto",
+                    className: "max-w-7xl mx-auto",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "text-4xl font-bold text-[#1a1a1a] text-center mb-12 spiritual-text",
-                            children: "Welcome to Om Sakthi Amma Temple"
+                            className: "text-4xl font-bold text-[#1a1a1a] text-center mb-16 spiritual-text",
+                            children: "Divine Mantras"
                         }, void 0, false, {
                             fileName: "[project]/app/page.tsx",
-                            lineNumber: 32,
+                            lineNumber: 117,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1108,23 +1292,26 @@ function Home() {
                             children: [
                                 {
                                     icon: '🕉️',
-                                    title: 'Sacred Traditions',
-                                    description: 'Preserving ancient spiritual practices and wisdom for modern seekers.'
-                                },
-                                {
-                                    icon: '✨',
-                                    title: 'Divine Grace',
-                                    description: 'Experience the transformative power of spiritual blessings and guidance.'
+                                    title: 'Moola Manthiram',
+                                    description: 'OMSAKTHIYE PARASAKTHIYE! • OMSAKTHIYE ADHIPARASAKTHIYE! • OMSAKTHIYE MARUVOOR ARASIYE! • OMSAKTHIYE OM VINAYAGA! • OMSAKTHIYE OM KAMAKSHIYE! • OMSAKTHIYE OM BANGARU KAMAKSHIYE!',
+                                    color: 'border-red-500'
                                 },
                                 {
                                     icon: '🙏',
-                                    title: 'Community',
-                                    description: 'Join a loving community of devotees dedicated to spiritual growth.'
+                                    title: 'மூலமந்திரம்',
+                                    description: 'ஓம் சக்தியே! பராசக்தியே! • ஓம் சக்தியே! ஆதிபராசக்தியே! • ஓம் சக்தியே! மருவூர் அரசியே! • ஓம் சக்தியே! ஓம் விநாயகா! • ஓம் சக்தியே! ஓம் காமாட்சியே! • ஓம் சக்தியே! ஓம் பங்காரு காமாட்சியே!',
+                                    color: 'border-yellow-500'
+                                },
+                                {
+                                    icon: '✨',
+                                    title: 'Divine Blessings',
+                                    description: 'அன்று குளிர்ந்து நோய் தீர்த்த நாள் முழுவதும் மலர் சொரியும் பூமாறி அருளும்',
+                                    color: 'border-orange-500'
                                 }
                             ].map((item, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
                                     initial: {
                                         opacity: 0,
-                                        y: 20
+                                        y: 30
                                     },
                                     whileInView: {
                                         opacity: 1,
@@ -1136,78 +1323,186 @@ function Home() {
                                     viewport: {
                                         once: true
                                     },
-                                    className: "p-6 bg-white rounded-lg shadow-lg text-center border-t-4 border-[#ffc107]",
+                                    className: `p-8 bg-white rounded-xl shadow-xl text-center border-t-4 ${item.color} hover:shadow-2xl transition-shadow`,
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "text-4xl mb-4",
+                                            className: "text-5xl mb-6",
                                             children: item.icon
                                         }, void 0, false, {
                                             fileName: "[project]/app/page.tsx",
-                                            lineNumber: 62,
+                                            lineNumber: 150,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                            className: "text-2xl font-bold text-[#a7150b] mb-3",
+                                            className: "text-2xl font-bold text-[#a7150b] mb-4",
                                             children: item.title
                                         }, void 0, false, {
                                             fileName: "[project]/app/page.tsx",
-                                            lineNumber: 63,
+                                            lineNumber: 151,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-gray-600",
+                                            className: "text-gray-700 font-medium leading-loose text-sm md:text-base",
                                             children: item.description
                                         }, void 0, false, {
                                             fileName: "[project]/app/page.tsx",
-                                            lineNumber: 64,
+                                            lineNumber: 152,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, item.title, true, {
                                     fileName: "[project]/app/page.tsx",
-                                    lineNumber: 54,
+                                    lineNumber: 142,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/app/page.tsx",
-                            lineNumber: 36,
+                            lineNumber: 121,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/page.tsx",
-                    lineNumber: 25,
+                    lineNumber: 110,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 24,
+                lineNumber: 109,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                className: "py-24 px-4 bg-white",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "max-w-7xl mx-auto",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
+                            initial: {
+                                opacity: 0
+                            },
+                            whileInView: {
+                                opacity: 1
+                            },
+                            className: "text-center mb-12",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    className: "text-4xl font-bold text-[#1a1a1a] spiritual-text mb-4",
+                                    children: "Sacred Moments"
+                                }, void 0, false, {
+                                    fileName: "[project]/app/page.tsx",
+                                    lineNumber: 167,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "text-gray-600 max-w-2xl mx-auto",
+                                    children: "Glimpses of divine grace and spiritual fervor at Melmaruvathur."
+                                }, void 0, false, {
+                                    fileName: "[project]/app/page.tsx",
+                                    lineNumber: 168,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/app/page.tsx",
+                            lineNumber: 162,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "grid md:grid-cols-3 gap-6",
+                            children: [
+                                {
+                                    src: "/om3.jpeg",
+                                    alt: "Divine Pooja"
+                                },
+                                {
+                                    src: "/om4.jpeg",
+                                    alt: "Temple Celebration"
+                                },
+                                {
+                                    src: "/om5.jpeg",
+                                    alt: "Sacred Procession"
+                                }
+                            ].map((img, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
+                                    initial: {
+                                        opacity: 0,
+                                        scale: 0.9
+                                    },
+                                    whileInView: {
+                                        opacity: 1,
+                                        scale: 1
+                                    },
+                                    transition: {
+                                        delay: idx * 0.2,
+                                        duration: 0.5
+                                    },
+                                    viewport: {
+                                        once: true
+                                    },
+                                    className: "relative h-80 rounded-xl overflow-hidden shadow-lg group",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                            src: img.src,
+                                            alt: img.alt,
+                                            fill: true,
+                                            className: "object-cover transition-transform duration-500 group-hover:scale-110"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/page.tsx",
+                                            lineNumber: 185,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/page.tsx",
+                                            lineNumber: 191,
+                                            columnNumber: 17
+                                        }, this)
+                                    ]
+                                }, idx, true, {
+                                    fileName: "[project]/app/page.tsx",
+                                    lineNumber: 177,
+                                    columnNumber: 15
+                                }, this))
+                        }, void 0, false, {
+                            fileName: "[project]/app/page.tsx",
+                            lineNumber: 171,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/app/page.tsx",
+                    lineNumber: 161,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/app/page.tsx",
+                lineNumber: 160,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$EventsSection$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 72,
+                lineNumber: 199,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$PoojaTimingsSection$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 75,
+                lineNumber: 202,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$DonationsSection$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 78,
+                lineNumber: 205,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ContactSection$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 81,
+                lineNumber: 208,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/page.tsx",
-        lineNumber: 16,
+        lineNumber: 101,
         columnNumber: 5
     }, this);
 }

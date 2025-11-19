@@ -11,8 +11,8 @@ export default function Footer() {
           {/* About */}
           <div>
             <h3 className="text-lg font-bold mb-4 flex items-center gap-2">
-              <Heart className="w-5 h-5" />
-              Om Sakthi Amma
+  
+              Melmaruvathur Adhiparasakthi Siddhar Peedam
             </h3>
             <p className="text-sm opacity-90">
               Spiritual wisdom and divine grace for the enlightenment of all beings.
@@ -74,23 +74,31 @@ export default function Footer() {
           </div>
 
           {/* Contact */}
-          <div>
-            <h4 className="text-lg font-bold mb-4">Contact</h4>
-            <ul className="space-y-3 text-sm">
-              <li className="flex items-start gap-2">
-                <MapPin className="w-4 h-4 mt-1 flex-shrink-0" />
-                <span>Temple Location Address Here</span>
-              </li>
-              <li className="flex items-center gap-2">
-                <Phone className="w-4 h-4" />
-                <span>+1 (123) 456-7890</span>
-              </li>
-              <li className="flex items-center gap-2">
-                <Mail className="w-4 h-4" />
-                <span>info@omsakhtiamma.com</span>
-              </li>
-            </ul>
-          </div>
+<div>
+  <h4 className="text-lg font-bold mb-4">Contact</h4>
+  <ul className="space-y-3 text-sm">
+    
+    <li className="flex items-start gap-2">
+      <MapPin className="w-4 h-4 mt-1 flex-shrink-0" />
+      <span>
+        Adhiparasakthi Siddhar Peedam,<br />
+        Melmaruvathur, Chengalpattu District,<br />
+        Tamil Nadu - 603319
+      </span>
+    </li>
+
+    <li className="flex items-center gap-2">
+      <Phone className="w-4 h-4" />
+      <span>044-27529391, 044-27529313</span>
+    </li>
+
+    <li className="flex items-center gap-2">
+      <Mail className="w-4 h-4" />
+      <span>asqwjd@gmail.com</span>
+    </li>
+
+  </ul>
+</div>
 
           {/* Social */}
           <div>

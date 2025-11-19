@@ -48,6 +48,17 @@ __turbopack_context__.n(__TURBOPACK__imported__module__$5b$project$5d2f$componen
 "[project]/app/activities/youth-wings/page.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+// import PageTemplate from '@/components/PageTemplate';
+// export default function YouthWingsPage() {
+//   return (
+//     <PageTemplate
+//       title="Youth Wings"
+//       subtitle="Guiding the Next Generation"
+//       imageSrc="/placeholder.svg?key=q3z7a"
+//       content="Our youth wings provide spiritual education and guidance to young seekers. We empower the next generation with spiritual wisdom and practical tools for a meaningful and purposeful life."
+//     />
+//   );
+// }
 __turbopack_context__.s([
     "default",
     ()=>YouthWingsPage
@@ -60,11 +71,14 @@ function YouthWingsPage() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$PageTemplate$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
         title: "Youth Wings",
         subtitle: "Guiding the Next Generation",
-        imageSrc: "/placeholder.svg?key=q3z7a",
-        content: "Our youth wings provide spiritual education and guidance to young seekers. We empower the next generation with spiritual wisdom and practical tools for a meaningful and purposeful life."
+        noTopPadding: false,
+        noContentTopPadding: true,
+        content: `
+Youth Wings are functioning at various centres with a view to mould the young minds in the right direction to save them from the clutches of drugs and alcohol; and to prepare them spiritually to face the day-to-day problems. They carry out relief works in draught and famine-stricken areas, and earth quake affected areas.
+      `
     }, void 0, false, {
         fileName: "[project]/app/activities/youth-wings/page.tsx",
-        lineNumber: 5,
+        lineNumber: 18,
         columnNumber: 5
     }, this);
 }

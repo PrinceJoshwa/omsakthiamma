@@ -5,7 +5,9 @@ export default function OccasionsPage() {
     <PageTemplate
       title="Sacred Occasions"
       subtitle="Celebrating Divine Moments"
-      imageSrc="/placeholder.svg?key=j5s8t"
+      // imageSrc="/placeholder.svg?key=j5s8t"
+            noTopPadding={true}
+      noContentTopPadding={true}
       content="Throughout the year, we celebrate significant spiritual occasions that honor the divine and bring our community together. Each occasion carries deep spiritual significance and transformative power."
     />
   );

@@ -60,8 +60,10 @@ function IntroductionPage() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$PageTemplate$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
         title: "Introduction to Siddhar Peedam",
         subtitle: "A Center of Spiritual Excellence",
-        imageSrc: "/placeholder.svg?key=d5n1c",
-        content: "Siddhar Peedam is a sanctuary dedicated to the pursuit of spiritual knowledge and divine realization. Our community welcomes all seekers on their spiritual journey with open hearts and accessible teachings."
+        imageSrc: "/om4.jpeg",
+        noTopPadding: true,
+        noContentTopPadding: true,
+        content: "Arulmigu Adhiparasakthi Siddhar Peedam, the Holy Shrine is situated at Melmaruvathur, Tamil Nadu, 92 kms south of Chennai along the NH-45. This place, where the Siddhar Peedam is situated, is being considered as the mostHoly place for the past 2000 years. It is in this place, where21 Siddhars, both men and women, attained Jeeva Samaadhi (leaving the mortal body, but living in astral plane).  These 21 Siddhars belong to various religions."
     }, void 0, false, {
         fileName: "[project]/app/siddhar-peedam/introduction/page.tsx",
         lineNumber: 5,
