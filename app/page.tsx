@@ -135,12 +135,19 @@ import HeroSection from '@/components/HeroSection';
 import AboutSection from '@/components/AboutSection';
 import EventsSection from '@/components/EventsSection';
 import PoojaTimingsSection from '@/components/PoojaTimingsSection';
+import PoojaTimings from '@/components/Pooja';
 import DonationsSection from '@/components/DonationsSection';
 import ContactSection from '@/components/ContactSection';
 
 // Import new components
 import ResourcesSection from '@/components/Resources';
 import GoogleCalendarSection from '@/components/GoogleCalendar';
+import PilgrimServicesSection from '@/components/PilgrimService';
+import PublicationsSection from '@/components/Publication';
+import SpecialOccasionsSection from '@/components/SpecialOccasians';
+import LatestUpdatesSection from '@/components/LatestUpdates';
+import ActivitiesSection from '@/components/Activities';
+import SacredFestivalsSection from '@/components/SacredFestivels';
 
 export default function Home() {
   return (
@@ -204,13 +211,19 @@ export default function Home() {
 
       {/* Gallery Section */}
       <section className="py-24 px-4 bg-white">
+      <div className="w-full bg-[#ffc107] py-6 md:py-8 shadow-sm mb-16">
+        <h1 className="text-4xl md:text-5xl font-bold text-[#1a1a1a] text-center tracking-tight spiritual-text">
+          Sacred Moments
+        </h1>
+      </div>
         <div className="max-w-7xl mx-auto">
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl font-bold text-[#1a1a1a] spiritual-text mb-4">Sacred Moments</h2>
+            {/* <h2 className="text-4xl font-bold text-[#1a1a1a] spiritual-text mb-4"></h2> */}
+
             <p className="text-gray-600 max-w-2xl mx-auto">Glimpses of divine grace and spiritual fervor at Melmaruvathur.</p>
           </motion.div>
           
@@ -240,14 +253,24 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <SacredFestivalsSection />
 
       {/* --- NEW SECTIONS ADDED HERE --- */}
+      <PilgrimServicesSection />
+      <PoojaTimings />
+      <PublicationsSection />
+            <ResourcesSection />
+      <SpecialOccasionsSection />
       
       {/* 1. Resources (Articles/Books) Toggle Section */}
-      <ResourcesSection />
+
 
       {/* 2. Google Calendar Section */}
       <GoogleCalendarSection />
+
+      <LatestUpdatesSection />
+
+      <ActivitiesSection />
       
       {/* ------------------------------- */}
 

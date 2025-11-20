@@ -5,6 +5,11 @@ import { motion } from 'framer-motion';
 export default function GoogleCalendarSection() {
   return (
     <section className="py-20 px-4 bg-white">
+              <div className="w-full bg-[#ffc107] py-6 md:py-8 shadow-sm mb-8">
+        <h1 className="text-4xl md:text-5xl font-bold text-[#1a1a1a] text-center tracking-tight spiritual-text">
+          Temple Calendar
+        </h1>
+      </div>
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -12,9 +17,9 @@ export default function GoogleCalendarSection() {
         viewport={{ once: true }}
         className="max-w-6xl mx-auto"
       >
-        <h2 className="text-4xl font-bold text-[#1a1a1a] text-center mb-12 spiritual-text">
+        {/* <h2 className="text-4xl font-bold text-[#1a1a1a] text-center mb-12 spiritual-text">
           Temple Calendar
-        </h2>
+        </h2> */}
 
         {/* Responsive Calendar Wrapper */}
         <div className="relative w-full h-[600px] bg-gray-50 rounded-xl overflow-hidden shadow-xl border border-gray-200">
