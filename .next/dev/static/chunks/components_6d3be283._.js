@@ -2,6 +2,212 @@
 "[project]/components/Header.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+// 'use client';
+// import { useState } from 'react';
+// import Link from 'next/link';
+// import { motion, AnimatePresence } from 'framer-motion';
+// import { ChevronDown, Heart, Menu, X } from 'lucide-react';
+// interface DropdownItem {
+//   label: string;
+//   href: string;
+// }
+// interface NavItem {
+//   label: string;
+//   href: string;
+//   dropdown?: DropdownItem[];
+// }
+// const navItems: NavItem[] = [
+//   { label: 'Home', href: '/' },
+//   {
+//     label: 'Amma',
+//     href: '/amma',
+//     dropdown: [
+//       // { label: 'About Amma', href: '/amma/about-amma' },
+//       { label: 'Miracles', href: '/amma/miracles' },
+//       { label: 'Divine Wisdom', href: '/amma/divine-wisdom' },
+//       { label: 'Message', href: '/amma/message' },
+//     ],
+//   },
+//   {
+//     label: 'Siddhar Peedam',
+//     href: '/siddhar-peedam',
+//     dropdown: [
+//       { label: 'Introduction', href: '/siddhar-peedam/introduction' },
+//       { label: 'History', href: '/siddhar-peedam/history' },
+//       { label: 'Schema', href: '/siddhar-peedam/schema' },
+//       { label: 'Uniqueness', href: '/siddhar-peedam/uniqueness' },
+//       { label: 'Four Ideals', href: '/siddhar-peedam/four-ideals' },
+//     ],
+//   },
+//   {
+//     label: 'Festivals',
+//     href: '/festivals',
+//     dropdown: [
+//       { label: 'Occasions', href: '/festivals/occasions' },
+//       { label: 'Poojas', href: '/festivals/poojas' },
+//       { label: 'Mantras', href: '/festivals/mantras' },
+//       { label: 'Programmes', href: '/festivals/programmes' },
+//       { label: 'Aadi Pooram', href: '/festivals/aadi-pooram' },
+//     ],
+//   },
+//   {
+//     label: 'Activities',
+//     href: '/activities',
+//     dropdown: [
+//       { label: 'Worshipping Centres', href: '/activities/worshipping-centres' },
+//       { label: 'Sakthi Peedams', href: '/activities/sakthi-peedams' },
+//       { label: 'Youth Wings', href: '/activities/youth-wings' },
+//       { label: 'Spiritual Magazines', href: '/activities/spiritual-magazines' },
+//       { label: 'Spiritual Conferences', href: '/activities/spiritual-conferences' },
+//       { label: 'Spiritual Tours', href: '/activities/spiritual-tours' },
+//       { label: 'Social Activity', href: '/activities/social-activity' },
+//     ],
+//   },
+//   {
+//     label: 'Publications',
+//     href: '/publications',
+//     dropdown: [
+//       { label: 'Articles', href: '/publications/articles' },
+//       { label: 'Books', href: '/publications/books' },
+//       { label: 'Magazine', href: '/publications/magazine' },
+//     ],
+//   },
+//   { label: 'Visit Us', href: '/visit-us' },
+// ];
+// export default function Header() {
+//   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
+//   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+//   const dropdownVariants = {
+//     hidden: { opacity: 0, y: -10 },
+//     visible: { opacity: 1, y: 0, transition: { duration: 0.3 } },
+//     exit: { opacity: 0, y: -10, transition: { duration: 0.2 } },
+//   };
+//   return (
+//     <header className="sticky top-0 z-50 bg-[#ffc107] shadow-lg">
+//       <div className="max-w-7xl mx-auto px-4 py-4">
+//         <div className="flex items-center justify-between">
+//           {/* Logo */}
+// <Link
+//   href="/"
+//   className="flex items-center gap-3 font-bold text-2xl text-[#1a1a1a] hover:opacity-80 transition"
+// >
+//   <img
+//     src="/logo.png"
+//     alt="Om Sakthi Amma Logo"
+//     className="w-16 h-16 object-contain"
+//   />
+//   <span className="whitespace-nowrap">
+//    Adhiparasakthi
+//    <br />
+//     Siddhar Peedam
+//   </span>
+// </Link>
+//           {/* Desktop Navigation */}
+//           <nav className="hidden lg:flex items-center gap-1">
+//             {navItems.map((item) => (
+//               <div
+//                 key={item.label}
+//                 className="relative group"
+//                 onMouseEnter={() => setOpenDropdown(item.label)}
+//                 onMouseLeave={() => setOpenDropdown(null)}
+//               >
+//                 <Link
+//                   href={item.href}
+//                   className="px-3 py-2 rounded-md text-sm font-medium text-[#1a1a1a] hover:bg-yellow-500 transition flex items-center gap-1"
+//                 >
+//                   {item.label}
+//                   {item.dropdown && <ChevronDown className="w-4 h-4" />}
+//                 </Link>
+//                 {/* Dropdown Menu */}
+//                 <AnimatePresence>
+//                   {item.dropdown && openDropdown === item.label && (
+//                     <motion.div
+//                       variants={dropdownVariants}
+//                       initial="hidden"
+//                       animate="visible"
+//                       exit="exit"
+//                       className="absolute left-0 mt-0 w-48 bg-white rounded-lg shadow-xl overflow-hidden"
+//                     >
+//                       {item.dropdown.map((subitem) => (
+//                         <Link
+//                           key={subitem.href}
+//                           href={subitem.href}
+//                           className="block px-4 py-3 text-sm text-[#1a1a1a] hover:bg-[#ffc107] transition"
+//                         >
+//                           {subitem.label}
+//                         </Link>
+//                       ))}
+//                     </motion.div>
+//                   )}
+//                 </AnimatePresence>
+//               </div>
+//             ))}
+//           </nav>
+//           {/* Right side: Poojas Button + Mobile Menu */}
+//           <div className="flex items-center gap-4">
+//             <Link
+//               href="/poojas-donations"
+//               className="hidden sm:inline-block px-6 py-2 bg-[#a7150b] text-white rounded-lg font-medium hover:bg-[#8a0d08] transition shadow-lg"
+//             >
+//               Poojas & Donations
+//             </Link>
+//             {/* Mobile Menu Button */}
+//             <button
+//               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+//               className="lg:hidden p-2 hover:bg-yellow-500 rounded-lg transition"
+//             >
+//               {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+//             </button>
+//           </div>
+//         </div>
+//         {/* Mobile Navigation */}
+//         <AnimatePresence>
+//           {mobileMenuOpen && (
+//             <motion.nav
+//               initial={{ opacity: 0, height: 0 }}
+//               animate={{ opacity: 1, height: 'auto' }}
+//               exit={{ opacity: 0, height: 0 }}
+//               className="lg:hidden mt-4 pb-4 space-y-2"
+//             >
+//               {navItems.map((item) => (
+//                 <div key={item.label} className="space-y-2">
+//                   <Link
+//                     href={item.href}
+//                     className="block px-4 py-2 text-[#1a1a1a] hover:bg-yellow-500 rounded-lg transition"
+//                     onClick={() => setMobileMenuOpen(false)}
+//                   >
+//                     {item.label}
+//                   </Link>
+//                   {item.dropdown && (
+//                     <div className="pl-4 space-y-1">
+//                       {item.dropdown.map((subitem) => (
+//                         <Link
+//                           key={subitem.href}
+//                           href={subitem.href}
+//                           className="block px-4 py-2 text-sm text-[#1a1a1a] hover:bg-yellow-500 rounded-lg transition"
+//                           onClick={() => setMobileMenuOpen(false)}
+//                         >
+//                           {subitem.label}
+//                         </Link>
+//                       ))}
+//                     </div>
+//                   )}
+//                 </div>
+//               ))}
+//               <Link
+//                 href="/poojas-donations"
+//                 className="block w-full mt-4 px-4 py-2 bg-[#a7150b] text-white rounded-lg font-medium hover:bg-[#8a0d08] transition text-center"
+//                 onClick={() => setMobileMenuOpen(false)}
+//               >
+//                 Poojas & Donations
+//               </Link>
+//             </motion.nav>
+//           )}
+//         </AnimatePresence>
+//       </div>
+//     </header>
+//   );
+// }
 __turbopack_context__.s([
     "default",
     ()=>Header
@@ -14,6 +220,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$mo
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$down$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronDown$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/chevron-down.js [app-client] (ecmascript) <export default as ChevronDown>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/menu.js [app-client] (ecmascript) <export default as Menu>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/x.js [app-client] (ecmascript) <export default as X>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$heart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Heart$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/heart.js [app-client] (ecmascript) <export default as Heart>");
 ;
 var _s = __turbopack_context__.k.signature();
 'use client';
@@ -30,7 +237,6 @@ const navItems = [
         label: 'Amma',
         href: '/amma',
         dropdown: [
-            // { label: 'About Amma', href: '/amma/about-amma' },
             {
                 label: 'Miracles',
                 href: '/amma/miracles'
@@ -158,262 +364,308 @@ function Header() {
     _s();
     const [openDropdown, setOpenDropdown] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
     const [mobileMenuOpen, setMobileMenuOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
-    const dropdownVariants = {
-        hidden: {
-            opacity: 0,
-            y: -10
-        },
-        visible: {
-            opacity: 1,
-            y: 0,
-            transition: {
-                duration: 0.3
-            }
-        },
-        exit: {
-            opacity: 0,
-            y: -10,
-            transition: {
-                duration: 0.2
-            }
+    const [scrolled, setScrolled] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "Header.useEffect": ()=>{
+            const handleScroll = {
+                "Header.useEffect.handleScroll": ()=>setScrolled(window.scrollY > 20)
+            }["Header.useEffect.handleScroll"];
+            window.addEventListener('scroll', handleScroll);
+            return ({
+                "Header.useEffect": ()=>window.removeEventListener('scroll', handleScroll)
+            })["Header.useEffect"];
         }
-    };
+    }["Header.useEffect"], []);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
-        className: "sticky top-0 z-50 bg-[#ffc107] shadow-lg",
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "max-w-7xl mx-auto px-4 py-4",
-            children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: `sticky top-0 z-50 w-full transition-all duration-500 ${scrolled ? 'bg-[#ffc107]/95 backdrop-blur-md shadow-xl py-2' : 'bg-gradient-to-r from-[#ffc107] to-[#ffb300] py-3 shadow-md'}`,
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "max-w-7xl mx-auto px-4 md:px-6",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "flex items-center justify-between",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                             href: "/",
-                            className: "flex items-center gap-3 font-bold text-2xl text-[#1a1a1a] hover:opacity-80 transition",
+                            className: "flex items-center gap-3 group",
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                    src: "/logo.png",
-                                    alt: "Om Sakthi Amma Logo",
-                                    className: "w-16 h-16 object-contain"
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "relative w-12 h-12 md:w-14 md:h-14 bg-white rounded-full p-1 shadow-inner group-hover:scale-105 transition-transform duration-300",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                        src: "/logo.png",
+                                        alt: "Logo",
+                                        className: "w-full h-full object-contain"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/Header.tsx",
+                                        lineNumber: 324,
+                                        columnNumber: 15
+                                    }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/Header.tsx",
-                                    lineNumber: 97,
-                                    columnNumber: 3
+                                    lineNumber: 323,
+                                    columnNumber: 13
                                 }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "whitespace-nowrap",
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "flex flex-col leading-none",
                                     children: [
-                                        "Adhiparasakthi",
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "font-black text-lg md:text-xl text-[#1a1a1a] tracking-tight group-hover:text-[#8a0d08] transition-colors",
+                                            children: "Adhiparasakthi"
+                                        }, void 0, false, {
                                             fileName: "[project]/components/Header.tsx",
-                                            lineNumber: 105,
-                                            columnNumber: 4
+                                            lineNumber: 331,
+                                            columnNumber: 15
                                         }, this),
-                                        "Siddhar Peedam"
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "text-xs md:text-sm font-bold text-[#1a1a1a]/80 uppercase tracking-wider",
+                                            children: "Siddhar Peedam"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/Header.tsx",
+                                            lineNumber: 334,
+                                            columnNumber: 15
+                                        }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Header.tsx",
-                                    lineNumber: 103,
-                                    columnNumber: 3
+                                    lineNumber: 330,
+                                    columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Header.tsx",
-                            lineNumber: 93,
-                            columnNumber: 1
+                            lineNumber: 322,
+                            columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
-                            className: "hidden lg:flex items-center gap-1",
+                            className: "hidden lg:flex items-center gap-1 bg-black/5 p-1 rounded-full backdrop-blur-sm",
                             children: navItems.map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "relative group",
+                                    className: "relative",
                                     onMouseEnter: ()=>setOpenDropdown(item.label),
                                     onMouseLeave: ()=>setOpenDropdown(null),
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                             href: item.href,
-                                            className: "px-3 py-2 rounded-md text-sm font-medium text-[#1a1a1a] hover:bg-yellow-500 transition flex items-center gap-1",
+                                            className: `px-4 py-2 rounded-full text-sm font-bold transition-all duration-300 flex items-center gap-1 ${openDropdown === item.label ? 'bg-white text-[#a7150b] shadow-md' : 'text-[#1a1a1a] hover:bg-white/50'}`,
                                             children: [
                                                 item.label,
                                                 item.dropdown && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$down$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronDown$3e$__["ChevronDown"], {
-                                                    className: "w-4 h-4"
+                                                    className: `w-3 h-3 transition-transform ${openDropdown === item.label ? 'rotate-180' : ''}`
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Header.tsx",
-                                                    lineNumber: 126,
-                                                    columnNumber: 37
+                                                    lineNumber: 359,
+                                                    columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/Header.tsx",
-                                            lineNumber: 121,
+                                            lineNumber: 349,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AnimatePresence"], {
                                             children: item.dropdown && openDropdown === item.label && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
-                                                variants: dropdownVariants,
-                                                initial: "hidden",
-                                                animate: "visible",
-                                                exit: "exit",
-                                                className: "absolute left-0 mt-0 w-48 bg-white rounded-lg shadow-xl overflow-hidden",
+                                                initial: {
+                                                    opacity: 0,
+                                                    y: 10,
+                                                    scale: 0.95
+                                                },
+                                                animate: {
+                                                    opacity: 1,
+                                                    y: 0,
+                                                    scale: 1
+                                                },
+                                                exit: {
+                                                    opacity: 0,
+                                                    y: 10,
+                                                    scale: 0.95
+                                                },
+                                                transition: {
+                                                    duration: 0.2
+                                                },
+                                                className: "absolute top-full left-0 mt-2 w-60 bg-white rounded-xl shadow-2xl border border-yellow-100 overflow-hidden origin-top-left p-2",
                                                 children: item.dropdown.map((subitem)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                         href: subitem.href,
-                                                        className: "block px-4 py-3 text-sm text-[#1a1a1a] hover:bg-[#ffc107] transition",
+                                                        className: "block px-4 py-2.5 text-sm font-medium text-gray-700 hover:bg-red-50 hover:text-[#a7150b] rounded-lg transition-colors",
                                                         children: subitem.label
                                                     }, subitem.href, false, {
                                                         fileName: "[project]/components/Header.tsx",
-                                                        lineNumber: 140,
+                                                        lineNumber: 374,
                                                         columnNumber: 25
                                                     }, this))
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Header.tsx",
-                                                lineNumber: 132,
+                                                lineNumber: 366,
                                                 columnNumber: 21
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Header.tsx",
-                                            lineNumber: 130,
+                                            lineNumber: 364,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, item.label, true, {
                                     fileName: "[project]/components/Header.tsx",
-                                    lineNumber: 115,
+                                    lineNumber: 343,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/components/Header.tsx",
-                            lineNumber: 113,
+                            lineNumber: 341,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex items-center gap-4",
+                            className: "flex items-center gap-3",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                     href: "/poojas-donations",
-                                    className: "hidden sm:inline-block px-6 py-2 bg-[#a7150b] text-white rounded-lg font-medium hover:bg-[#8a0d08] transition shadow-lg",
-                                    children: "Poojas & Donations"
-                                }, void 0, false, {
+                                    className: "hidden sm:flex items-center gap-2 px-6 py-2.5 bg-[#a7150b] text-white rounded-full text-sm font-bold shadow-lg hover:bg-[#8a0d08] hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$heart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Heart$3e$__["Heart"], {
+                                            className: "w-4 h-4 fill-current"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/Header.tsx",
+                                            lineNumber: 395,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            children: "Donate"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/Header.tsx",
+                                            lineNumber: 396,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
                                     fileName: "[project]/components/Header.tsx",
-                                    lineNumber: 157,
+                                    lineNumber: 391,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                     onClick: ()=>setMobileMenuOpen(!mobileMenuOpen),
-                                    className: "lg:hidden p-2 hover:bg-yellow-500 rounded-lg transition",
+                                    className: "lg:hidden p-2 bg-white/20 hover:bg-white/40 text-[#1a1a1a] rounded-full transition-colors backdrop-blur-sm",
                                     children: mobileMenuOpen ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__["X"], {
                                         className: "w-6 h-6"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Header.tsx",
-                                        lineNumber: 169,
+                                        lineNumber: 403,
                                         columnNumber: 33
                                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"], {
                                         className: "w-6 h-6"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Header.tsx",
-                                        lineNumber: 169,
+                                        lineNumber: 403,
                                         columnNumber: 61
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/Header.tsx",
-                                    lineNumber: 165,
+                                    lineNumber: 399,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Header.tsx",
-                            lineNumber: 156,
+                            lineNumber: 390,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/Header.tsx",
-                    lineNumber: 91,
+                    lineNumber: 319,
                     columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AnimatePresence"], {
-                    children: mobileMenuOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].nav, {
-                        initial: {
-                            opacity: 0,
-                            height: 0
-                        },
-                        animate: {
-                            opacity: 1,
-                            height: 'auto'
-                        },
-                        exit: {
-                            opacity: 0,
-                            height: 0
-                        },
-                        className: "lg:hidden mt-4 pb-4 space-y-2",
-                        children: [
-                            navItems.map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/components/Header.tsx",
+                lineNumber: 318,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AnimatePresence"], {
+                children: mobileMenuOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                    initial: {
+                        opacity: 0,
+                        height: 0
+                    },
+                    animate: {
+                        opacity: 1,
+                        height: 'auto'
+                    },
+                    exit: {
+                        opacity: 0,
+                        height: 0
+                    },
+                    className: "lg:hidden bg-white border-t border-yellow-200 overflow-hidden shadow-inner",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
+                        className: "flex flex-col p-4 space-y-1",
+                        children: navItems.map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "border-b border-gray-100 last:border-0 pb-2",
+                                children: item.dropdown ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "space-y-2",
                                     children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                            href: item.href,
-                                            className: "block px-4 py-2 text-[#1a1a1a] hover:bg-yellow-500 rounded-lg transition",
-                                            onClick: ()=>setMobileMenuOpen(false),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "px-4 py-2 font-bold text-[#a7150b]",
                                             children: item.label
                                         }, void 0, false, {
                                             fileName: "[project]/components/Header.tsx",
-                                            lineNumber: 185,
-                                            columnNumber: 19
+                                            lineNumber: 423,
+                                            columnNumber: 23
                                         }, this),
-                                        item.dropdown && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "pl-4 space-y-1",
-                                            children: item.dropdown.map((subitem)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                    href: subitem.href,
-                                                    className: "block px-4 py-2 text-sm text-[#1a1a1a] hover:bg-yellow-500 rounded-lg transition",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "pl-4 bg-gray-50 rounded-lg py-2 space-y-1",
+                                            children: item.dropdown.map((sub)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                    href: sub.href,
+                                                    className: "block px-4 py-2 text-sm text-gray-600 hover:text-[#a7150b] font-medium",
                                                     onClick: ()=>setMobileMenuOpen(false),
-                                                    children: subitem.label
-                                                }, subitem.href, false, {
+                                                    children: sub.label
+                                                }, sub.href, false, {
                                                     fileName: "[project]/components/Header.tsx",
-                                                    lineNumber: 195,
-                                                    columnNumber: 25
+                                                    lineNumber: 426,
+                                                    columnNumber: 27
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/components/Header.tsx",
-                                            lineNumber: 193,
-                                            columnNumber: 21
+                                            lineNumber: 424,
+                                            columnNumber: 23
                                         }, this)
                                     ]
-                                }, item.label, true, {
+                                }, void 0, true, {
                                     fileName: "[project]/components/Header.tsx",
-                                    lineNumber: 184,
-                                    columnNumber: 17
-                                }, this)),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                href: "/poojas-donations",
-                                className: "block w-full mt-4 px-4 py-2 bg-[#a7150b] text-white rounded-lg font-medium hover:bg-[#8a0d08] transition text-center",
-                                onClick: ()=>setMobileMenuOpen(false),
-                                children: "Poojas & Donations"
-                            }, void 0, false, {
+                                    lineNumber: 422,
+                                    columnNumber: 21
+                                }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                    href: item.href,
+                                    className: "block px-4 py-3 font-bold text-gray-800 hover:text-[#a7150b] hover:bg-red-50 rounded-lg",
+                                    onClick: ()=>setMobileMenuOpen(false),
+                                    children: item.label
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Header.tsx",
+                                    lineNumber: 438,
+                                    columnNumber: 21
+                                }, this)
+                            }, item.label, false, {
                                 fileName: "[project]/components/Header.tsx",
-                                lineNumber: 208,
-                                columnNumber: 15
-                            }, this)
-                        ]
-                    }, void 0, true, {
+                                lineNumber: 420,
+                                columnNumber: 17
+                            }, this))
+                    }, void 0, false, {
                         fileName: "[project]/components/Header.tsx",
-                        lineNumber: 177,
+                        lineNumber: 418,
                         columnNumber: 13
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/Header.tsx",
-                    lineNumber: 175,
-                    columnNumber: 9
+                    lineNumber: 412,
+                    columnNumber: 11
                 }, this)
-            ]
-        }, void 0, true, {
-            fileName: "[project]/components/Header.tsx",
-            lineNumber: 90,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
+            }, void 0, false, {
+                fileName: "[project]/components/Header.tsx",
+                lineNumber: 410,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
         fileName: "[project]/components/Header.tsx",
-        lineNumber: 89,
+        lineNumber: 311,
         columnNumber: 5
     }, this);
 }
-_s(Header, "qywPXeJqM++1+4bUnzlK0xSS+UQ=");
+_s(Header, "zNRCostkFPtPLOnWcQ44cmvtWcA=");
 _c = Header;
 var _c;
 __turbopack_context__.k.register(_c, "Header");

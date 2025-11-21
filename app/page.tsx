@@ -148,6 +148,7 @@ import SpecialOccasionsSection from '@/components/SpecialOccasians';
 import LatestUpdatesSection from '@/components/LatestUpdates';
 import ActivitiesSection from '@/components/Activities';
 import SacredFestivalsSection from '@/components/SacredFestivels';
+import FeaturedVideoSection from '@/components/FeaturedVideo';
 
 export default function Home() {
   return (
@@ -157,6 +158,8 @@ export default function Home() {
 
       {/* About Section */}
       <AboutSection />
+
+      <FeaturedVideoSection />
 
       {/* Temple Info / Mantra Section */}
       <section className="py-20 px-4 bg-orange-50 pattern-bg">

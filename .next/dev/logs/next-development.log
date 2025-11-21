@@ -1457,3 +1457,143 @@ Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
 [09:16:07.962] Server  LOG      ✓ Compiled in 300ms
 [09:16:12.757] Server  LOG      ✓ Compiled in 135ms
 [09:16:26.260] Server  LOG      ✓ Compiled in 152ms
+[25:30:03.155] Server  LOG      ✓ Compiled in 1066ms
+[25:31:22.614] Server  LOG      ✓ Compiled in 572ms
+[25:31:23.185] Browser ERROR   ./app/page.tsx:163:7
+Parsing ecmascript source code failed
+  161 |       <
+  162 |
+> 163 |       {/* Temple Info / Mantra Section */}
+      |       ^
+  164 |       <section className="py-20 px-4 bg-orange-50 pattern-bg">
+  165 |         <motion.div
+  166 |           initial={{ opacity: 0, y: 20 }}
+
+Expected '</', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[25:31:24.126] Server  LOG      ✓ Compiled in 288ms
+[25:31:25.184] Browser ERROR   ./app/page.tsx:163:42
+Parsing ecmascript source code failed
+  161 |       <Fe
+  162 |
+> 163 |       {/* Temple Info / Mantra Section */}
+      |                                          ^
+  164 |       <section className="py-20 px-4 bg-orange-50 pattern-bg">
+  165 |         <motion.div
+  166 |           initial={{ opacity: 0, y: 20 }}
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[25:31:28.191] Browser ERROR   ./app/page.tsx:164:42
+Parsing ecmascript source code failed
+  162 |       <FeaturedVideoSection
+  163 |
+> 164 |       {/* Temple Info / Mantra Section */}
+      |                                          ^
+  165 |       <section className="py-20 px-4 bg-orange-50 pattern-bg">
+  166 |         <motion.div
+  167 |           initial={{ opacity: 0, y: 20 }}
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[25:31:29.823] Server  LOG      ✓ Compiled in 634ms
+[25:31:30.950] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[25:48:23.749] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[25:48:25.845] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[25:48:32.036] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[25:48:32.702] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[25:48:42.673] Server  LOG      ✓ Compiled in 199ms
+[25:48:46.000] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[25:48:47.138] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[25:48:51.721] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[25:48:52.463] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[25:50:10.534] Server  LOG      ✓ Compiled in 540ms
+[25:50:16.381] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[25:50:18.008] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[25:54:04.475] Server  LOG      ✓ Compiled in 723ms
+[25:54:09.947] Server  LOG      ✓ Compiled in 165ms
+[25:54:15.930] Server  LOG      ✓ Compiled in 275ms
+[26:04:19.817] Server  LOG      ✓ Compiled in 1010ms
+[26:04:22.033] Server  LOG      ✓ Compiled in 1061ms
+[26:04:24.836] Server  LOG      ✓ Compiled in 632ms
+[26:04:26.687] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[26:04:26.698] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `Home`.
+[26:04:31.450] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[26:04:34.604] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[26:17:13.549] Server  LOG      ✓ Compiled in 1549ms
+[26:17:17.366] Server  LOG      ✓ Compiled in 3.4s
+[26:17:17.556] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[26:17:17.584] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `Home`.
+[26:17:22.188] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[26:17:24.864] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[27:59:38.444] Server  LOG      ✓ Compiled in 5s
+[27:59:42.068] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[27:59:43.767] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[28:00:18.794] Server  LOG      ○ Compiling /amma ...
+[28:00:19.327] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /amma. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[28:00:19.507] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[28:02:00.300] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /amma. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[28:02:00.525] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /amma. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[28:02:00.615] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /amma. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[28:02:01.736] Server  LOG      ✓ Compiled in 3.4s
+[28:02:02.782] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[28:02:07.197] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /amma. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[28:02:07.340] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[28:02:23.483] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[28:02:24.800] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /amma. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[28:02:32.424] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /amma/miracles. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[28:02:32.546] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /amma/miracles. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[28:02:37.804] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /siddhar-peedam. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[28:02:47.404] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /siddhar-peedam/history. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[28:02:48.594] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /siddhar-peedam/introduction. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[28:08:35.255] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
