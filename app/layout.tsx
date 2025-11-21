@@ -32,7 +32,7 @@ export default function RootLayout({
         <main className="flex-1">{children}</main>
         <Footer />
         {/* Added scroll to top button */}
-        <ScrollToTop />
+        {/* <ScrollToTop /> */}
       </body>
     </html>
   );

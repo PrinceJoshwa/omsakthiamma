@@ -79,10 +79,10 @@ export default function AboutSection() {
           className="relative h-[500px] w-full rounded-2xl overflow-hidden shadow-2xl border-4 border-white"
         >
           <Image
-            src="/om2.jpeg"
+            src="/bangaru.jpg"
             alt="Arul Thiru Bangaru Adigalar"
             fill
-            className="object-contain hover:scale-105 transition-transform duration-700"
+            className="object-fill hover:scale-105 transition-transform duration-700"
           />
         </motion.div>
 

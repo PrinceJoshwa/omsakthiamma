@@ -1,7 +1,9 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
+  "/all-events/page": "app/all-events/page.js",
   "/amma/miracles/page": "app/amma/miracles/page.js",
   "/amma/page": "app/amma/page.js",
+  "/festivals/mantras/page": "app/festivals/mantras/page.js",
   "/page": "app/page.js",
   "/publications/articles/page": "app/publications/articles/page.js",
   "/siddhar-peedam/history/page": "app/siddhar-peedam/history/page.js",
