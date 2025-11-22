@@ -2262,3 +2262,40 @@ Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
 [35:02:45.164] Server  LOG      ✓ Compiled in 270ms
 [35:04:35.855] Server  LOG      ✓ Compiled in 172ms
 [35:04:39.888] Server  LOG      ✓ Compiled in 113ms
+[35:16:16.318] Server  LOG      ✓ Compiled in 2.2s
+[35:16:24.758] Server  LOG      ✓ Compiled in 1051ms
+[35:17:15.392] Server  LOG      ✓ Compiled in 430ms
+[35:17:16.404] Server  LOG      ✓ Compiled in 203ms
+[52:50:05.722] Server  LOG      ✓ Compiled in 1280ms
+[52:50:15.710] Server  LOG      ✓ Compiled in 337ms
+[52:54:58.535] Server  LOG      ✓ Compiled in 90ms
+[52:55:07.036] Server  LOG      ✓ Compiled in 75ms
+[52:56:15.279] Server  LOG      ✓ Compiled in 131ms
+[52:56:50.377] Server  LOG      ✓ Compiled in 111ms
+[52:57:33.683] Server  LOG      ✓ Compiled in 67ms
+[53:08:38.932] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[53:08:41.603] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[53:08:41.871] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[53:08:53.131] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[53:08:55.286] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[53:08:58.940] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[53:10:48.745] Server  LOG      ✓ Compiled in 529ms
+[53:10:49.197] Browser ERROR   uncaughtError: ReferenceError: articles is not defined
+[53:11:03.607] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[53:11:03.626] Server  LOG      ✓ Compiled in 88ms
+[53:11:03.909] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[53:11:05.074] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[53:11:05.362] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[53:12:16.510] Server  LOG      ✓ Compiled in 129ms
+[53:12:23.285] Server  LOG      ✓ Compiled in 169ms
+[53:12:25.207] Browser WARN    Image with src "/om4.jpeg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[53:18:11.047] Server  LOG      ✓ Compiled in 1446ms
+[53:18:14.248] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport

@@ -4,7 +4,8 @@ import { motion } from 'framer-motion';
 
 export default function FeaturedVideoSection() {
   return (
-    <section className="py-20 px-4 bg-gray-50">
+    // <section className="py-20 px-4 bg-gray-50">
+    <section className="py-12 md:py-20 px-4 bg-gray-50">
       <div className="max-w-5xl mx-auto">
         
         {/* Section Header */}

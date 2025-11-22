@@ -40,7 +40,7 @@
 "use client";
 
 import PageTemplate from "@/components/PageTemplate";
-import Calendar from "@/components/Calender";
+import GoogleCalendarSection from "@/components/GoogleCalendar";
 import React from "react";
 
 export default function ProgrammesPage() {
@@ -56,7 +56,7 @@ export default function ProgrammesPage() {
 
       {/* CALENDAR BELOW HEADER */}
       <div className="max-w-6xl mx-auto px-4 pb-20 -mt-10">
-        <Calendar />
+        <GoogleCalendarSection />
       </div>
     </>
   );

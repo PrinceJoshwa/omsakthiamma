@@ -32,7 +32,8 @@ export default function PublicationsSection() {
       </div>
 
       {/* 2. Main Content Area */}
-      <div className="py-16 px-4 bg-gray-50/50">
+      {/* <div className="py-16 px-4 bg-gray-50/50"> */}
+      <div className="py-12 md:py-16 px-4 bg-gray-50/50">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
