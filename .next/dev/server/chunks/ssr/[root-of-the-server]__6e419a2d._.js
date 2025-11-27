@@ -48,65 +48,181 @@ __turbopack_context__.n(__TURBOPACK__imported__module__$5b$project$5d2f$componen
 "[project]/app/siddhar-peedam/schema/page.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+// // import PageTemplate from '@/components/PageTemplate';
+// // export default function SchemaPage() {
+// //   return (
+// //     <PageTemplate
+// //       title="Organizational Schema"
+// //       subtitle="Structure of Spiritual Governance"
+// //       imageSrc="/placeholder.svg?key=f4n9g"
+// //       content="Our organizational structure ensures effective delivery of spiritual programs and community services. We maintain transparent governance guided by spiritual principles and the welfare of all members."
+// //     />
+// //   );
+// // }
 // import PageTemplate from '@/components/PageTemplate';
 // export default function SchemaPage() {
 //   return (
 //     <PageTemplate
 //       title="Organizational Schema"
 //       subtitle="Structure of Spiritual Governance"
-//       imageSrc="/placeholder.svg?key=f4n9g"
-//       content="Our organizational structure ensures effective delivery of spiritual programs and community services. We maintain transparent governance guided by spiritual principles and the welfare of all members."
+//             noTopPadding={true}
+//       noContentTopPadding={true}
+//       // imageSrc="/placeholder.svg?key=f4n9g"
+//       content={`
+//         <p>
+//           Adhiparasakthi has declared in Her Oracle that she is not restricted by the Agama Rules (common rules governing the construction and consecration of the different structures in a Hindu temple).  It is said that the structures in the Siddhar Peedam have been established according to the Divine orders of Adhiparasakthi. The structures like Kodimaram (Flag Post), Balipeedam (place of sacrifice) and Vahanangal (the palanquins and such other similar structures to carry the presiding deities in a Hindu temple) are not present here.
+//         </p>
+//         <h3 class="text-2xl font-bold text-[#a7150b]">The Om Sakthi Podium</h3>
+//         <p>
+//           The Om Sakthi Podium, with the Trident in its centre, stands vibrantly at the entrance and in front of the Siddhar Peedam. Since The Adhiparasakthi is the Mother of all Gods and Goddesses, there are no separate structures for the Navagrahas (the 9 planets generally termed as Planetary Lords, which can be usually seen in the Hindu Temples) in the Siddhar Peedam. The Mother has strongly ascertained, “Those who surrender to Me need not pray to the Planetary Lords. They are just My officers who carry out the work of implementing My Law of Karma. If you go round the Om Sakthi Podium, all the evil effects will be reduced in intensity or fully nullified.”
+//         </p>
+//         <h3 class="text-2xl font-bold text-[#a7150b]">The Sanctum Sanctorum</h3>
+//         <p>
+//           In the Sanctum Sanctorum, The Divine mother, Adhiparasakthi showers Her Choicest Blessings from the Lotus Peedam. She showers Her Blessings in the ‘sitting’ posture folding Her right leg and letting Her left leg down.  Keeping the left leg down signifies that The Divine Mother Adhiparasakthi has the highest place in everything.  She holds the Lotus Bud in Her right hand signifying Gnana (wisdom) and depicts the Chin Mudra (index finger touching the thumb and the other fingers stretched out) in the left hand. The Swayambu is situated right in front of the Adhiparasakthi statue.  Anointments (Abishekam) and Archanas (pooja) are performed to the Adhiparasakthi statue and Swayambu, everyday.
+//         </p>
+//         <h3 class="text-2xl font-bold text-[#a7150b]">The Puttru Mandapam</h3>
+//         <p>
+//           The Puttru Mandapam structure (Snake Mound) is to the right of the Sanctum Sanctorum.  Here Adhiparasakthi resides in the form of Cobra. It is in this Divine Place that Adhiparasakthi delivers Her Oracle.
+//         </p>
+//         <h3 class="text-2xl font-bold text-[#a7150b]">Saptha Kanniyar Kovil (Temple of Matrikas)</h3>
+//         <p>
+//           To the right of Puttru Mandapam is the SapthaKanniyar Temple (Saptha means seven;Kanni means virgin;Kanniyar, the plural form means virgins). They are the accompanying Angels of Adhiparasakthi.  The details about them are as follows: (1) Lord Brahma’s Power-Brahmi (2) Lord Vishnu’s Power-Vaishnavi (3) LordMaheswaran’s Power-Maheswari (4) Lord Kuma-ran’s Power-Kowmari (5) Lord Indra’s Power- Indhrani (6) Lord Varaha’s Power-Vaaragiand (7) Lord Rudra’s Power-Chamundi. The temple of the virgins will normally be open atop, without any roof.  So also are The Virgins of this temple, with walls on four sides, but roofless.
+//         </p>
+//         <h3 class="text-2xl font-bold text-[#a7150b]">The Naga Peedam</h3>
+//         <p>
+//          Naga Peedam is situated behind the Putrumandapam.  Upon worshipping the deity in the Naga Peedam by lighting lemon lamp, the devotees can gain the benefits of worshipping three Godesses Kanchi Kamakshi, Kasi Visalakshi and Madurai Meenakshi thereby nullifying family related problems and fostering unity within the family members.
+//         </p>
+//         <h3 class="text-2xl font-bold text-[#a7150b]">Arutkoodam (His Holy Abode)</h3>
+//         <p>
+//          The divine Arutkoodam is situated in the North-Western corner of the Siddhar Peedam. At Arutkoodam, the devotees perform Paadha Pooja to His Holiness for getting His Divine Blessings and Guidance to get rid of their personal problems.
+//         </p>
+//       `}
 //     />
 //   );
 // }
 __turbopack_context__.s([
     "default",
-    ()=>SchemaPage
+    ()=>DivineWisdomPage
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$PageTemplate$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/PageTemplate.tsx [app-rsc] (ecmascript)");
 ;
 ;
-function SchemaPage() {
+function DivineWisdomPage() {
+    const content = `
+
+    <h2 class="text-3xl font-bold text-[#a7150b] mb-6">
+      Amma's Divine Wisdom
+    </h2>
+
+    <p class="text-[18px] leading-relaxed mb-6">
+      His Holiness Bangaru Adigalar shares His divine insights on spirituality and the need
+      for it in today’s troubled times.
+    </p>
+
+
+    <!-- SECTION 1 -->
+    <h3 class="text-2xl font-bold text-[#a7150b] mb-3">
+      Today, pain and suffering have increased manifold. Corruption and violence are common.  
+      How can we bring back simplicity into our lives?
+    </h3>
+    <p class="text-[18px] leading-relaxed mb-5">
+      Your question contains the answer too! When you point out that today’s life encourages violence and corruption and so increases pain and sorrows, it becomes clear that the current lifestyle does not support peace or contentment.
+      The belief that an extravagant life brings comfort increases desires and takes us away from true happiness.
+    </p>
+    <p class="text-[18px] leading-relaxed mb-5">
+      Only when we show love, compassion, affection, respect, and kindness to others, work hard,
+      respect others’ contributions, and do not give undue importance to external appearances and luxuries,
+      simple living automatically follows. When simplicity enters life, pain and sorrow reduce.
+    </p>
+
+
+    <!-- SECTION 2 -->
+    <h3 class="text-2xl font-bold text-[#a7150b] mb-3 mt-8">
+      What is spirituality? What does one need to follow the spiritual path?
+    </h3>
+    <p class="text-[18px] leading-relaxed mb-5">
+      Spirituality is knowing oneself, understanding oneself, and realizing one's true nature.
+      Only the spiritual path provides real peace and contentment.
+      The first step is understanding the mind — the mind is our greatest enemy unless we learn to control it.
+    </p>
+    <p class="text-[18px] leading-relaxed mb-5">
+      To walk the spiritual path, one must practice devotion, service, and meditation on higher principles.
+      Fasting, emotional regulation, and sense control are also important. As emotional control increases,
+      the five senses come under better control. Then spirituality flows naturally.
+    </p>
+
+
+    <!-- SECTION 3 -->
+    <h3 class="text-2xl font-bold text-[#a7150b] mb-3 mt-8">
+      Our lives have become very complicated. Spiritual practices demand time and energy.  
+      How can one balance the two?
+    </h3>
+    <p class="text-[18px] leading-relaxed mb-5">
+      The root cause of our confusion is that we believe life exists only for pleasures.
+      We believe only in science and forget the divine presence in nature.
+      This leads to restlessness and complications.
+    </p>
+    <p class="text-[18px] leading-relaxed mb-5">
+      If you honestly examine how you spend your time daily, weekly, monthly —  
+      you will realize how much time is wasted. This itself provides the answer.
+    </p>
+    <p class="text-[18px] leading-relaxed mb-5">
+      The confusion ends when we look inward sincerely and correct our lifestyle with discipline.
+      Such involvement reduces mental conflicts.
+    </p>
+
+
+    <!-- SECTION 4 -->
+    <h3 class="text-2xl font-bold text-[#a7150b] mb-3 mt-8">
+      Is there an age for becoming spiritual?  
+      With so many distractions for children, how can we ensure they are not led astray?
+    </h3>
+    <p class="text-[18px] leading-relaxed mb-5">
+      There is no age limit for spirituality.
+      Despite distractions, guidance lies in proper upbringing, monitoring children's growth,
+      and ensuring they stay on the right path — this is the responsibility of parents.
+    </p>
+    <p class="text-[18px] leading-relaxed mb-5">
+      Earlier, schools taught moral science. Families lived jointly. Grandparents taught moral values
+      through stories, shaping the hearts of children. Today this is missing.  
+      Therefore, parents must pay personal attention, especially during adolescence.
+      If parents live by example, children will follow.
+    </p>
+
+
+    <!-- SECTION 5 -->
+    <h3 class="text-2xl font-bold text-[#a7150b] mb-3 mt-8">
+      Is a guru necessary for spirituality?
+    </h3>
+    <p class="text-[18px] leading-relaxed mb-5">
+      Yes. A guru is essential.  
+      You need a mirror to see your body — but even a mirror cannot show your back.  
+      Similarly, to see the form you do not yet know, to walk the right path, to be shaped and guided,
+      a guru is necessary.
+    </p>
+    <p class="text-[18px] leading-relaxed mb-5">
+      Mother, father, teacher, and God — this is the spiritual order.  
+      The mother shows the father, the father shows the teacher, and the guru shows God.
+      Even in school we need a teacher; for spiritual lessons, a guru is indispensable.
+    </p>
+
+
+    <!-- FINAL LINE -->
+    <h3 class="text-xl font-semibold text-[#a7150b] mt-10">
+      “To live in harmony with Nature”
+    </h3>
+
+  `;
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$PageTemplate$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-        title: "Organizational Schema",
-        subtitle: "Structure of Spiritual Governance",
-        // imageSrc="/placeholder.svg?key=f4n9g"
-        content: `
-        <p>
-          Adhiparasakthi has declared in Her Oracle that she is not restricted by the Agama Rules (common rules governing the construction and consecration of the different structures in a Hindu temple).  It is said that the structures in the Siddhar Peedam have been established according to the Divine orders of Adhiparasakthi. The structures like Kodimaram (Flag Post), Balipeedam (place of sacrifice) and Vahanangal (the palanquins and such other similar structures to carry the presiding deities in a Hindu temple) are not present here.
-        </p>
-        <h3 class="text-2xl font-bold text-[#a7150b]">The Om Sakthi Podium</h3>
-        <p>
-          The Om Sakthi Podium, with the Trident in its centre, stands vibrantly at the entrance and in front of the Siddhar Peedam. Since The Adhiparasakthi is the Mother of all Gods and Goddesses, there are no separate structures for the Navagrahas (the 9 planets generally termed as Planetary Lords, which can be usually seen in the Hindu Temples) in the Siddhar Peedam. The Mother has strongly ascertained, “Those who surrender to Me need not pray to the Planetary Lords. They are just My officers who carry out the work of implementing My Law of Karma. If you go round the Om Sakthi Podium, all the evil effects will be reduced in intensity or fully nullified.”
-        </p>
-        <h3 class="text-2xl font-bold text-[#a7150b]">The Sanctum Sanctorum</h3>
-        <p>
-          In the Sanctum Sanctorum, The Divine mother, Adhiparasakthi showers Her Choicest Blessings from the Lotus Peedam. She showers Her Blessings in the ‘sitting’ posture folding Her right leg and letting Her left leg down.  Keeping the left leg down signifies that The Divine Mother Adhiparasakthi has the highest place in everything.  She holds the Lotus Bud in Her right hand signifying Gnana (wisdom) and depicts the Chin Mudra (index finger touching the thumb and the other fingers stretched out) in the left hand. The Swayambu is situated right in front of the Adhiparasakthi statue.  Anointments (Abishekam) and Archanas (pooja) are performed to the Adhiparasakthi statue and Swayambu, everyday.
-        </p>
-
-        <h3 class="text-2xl font-bold text-[#a7150b]">The Puttru Mandapam</h3>
-        <p>
-          The Puttru Mandapam structure (Snake Mound) is to the right of the Sanctum Sanctorum.  Here Adhiparasakthi resides in the form of Cobra. It is in this Divine Place that Adhiparasakthi delivers Her Oracle.
-        </p>
-
-        <h3 class="text-2xl font-bold text-[#a7150b]">Saptha Kanniyar Kovil (Temple of Matrikas)</h3>
-        <p>
-          To the right of Puttru Mandapam is the SapthaKanniyar Temple (Saptha means seven;Kanni means virgin;Kanniyar, the plural form means virgins). They are the accompanying Angels of Adhiparasakthi.  The details about them are as follows: (1) Lord Brahma’s Power-Brahmi (2) Lord Vishnu’s Power-Vaishnavi (3) LordMaheswaran’s Power-Maheswari (4) Lord Kuma-ran’s Power-Kowmari (5) Lord Indra’s Power- Indhrani (6) Lord Varaha’s Power-Vaaragiand (7) Lord Rudra’s Power-Chamundi. The temple of the virgins will normally be open atop, without any roof.  So also are The Virgins of this temple, with walls on four sides, but roofless.
-        </p>
-
-        <h3 class="text-2xl font-bold text-[#a7150b]">The Naga Peedam</h3>
-        <p>
-         Naga Peedam is situated behind the Putrumandapam.  Upon worshipping the deity in the Naga Peedam by lighting lemon lamp, the devotees can gain the benefits of worshipping three Godesses Kanchi Kamakshi, Kasi Visalakshi and Madurai Meenakshi thereby nullifying family related problems and fostering unity within the family members.
-        </p>
-        <h3 class="text-2xl font-bold text-[#a7150b]">Arutkoodam (His Holy Abode)</h3>
-        <p>
-         The divine Arutkoodam is situated in the North-Western corner of the Siddhar Peedam. At Arutkoodam, the devotees perform Paadha Pooja to His Holiness for getting His Divine Blessings and Guidance to get rid of their personal problems.
-        </p>
-      `
+        title: "Divine Wisdom",
+        subtitle: "Sacred Teachings for Spiritual Enlightenment",
+        noTopPadding: true,
+        noContentTopPadding: true,
+        content: content
     }, void 0, false, {
         fileName: "[project]/app/siddhar-peedam/schema/page.tsx",
-        lineNumber: 18,
+        lineNumber: 170,
         columnNumber: 5
     }, this);
 }

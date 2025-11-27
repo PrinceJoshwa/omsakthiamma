@@ -1,43 +1,319 @@
-import PageTemplate from '@/components/PageTemplate';
+// // import PageTemplate from '@/components/PageTemplate';
+
+// // export default function MiraclesPage() {
+// //   return (
+// //     <PageTemplate
+// //       title="Divine Miracles"
+// //       subtitle="Witnessing the Power of Divine Grace"
+// //             noTopPadding={true}
+// //       noContentTopPadding={true}
+// //       // imageSrc="/placeholder.svg?key=9pq2l"
+// //       content="ASTONISHING MIRACLES OF AMMA
+// // Amma, who has been rightly realised by lakhs and lakhs of devotees, as the true Avatar of Adhiparasakthi, has performed innumerable miracles, ascertained by the devotees themselves. His Holiness, the Amma had appeared in their dreams and had cured many incurable diseases by His mere graceful look or by suggesting remedies beyond a common man’s comprehension. His Holiness, the Amma had also solved complex and intricate problems in the lives of devotees.
+
+// // The spiritual magazine, Sakthi Oli, rolled out from the Siddhar Peedam carries first hand information about these miracles.  Each devotee, of this Holy soil, invariably has experienced one or more miracles showered on him/herby Amma, and they very eagerly and benignly share them with others. This can be more clearly understood only on personally experiencing Amma’s grace.
+
+// // EARTHQUAKE FORESEEN
+// // Earthquake in America: When a devotee went to meet Amma with another devotee to discuss some administrative issues, Amma suddenly intervened and told him, “Ask your second son-in-law to sell his house in the U.S. and shift homes immediately. There will be an earthquake there.”
+
+// // The devotee, perplexed, communicated this to his second son-in-law and stressed that it was the Mother’s wish to shift homes immediately. The son-in-law reluctantly initiated the process, since he hadn’t been told the reason. Right enough, soon after the couple moved, there was an earthquake in the region. Not just from natural disasters, Amma has also healed many by gently touching them with neem leaves and passing on Her powers.
+
+// // NEEM LEAF TURNED INTO A BEETLE
+// // Once a devotee wondered why the Mother used the neem leaf, like some village deity, for healing people. Though this was not explicitly revealed in Her divine presence, the All-Knowing Amma called the devotee and handed him a neem leaf. “Now, close your fingers and open them again ”, She commanded him. Much to his and everyone’s surprise, the leaf had turned into a black beetle that was alive, which crawled and moved as per Amma’s directions.
+
+// // CURING CHICKEN POX
+// // In those days, chicken pox was associated with the Divine Mother, and it was customary to recite the Mariyamman Thalattu (lullaby) in front of the patient. Humbled by His display of power and involvement, His Holiness was honoured by the villagers to recite the passages describing the Divine Mother. The patient would gradually calm down and would be much at ease.
+
+// // THE EVER-CONTINUING MIRACLES OF THE DIVINE MOTHER
+// // Dr.T. P.Meenakshisunndaram, the first Vice chancellor of Madurai (Kamaraj) University, a disciple of Maharashi Mahesh yogi, visited the Divine Mother, out of curiosity. He saw the Divine Mother blessing devotees by gently passing neem leaves over their heads and was puzzled to see gold ornaments materializing. Amma told him, “This is not for you,” and continued with Her routine actions and miracles.
+
+// // MIRACLES IN THE MEDICAL FIELD
+// // The next time the Dr.came, he was amazed to see Her treating a woman with acute Ankylosing Spondilitis. The suffering lady was knotted in an ellipsoidal position and had to be carried to the Mother for treatment. His Holiness stepped on the lady and pressed her back twice. When His Holiness stepped down, the woman was able to stand on her own, erect!
+
+// // Dr.T. P. M. became an ardent devotee of the Divine Mother after She spoke to him once even without him seeking Her out explicitly. Later in his life, the Dr. was severely suffering from filariasis and was being treated for unbearable pain in his legs. The Divine Mother called a devotee and told him, “He is suffering from cancer; change the treatment”. When he was admitted to the cancer hospital, the Dr. Was indeed diagnosed with cancer; but, it was in the very advanced stage. “Tell him not to worry and ask him to bear the pain for some more time. This is his last birth”, The Divine Mother advised. The Dr. abided by Her advise and was even able to visit the Siddhar Peedam after some time to get Herdivine blessings.
+
+// // THE HEALING POWER BEYOND RELIGIONS
+// // Amma’s healing power knew no bounds and went beyond religious barriers. Mumtaz, a Muslim lady, was married to a Hindu, Balakrishnan. Once, she developed a swelling in her right knee, which, no one was able to diagnose. At that time, an ardent devotee of The Mother had a dream, where he saw this couple in a Devi temple. He narrated this dream to the husband and requested them to visit Melmaruvathur.
+
+// // When Mumtaz met the Mother, She first chanted from the Koran in chaste Arabic and then orderly told the woman of how they had visited the various Devi temples in Kanchipuram and Thiruverkadu. “I shall cure you”, She said, and prescribed a medicine, which cured the lady completely. Not only did the Divine Mother shower Her blessings on this lady, but also stressed that all religions are equal in Her eyes.
+
+// // On another occasion, another well-educated Muslim gentleman visited The Mother, because he was suffering from cancer, and all medicines had failed him. When he met The Mother, she quoted from the Koran and then questioned, “Why have you given your name as Subramanian? All religions are the same. I am The Mother, I am Allah”. So saying, She gave him the Sacred Ash to smear on his body, which eventually cured him completely."
+// //     />
+// //   );
+// // }
+
+// import PageTemplate from "@/components/PageTemplate";
+
+// export default function MiraclesPage() {
+
+//   const content = `
+//     <h2 class="text-2xl font-bold text-[#a7150b] mb-4 text-center">
+//       ASTONISHING MIRACLES OF AMMA
+//     </h2>
+
+//     <p>
+//       Amma, who has been rightly realised by lakhs and lakhs of devotees as the true Avatar of Adhiparasakthi,
+//       has performed innumerable miracles, ascertained by the devotees themselves. His Holiness, the Amma, had
+//       appeared in their dreams and cured many incurable diseases by Her mere graceful look or by suggesting
+//       remedies beyond common comprehension. Amma has also solved complex and intricate problems in the lives
+//       of devotees.
+//     </p>
+
+//     <p>
+//       The spiritual magazine, <b>Sakthi Oli</b>, carries first-hand information about these miracles. Each devotee
+//       of this Holy Soil has personally experienced one or more miracles showered by Amma and joyfully shares
+//       them with others. Amma’s grace is something one can truly understand only through personal experience.
+//     </p>
+
+
+//     <h2 class="text-xl font-semibold text-[#a7150b] mt-6 mb-2">
+//       EARTHQUAKE FORESEEN
+//     </h2>
+//     <p>
+//       Amma once instructed a devotee, “Ask your second son-in-law to sell his house in the U.S. and shift 
+//       immediately. There will be an earthquake there.” Though confused, he followed Amma’s words. Soon after
+//       shifting, an earthquake struck the exact region — proving Amma’s divine foresight.
+//     </p>
+//     <p>
+//       Amma has also healed many by gently touching them with neem leaves and passing Her divine powers.
+//     </p>
+
+
+//     <h2 class="text-xl font-semibold text-[#a7150b] mt-6 mb-2">
+//       NEEM LEAF TURNED INTO A BEETLE
+//     </h2>
+//     <p>
+//       Once a devotee questioned why Amma used neem leaves for healing. Amma called him, handed him a neem leaf
+//       and said, “Close your fingers and open them again.” When he opened his palm, the leaf had transformed into 
+//       a living black beetle, moving exactly as Amma directed — a stunning miracle witnessed by many.
+//     </p>
+
+
+//     <h2 class="text-xl font-semibold text-[#a7150b] mt-6 mb-2">
+//       CURING CHICKEN POX
+//     </h2>
+//     <p>
+//       In earlier days, chicken pox was associated with the Divine Mother. Amma would recite 
+//       <i>Mariyamman Thalattu</i> in front of suffering devotees. Gradually, the patient calmed down and felt relieved,
+//       filled with Her divine grace.
+//     </p>
+
+
+//     <h2 class="text-xl font-semibold text-[#a7150b] mt-6 mb-2">
+//       THE EVER-CONTINUING MIRACLES OF THE DIVINE MOTHER
+//     </h2>
+//     <p>
+//       Dr. T. P. Meenakshisundaram, the first Vice-Chancellor of Madurai Kamaraj University and a disciple of
+//       Maharishi Mahesh Yogi, once visited Amma. He saw devotees receiving blessings through neem leaves and even
+//       witnessed gold ornaments materializing. Amma told him gently, “This is not for you”, and continued Her 
+//       divine acts.
+//     </p>
+
+
+//     <h2 class="text-xl font-semibold text-[#a7150b] mt-6 mb-2">
+//       MIRACLES IN THE MEDICAL FIELD
+//     </h2>
+//     <p>
+//       On a later visit, the doctor saw a woman suffering from acute Ankylosing Spondylitis brought before Amma.
+//       Amma stepped on her back twice, and within moments the woman stood up straight — completely relieved of her
+//       pain.
+//     </p>
+//     <p>
+//       Later, when Dr. Meenakshisundaram himself was suffering from unbearable pain, Amma revealed that he actually
+//       had cancer and advised changing the treatment. He followed Her guidance faithfully. Amma comforted him,
+//       saying, “Do not worry. Bear the pain a little longer. This is your last birth.” He recovered enough to visit
+//       the Peedam again for Her blessings.
+//     </p>
+
+
+//     <h2 class="text-xl font-semibold text-[#a7150b] mt-6 mb-2">
+//       THE HEALING POWER BEYOND RELIGIONS
+//     </h2>
+//     <p>
+//       A Muslim woman, Mumtaz, suffered from severe knee swelling. Amma first recited verses from the Quran in
+//       flawless Arabic and then explained her past visits to Devi temples. Amma gave a simple medicine which cured
+//       her completely, showing that all religions are equal in Her eyes.
+//     </p>
+
+//     <p>
+//       In another incident, a Muslim man suffering from cancer visited Amma. She quoted from the Quran and asked,
+//       “Why have you given your name as Subramanian? All religions are the same. I am The Mother, I am Allah.”
+//       She blessed him with Sacred Ash, which eventually cured him completely.
+//     </p>
+//   `;
+
+//   return (
+//     <PageTemplate
+//       title="Divine Miracles"
+//       subtitle="Witnessing the Power of Divine Grace"
+//       noTopPadding={true}
+//       noContentTopPadding={true}
+//       content={content}
+//     />
+//   );
+// }
+
+"use client";
+
+import React from "react";
+import PageTemplate from "@/components/PageTemplate";
+import { motion } from "framer-motion";
+import { 
+  Globe, 
+  Leaf, 
+  Sun, // Used for Chicken Pox/Heat
+  Stethoscope, 
+  Eye, 
+  BookOpen 
+} from "lucide-react";
+
+// --- 1. STRUCTURED DATA ---
+// I have organized your text into a clean data structure.
+
+const introText = {
+  title: "Astonishing Miracles of Amma",
+  body: "Amma, who has been rightly realised by lakhs of devotees as the true Avatar of Adhiparasakthi, has performed innumerable miracles. His Holiness has appeared in dreams, cured incurable diseases by a mere graceful look, and solved intricate problems in the lives of devotees.",
+  footer: "The spiritual magazine, Sakthi Oli, carries first-hand information about these miracles. Amma’s grace is something one can truly understand only through personal experience."
+};
+
+const miracles = [
+  {
+    title: "Earthquake Foreseen",
+    icon: <Globe className="w-6 h-6 text-white" />,
+    content: "Amma once instructed a devotee to ask his son-in-law to move houses in the U.S. immediately. Though confused, they followed the instruction. Soon after shifting, an earthquake struck the exact region—proving Amma’s divine foresight.",
+    highlight: "Divine Protection"
+  },
+  {
+    title: "Neem Leaf to Beetle",
+    icon: <Leaf className="w-6 h-6 text-white" />,
+    content: "When a devotee questioned the use of neem leaves, Amma handed him one and asked him to close his palm. When he opened it, the leaf had transformed into a living black beetle, moving exactly as Amma directed.",
+    highlight: "Transformation"
+  },
+  {
+    title: "Curing Chicken Pox",
+    icon: <Sun className="w-6 h-6 text-white" />,
+    content: "In earlier days, Amma would recite the Mariyamman Thalattu in front of suffering devotees. The patients would gradually calm down, feeling relieved and filled with Her divine grace.",
+    highlight: "Traditional Healing"
+  },
+  {
+    title: "The Materialization",
+    icon: <Eye className="w-6 h-6 text-white" />,
+    content: "Dr. T. P. Meenakshisundaram (First VC of Madurai Kamaraj University) visited Amma out of curiosity. He was puzzled to witness gold ornaments materializing when Amma simply passed neem leaves over devotees' heads.",
+    highlight: "Divine Mystery"
+  },
+  {
+    title: "Medical Miracles",
+    icon: <Stethoscope className="w-6 h-6 text-white" />,
+    content: "Amma healed a woman with Ankylosing Spondylitis by simply stepping on her back. Later, Amma diagnosed Dr. Meenakshisundaram's own cancer, guiding him through his 'last birth' with comfort and grace.",
+    highlight: "Beyond Science"
+  },
+  {
+    title: "Universal Faith",
+    icon: <BookOpen className="w-6 h-6 text-white" />,
+    content: "Amma cured Mumtaz by reciting the Quran in flawless Arabic. To another Muslim devotee, Subramanian, She said, 'I am The Mother, I am Allah,' and cured his cancer with Sacred Ash, proving all religions are one.",
+    highlight: "One God, Many Names"
+  },
+];
+
+// --- 2. ANIMATION VARIANTS ---
+
+const containerVariants = {
+  hidden: { opacity: 0 },
+  show: {
+    opacity: 1,
+    transition: { staggerChildren: 0.1 }
+  }
+};
+
+const cardVariants = {
+  hidden: { opacity: 0, y: 20 },
+  show: { opacity: 1, y: 0, transition: { duration: 0.5 } }
+};
+
+// --- 3. COMPONENT ---
 
 export default function MiraclesPage() {
   return (
     <PageTemplate
       title="Divine Miracles"
       subtitle="Witnessing the Power of Divine Grace"
-            noTopPadding={true}
+      noTopPadding={true}
       noContentTopPadding={true}
-      // imageSrc="/placeholder.svg?key=9pq2l"
-      content="ASTONISHING MIRACLES OF AMMA
-Amma, who has been rightly realised by lakhs and lakhs of devotees, as the true Avatar of Adhiparasakthi, has performed innumerable miracles, ascertained by the devotees themselves. His Holiness, the Amma had appeared in their dreams and had cured many incurable diseases by His mere graceful look or by suggesting remedies beyond a common man’s comprehension. His Holiness, the Amma had also solved complex and intricate problems in the lives of devotees.
+    >
+      <div className="max-w-7xl mx-auto px-4 py-8 md:py-12">
+        
+        {/* Intro Section */}
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          className="text-center max-w-4xl mx-auto mb-16"
+        >
+          <h2 className="text-2xl md:text-3xl font-bold text-[#a7150b] mb-6 font-serif">
+            {introText.title}
+          </h2>
+          <p className="text-lg text-gray-700 leading-relaxed mb-6">
+            {introText.body}
+          </p>
+          <div className="inline-block border-t border-red-100 pt-4">
+             <p className="text-md text-gray-500 italic">
+              {introText.footer}
+            </p>
+          </div>
+        </motion.div>
 
-The spiritual magazine, Sakthi Oli, rolled out from the Siddhar Peedam carries first hand information about these miracles.  Each devotee, of this Holy soil, invariably has experienced one or more miracles showered on him/herby Amma, and they very eagerly and benignly share them with others. This can be more clearly understood only on personally experiencing Amma’s grace.
+        {/* Miracles Grid */}
+        <motion.div 
+          variants={containerVariants}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, amount: 0.1 }}
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+        >
+          {miracles.map((item, index) => (
+            <motion.div
+              key={index}
+              variants={cardVariants}
+              whileHover={{ y: -5 }}
+              className="bg-white rounded-xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col h-full"
+            >
+              {/* Header */}
+              <div className="bg-[#a7150b] p-4 flex items-center justify-between">
+                <h3 className="text-white font-semibold text-lg">{item.title}</h3>
+                <div className="bg-white/20 p-2 rounded-full backdrop-blur-sm">
+                  {item.icon}
+                </div>
+              </div>
 
-EARTHQUAKE FORESEEN
-Earthquake in America: When a devotee went to meet Amma with another devotee to discuss some administrative issues, Amma suddenly intervened and told him, “Ask your second son-in-law to sell his house in the U.S. and shift homes immediately. There will be an earthquake there.”
+              {/* Body */}
+              <div className="p-6 flex-grow flex flex-col justify-between">
+                <p className="text-gray-600 leading-relaxed mb-4">
+                  {item.content}
+                </p>
+                <div className="mt-auto pt-4 border-t border-gray-50">
+                  <span className="text-xs font-bold text-[#a7150b] uppercase tracking-wider">
+                    {item.highlight}
+                  </span>
+                </div>
+              </div>
+            </motion.div>
+          ))}
+        </motion.div>
 
-The devotee, perplexed, communicated this to his second son-in-law and stressed that it was the Mother’s wish to shift homes immediately. The son-in-law reluctantly initiated the process, since he hadn’t been told the reason. Right enough, soon after the couple moved, there was an earthquake in the region. Not just from natural disasters, Amma has also healed many by gently touching them with neem leaves and passing on Her powers.
+        {/* Closing Quote */}
+        <motion.div 
+           initial={{ opacity: 0 }}
+           whileInView={{ opacity: 1 }}
+           viewport={{ once: true }}
+           className="mt-20 text-center bg-yellow-50/50 p-10 rounded-2xl"
+        >
+          {/* <p className="text-xl md:text-2xl text-gray-800 font-serif italic mb-2">
+            "I am The Mother, I am Allah. All religions are the same."
+          </p> */}
+          <div className="w-24 h-1 bg-[#a7150b] mx-auto mt-6 rounded-full opacity-50"></div>
+        </motion.div>
 
-NEEM LEAF TURNED INTO A BEETLE
-Once a devotee wondered why the Mother used the neem leaf, like some village deity, for healing people. Though this was not explicitly revealed in Her divine presence, the All-Knowing Amma called the devotee and handed him a neem leaf. “Now, close your fingers and open them again ”, She commanded him. Much to his and everyone’s surprise, the leaf had turned into a black beetle that was alive, which crawled and moved as per Amma’s directions.
-
-CURING CHICKEN POX
-In those days, chicken pox was associated with the Divine Mother, and it was customary to recite the Mariyamman Thalattu (lullaby) in front of the patient. Humbled by His display of power and involvement, His Holiness was honoured by the villagers to recite the passages describing the Divine Mother. The patient would gradually calm down and would be much at ease.
-
-THE EVER-CONTINUING MIRACLES OF THE DIVINE MOTHER
-Dr.T. P.Meenakshisunndaram, the first Vice chancellor of Madurai (Kamaraj) University, a disciple of Maharashi Mahesh yogi, visited the Divine Mother, out of curiosity. He saw the Divine Mother blessing devotees by gently passing neem leaves over their heads and was puzzled to see gold ornaments materializing. Amma told him, “This is not for you,” and continued with Her routine actions and miracles.
-
-MIRACLES IN THE MEDICAL FIELD
-The next time the Dr.came, he was amazed to see Her treating a woman with acute Ankylosing Spondilitis. The suffering lady was knotted in an ellipsoidal position and had to be carried to the Mother for treatment. His Holiness stepped on the lady and pressed her back twice. When His Holiness stepped down, the woman was able to stand on her own, erect!
-
-Dr.T. P. M. became an ardent devotee of the Divine Mother after She spoke to him once even without him seeking Her out explicitly. Later in his life, the Dr. was severely suffering from filariasis and was being treated for unbearable pain in his legs. The Divine Mother called a devotee and told him, “He is suffering from cancer; change the treatment”. When he was admitted to the cancer hospital, the Dr. Was indeed diagnosed with cancer; but, it was in the very advanced stage. “Tell him not to worry and ask him to bear the pain for some more time. This is his last birth”, The Divine Mother advised. The Dr. abided by Her advise and was even able to visit the Siddhar Peedam after some time to get Herdivine blessings.
-
-THE HEALING POWER BEYOND RELIGIONS
-Amma’s healing power knew no bounds and went beyond religious barriers. Mumtaz, a Muslim lady, was married to a Hindu, Balakrishnan. Once, she developed a swelling in her right knee, which, no one was able to diagnose. At that time, an ardent devotee of The Mother had a dream, where he saw this couple in a Devi temple. He narrated this dream to the husband and requested them to visit Melmaruvathur.
-
-When Mumtaz met the Mother, She first chanted from the Koran in chaste Arabic and then orderly told the woman of how they had visited the various Devi temples in Kanchipuram and Thiruverkadu. “I shall cure you”, She said, and prescribed a medicine, which cured the lady completely. Not only did the Divine Mother shower Her blessings on this lady, but also stressed that all religions are equal in Her eyes.
-
-On another occasion, another well-educated Muslim gentleman visited The Mother, because he was suffering from cancer, and all medicines had failed him. When he met The Mother, she quoted from the Koran and then questioned, “Why have you given your name as Subramanian? All religions are the same. I am The Mother, I am Allah”. So saying, She gave him the Sacred Ash to smear on his body, which eventually cured him completely."
-    />
+      </div>
+    </PageTemplate>
   );
 }
