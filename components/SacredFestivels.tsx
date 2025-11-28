@@ -5,11 +5,19 @@ import { motion } from 'framer-motion';
 export default function SacredFestivalsSection() {
   const festivals = [
     { 
+      title: "Thai Poosam and Irumudi", 
+      description: "Tamil Month of Thai"
+    },
+    { 
+      title: "Amma's Birthday", 
+      description: "Adigalar’s day of incarnation" 
+    },
+    { 
       title: "Aadi Pooram", 
       description: "Tamil Month of Aadi" 
     },
     { 
-      title: "Pournami Velaku", 
+      title: "Pournami Velaku Pooja", 
       description: "Full Moon Celebrations" 
     },
     { 
@@ -17,7 +25,7 @@ export default function SacredFestivalsSection() {
       description: "New Moon Rituals" 
     },
     { 
-      title: "Navratri", 
+      title: "Navratri Kappu", 
       description: "Nine Nights of Celebration" 
     }
   ];

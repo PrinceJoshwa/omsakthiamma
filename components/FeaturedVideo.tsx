@@ -30,7 +30,7 @@ export default function FeaturedVideoSection() {
           {/* REPLACE THE 'src' URL BELOW WITH YOUR ACTUAL YOUTUBE VIDEO LINK */}
           <iframe
             className="w-full h-full"
-            src="https://www.youtube.com/embed/vP5pR7mu6ks?si=oVAidRTxsLDB49Ze" 
+            src="https://www.youtube.com/embed/LRzi3ADsyMg?si=K78m9zE1kvJReD0f" 
             title="Arul Thiru Bangaru Adigalar Video"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen

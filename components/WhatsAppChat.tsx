@@ -13,7 +13,7 @@ const WhatsAppChat: React.FC = () => {
     const [isOpen, setIsOpen] = useState<boolean>(false);
     const [isMounted, setIsMounted] = useState<boolean>(false);
 
-    const phoneNumber: string = "+911234566789"; // Replace with your actual WhatsApp number
+    const phoneNumber: string = "+919342396571"; // Replace with your actual WhatsApp number
     const message: string = encodeURIComponent(
         "Hello, I need more information about the property."
     );

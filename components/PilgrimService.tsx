@@ -114,20 +114,20 @@ export default function PilgrimServicesSection() {
   // Data extracted EXACTLY from your uploaded text images
   const services = [
     // From Image 1
-    { icon: Landmark, label: "Worshipping Centres", link: "/worshipping-centres" },
-    { icon: Flame, label: "Sakthi Peedams", link: "/sakthi-peedams" },
-    { icon: Users, label: "Youth Wings", link: "/youth-wings" },
-    { icon: BookOpen, label: "Spiritual Magazines", link: "/magazines" },
-    { icon: Mic, label: "Spiritual Conferences", link: "/conferences" },
-    { icon: Bus, label: "Amma's Spiritual Tours", link: "/spiritual-tours" },
-    { icon: HeartHandshake, label: "Social Activity", link: "/social-activity" },
+    { icon: Landmark, label: "Worshipping Centres", link: "/activities/worshipping-centres" },
+    { icon: Flame, label: "Sakthi Peedams", link: "/activities/sakthi-peedams" },
+    { icon: Users, label: "Youth Wings", link: "/activities/youth-wings" },
+    { icon: BookOpen, label: "Spiritual Magazines", link: "/activities/spiritual-magazines" },
+    { icon: Mic, label: "Spiritual Conferences", link: "/activities/spiritual-conferences" },
+    { icon: Bus, label: "Amma's Spiritual Tours", link: "/activities/spiritual-tours" },
+    { icon: HeartHandshake, label: "Social Activity", link: "/activities/social-activity" },
     
     // From Image 2
-    { icon: Sparkles, label: "Festive Occasions", link: "/festivals" },
-    { icon: Flower2, label: "Poojas", link: "/poojas" },
-    { icon: Scroll, label: "Mantras", link: "/mantras" },
-    { icon: Calendar, label: "Programmes", link: "/programmes" },
-    { icon: Star, label: "Aadi Pooram", link: "/aadi-pooram" },
+    { icon: Sparkles, label: "Festive Occasions", link: "/festivals/occasions" },
+    { icon: Flower2, label: "Poojas", link: "/festivals/poojas" },
+    { icon: Scroll, label: "Mantras", link: "/festivals/mantras" },
+    { icon: Calendar, label: "Programmes", link: "/festivals/programmes" },
+    { icon: Star, label: "Aadi Pooram", link: "/festivals/aadi-pooram" },
   ];
 
   return (

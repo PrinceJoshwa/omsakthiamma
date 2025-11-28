@@ -221,6 +221,7 @@ import EventsSection from '@/components/EventsSection';
 import ContactSection from '@/components/ContactSection';
 import EventPopup from '@/components/EventPopup';
 import WhatsAppChat from '@/components/WhatsAppChat';
+import DailyMessageSection from '@/components/DailyMessageSection';
 
 export default function Home() {
   return (
@@ -327,7 +328,7 @@ export default function Home() {
       </section>
       
       <PilgrimServicesSection />
-      <SpecialOccasionsSection />
+      {/* <SpecialOccasionsSection /> */}
 
       {/* Gallery Section */}
       <section className="py-12 md:py-24 px-4 bg-white">
@@ -371,8 +372,9 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+      
       <SacredFestivalsSection />
+      <DailyMessageSection />
       <PoojaTimings />
       <PublicationsSection />
       <ResourcesSection />
