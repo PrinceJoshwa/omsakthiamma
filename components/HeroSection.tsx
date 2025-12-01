@@ -170,7 +170,7 @@ export default function HeroSection() {
                 className="w-full flex flex-col items-center justify-center p-3 bg-white border border-gray-200 rounded-xl hover:border-blue-300 hover:shadow-md transition-all group"
               >
                 <div className="flex items-center gap-2 text-gray-800 font-bold text-sm">
-                  <FileText className="w-4 h-4 text-blue-600" /> President Instructions
+                  <FileText className="w-4 h-4 text-blue-600" /> Instructions to Districts
                 </div>
                 <span className="text-[10px] text-gray-500 font-tamil mt-1 group-hover:text-blue-600">மாவட்ட தலைவர் அறிவுறுத்தல்கள்</span>
               </motion.button>

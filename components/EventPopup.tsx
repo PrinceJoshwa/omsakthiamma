@@ -22,9 +22,9 @@
 
 // //   // Short list of upcoming events
 // //   const upcomingEventsList = [
-// //     { date: "17.02.2026", title: "Amavasai Velvi", tamil: "அமாவாசை வேள்வி" },
+// //     { date: "17.02.2026", title: "Ammavasai Velvi", tamil: "அமாவாசை வேள்வி" },
 // //     { date: "03.03.2026", title: "Amma's 86th Birthday", tamil: "86வது அவதார திருநாள்" },
-// //     { date: "18.03.2026", title: "Amavasai Velvi", tamil: "அமாவாசை வேள்வி" },
+// //     { date: "18.03.2026", title: "Ammavasai Velvi", tamil: "அமாவாசை வேள்வி" },
 // //     { date: "19.03.2026", title: "Telugu New Year", tamil: "தெலுங்கு வருடப்பிறப்பு" },
 // //   ];
 
@@ -242,9 +242,9 @@
 
 //   // Other Events Data (Preserved)
 //   const upcomingEventsList = [
-//     { date: "17.02.2026", title: "Amavasai Velvi", tamil: "அமாவாசை வேள்வி" },
+//     { date: "17.02.2026", title: "Ammavasai Velvi", tamil: "அமாவாசை வேள்வி" },
 //     { date: "03.03.2026", title: "Amma's 86th Birthday", tamil: "86வது அவதார திருநாள்" },
-//     { date: "18.03.2026", title: "Amavasai Velvi", tamil: "அமாவாசை வேள்வி" },
+//     { date: "18.03.2026", title: "Ammavasai Velvi", tamil: "அமாவாசை வேள்வி" },
 //     { date: "19.03.2026", title: "Telugu New Year", tamil: "தெலுங்கு வருடப்பிறப்பு" },
 //   ];
 
@@ -558,7 +558,7 @@ export default function EventPopup() {
   };
 
   const upcomingEventsList = [
-    { date: "17.02.2026", title: "Amavasai Velvi", tamil: "அமாவாசை வேள்வி" },
+    { date: "17.02.2026", title: "Ammavasai Velvi", tamil: "அமாவாசை வேள்வி" },
     { date: "03.03.2026", title: "Amma's 86th Birthday", tamil: "86வது அவதார திருநாள்" },
   ];
 

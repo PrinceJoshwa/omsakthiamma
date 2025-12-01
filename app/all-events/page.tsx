@@ -30,46 +30,48 @@ interface EventItem {
 }
 
 const allEvents: EventItem[] = [
+  //DECEMBER
+  { date: "19-12-2025", day: "Friday", title: "Ammavasai Velvi", tamilTitle: "அமாவாசை வேள்வி", type: "amavasai" },
   // JANUARY
   { date: "01-01-2026", day: "Thursday", title: "English New Year", tamilTitle: "ஆங்கில வருடப்பிறப்பு", type: "holiday" },
   { date: "03-01-2026", day: "Saturday", title: "Pournami Pooja", tamilTitle: "பௌர்ணமி பூஜை", type: "pournami" },
   { date: "15-01-2026", day: "Thursday", title: "Thai Pongal", tamilTitle: "தைப்பொங்கல்", type: "festival" },
   { date: "16-01-2026", day: "Friday", title: "Thiruvalluvar Day", tamilTitle: "திருவள்ளுவர் தினம்", type: "holiday" },
   { date: "17-01-2026", day: "Saturday", title: "Uzhavar Thirunal", tamilTitle: "உழவர் திருநாள்", type: "holiday" },
-  { date: "18-01-2026", day: "Sunday", title: "Amavasai Velvi", tamilTitle: "அமாவாசை வேள்வி", type: "amavasai" },
+  { date: "18-01-2026", day: "Sunday", title: "Ammavasai Velvi", tamilTitle: "அமாவாசை வேள்வி", type: "amavasai" },
   { date: "26-01-2026", day: "Monday", title: "Republic Day", tamilTitle: "இந்திய குடியரசுதினம்", type: "holiday" },
   { date: "31-01-2026", day: "Saturday", title: "Thaipoosa Jyothi Peruvizha", tamilTitle: "தைப்பூசஜோதி பெருவிழா", type: "festival" },
 
   // FEBRUARY
-  { date: "17-02-2026", day: "Tuesday", title: "Amavasai Velvi", tamilTitle: "அமாவாசை வேள்வி", type: "amavasai" },
+  { date: "17-02-2026", day: "Tuesday", title: "Ammavasai Velvi", tamilTitle: "அமாவாசை வேள்வி", type: "amavasai" },
 
   // MARCH
   { date: "03-03-2026", day: "Tuesday", title: "Amma's 86th Birthday", tamilTitle: "86வது அவதார திருநாள்", type: "festival" },
-  { date: "18-03-2026", day: "Wednesday", title: "Amavasai Velvi", tamilTitle: "அமாவாசை வேள்வி", type: "amavasai" },
+  { date: "18-03-2026", day: "Wednesday", title: "Ammavasai Velvi", tamilTitle: "அமாவாசை வேள்வி", type: "amavasai" },
   { date: "19-03-2026", day: "Thursday", title: "Telugu New Year", tamilTitle: "தெலுங்கு வருடப்பிறப்பு", type: "festival" },
   { date: "21-03-2026", day: "Saturday", title: "Ramzan", tamilTitle: "ரம்ஜான்", type: "holiday" },
 
   // APRIL
   { date: "01-04-2026", day: "Wednesday", title: "Pournami Pooja", tamilTitle: "பௌர்ணமி பூஜை", type: "pournami" },
   { date: "14-04-2026", day: "Tuesday", title: "Tamil New Year", tamilTitle: "தமிழ் வருடப்பிறப்பு", type: "festival" },
-  { date: "17-04-2026", day: "Friday", title: "Amavasai Velvi", tamilTitle: "அமாவாசை வேள்வி", type: "amavasai" },
+  { date: "17-04-2026", day: "Friday", title: "Ammavasai Velvi", tamilTitle: "அமாவாசை வேள்வி", type: "amavasai" },
   { date: "30-04-2026", day: "Thursday", title: "Chitra Pournami Velvi", tamilTitle: "சித்திரை பௌர்ணமி வேள்வி", type: "festival" },
 
   // MAY
   { date: "01-05-2026", day: "Friday", title: "Labour Day", tamilTitle: "தொழிலாளர் தினம்", type: "holiday" },
-  { date: "16-05-2026", day: "Saturday", title: "Amavasai Velvi", tamilTitle: "அமாவாசை வேள்வி", type: "amavasai" },
+  { date: "16-05-2026", day: "Saturday", title: "Ammavasai Velvi", tamilTitle: "அமாவாசை வேள்வி", type: "amavasai" },
   { date: "31-05-2026", day: "Sunday", title: "Pournami Pooja", tamilTitle: "பௌர்ணமி பூஜை", type: "pournami" },
 
   // JUNE
-  { date: "14-06-2026", day: "Sunday", title: "Amavasai Velvi", tamilTitle: "அமாவாசை வேள்வி", type: "amavasai" },
+  { date: "14-06-2026", day: "Sunday", title: "Ammavasai Velvi", tamilTitle: "அமாவாசை வேள்வி", type: "amavasai" },
   { date: "29-06-2026", day: "Monday", title: "Pournami Pooja", tamilTitle: "பௌர்ணமி பூஜை", type: "pournami" },
 
   // JULY
-  { date: "14-07-2026", day: "Tuesday", title: "Amavasai Velvi", tamilTitle: "அமாவாசை வேள்வி", type: "amavasai" },
+  { date: "14-07-2026", day: "Tuesday", title: "Ammavasai Velvi", tamilTitle: "அமாவாசை வேள்வி", type: "amavasai" },
   { date: "29-07-2026", day: "Wednesday", title: "Pournami Pooja", tamilTitle: "பௌர்ணமி பூஜை", type: "pournami" },
 
   // AUGUST
-  { date: "12-08-2026", day: "Wednesday", title: "Amavasai Velvi", tamilTitle: "அமாவாசை வேள்வி", type: "amavasai" },
+  { date: "12-08-2026", day: "Wednesday", title: "Ammavasai Velvi", tamilTitle: "அமாவாசை வேள்வி", type: "amavasai" },
   { date: "14-08-2026", day: "Friday", title: "55th Aadipooram Festival", tamilTitle: "55வது ஆடிப்பூர பெருவிழா", type: "festival" },
   { date: "15-08-2026", day: "Saturday", title: "Independence Day", tamilTitle: "சுதந்திரதினம்", type: "holiday" },
   { date: "26-08-2026", day: "Wednesday", title: "Milad un Nabi", tamilTitle: "மீலாடி நபி", type: "holiday" },
@@ -77,13 +79,13 @@ const allEvents: EventItem[] = [
 
   // SEPTEMBER
   { date: "04-09-2026", day: "Friday", title: "Amma's Wedding Anniversary", tamilTitle: "திருமண நாள்", type: "festival" },
-  { date: "10-09-2026", day: "Thursday", title: "Amavasai Velvi", tamilTitle: "அமாவாசை வேள்வி", type: "amavasai" },
+  { date: "10-09-2026", day: "Thursday", title: "Ammavasai Velvi", tamilTitle: "அமாவாசை வேள்வி", type: "amavasai" },
   { date: "14-09-2026", day: "Monday", title: "Vinayagar Chathurthi", tamilTitle: "விநாயகர் சதுர்த்தி", type: "holiday" },
   { date: "26-09-2026", day: "Saturday", title: "Pournami Pooja", tamilTitle: "பௌர்ணமி பூஜை", type: "pournami" },
 
   // OCTOBER
   { date: "02-10-2026", day: "Friday", title: "Gandhi Jayanthi", tamilTitle: "காந்தி ஜெயந்தி", type: "holiday" },
-  { date: "10-10-2026", day: "Saturday", title: "Amavasai Velvi", tamilTitle: "அமாவாசை வேள்வி", type: "amavasai" },
+  { date: "10-10-2026", day: "Saturday", title: "Ammavasai Velvi", tamilTitle: "அமாவாசை வேள்வி", type: "amavasai" },
   { date: "11-10-2026", day: "Sunday", title: "Navarathri Starts", tamilTitle: "நவராத்திரி ஆரம்பம்", type: "festival" },
   { date: "19-10-2026", day: "Monday", title: "Mukthi Day / Saraswathi Pooja", tamilTitle: "முக்தி அடைந்தநாள்", type: "festival" },
   { date: "25-10-2026", day: "Sunday", title: "Pournami Pooja", tamilTitle: "பௌர்ணமி பூஜை", type: "pournami" },
@@ -93,7 +95,7 @@ const allEvents: EventItem[] = [
   { date: "24-11-2026", day: "Tuesday", title: "Pournami Pooja", tamilTitle: "பௌர்ணமி பூஜை", type: "pournami" },
 
   // DECEMBER
-  { date: "08-12-2026", day: "Tuesday", title: "Amavasai Velvi", tamilTitle: "அமாவாசை வேள்வி", type: "amavasai" },
+  { date: "08-12-2026", day: "Tuesday", title: "Ammavasai Velvi", tamilTitle: "அமாவாசை வேள்வி", type: "amavasai" },
   { date: "23-12-2026", day: "Wednesday", title: "Pournami Pooja", tamilTitle: "பௌர்ணமி பூஜை", type: "pournami" },
   { date: "25-12-2026", day: "Friday", title: "Christmas", tamilTitle: "கிறிஸ்துமஸ்", type: "holiday" },
 ];
@@ -152,7 +154,7 @@ export default function CalendarPage() {
               Divine Calendar 2026
             </h1>
             <p className="text-lg text-[#1a1a1a]/80 max-w-2xl mx-auto">
-              A complete schedule of Festivals, Amavasai Velvi, Pournami Pooja, and holidays observed at Adhiparasakthi Siddhar Peedam.
+              A complete schedule of Festivals, Ammavasai Velvi, Pournami Pooja, and holidays observed at Adhiparasakthi Siddhar Peedam.
             </p>
           </div>
         </section>

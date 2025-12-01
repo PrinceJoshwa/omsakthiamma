@@ -7,7 +7,7 @@
 // export default function SpecialOccasionsSection() {
 //   const occasions = [
 //     {
-//       title: "Thai Poosam And Irumudi",
+//       title: "Thaipoosa Jothi Peruvizha",
 //       icon: Star,
 //       link: "/thai-poosam" // Update with actual links later
 //     },

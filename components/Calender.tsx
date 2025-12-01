@@ -137,7 +137,7 @@ export default function TempleCalendar() {
         <div className="flex justify-center gap-3 mb-10 flex-wrap">
           {[
             { id: 'festivals', label: 'Major Festivals', icon: Sparkles },
-            { id: 'amavasai', label: 'Amavasai Velvi', icon: Sun },
+            { id: 'amavasai', label: 'Ammavasai Velvi', icon: Sun },
             { id: 'pournami', label: 'Pournami Pooja', icon: Moon },
             { id: 'google', label: 'Live Calendar', icon: Globe }, // Merged Google Calendar Tab
           ].map((tab) => (
@@ -204,7 +204,7 @@ export default function TempleCalendar() {
                 className="p-8 bg-gray-50/50 h-full"
               >
                 <div className="text-center mb-8">
-                  <h3 className="text-2xl font-bold text-[#a7150b]">Amavasai Velvi 2026 [cite: 16]</h3>
+                  <h3 className="text-2xl font-bold text-[#a7150b]">Ammavasai Velvi 2026 [cite: 16]</h3>
                   <p className="text-gray-500 text-sm">Monthly New Moon Sacrificial Fire Rituals</p>
                 </div>
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">

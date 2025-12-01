@@ -15,7 +15,7 @@ const WhatsAppChat: React.FC = () => {
 
     const phoneNumber: string = "+919342396571"; // Replace with your actual WhatsApp number
     const message: string = encodeURIComponent(
-        "Hello, I need more information about the property."
+        "Hello, I need more information about the Temple."
     );
 
     const toggleChat = (): void => setIsOpen((prev) => !prev);
