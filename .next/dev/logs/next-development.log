@@ -1,22 +1,2371 @@
-[00:00:03.681] Server  LOG      ✓ Ready in 2.6s
-[00:01:41.364] Server  LOG      ○ Compiling / ...
-[00:01:53.035] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+[00:00:03.282] Server  LOG      ✓ Ready in 2.2s
+[00:00:26.177] Server  LOG      ○ Compiling /irumudi-instruction ...
+[00:00:34.248] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /irumudi-instruction. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:01:56.190] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:58.499] Server  LOG      ○ Compiling /_not-found/page ...
-[00:02:01.380] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+[00:00:35.635] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:46.585] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:02:40.156] Server  LOG      ✓ Compiled in 745ms
-[00:02:42.554] Server  LOG      ✓ Compiled in 550ms
-[00:07:49.270] Server  LOG      ✓ Compiled in 1199ms
-[00:09:26.823] Server  LOG      ✓ Compiled in 302ms
-[00:14:16.225] Server  LOG      ✓ Compiled in 505ms
-[00:29:46.347] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+[00:00:47.830] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:50.838] Server  LOG      ○ Compiling /_not-found/page ...
+[00:00:54.467] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:29:48.838] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+[00:01:16.664] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:29:49.739] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:30:17.045] Server  LOG      ○ Compiling /irumudi-instruction ...
-[00:30:20.346] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /irumudi-instruction. Please move it to viewport export instead.
+[00:01:16.946] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:01:25.964] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/articles. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:30:20.700] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:01:34.248] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/books. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:01:45.704] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/magazine. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:01:54.687] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /visit-us. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:01:59.801] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /poojas-donations. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:01:59.970] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /poojas-donations. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:05:09.044] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:05:52.593] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /festivals/programmes. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:06:15.933] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /visit-us. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:00:08.782] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:10:51.647] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:14:15.235] Server  LOG      ○ Compiling /siddhar-peedam/history ...
+[01:14:20.367] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /siddhar-peedam/history. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:14:20.592] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /siddhar-peedam/history. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:14:20.724] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /siddhar-peedam/history. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:14:20.856] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /siddhar-peedam/history. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:14:20.999] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /siddhar-peedam/history. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:33:13.674] Server  LOG      ✓ Compiled in 1297ms
+[01:33:13.834] Server  LOG      ✓ Compiled in 77ms
+[01:33:17.402] Server  LOG      ✓ Compiled in 1326ms
+[01:33:20.315] Server  ERROR    ⨯ ./app/siddhar-peedam/history/page.tsx:188:1
+Module not found: Can't resolve '@/data/historyData'
+  186 |   Calendar
+  187 | } from "lucide-react";
+> 188 | import { fullHistoryData } from "@/data/historyData"; // Ensure this path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  189 |
+  190 | // --- 1. HIGHLIGHTS DATA (Your Original Data - Unchanged) ---
+  191 | const historyEvents = [
+
+Import map: aliased to relative './data/historyData' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/siddhar-peedam/history/page.tsx [Client Component Browser]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/siddhar-peedam/history/page.tsx [Client Component SSR]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:33:20.334] Server  ERROR    ⨯ ./app/siddhar-peedam/history/page.tsx:188:1
+Module not found: Can't resolve '@/data/historyData'
+  186 |   Calendar
+  187 | } from "lucide-react";
+> 188 | import { fullHistoryData } from "@/data/historyData"; // Ensure this path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  189 |
+  190 | // --- 1. HIGHLIGHTS DATA (Your Original Data - Unchanged) ---
+  191 | const historyEvents = [
+
+Import map: aliased to relative './data/historyData' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/siddhar-peedam/history/page.tsx [Client Component Browser]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/siddhar-peedam/history/page.tsx [Client Component SSR]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:33:20.354] Server  ERROR    ⨯ ./app/siddhar-peedam/history/page.tsx:188:1
+Module not found: Can't resolve '@/data/historyData'
+  186 |   Calendar
+  187 | } from "lucide-react";
+> 188 | import { fullHistoryData } from "@/data/historyData"; // Ensure this path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  189 |
+  190 | // --- 1. HIGHLIGHTS DATA (Your Original Data - Unchanged) ---
+  191 | const historyEvents = [
+
+Import map: aliased to relative './data/historyData' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/siddhar-peedam/history/page.tsx [Client Component Browser]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/siddhar-peedam/history/page.tsx [Client Component SSR]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:33:20.362] Server  ERROR    ⨯ ./app/siddhar-peedam/history/page.tsx:188:1
+Module not found: Can't resolve '@/data/historyData'
+  186 |   Calendar
+  187 | } from "lucide-react";
+> 188 | import { fullHistoryData } from "@/data/historyData"; // Ensure this path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  189 |
+  190 | // --- 1. HIGHLIGHTS DATA (Your Original Data - Unchanged) ---
+  191 | const historyEvents = [
+
+Import map: aliased to relative './data/historyData' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/siddhar-peedam/history/page.tsx [Client Component Browser]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/siddhar-peedam/history/page.tsx [Client Component SSR]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:33:41.188] Server  ERROR    ⨯ ./app/siddhar-peedam/history/page.tsx:188:1
+Module not found: Can't resolve '@'
+  186 |   Calendar
+  187 | } from "lucide-react";
+> 188 | import { fullHistoryData } from "@"; // Ensure this path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  189 |
+  190 | // --- 1. HIGHLIGHTS DATA (Your Original Data - Unchanged) ---
+  191 | const historyEvents = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/siddhar-peedam/history/page.tsx [Client Component Browser]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/siddhar-peedam/history/page.tsx [Client Component SSR]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:33:41.195] Server  ERROR    ⨯ ./app/siddhar-peedam/history/page.tsx:188:1
+Module not found: Can't resolve '@'
+  186 |   Calendar
+  187 | } from "lucide-react";
+> 188 | import { fullHistoryData } from "@"; // Ensure this path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  189 |
+  190 | // --- 1. HIGHLIGHTS DATA (Your Original Data - Unchanged) ---
+  191 | const historyEvents = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/siddhar-peedam/history/page.tsx [Client Component Browser]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/siddhar-peedam/history/page.tsx [Client Component SSR]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:33:41.202] Server  ERROR    ⨯ ./app/siddhar-peedam/history/page.tsx:188:1
+Module not found: Can't resolve '@'
+  186 |   Calendar
+  187 | } from "lucide-react";
+> 188 | import { fullHistoryData } from "@"; // Ensure this path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  189 |
+  190 | // --- 1. HIGHLIGHTS DATA (Your Original Data - Unchanged) ---
+  191 | const historyEvents = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/siddhar-peedam/history/page.tsx [Client Component Browser]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/siddhar-peedam/history/page.tsx [Client Component SSR]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:33:41.208] Server  ERROR    ⨯ ./app/siddhar-peedam/history/page.tsx:188:1
+Module not found: Can't resolve '@'
+  186 |   Calendar
+  187 | } from "lucide-react";
+> 188 | import { fullHistoryData } from "@"; // Ensure this path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  189 |
+  190 | // --- 1. HIGHLIGHTS DATA (Your Original Data - Unchanged) ---
+  191 | const historyEvents = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/siddhar-peedam/history/page.tsx [Client Component Browser]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/siddhar-peedam/history/page.tsx [Client Component SSR]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:33:42.516] Server  ERROR    ⨯ ./app/siddhar-peedam/history/page.tsx:188:1
+Module not found: Can't resolve '@/'
+  186 |   Calendar
+  187 | } from "lucide-react";
+> 188 | import { fullHistoryData } from "@/"; // Ensure this path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  189 |
+  190 | // --- 1. HIGHLIGHTS DATA (Your Original Data - Unchanged) ---
+  191 | const historyEvents = [
+
+Import map: aliased to relative './' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/siddhar-peedam/history/page.tsx [Client Component Browser]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/siddhar-peedam/history/page.tsx [Client Component SSR]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:33:42.521] Server  ERROR    ⨯ ./app/siddhar-peedam/history/page.tsx:188:1
+Module not found: Can't resolve '@/'
+  186 |   Calendar
+  187 | } from "lucide-react";
+> 188 | import { fullHistoryData } from "@/"; // Ensure this path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  189 |
+  190 | // --- 1. HIGHLIGHTS DATA (Your Original Data - Unchanged) ---
+  191 | const historyEvents = [
+
+Import map: aliased to relative './' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/siddhar-peedam/history/page.tsx [Client Component Browser]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/siddhar-peedam/history/page.tsx [Client Component SSR]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:33:42.533] Server  ERROR    ⨯ ./app/siddhar-peedam/history/page.tsx:188:1
+Module not found: Can't resolve '@/'
+  186 |   Calendar
+  187 | } from "lucide-react";
+> 188 | import { fullHistoryData } from "@/"; // Ensure this path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  189 |
+  190 | // --- 1. HIGHLIGHTS DATA (Your Original Data - Unchanged) ---
+  191 | const historyEvents = [
+
+Import map: aliased to relative './' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/siddhar-peedam/history/page.tsx [Client Component Browser]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/siddhar-peedam/history/page.tsx [Client Component SSR]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:33:42.537] Server  ERROR    ⨯ ./app/siddhar-peedam/history/page.tsx:188:1
+Module not found: Can't resolve '@/'
+  186 |   Calendar
+  187 | } from "lucide-react";
+> 188 | import { fullHistoryData } from "@/"; // Ensure this path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  189 |
+  190 | // --- 1. HIGHLIGHTS DATA (Your Original Data - Unchanged) ---
+  191 | const historyEvents = [
+
+Import map: aliased to relative './' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/siddhar-peedam/history/page.tsx [Client Component Browser]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/siddhar-peedam/history/page.tsx [Client Component SSR]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:33:46.157] Server  ERROR    ⨯ ./app/siddhar-peedam/history/page.tsx:188:1
+Module not found: Can't resolve '@/lib'
+  186 |   Calendar
+  187 | } from "lucide-react";
+> 188 | import { fullHistoryData } from "@/lib"; // Ensure this path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  189 |
+  190 | // --- 1. HIGHLIGHTS DATA (Your Original Data - Unchanged) ---
+  191 | const historyEvents = [
+
+Import map: aliased to relative './lib' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/siddhar-peedam/history/page.tsx [Client Component Browser]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/siddhar-peedam/history/page.tsx [Client Component SSR]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:33:46.163] Server  ERROR    ⨯ ./app/siddhar-peedam/history/page.tsx:188:1
+Module not found: Can't resolve '@/lib'
+  186 |   Calendar
+  187 | } from "lucide-react";
+> 188 | import { fullHistoryData } from "@/lib"; // Ensure this path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  189 |
+  190 | // --- 1. HIGHLIGHTS DATA (Your Original Data - Unchanged) ---
+  191 | const historyEvents = [
+
+Import map: aliased to relative './lib' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/siddhar-peedam/history/page.tsx [Client Component Browser]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/siddhar-peedam/history/page.tsx [Client Component SSR]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:33:46.169] Server  ERROR    ⨯ ./app/siddhar-peedam/history/page.tsx:188:1
+Module not found: Can't resolve '@/lib'
+  186 |   Calendar
+  187 | } from "lucide-react";
+> 188 | import { fullHistoryData } from "@/lib"; // Ensure this path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  189 |
+  190 | // --- 1. HIGHLIGHTS DATA (Your Original Data - Unchanged) ---
+  191 | const historyEvents = [
+
+Import map: aliased to relative './lib' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/siddhar-peedam/history/page.tsx [Client Component Browser]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/siddhar-peedam/history/page.tsx [Client Component SSR]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:33:46.176] Server  ERROR    ⨯ ./app/siddhar-peedam/history/page.tsx:188:1
+Module not found: Can't resolve '@/lib'
+  186 |   Calendar
+  187 | } from "lucide-react";
+> 188 | import { fullHistoryData } from "@/lib"; // Ensure this path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  189 |
+  190 | // --- 1. HIGHLIGHTS DATA (Your Original Data - Unchanged) ---
+  191 | const historyEvents = [
+
+Import map: aliased to relative './lib' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/siddhar-peedam/history/page.tsx [Client Component Browser]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/siddhar-peedam/history/page.tsx [Client Component SSR]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:33:47.403] Server  ERROR    ⨯ ./app/siddhar-peedam/history/page.tsx:188:1
+Module not found: Can't resolve '@/lib/'
+  186 |   Calendar
+  187 | } from "lucide-react";
+> 188 | import { fullHistoryData } from "@/lib/"; // Ensure this path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  189 |
+  190 | // --- 1. HIGHLIGHTS DATA (Your Original Data - Unchanged) ---
+  191 | const historyEvents = [
+
+Import map: aliased to relative './lib/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/siddhar-peedam/history/page.tsx [Client Component Browser]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/siddhar-peedam/history/page.tsx [Client Component SSR]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:33:47.412] Server  ERROR    ⨯ ./app/siddhar-peedam/history/page.tsx:188:1
+Module not found: Can't resolve '@/lib/'
+  186 |   Calendar
+  187 | } from "lucide-react";
+> 188 | import { fullHistoryData } from "@/lib/"; // Ensure this path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  189 |
+  190 | // --- 1. HIGHLIGHTS DATA (Your Original Data - Unchanged) ---
+  191 | const historyEvents = [
+
+Import map: aliased to relative './lib/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/siddhar-peedam/history/page.tsx [Client Component Browser]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/siddhar-peedam/history/page.tsx [Client Component SSR]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:33:47.416] Server  ERROR    ⨯ ./app/siddhar-peedam/history/page.tsx:188:1
+Module not found: Can't resolve '@/lib/'
+  186 |   Calendar
+  187 | } from "lucide-react";
+> 188 | import { fullHistoryData } from "@/lib/"; // Ensure this path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  189 |
+  190 | // --- 1. HIGHLIGHTS DATA (Your Original Data - Unchanged) ---
+  191 | const historyEvents = [
+
+Import map: aliased to relative './lib/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/siddhar-peedam/history/page.tsx [Client Component Browser]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/siddhar-peedam/history/page.tsx [Client Component SSR]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:33:47.423] Server  ERROR    ⨯ ./app/siddhar-peedam/history/page.tsx:188:1
+Module not found: Can't resolve '@/lib/'
+  186 |   Calendar
+  187 | } from "lucide-react";
+> 188 | import { fullHistoryData } from "@/lib/"; // Ensure this path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  189 |
+  190 | // --- 1. HIGHLIGHTS DATA (Your Original Data - Unchanged) ---
+  191 | const historyEvents = [
+
+Import map: aliased to relative './lib/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/siddhar-peedam/history/page.tsx [Client Component Browser]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/siddhar-peedam/history/page.tsx [Client Component SSR]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:33:49.290] Server  LOG      ✓ Compiled in 89ms
+[01:34:04.110] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /siddhar-peedam/history. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:34:04.146] Browser ERROR   ./app/siddhar-peedam/history/page.tsx:188:1
+Module not found: Can't resolve '@/data/historyData'
+  186 |   Calendar
+  187 | } from "lucide-react";
+> 188 | import { fullHistoryData } from "@/data/historyData"; // Ensure this path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  189 |
+  190 | // --- 1. HIGHLIGHTS DATA (Your Original Data - Unchanged) ---
+  191 | const historyEvents = [
+
+Import map: aliased to relative './data/historyData' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./app/siddhar-peedam/history/page.tsx [Client Component Browser]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/siddhar-peedam/history/page.tsx [Client Component SSR]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:34:04.146] Browser ERROR   ./app/siddhar-peedam/history/page.tsx:188:1
+Module not found: Can't resolve '@'
+  186 |   Calendar
+  187 | } from "lucide-react";
+> 188 | import { fullHistoryData } from "@"; // Ensure this path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  189 |
+  190 | // --- 1. HIGHLIGHTS DATA (Your Original Data - Unchanged) ---
+  191 | const historyEvents = [
+
+Import traces:
+  Client Component Browser:
+    ./app/siddhar-peedam/history/page.tsx [Client Component Browser]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/siddhar-peedam/history/page.tsx [Client Component SSR]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:34:04.146] Browser ERROR   ./app/siddhar-peedam/history/page.tsx:188:1
+Module not found: Can't resolve '@/'
+  186 |   Calendar
+  187 | } from "lucide-react";
+> 188 | import { fullHistoryData } from "@/"; // Ensure this path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  189 |
+  190 | // --- 1. HIGHLIGHTS DATA (Your Original Data - Unchanged) ---
+  191 | const historyEvents = [
+
+Import map: aliased to relative './' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./app/siddhar-peedam/history/page.tsx [Client Component Browser]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/siddhar-peedam/history/page.tsx [Client Component SSR]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:34:04.146] Browser ERROR   ./app/siddhar-peedam/history/page.tsx:188:1
+Module not found: Can't resolve '@/lib'
+  186 |   Calendar
+  187 | } from "lucide-react";
+> 188 | import { fullHistoryData } from "@/lib"; // Ensure this path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  189 |
+  190 | // --- 1. HIGHLIGHTS DATA (Your Original Data - Unchanged) ---
+  191 | const historyEvents = [
+
+Import map: aliased to relative './lib' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./app/siddhar-peedam/history/page.tsx [Client Component Browser]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/siddhar-peedam/history/page.tsx [Client Component SSR]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:34:04.146] Browser ERROR   ./app/siddhar-peedam/history/page.tsx:188:1
+Module not found: Can't resolve '@/lib/'
+  186 |   Calendar
+  187 | } from "lucide-react";
+> 188 | import { fullHistoryData } from "@/lib/"; // Ensure this path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  189 |
+  190 | // --- 1. HIGHLIGHTS DATA (Your Original Data - Unchanged) ---
+  191 | const historyEvents = [
+
+Import map: aliased to relative './lib/' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./app/siddhar-peedam/history/page.tsx [Client Component Browser]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/siddhar-peedam/history/page.tsx [Client Component SSR]
+    ./app/siddhar-peedam/history/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:34:04.198] Server  LOG      ✓ Compiled in 409ms
+[01:34:04.374] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /siddhar-peedam/history. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:34:05.567] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:48:49.837] Server  LOG      ✓ Compiled in 1177ms
+[01:48:53.558] Server  LOG      ✓ Compiled in 290ms
+[01:49:01.287] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /siddhar-peedam/history. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:49:02.673] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:49:12.348] Server  ERROR    ⨯ ./app/all-historical-events/page.tsx:17:1
+Module not found: Can't resolve '@/data/historyData'
+  15 |   BookOpen
+  16 | } from 'lucide-react';
+> 17 | import { fullHistoryData, HistoryEvent } from '@/data/historyData'; // Ensure this path is correct
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function AllHistoricalEventsPage() {
+  20 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './data/historyData' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:49:12.503] Browser ERROR   ./app/all-historical-events/page.tsx:17:1
+Module not found: Can't resolve '@/data/historyData'
+  15 |   BookOpen
+  16 | } from 'lucide-react';
+> 17 | import { fullHistoryData, HistoryEvent } from '@/data/historyData'; // Ensure this path is correct
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function AllHistoricalEventsPage() {
+  20 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './data/historyData' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:49:14.694] Browser ERROR   ./app/all-historical-events/page.tsx:17:1
+Module not found: Can't resolve '@/data/historyData'
+  15 |   BookOpen
+  16 | } from 'lucide-react';
+> 17 | import { fullHistoryData, HistoryEvent } from '@/data/historyData'; // Ensure this path is correct
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function AllHistoricalEventsPage() {
+  20 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './data/historyData' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:49:15.026] Browser ERROR   ./app/all-historical-events/page.tsx:17:1
+Module not found: Can't resolve '@/data/historyData'
+  15 |   BookOpen
+  16 | } from 'lucide-react';
+> 17 | import { fullHistoryData, HistoryEvent } from '@/data/historyData'; // Ensure this path is correct
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function AllHistoricalEventsPage() {
+  20 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './data/historyData' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:49:15.384] Server  LOG      ○ Compiling /_error ...
+[01:49:17.073] Browser ERROR   ./app/all-historical-events/page.tsx:17:1
+Module not found: Can't resolve '@/data/historyData'
+  15 |   BookOpen
+  16 | } from 'lucide-react';
+> 17 | import { fullHistoryData, HistoryEvent } from '@/data/historyData'; // Ensure this path is correct
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function AllHistoricalEventsPage() {
+  20 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './data/historyData' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:49:17.153] Server  ERROR    ⨯ ./app/all-historical-events/page.tsx:17:1
+Module not found: Can't resolve '@/data/historyData'
+  15 |   BookOpen
+  16 | } from 'lucide-react';
+> 17 | import { fullHistoryData, HistoryEvent } from '@/data/historyData'; // Ensure this path is correct
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function AllHistoricalEventsPage() {
+  20 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './data/historyData' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:49:17.618] Browser ERROR   uncaughtError: Error: ./app/all-historical-events/page.tsx:17:1
+Module not found: Can't resolve '@/data/historyData'
+  15 |   BookOpen
+  16 | } from 'lucide-react';
+> 17 | import { fullHistoryData, HistoryEvent } from '@/data/historyData'; // Ensure this path is correct
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function AllHistoricalEventsPage() {
+  20 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './data/historyData' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:49:17.758] Browser ERROR   ./app/all-historical-events/page.tsx:17:1
+Module not found: Can't resolve '@/data/historyData'
+  15 |   BookOpen
+  16 | } from 'lucide-react';
+> 17 | import { fullHistoryData, HistoryEvent } from '@/data/historyData'; // Ensure this path is correct
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function AllHistoricalEventsPage() {
+  20 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './data/historyData' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:49:17.876] Browser ERROR   ./app/all-historical-events/page.tsx:17:1
+Module not found: Can't resolve '@/data/historyData'
+  15 |   BookOpen
+  16 | } from 'lucide-react';
+> 17 | import { fullHistoryData, HistoryEvent } from '@/data/historyData'; // Ensure this path is correct
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function AllHistoricalEventsPage() {
+  20 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './data/historyData' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:49:37.583] Server  ERROR    ⨯ ./app/all-historical-events/page.tsx:17:1
+Module not found: Can't resolve '@/'
+  15 |   BookOpen
+  16 | } from 'lucide-react';
+> 17 | import { fullHistoryData, HistoryEvent } from '@/'; // Ensure this path is correct
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function AllHistoricalEventsPage() {
+  20 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:49:37.589] Server  ERROR    ⨯ ./app/all-historical-events/page.tsx:17:1
+Module not found: Can't resolve '@/'
+  15 |   BookOpen
+  16 | } from 'lucide-react';
+> 17 | import { fullHistoryData, HistoryEvent } from '@/'; // Ensure this path is correct
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function AllHistoricalEventsPage() {
+  20 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:49:37.594] Server  ERROR    ⨯ ./app/all-historical-events/page.tsx:17:1
+Module not found: Can't resolve '@/'
+  15 |   BookOpen
+  16 | } from 'lucide-react';
+> 17 | import { fullHistoryData, HistoryEvent } from '@/'; // Ensure this path is correct
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function AllHistoricalEventsPage() {
+  20 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:49:37.596] Server  ERROR    ⨯ ./app/all-historical-events/page.tsx:17:1
+Module not found: Can't resolve '@/'
+  15 |   BookOpen
+  16 | } from 'lucide-react';
+> 17 | import { fullHistoryData, HistoryEvent } from '@/'; // Ensure this path is correct
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function AllHistoricalEventsPage() {
+  20 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:49:38.706] Server  ERROR    ⨯ ./app/all-historical-events/page.tsx:17:1
+Module not found: Can't resolve '@'
+  15 |   BookOpen
+  16 | } from 'lucide-react';
+> 17 | import { fullHistoryData, HistoryEvent } from '@'; // Ensure this path is correct
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function AllHistoricalEventsPage() {
+  20 |   const [filter, setFilter] = useState<string>('all');
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:49:38.709] Server  ERROR    ⨯ ./app/all-historical-events/page.tsx:17:1
+Module not found: Can't resolve '@'
+  15 |   BookOpen
+  16 | } from 'lucide-react';
+> 17 | import { fullHistoryData, HistoryEvent } from '@'; // Ensure this path is correct
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function AllHistoricalEventsPage() {
+  20 |   const [filter, setFilter] = useState<string>('all');
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:49:38.713] Server  ERROR    ⨯ ./app/all-historical-events/page.tsx:17:1
+Module not found: Can't resolve '@'
+  15 |   BookOpen
+  16 | } from 'lucide-react';
+> 17 | import { fullHistoryData, HistoryEvent } from '@'; // Ensure this path is correct
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function AllHistoricalEventsPage() {
+  20 |   const [filter, setFilter] = useState<string>('all');
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:49:38.722] Server  ERROR    ⨯ ./app/all-historical-events/page.tsx:17:1
+Module not found: Can't resolve '@'
+  15 |   BookOpen
+  16 | } from 'lucide-react';
+> 17 | import { fullHistoryData, HistoryEvent } from '@'; // Ensure this path is correct
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function AllHistoricalEventsPage() {
+  20 |   const [filter, setFilter] = useState<string>('all');
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:49:38.724] Browser ERROR   ./app/all-historical-events/page.tsx:17:1
+Module not found: Can't resolve '@/'
+  15 |   BookOpen
+  16 | } from 'lucide-react';
+> 17 | import { fullHistoryData, HistoryEvent } from '@/'; // Ensure this path is correct
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function AllHistoricalEventsPage() {
+  20 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:49:39.718] Browser ERROR   ./app/all-historical-events/page.tsx:17:1
+Module not found: Can't resolve '@'
+  15 |   BookOpen
+  16 | } from 'lucide-react';
+> 17 | import { fullHistoryData, HistoryEvent } from '@'; // Ensure this path is correct
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function AllHistoricalEventsPage() {
+  20 |   const [filter, setFilter] = useState<string>('all');
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:49:40.256] Server  ERROR    ⨯ ./app/all-historical-events/page.tsx:17:1
+Module not found: Can't resolve '@/'
+  15 |   BookOpen
+  16 | } from 'lucide-react';
+> 17 | import { fullHistoryData, HistoryEvent } from '@/'; // Ensure this path is correct
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function AllHistoricalEventsPage() {
+  20 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:49:40.260] Server  ERROR    ⨯ ./app/all-historical-events/page.tsx:17:1
+Module not found: Can't resolve '@/'
+  15 |   BookOpen
+  16 | } from 'lucide-react';
+> 17 | import { fullHistoryData, HistoryEvent } from '@/'; // Ensure this path is correct
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function AllHistoricalEventsPage() {
+  20 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:49:40.271] Server  ERROR    ⨯ ./app/all-historical-events/page.tsx:17:1
+Module not found: Can't resolve '@/'
+  15 |   BookOpen
+  16 | } from 'lucide-react';
+> 17 | import { fullHistoryData, HistoryEvent } from '@/'; // Ensure this path is correct
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function AllHistoricalEventsPage() {
+  20 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:49:40.274] Server  ERROR    ⨯ ./app/all-historical-events/page.tsx:17:1
+Module not found: Can't resolve '@/'
+  15 |   BookOpen
+  16 | } from 'lucide-react';
+> 17 | import { fullHistoryData, HistoryEvent } from '@/'; // Ensure this path is correct
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function AllHistoricalEventsPage() {
+  20 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:49:40.716] Browser ERROR   ./app/all-historical-events/page.tsx:17:1
+Module not found: Can't resolve '@/'
+  15 |   BookOpen
+  16 | } from 'lucide-react';
+> 17 | import { fullHistoryData, HistoryEvent } from '@/'; // Ensure this path is correct
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function AllHistoricalEventsPage() {
+  20 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:49:42.525] Server  ERROR    ⨯ ./app/all-historical-events/page.tsx:17:1
+Module not found: Can't resolve '@/lib'
+  15 |   BookOpen
+  16 | } from 'lucide-react';
+> 17 | import { fullHistoryData, HistoryEvent } from '@/lib'; // Ensure this path is correct
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function AllHistoricalEventsPage() {
+  20 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './lib' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:49:42.528] Server  ERROR    ⨯ ./app/all-historical-events/page.tsx:17:1
+Module not found: Can't resolve '@/lib'
+  15 |   BookOpen
+  16 | } from 'lucide-react';
+> 17 | import { fullHistoryData, HistoryEvent } from '@/lib'; // Ensure this path is correct
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function AllHistoricalEventsPage() {
+  20 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './lib' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:49:42.532] Server  ERROR    ⨯ ./app/all-historical-events/page.tsx:17:1
+Module not found: Can't resolve '@/lib'
+  15 |   BookOpen
+  16 | } from 'lucide-react';
+> 17 | import { fullHistoryData, HistoryEvent } from '@/lib'; // Ensure this path is correct
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function AllHistoricalEventsPage() {
+  20 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './lib' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:49:42.537] Server  ERROR    ⨯ ./app/all-historical-events/page.tsx:17:1
+Module not found: Can't resolve '@/lib'
+  15 |   BookOpen
+  16 | } from 'lucide-react';
+> 17 | import { fullHistoryData, HistoryEvent } from '@/lib'; // Ensure this path is correct
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function AllHistoricalEventsPage() {
+  20 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './lib' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:49:42.717] Browser ERROR   ./app/all-historical-events/page.tsx:17:1
+Module not found: Can't resolve '@/lib'
+  15 |   BookOpen
+  16 | } from 'lucide-react';
+> 17 | import { fullHistoryData, HistoryEvent } from '@/lib'; // Ensure this path is correct
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function AllHistoricalEventsPage() {
+  20 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './lib' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:49:43.687] Server  ERROR    ⨯ ./app/all-historical-events/page.tsx:17:1
+Module not found: Can't resolve '@/lib/'
+  15 |   BookOpen
+  16 | } from 'lucide-react';
+> 17 | import { fullHistoryData, HistoryEvent } from '@/lib/'; // Ensure this path is correct
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function AllHistoricalEventsPage() {
+  20 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './lib/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:49:43.691] Server  ERROR    ⨯ ./app/all-historical-events/page.tsx:17:1
+Module not found: Can't resolve '@/lib/'
+  15 |   BookOpen
+  16 | } from 'lucide-react';
+> 17 | import { fullHistoryData, HistoryEvent } from '@/lib/'; // Ensure this path is correct
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function AllHistoricalEventsPage() {
+  20 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './lib/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:49:43.697] Server  ERROR    ⨯ ./app/all-historical-events/page.tsx:17:1
+Module not found: Can't resolve '@/lib/'
+  15 |   BookOpen
+  16 | } from 'lucide-react';
+> 17 | import { fullHistoryData, HistoryEvent } from '@/lib/'; // Ensure this path is correct
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function AllHistoricalEventsPage() {
+  20 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './lib/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:49:43.702] Server  ERROR    ⨯ ./app/all-historical-events/page.tsx:17:1
+Module not found: Can't resolve '@/lib/'
+  15 |   BookOpen
+  16 | } from 'lucide-react';
+> 17 | import { fullHistoryData, HistoryEvent } from '@/lib/'; // Ensure this path is correct
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function AllHistoricalEventsPage() {
+  20 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './lib/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:49:44.716] Browser ERROR   ./app/all-historical-events/page.tsx:17:1
+Module not found: Can't resolve '@/lib/'
+  15 |   BookOpen
+  16 | } from 'lucide-react';
+> 17 | import { fullHistoryData, HistoryEvent } from '@/lib/'; // Ensure this path is correct
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 |
+  19 | export default function AllHistoricalEventsPage() {
+  20 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './lib/' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:49:45.203] Server  LOG      ✓ Compiled in 92ms
+[01:49:45.616] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /all-historical-events. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:49:46.641] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:49:46.995] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:53:27.298] Server  LOG      ✓ Compiled in 2.7s
+[01:53:28.625] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:53:28.668] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_55eb96e9._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:53:28.740] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:53:28.764] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:53:28.775] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:53:28.777] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:53:28.780] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:53:28.788] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:53:28.803] Server  ERROR    ⨯ Error: The default export is not a React Component in "/all-historical-events/page"
+[01:53:28.824] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:53:28.826] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_55eb96e9._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:53:28.827] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:53:28.828] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:53:28.830] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:53:28.832] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:53:28.834] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:53:28.841] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:53:28.843] Server  ERROR    ⨯ Error: The default export is not a React Component in "/all-historical-events/page"
+[01:53:29.272] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:53:29.275] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_55eb96e9._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:53:29.285] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:53:29.290] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:53:29.296] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:53:29.301] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:53:29.303] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:53:29.306] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:53:29.309] Server  ERROR    ⨯ Error: The default export is not a React Component in "/all-historical-events/page"
+[01:53:29.344] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /all-historical-events. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:53:29.402] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:53:29.422] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_55eb96e9._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:53:29.440] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:53:29.443] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:53:29.446] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:53:29.447] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:53:29.459] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:53:29.462] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:53:29.464] Server  ERROR    ⨯ Error: The default export is not a React Component in "/all-historical-events/page"
+[01:53:32.254] Server  ERROR    ⨯ ./app/all-historical-events/page.tsx:231:1
+Module not found: Can't resolve '@/data/historyData'
+  229 |   Filter
+  230 | } from 'lucide-react';
+> 231 | import { fullHistoryData } from '@/data/historyData'; // Ensure path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  232 |
+  233 | export default function AllHistoricalEventsPage() {
+  234 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './data/historyData' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:53:32.258] Server  ERROR    ⨯ ./app/all-historical-events/page.tsx:231:1
+Module not found: Can't resolve '@/data/historyData'
+  229 |   Filter
+  230 | } from 'lucide-react';
+> 231 | import { fullHistoryData } from '@/data/historyData'; // Ensure path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  232 |
+  233 | export default function AllHistoricalEventsPage() {
+  234 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './data/historyData' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:53:32.266] Server  ERROR    ⨯ ./app/all-historical-events/page.tsx:231:1
+Module not found: Can't resolve '@/data/historyData'
+  229 |   Filter
+  230 | } from 'lucide-react';
+> 231 | import { fullHistoryData } from '@/data/historyData'; // Ensure path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  232 |
+  233 | export default function AllHistoricalEventsPage() {
+  234 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './data/historyData' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:53:32.278] Server  ERROR    ⨯ ./app/all-historical-events/page.tsx:231:1
+Module not found: Can't resolve '@/data/historyData'
+  229 |   Filter
+  230 | } from 'lucide-react';
+> 231 | import { fullHistoryData } from '@/data/historyData'; // Ensure path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  232 |
+  233 | export default function AllHistoricalEventsPage() {
+  234 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './data/historyData' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:53:33.095] Server  ERROR    ⨯ ./app/all-historical-events/page.tsx:231:1
+Module not found: Can't resolve '@/data/historyData'
+  229 |   Filter
+  230 | } from 'lucide-react';
+> 231 | import { fullHistoryData } from '@/data/historyData'; // Ensure path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  232 |
+  233 | export default function AllHistoricalEventsPage() {
+  234 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './data/historyData' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:53:33.613] Browser ERROR   uncaughtError: Error: ./app/all-historical-events/page.tsx:231:1
+Module not found: Can't resolve '@/data/historyData'
+  229 |   Filter
+  230 | } from 'lucide-react';
+> 231 | import { fullHistoryData } from '@/data/historyData'; // Ensure path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  232 |
+  233 | export default function AllHistoricalEventsPage() {
+  234 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './data/historyData' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:53:34.715] Browser ERROR   ./app/all-historical-events/page.tsx:231:1
+Module not found: Can't resolve '@/data/historyData'
+  229 |   Filter
+  230 | } from 'lucide-react';
+> 231 | import { fullHistoryData } from '@/data/historyData'; // Ensure path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  232 |
+  233 | export default function AllHistoricalEventsPage() {
+  234 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './data/historyData' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:53:34.716] Browser ERROR   ./app/all-historical-events/page.tsx:231:1
+Module not found: Can't resolve '@/data/historyData'
+  229 |   Filter
+  230 | } from 'lucide-react';
+> 231 | import { fullHistoryData } from '@/data/historyData'; // Ensure path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  232 |
+  233 | export default function AllHistoricalEventsPage() {
+  234 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './data/historyData' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:53:42.248] Server  ERROR    ⨯ ./app/all-historical-events/page.tsx:231:1
+Module not found: Can't resolve ''
+  229 |   Filter
+  230 | } from 'lucide-react';
+> 231 | import { fullHistoryData } from ''; // Ensure path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  232 |
+  233 | export default function AllHistoricalEventsPage() {
+  234 |   const [filter, setFilter] = useState<string>('all');
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:53:42.250] Server  ERROR    ⨯ ./app/all-historical-events/page.tsx:231:1
+Module not found: Can't resolve ''
+  229 |   Filter
+  230 | } from 'lucide-react';
+> 231 | import { fullHistoryData } from ''; // Ensure path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  232 |
+  233 | export default function AllHistoricalEventsPage() {
+  234 |   const [filter, setFilter] = useState<string>('all');
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:53:42.252] Server  ERROR    ⨯ ./app/all-historical-events/page.tsx:231:1
+Module not found: Can't resolve ''
+  229 |   Filter
+  230 | } from 'lucide-react';
+> 231 | import { fullHistoryData } from ''; // Ensure path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  232 |
+  233 | export default function AllHistoricalEventsPage() {
+  234 |   const [filter, setFilter] = useState<string>('all');
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:53:42.256] Server  ERROR    ⨯ ./app/all-historical-events/page.tsx:231:1
+Module not found: Can't resolve ''
+  229 |   Filter
+  230 | } from 'lucide-react';
+> 231 | import { fullHistoryData } from ''; // Ensure path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  232 |
+  233 | export default function AllHistoricalEventsPage() {
+  234 |   const [filter, setFilter] = useState<string>('all');
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:53:42.706] Browser ERROR   ./app/all-historical-events/page.tsx:231:1
+Module not found: Can't resolve ''
+  229 |   Filter
+  230 | } from 'lucide-react';
+> 231 | import { fullHistoryData } from ''; // Ensure path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  232 |
+  233 | export default function AllHistoricalEventsPage() {
+  234 |   const [filter, setFilter] = useState<string>('all');
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:53:44.497] Server  ERROR    ⨯ ./app/all-historical-events/page.tsx:231:1
+Module not found: Can't resolve '@'
+  229 |   Filter
+  230 | } from 'lucide-react';
+> 231 | import { fullHistoryData } from '@'; // Ensure path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  232 |
+  233 | export default function AllHistoricalEventsPage() {
+  234 |   const [filter, setFilter] = useState<string>('all');
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:53:44.500] Server  ERROR    ⨯ ./app/all-historical-events/page.tsx:231:1
+Module not found: Can't resolve '@'
+  229 |   Filter
+  230 | } from 'lucide-react';
+> 231 | import { fullHistoryData } from '@'; // Ensure path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  232 |
+  233 | export default function AllHistoricalEventsPage() {
+  234 |   const [filter, setFilter] = useState<string>('all');
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:53:44.504] Server  ERROR    ⨯ ./app/all-historical-events/page.tsx:231:1
+Module not found: Can't resolve '@'
+  229 |   Filter
+  230 | } from 'lucide-react';
+> 231 | import { fullHistoryData } from '@'; // Ensure path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  232 |
+  233 | export default function AllHistoricalEventsPage() {
+  234 |   const [filter, setFilter] = useState<string>('all');
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:53:44.508] Server  ERROR    ⨯ ./app/all-historical-events/page.tsx:231:1
+Module not found: Can't resolve '@'
+  229 |   Filter
+  230 | } from 'lucide-react';
+> 231 | import { fullHistoryData } from '@'; // Ensure path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  232 |
+  233 | export default function AllHistoricalEventsPage() {
+  234 |   const [filter, setFilter] = useState<string>('all');
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:53:44.720] Browser ERROR   ./app/all-historical-events/page.tsx:231:1
+Module not found: Can't resolve '@'
+  229 |   Filter
+  230 | } from 'lucide-react';
+> 231 | import { fullHistoryData } from '@'; // Ensure path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  232 |
+  233 | export default function AllHistoricalEventsPage() {
+  234 |   const [filter, setFilter] = useState<string>('all');
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:53:45.983] Server  ERROR    ⨯ ./app/all-historical-events/page.tsx:231:1
+Module not found: Can't resolve '@/'
+  229 |   Filter
+  230 | } from 'lucide-react';
+> 231 | import { fullHistoryData } from '@/'; // Ensure path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  232 |
+  233 | export default function AllHistoricalEventsPage() {
+  234 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:53:45.988] Server  ERROR    ⨯ ./app/all-historical-events/page.tsx:231:1
+Module not found: Can't resolve '@/'
+  229 |   Filter
+  230 | } from 'lucide-react';
+> 231 | import { fullHistoryData } from '@/'; // Ensure path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  232 |
+  233 | export default function AllHistoricalEventsPage() {
+  234 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:53:45.994] Server  ERROR    ⨯ ./app/all-historical-events/page.tsx:231:1
+Module not found: Can't resolve '@/'
+  229 |   Filter
+  230 | } from 'lucide-react';
+> 231 | import { fullHistoryData } from '@/'; // Ensure path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  232 |
+  233 | export default function AllHistoricalEventsPage() {
+  234 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:53:46.003] Server  ERROR    ⨯ ./app/all-historical-events/page.tsx:231:1
+Module not found: Can't resolve '@/'
+  229 |   Filter
+  230 | } from 'lucide-react';
+> 231 | import { fullHistoryData } from '@/'; // Ensure path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  232 |
+  233 | export default function AllHistoricalEventsPage() {
+  234 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:53:46.717] Browser ERROR   ./app/all-historical-events/page.tsx:231:1
+Module not found: Can't resolve '@/'
+  229 |   Filter
+  230 | } from 'lucide-react';
+> 231 | import { fullHistoryData } from '@/'; // Ensure path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  232 |
+  233 | export default function AllHistoricalEventsPage() {
+  234 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:53:47.805] Server  ERROR    ⨯ ./app/all-historical-events/page.tsx:231:1
+Module not found: Can't resolve '@/lib'
+  229 |   Filter
+  230 | } from 'lucide-react';
+> 231 | import { fullHistoryData } from '@/lib'; // Ensure path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  232 |
+  233 | export default function AllHistoricalEventsPage() {
+  234 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './lib' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:53:47.807] Server  ERROR    ⨯ ./app/all-historical-events/page.tsx:231:1
+Module not found: Can't resolve '@/lib'
+  229 |   Filter
+  230 | } from 'lucide-react';
+> 231 | import { fullHistoryData } from '@/lib'; // Ensure path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  232 |
+  233 | export default function AllHistoricalEventsPage() {
+  234 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './lib' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:53:47.809] Server  ERROR    ⨯ ./app/all-historical-events/page.tsx:231:1
+Module not found: Can't resolve '@/lib'
+  229 |   Filter
+  230 | } from 'lucide-react';
+> 231 | import { fullHistoryData } from '@/lib'; // Ensure path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  232 |
+  233 | export default function AllHistoricalEventsPage() {
+  234 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './lib' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:53:47.810] Server  ERROR    ⨯ ./app/all-historical-events/page.tsx:231:1
+Module not found: Can't resolve '@/lib'
+  229 |   Filter
+  230 | } from 'lucide-react';
+> 231 | import { fullHistoryData } from '@/lib'; // Ensure path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  232 |
+  233 | export default function AllHistoricalEventsPage() {
+  234 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './lib' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:53:48.716] Browser ERROR   ./app/all-historical-events/page.tsx:231:1
+Module not found: Can't resolve '@/lib'
+  229 |   Filter
+  230 | } from 'lucide-react';
+> 231 | import { fullHistoryData } from '@/lib'; // Ensure path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  232 |
+  233 | export default function AllHistoricalEventsPage() {
+  234 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './lib' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:53:49.194] Server  ERROR    ⨯ ./app/all-historical-events/page.tsx:231:1
+Module not found: Can't resolve '@/lib/'
+  229 |   Filter
+  230 | } from 'lucide-react';
+> 231 | import { fullHistoryData } from '@/lib/'; // Ensure path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  232 |
+  233 | export default function AllHistoricalEventsPage() {
+  234 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './lib/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:53:49.196] Server  ERROR    ⨯ ./app/all-historical-events/page.tsx:231:1
+Module not found: Can't resolve '@/lib/'
+  229 |   Filter
+  230 | } from 'lucide-react';
+> 231 | import { fullHistoryData } from '@/lib/'; // Ensure path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  232 |
+  233 | export default function AllHistoricalEventsPage() {
+  234 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './lib/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:53:49.200] Server  ERROR    ⨯ ./app/all-historical-events/page.tsx:231:1
+Module not found: Can't resolve '@/lib/'
+  229 |   Filter
+  230 | } from 'lucide-react';
+> 231 | import { fullHistoryData } from '@/lib/'; // Ensure path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  232 |
+  233 | export default function AllHistoricalEventsPage() {
+  234 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './lib/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:53:49.202] Server  ERROR    ⨯ ./app/all-historical-events/page.tsx:231:1
+Module not found: Can't resolve '@/lib/'
+  229 |   Filter
+  230 | } from 'lucide-react';
+> 231 | import { fullHistoryData } from '@/lib/'; // Ensure path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  232 |
+  233 | export default function AllHistoricalEventsPage() {
+  234 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './lib/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:53:49.715] Browser ERROR   ./app/all-historical-events/page.tsx:231:1
+Module not found: Can't resolve '@/lib/'
+  229 |   Filter
+  230 | } from 'lucide-react';
+> 231 | import { fullHistoryData } from '@/lib/'; // Ensure path is correct
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  232 |
+  233 | export default function AllHistoricalEventsPage() {
+  234 |   const [filter, setFilter] = useState<string>('all');
+
+Import map: aliased to relative './lib/' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./app/all-historical-events/page.tsx [Client Component Browser]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/all-historical-events/page.tsx [Client Component SSR]
+    ./app/all-historical-events/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:53:51.081] Server  LOG      ✓ Compiled in 57ms
+[01:53:51.305] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /all-historical-events. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:53:51.864] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:53:52.129] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:54:28.036] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:54:28.184] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:54:28.560] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:54:32.487] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:54:32.751] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:54:34.395] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:54:34.855] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:54:40.291] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /siddhar-peedam/history. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:54:40.539] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:55:33.472] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /all-historical-events. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:55:33.724] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:56:39.954] Server  LOG      ✓ Compiled in 943ms
+[01:56:49.387] Server  LOG      ✓ Compiled in 54ms
+[01:56:50.795] Server  LOG      ✓ Compiled in 39ms
+[01:56:56.478] Server  LOG      ✓ Compiled in 34ms
+[01:57:05.515] Server  LOG      ✓ Compiled in 21ms
+[01:57:14.389] Server  LOG      ✓ Compiled in 35ms
+[01:57:29.423] Server  LOG      ✓ Compiled in 40ms
+[01:57:31.689] Server  LOG      ✓ Compiled in 32ms
+[01:58:43.571] Server  LOG      ✓ Compiled in 54ms
+[01:58:45.656] Server  LOG      ✓ Compiled in 40ms
+[01:58:48.464] Server  LOG      ✓ Compiled in 57ms
+[01:58:56.270] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /all-historical-events. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:58:58.462] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:58:58.503] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[02:00:18.761] Server  LOG      ✓ Compiled in 226ms
+[02:00:20.799] Server  LOG      ✓ Compiled in 50ms
+[02:01:09.524] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[02:01:09.660] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[02:01:10.125] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:02:32.304] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /siddhar-peedam/history. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[02:02:32.583] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[02:03:59.252] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /all-historical-events. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[02:03:59.850] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[02:04:20.089] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /siddhar-peedam/history. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
