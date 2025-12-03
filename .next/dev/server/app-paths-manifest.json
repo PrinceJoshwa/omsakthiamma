@@ -1,9 +1,12 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/articles-detail/[slug]/page": "app/articles-detail/[slug]/page.js",
-  "/online_services/donations/page": "app/online_services/donations/page.js",
+  "/amma/about-amma/page": "app/amma/about-amma/page.js",
+  "/amma/miracles/page": "app/amma/miracles/page.js",
+  "/festivals/mantras/page": "app/festivals/mantras/page.js",
+  "/festivals/occasions/page": "app/festivals/occasions/page.js",
+  "/mantras/page": "app/mantras/page.js",
   "/page": "app/page.js",
-  "/poojas-donations/page": "app/poojas-donations/page.js",
-  "/publications/articles/page": "app/publications/articles/page.js",
-  "/publications/page": "app/publications/page.js"
+  "/page/terms_of_service/page": "app/page/terms_of_service/page.js",
+  "/siddhar-peedam/introduction/page": "app/siddhar-peedam/introduction/page.js",
+  "/siddhar-peedam/schema/page": "app/siddhar-peedam/schema/page.js"
 }

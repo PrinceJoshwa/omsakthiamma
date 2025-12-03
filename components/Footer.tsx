@@ -249,7 +249,7 @@ export default function Footer() {
           <div className="space-y-4">
             <h3 className="text-[#ffc107] font-bold text-lg mb-2">Amma</h3>
             <ul className="space-y-2 text-sm font-medium">
-              <li><Link href="/amma/about" className="hover:text-[#ffc107] transition">About Amma</Link></li>
+              <li><Link href="/amma/about-amma" className="hover:text-[#ffc107] transition">About Amma</Link></li>
               <li><Link href="/amma/message" className="hover:text-[#ffc107] transition">Message</Link></li>
               <li><Link href="/amma/miracles" className="hover:text-[#ffc107] transition">Miracles</Link></li>
             </ul>
@@ -259,7 +259,7 @@ export default function Footer() {
           <div className="space-y-4">
             <h3 className="text-[#ffc107] font-bold text-lg mb-2">Info</h3>
             <ul className="space-y-2 text-sm font-medium">
-              <li><Link href="/terms" className="hover:text-[#ffc107] transition">Terms and Condition</Link></li>
+              <li><Link href="/page/terms_of_service" className="hover:text-[#ffc107] transition">Terms and Condition</Link></li>
             </ul>
           </div>
 
