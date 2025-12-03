@@ -149,19 +149,101 @@ export default function Footer() {
           </div>
 
           {/* COLUMN 2: Poojas & Donations */}
-          <div className="space-y-4">
-            <h3 className="text-[#ffc107] font-bold text-lg mb-2">Poojas & Donations</h3>
-            <ul className="space-y-2 text-sm font-medium">
-              <li><Link href="/poojas/daily-abhisegam" className="hover:text-[#ffc107] transition">Daily Abhisegam</Link></li>
-              <li><Link href="/poojas/pournami" className="hover:text-[#ffc107] transition">Pournami Velaku Poojai</Link></li>
-              <li><Link href="/poojas/ammavasai" className="hover:text-[#ffc107] transition">Ammavasai Velvi</Link></li>
-              <li><Link href="/poojas/golden-chariot" className="hover:text-[#ffc107] transition">Golden Chariot</Link></li>
-              <li><Link href="/poojas/silver-chariot" className="hover:text-[#ffc107] transition">Silver Chariot</Link></li>
-              <li><Link href="/donations/women-welfare" className="hover:text-[#ffc107] transition">Women Welfare (80G)</Link></li>
-              <li><Link href="/donations/hospital" className="hover:text-[#ffc107] transition">Hospital Donations (80G)</Link></li>
-              <li><Link href="/donations/annadhanam" className="hover:text-[#ffc107] transition">Annadhanam (80G)</Link></li>
-            </ul>
-          </div>
+<div className="space-y-4">
+  <h3 className="text-[#ffc107] font-bold text-lg mb-2">Poojas & Donations</h3>
+  <ul className="space-y-2 text-sm font-medium">
+
+    <li>
+      <a
+        href="https://masm.omsakthiamma.in/donate-abhisegam/"
+        className="hover:text-[#ffc107] transition"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Daily Abhisegam
+      </a>
+    </li>
+
+    <li>
+      <a
+        href="https://masm.omsakthiamma.in/donate-other/?c=VELAKU"
+        className="hover:text-[#ffc107] transition"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Pournami Velaku Poojai
+      </a>
+    </li>
+
+    <li>
+      <a
+        href="https://masm.omsakthiamma.in/donate-other/?c=A7"
+        className="hover:text-[#ffc107] transition"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Ammavasai Velvi
+      </a>
+    </li>
+
+    <li>
+      <a
+        href="https://masm.omsakthiamma.in/donate-other/?c=GCP"
+        className="hover:text-[#ffc107] transition"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Golden Chariot
+      </a>
+    </li>
+
+    <li>
+      <a
+        href="https://masm.omsakthiamma.in/donate-other/?c=SIC"
+        className="hover:text-[#ffc107] transition"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Silver Chariot
+      </a>
+    </li>
+
+    <li>
+      <a
+        href="https://acmectrust.org/"
+        className="hover:text-[#ffc107] transition"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Women Welfare (80G)
+      </a>
+    </li>
+
+    <li>
+      <a
+        href="https://acmectrust.org/"
+        className="hover:text-[#ffc107] transition"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Hospital Donations (80G)
+      </a>
+    </li>
+
+    <li>
+      <a
+        href="https://aspwct.omsakthiamma.in/"
+        className="hover:text-[#ffc107] transition"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Annadhanam (80G)
+      </a>
+    </li>
+
+  </ul>
+</div>
+
 
           {/* COLUMN 3: Amma */}
           <div className="space-y-4">

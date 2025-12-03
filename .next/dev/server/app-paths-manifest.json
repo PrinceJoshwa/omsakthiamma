@@ -1,14 +1,9 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/all-historical-events/page": "app/all-historical-events/page.js",
-  "/festivals/programmes/page": "app/festivals/programmes/page.js",
-  "/irumudi-instruction/page": "app/irumudi-instruction/page.js",
+  "/articles-detail/[slug]/page": "app/articles-detail/[slug]/page.js",
+  "/online_services/donations/page": "app/online_services/donations/page.js",
   "/page": "app/page.js",
   "/poojas-donations/page": "app/poojas-donations/page.js",
   "/publications/articles/page": "app/publications/articles/page.js",
-  "/publications/books/page": "app/publications/books/page.js",
-  "/publications/magazine/page": "app/publications/magazine/page.js",
-  "/publications/page": "app/publications/page.js",
-  "/siddhar-peedam/history/page": "app/siddhar-peedam/history/page.js",
-  "/visit-us/page": "app/visit-us/page.js"
+  "/publications/page": "app/publications/page.js"
 }

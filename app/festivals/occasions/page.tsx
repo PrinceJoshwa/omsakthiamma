@@ -31,7 +31,7 @@ import {
 // --- 1. DETAILED FESTIVAL DATA (Extracted from Image) ---
 const occasionsData = [
   {
-    title: "Thaipoosa Jothi Peruvizha",
+    title: "Thai Poosam And Irumudi",
     month: "January - February (Thai)",
     // Extracted from image:
     fullDesc: "This festival usually falls in the Tamil Month of 'Thai'. Lakhs of devotees observe strict spiritual discipline (Vrutham) after wearing the 'Sakthi Malai'. They carry the 'Irumudi' (twin bundles containing offerings) on their heads to the Siddhar Peedam. A unique feature of this festival is the 'Angapradakshinam'—devotees rolling on the ground around the Siddhar Peedam to fulfill their vows. It is a grand spectacle of devotion, with the entire area painted red by the sea of devotees.",
