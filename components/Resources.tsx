@@ -222,6 +222,7 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { BookOpen, FileText, ArrowRight, MapPin } from 'lucide-react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 type ResourceType = 'articles' | 'books';
 
@@ -289,7 +290,7 @@ export default function ResourcesSection() {
       price: "₹150",
       availableAt: "Melmaruvathur Adhiparasakthi siddhar peedam.",
       trust: "Adhiparasakthi Charitable, Medical, Educational And Cultural Trust",
-      image: "/om3.jpeg" 
+      image: "/book/book1.png" 
     },
     {
       id: 2,
@@ -297,7 +298,7 @@ export default function ResourcesSection() {
       price: null,
       availableAt: "ஆதிபராசக்தி சித்தர் பீடம்",
       trust: "ஆதிபராசக்தி கல்வி, மருத்துவ, பண்பாட்டு அறநிலை",
-      image: "/om4.jpeg"
+      image: "/book/book2.jpg"
     },
     {
       id: 3,
@@ -305,7 +306,7 @@ export default function ResourcesSection() {
       price: null,
       availableAt: "Melmaruvathur Adhiparasakthi siddhar peedam.",
       trust: "Adhiparasakthi Charitable, Medical, Educational And Cultural Trust",
-      image: "/om5.jpeg"
+      image: "/book/book3.jpg"
     },
     {
       id: 4,
@@ -314,7 +315,7 @@ export default function ResourcesSection() {
       price: null,
       availableAt: "Melmaruvathur Adhiparasakthi siddhar peedam.",
       trust: "Thamarai thulasi trust",
-      image: "/om3.jpeg"
+      image: "/book/book4.jpg"
     }
   ];
 
@@ -367,9 +368,11 @@ export default function ResourcesSection() {
                   <div key={article.id} className="bg-white p-6 rounded-xl shadow-lg border-t-4 border-[#a7150b] flex flex-col h-full">
                     <h3 className="text-lg md:text-xl font-bold text-[#1a1a1a] mb-3 leading-snug">{article.title}</h3>
                     <p className="text-gray-600 mb-4 text-sm md:text-base leading-relaxed flex-grow">{article.excerpt}</p>
+                    <Link href="/publications/articles">
                     <button className="text-[#a7150b] font-bold flex items-center gap-2 text-xs md:text-sm uppercase tracking-wide mt-auto">
                       Read Article <ArrowRight className="w-4 h-4" />
                     </button>
+                    </Link>
                   </div>
                 ))}
               </motion.div>

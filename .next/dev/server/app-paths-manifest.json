@@ -1,7 +1,6 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/festivals/mantras/page": "app/festivals/mantras/page.js",
+  "/devotional-songs/page": "app/devotional-songs/page.js",
   "/page": "app/page.js",
-  "/publications/books/page": "app/publications/books/page.js",
-  "/publications/magazine/page": "app/publications/magazine/page.js"
+  "/publications/articles/page": "app/publications/articles/page.js"
 }

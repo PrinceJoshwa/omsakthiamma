@@ -312,7 +312,7 @@ export const devotionalSongsFolder: MantraFolder = {
   folderName: "Devotional Songs",
   description: "Devotional songs extracted from the provided list.",
   songs: [
-    { id: "s1", title: "BANGARU KAVASAM", url: "./BANGARUKAVASAM.mp3", duration: "27:12" },
+    { id: "s1", title: "BANGARU KAVASAM", url: "./songs/1. BANGARU KAVASAM.mp3", duration: "27:12" },
     { id: "s2", title: "VARUGA VARUGA", url: "https://res.cloudinary.com/dsj3kcbf4/video/upload/v1764854635/2._VARUGA_VARUGA_ti6i9k.mp3", duration: "04:49" },
     { id: "s3", title: "OMKARANAYAGIYE", url: "./songs/3. OMKARANAYAGIYE.mp3", duration: "05:22" },
     { id: "s4", title: "MARUVOORIN", url: "./songs/4. MARUVOORIN.mp3", duration: "06:18" },

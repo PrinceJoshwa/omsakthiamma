@@ -1,20 +1,1331 @@
-[00:00:01.773] Server  LOG      ✓ Ready in 1201ms
-[00:00:04.894] Server  LOG      ○ Compiling /publications/books ...
-[00:00:08.207] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/books. Please move it to viewport export instead.
+[00:00:01.887] Server  LOG      ✓ Ready in 1389ms
+[00:00:06.551] Server  LOG      ○ Compiling / ...
+[00:00:20.053] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[00:00:20.055] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[00:00:20.056] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[00:00:20.056] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[00:00:20.636] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:00:08.927] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:11.450] Browser WARN    Image with src "/book/book4.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:00:19.055] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/magazine. Please move it to viewport export instead.
+[00:00:22.106] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[00:00:22.107] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[00:00:22.108] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[00:00:22.108] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[00:00:22.182] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:23.399] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[00:00:23.400] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[00:00:23.402] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[00:00:23.404] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[00:00:23.435] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[00:00:23.436] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[00:00:23.438] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[00:00:23.439] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[00:00:23.660] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:00:21.795] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /festivals/mantras. Please move it to viewport export instead.
+[00:00:24.058] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:00:24.616] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+[00:01:48.900] Server  LOG      ✓ Compiled in 121ms
+[00:01:50.875] Server  LOG      ✓ Compiled in 114ms
+[00:01:51.589] Browser ERROR   ./components/Resources.tsx:371:21
+Parsing ecmascript source code failed
+  369 |                     <p className="text-gray-600 mb-4 text-sm md:text-base leading-relaxed flex-grow">{article.excerpt}</p>
+  370 |                     <
+> 371 |                     <button className="text-[#a7150b] font-bold flex items-center gap-2 text-xs md:text-sm uppercase tracking-wide mt-auto">
+      |                     ^
+  372 |                       Read Article <ArrowRight className="w-4 h-4" />
+  373 |                     </button>
+  374 |                   </div>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./components/Resources.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Resources.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:01:53.584] Browser ERROR   ./components/Resources.tsx:371:21
+Parsing ecmascript source code failed
+  369 |                     <p className="text-gray-600 mb-4 text-sm md:text-base leading-relaxed flex-grow">{article.excerpt}</p>
+  370 |                     <Li
+> 371 |                     <button className="text-[#a7150b] font-bold flex items-center gap-2 text-xs md:text-sm uppercase tracking-wide mt-auto">
+      |                     ^
+  372 |                       Read Article <ArrowRight className="w-4 h-4" />
+  373 |                     </button>
+  374 |                   </div>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./components/Resources.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Resources.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:01:55.591] Browser ERROR   ./components/Resources.tsx:371:21
+Parsing ecmascript source code failed
+  369 |                     <p className="text-gray-600 mb-4 text-sm md:text-base leading-relaxed flex-grow">{article.excerpt}</p>
+  370 |                     <Link
+> 371 |                     <button className="text-[#a7150b] font-bold flex items-center gap-2 text-xs md:text-sm uppercase tracking-wide mt-auto">
+      |                     ^
+  372 |                       Read Article <ArrowRight className="w-4 h-4" />
+  373 |                     </button>
+  374 |                   </div>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./components/Resources.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Resources.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:01:59.587] Browser ERROR   ./components/Resources.tsx:372:21
+Parsing ecmascript source code failed
+  370 |                     <p className="text-gray-600 mb-4 text-sm md:text-base leading-relaxed flex-grow">{article.excerpt}</p>
+  371 |                     <Link
+> 372 |                     <button className="text-[#a7150b] font-bold flex items-center gap-2 text-xs md:text-sm uppercase tracking-wide mt-auto">
+      |                     ^
+  373 |                       Read Article <ArrowRight className="w-4 h-4" />
+  374 |                     </button>
+  375 |                   </div>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./components/Resources.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Resources.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:02:01.592] Browser ERROR   ./components/Resources.tsx:372:21
+Parsing ecmascript source code failed
+  370 |                     <p className="text-gray-600 mb-4 text-sm md:text-base leading-relaxed flex-grow">{article.excerpt}</p>
+  371 |                     <Link 
+> 372 |                     <button className="text-[#a7150b] font-bold flex items-center gap-2 text-xs md:text-sm uppercase tracking-wide mt-auto">
+      |                     ^
+  373 |                       Read Article <ArrowRight className="w-4 h-4" />
+  374 |                     </button>
+  375 |                   </div>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./components/Resources.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Resources.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:04:37.120] Server  LOG      ✓ Compiled in 205ms
+[00:04:37.593] Browser ERROR   ./components/Resources.tsx:376:19
+Parsing ecmascript source code failed
+  374 |                     </button>
+  375 |                   </div>
+> 376 |                 ))}
+      |                   ^
+  377 |               </motion.div>
+  378 |             ) : (
+  379 |               /* BOOKS TAB */
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./components/Resources.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Resources.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:04:42.683] Browser ERROR   ./components/Resources.tsx:377:19
+Parsing ecmascript source code failed
+  375 |                     
+  376 |                   </div>
+> 377 |                 ))}
+      |                   ^
+  378 |               </motion.div>
+  379 |             ) : (
+  380 |               /* BOOKS TAB */
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./components/Resources.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Resources.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:04:44.525] Server  LOG      ✓ Compiled in 154ms
+[00:04:45.591] Browser ERROR   ./components/Resources.tsx:376:19
+Parsing ecmascript source code failed
+  374 |                     </button>
+  375 |                     <
+> 376 |                   </div>
+      |                   ^
+  377 |                 ))}
+  378 |               </motion.div>
+  379 |             ) : (
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./components/Resources.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Resources.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:04:45.591] Browser ERROR   ./components/Resources.tsx:376:20
+Parsing ecmascript source code failed
+  374 |                     </button>
+  375 |                     <
+> 376 |                   </div>
+      |                    ^^^^^
+  377 |                 ))}
+  378 |               </motion.div>
+  379 |             ) : (
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./components/Resources.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Resources.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:04:46.591] Browser ERROR   ./components/Resources.tsx:376:19
+Parsing ecmascript source code failed
+  374 |                     </button>
+  375 |                     </
+> 376 |                   </div>
+      |                   ^
+  377 |                 ))}
+  378 |               </motion.div>
+  379 |             ) : (
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./components/Resources.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Resources.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:04:46.591] Browser ERROR   ./components/Resources.tsx:376:20
+Parsing ecmascript source code failed
+  374 |                     </button>
+  375 |                     </
+> 376 |                   </div>
+      |                    ^^^^^
+  377 |                 ))}
+  378 |               </motion.div>
+  379 |             ) : (
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./components/Resources.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Resources.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:04:48.967] Server  LOG      ✓ Compiled in 922ms
+[00:04:49.354] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[00:04:49.357] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[00:04:49.358] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[00:04:49.359] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[00:04:49.983] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:00:24.662] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+[00:05:00.434] Server  LOG      ○ Compiling /publications/articles ...
+[00:05:02.137] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[00:05:02.138] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[00:05:02.139] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[00:05:02.140] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[00:05:02.262] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/articles. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:00:25.332] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:00:28.373] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+[00:05:02.289] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[00:05:02.292] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[00:05:02.293] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[00:05:02.296] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[00:05:02.386] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/articles. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:00:30.368] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+[00:05:02.678] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:05:06.626] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[00:05:06.629] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[00:05:06.632] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[00:05:06.633] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[00:05:06.637] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[00:05:06.640] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[00:05:06.643] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[00:05:06.655] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[00:05:06.656] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[00:05:06.658] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[00:05:06.659] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[00:05:06.660] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[00:05:06.673] Browser ERROR   ./app/admin/upload/page.tsx
+Module not found: Can't resolve './page.tsx'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:05:06.673] Browser ERROR   ./app/admin/upload/page.tsx
+Module not found: Can't resolve './page.tsx'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:05:06.673] Browser ERROR   ./app/admin/upload/page.tsx
+Module not found: Can't resolve './page.tsx'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:05:06.673] Browser ERROR   ./app/admin/upload/page.tsx
+Module not found: Can't resolve './page.tsx'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:05:06.673] Browser ERROR   ./app/admin/upload/page.tsx
+Module not found: Can't resolve './page.tsx'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:05:06.673] Browser ERROR   ./app/admin/upload/page.tsx
+Module not found: Can't resolve './page.tsx'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:05:06.673] Browser ERROR   ./app/admin/upload/page.tsx
+Module not found: Can't resolve './page.tsx'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:05:06.673] Browser ERROR   ./app/admin/upload/page.tsx
+Module not found: Can't resolve './page.tsx'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:05:08.287] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[00:05:08.288] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[00:05:08.288] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[00:05:08.290] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[00:05:08.407] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /devotional-songs. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:05:09.330] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[00:05:09.332] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[00:05:09.333] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[00:05:09.334] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[00:05:09.399] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:05:09.523] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[00:05:09.524] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[00:05:09.525] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[00:05:09.529] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[00:05:09.603] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:05:09.873] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[00:05:09.874] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[00:05:09.875] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[00:05:09.875] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[00:05:09.876] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[00:05:09.877] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[00:05:09.877] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[00:05:09.878] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[00:05:09.879] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[00:05:09.880] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[00:05:09.880] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[00:05:09.881] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[00:05:09.881] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[00:05:09.882] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[00:05:09.883] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[00:05:09.884] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[00:05:09.972] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:22.698] Server  LOG      ✓ Compiled in 134ms
+[00:05:31.442] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[00:05:31.443] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[00:05:31.444] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[00:05:31.444] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[00:05:31.571] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:05:31.649] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[00:05:31.650] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[00:05:31.651] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[00:05:31.652] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[00:05:31.703] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:05:45.106] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[00:05:45.107] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[00:05:45.109] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[00:05:45.113] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[00:05:45.184] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /publications/articles. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:05:49.600] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[00:05:49.600] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[00:05:49.603] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[00:05:49.604] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[00:05:49.794] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:06:50.299] Server  LOG      ✓ Compiled in 201ms
+[00:06:50.536] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[00:06:50.536] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[00:06:50.537] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[00:06:50.539] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[00:06:50.687] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:06:52.653] Server  LOG      ✓ Compiled in 111ms
+[00:06:52.835] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[00:06:52.836] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[00:06:52.836] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[00:06:52.837] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[00:06:52.863] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:06:55.344] Server  LOG      ✓ Compiled in 108ms
