@@ -61,7 +61,7 @@
 // //             IFSC CODE : KVBL0001760<br /><br />
 
 // //             Once made the payment through the bank transfer, please send
-// //             an email to <span className="font-bold">asqwjd@gmail.com</span> with the
+// //             an email to <span className="font-bold">aspwct@gmail.com</span> with the
 // //             transaction details (Your name, date, transaction ID, and address).
 // //           </p>
 // //         </div>
@@ -80,7 +80,7 @@
 // //             Tamil Nadu, India.<br /><br />
 
 // //             Phone : 044-27529391, 27529313<br />
-// //             Email : asqwjd@gmail.com
+// //             Email : aspwct@gmail.com
 // //           </p>
 // //         </div>
 

@@ -310,19 +310,23 @@ const navItems: NavItem[] = [
     dropdown: [
       { 
         label: 'Melmaruvathur Adhiparasakthi Spiritual Movement (MASM)', 
-        href: 'https://masm.omsakthiamma.in' 
+        // href: 'https://masm.omsakthiamma.in' 
+        href: '#' 
       },
       { 
         label: "Adhiparasakthi Siddhar Peeda Women's Charitable Trust (ASPWCT)", 
-        href: 'https://aspwct.omsakthiamma.in' 
+        // href: 'https://aspwct.omsakthiamma.in'
+        href: '#'  
       },
       { 
         label: 'Adhiparasakthi Charitable Medical Educational and Cultural Trust (ACMEC)', 
-        href: 'https://acmectrust.org' 
+        // href: 'https://acmectrust.org' 
+        href: '#' 
       },
       { 
         label: 'Adhiparasakthi Charitable and Annadhanam Society (ACAS)', 
-        href: 'https://acas.omsakthiamma.in' 
+        // href: 'https://acas.omsakthiamma.in' 
+        href: '#' 
       },
     ],
   },

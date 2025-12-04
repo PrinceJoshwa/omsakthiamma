@@ -95,7 +95,7 @@ const allEvents: EventItem[] = [
   { date: "24-11-2026", day: "Tuesday", title: "Pournami Pooja", tamilTitle: "பௌர்ணமி பூஜை", type: "pournami" },
 
   // DECEMBER
-  { date: "08-12-2026", day: "Tuesday", title: "Ammavasai Velvi", tamilTitle: "அமாவாசை வேள்வி", type: "amavasai" },
+  // { date: "08-12-2026", day: "Tuesday", title: "Ammavasai Velvi", tamilTitle: "அமாவாசை வேள்வி", type: "amavasai" },
   { date: "23-12-2026", day: "Wednesday", title: "Pournami Pooja", tamilTitle: "பௌர்ணமி பூஜை", type: "pournami" },
   { date: "25-12-2026", day: "Friday", title: "Christmas", tamilTitle: "கிறிஸ்துமஸ்", type: "holiday" },
 ];

@@ -1,1285 +1,494 @@
-[00:00:06.630] Server  LOG      ✓ Ready in 5.7s
-[00:00:30.065] Server  LOG      ○ Compiling / ...
-[00:00:40.564] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+[00:00:02.574] Server  LOG      ✓ Ready in 1795ms
+[00:00:24.189] Server  LOG      ○ Compiling / ...
+[00:00:34.013] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:00:42.811] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:45.328] Server  LOG      ○ Compiling /_not-found/page ...
-[00:00:46.334] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+[00:00:35.744] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:02:58.510] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+[00:00:39.193] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:40.113] Server  LOG      ○ Compiling /_not-found/page ...
+[00:00:40.356] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:44.718] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:02:58.678] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+[00:00:45.763] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:02:58.767] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+[00:02:58.082] Server  LOG      ✓ Compiled in 399ms
+[00:09:34.538] Server  LOG      ○ Compiling /amma/message ...
+[00:09:35.359] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /amma/message. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:02:58.933] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+[00:09:36.111] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:10:04.622] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /festivals/mantras. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:02:59.048] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:02:59.102] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:02:59.184] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:02:59.286] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:02:59.401] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:02:59.501] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:02:59.584] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:02:59.639] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:02:59.700] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:02:59.755] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:02:59.826] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:02:59.886] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:02:59.963] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:00.037] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:00.092] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:00.202] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:00.263] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:00.319] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:00.391] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:00.469] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:00.520] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:00.573] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:00.653] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:00.714] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:00.785] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:00.846] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:00.893] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:00.944] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:01.015] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:01.069] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:01.134] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:01.210] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:01.314] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:01.419] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:02.763] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:02.894] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:03.030] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:03.037] Server  LOG      ✓ Compiled in 1520ms
-[00:03:03.151] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:03.222] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:03.284] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:03.377] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:03.475] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:03.560] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:03.646] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:03.728] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:03.845] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:03.940] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:04.033] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:04.082] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:04.146] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:04.213] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:04.283] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:04.347] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:04.441] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:04.522] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:04.633] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:04.741] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:05.075] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:05.163] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:05.227] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:05.306] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:05.364] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:05.456] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:05.546] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:05.632] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:05.698] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:05.777] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:05.853] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:05.923] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:05.978] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:06.096] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:06.160] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:06.210] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:06.262] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:06.337] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:06.398] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:06.462] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:03:06.523] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:05:29.360] Server  LOG      ✓ Compiled in 934ms
-[00:08:22.092] Server  LOG      ✓ Compiled in 1228ms
-[00:08:25.215] Server  LOG      ✓ Compiled in 238ms
-[00:08:31.123] Server  LOG      ✓ Compiled in 638ms
-[00:09:29.682] Server  LOG      ✓ Compiled in 172ms
-[00:09:32.244] Server  LOG      ✓ Compiled in 191ms
-[00:09:35.231] Server  LOG      ✓ Compiled in 768ms
-[00:09:42.370] Server  LOG      ✓ Compiled in 205ms
-[00:09:46.065] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:09:48.379] Browser ERROR   ./app/page.tsx:332:32
-Parsing ecmascript source code failed
-  330 |       <
-  331 |       
-> 332 |       <PilgrimServicesSection />
-      |                                ^
-  333 |       {/* <SpecialOccasionsSection /> */}
-  334 |
-  335 |       {/* Gallery Section */}
-
-Expression expected
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[00:09:48.379] Browser ERROR   ./app/page.tsx:332:32
-Parsing ecmascript source code failed
-  330 |       <M
-  331 |       
-> 332 |       <PilgrimServicesSection />
-      |                                ^
-  333 |       {/* <SpecialOccasionsSection /> */}
-  334 |
-  335 |       {/* Gallery Section */}
-
-Expression expected
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[00:09:48.379] Browser ERROR   ./app/page.tsx:332:32
-Parsing ecmascript source code failed
-  330 |       <
-  331 |       
-> 332 |       <PilgrimServicesSection />
-      |                                ^
-  333 |       {/* <SpecialOccasionsSection /> */}
-  334 |
-  335 |       {/* Gallery Section */}
-
-Expression expected
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[00:09:48.379] Browser ERROR   ./app/page.tsx:332:32
-Parsing ecmascript source code failed
-  330 |       <MAN
-  331 |       
-> 332 |       <PilgrimServicesSection />
-      |                                ^
-  333 |       {/* <SpecialOccasionsSection /> */}
-  334 |
-  335 |       {/* Gallery Section */}
-
-Expression expected
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[00:09:48.379] Browser ERROR   ./app/page.tsx:332:32
-Parsing ecmascript source code failed
-  330 |       <
-  331 |       
-> 332 |       <PilgrimServicesSection />
-      |                                ^
-  333 |       {/* <SpecialOccasionsSection /> */}
-  334 |
-  335 |       {/* Gallery Section */}
-
-Expression expected
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[00:09:48.379] Browser ERROR   ./app/page.tsx:332:32
-Parsing ecmascript source code failed
-  330 |       <man
-  331 |       
-> 332 |       <PilgrimServicesSection />
-      |                                ^
-  333 |       {/* <SpecialOccasionsSection /> */}
-  334 |
-  335 |       {/* Gallery Section */}
-
-Expression expected
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[00:09:48.379] Browser ERROR   ./app/page.tsx:332:32
-Parsing ecmascript source code failed
-  330 |       <mantra
-  331 |       
-> 332 |       <PilgrimServicesSection />
-      |                                ^
-  333 |       {/* <SpecialOccasionsSection /> */}
-  334 |
-  335 |       {/* Gallery Section */}
-
-Expression expected
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[00:09:48.379] Browser ERROR   ./app/page.tsx:333:32
-Parsing ecmascript source code failed
-  331 |       <MantrasPage
-  332 |       
-> 333 |       <PilgrimServicesSection />
-      |                                ^
-  334 |       {/* <SpecialOccasionsSection /> */}
-  335 |
-  336 |       {/* Gallery Section */}
-
-Expression expected
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[00:09:48.379] Browser ERROR   ./app/page.tsx:333:32
-Parsing ecmascript source code failed
-  331 |       <MantrasPage /
-  332 |       
-> 333 |       <PilgrimServicesSection />
-      |                                ^
-  334 |       {/* <SpecialOccasionsSection /> */}
-  335 |
-  336 |       {/* Gallery Section */}
-
-Expression expected
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[00:09:48.379] Browser ERROR   ./app/page.tsx:331:21
-Parsing ecmascript source code failed
-  329 |       </section>
-  330 |
-> 331 |       <MantrasPage /.
-      |                     ^
-  332 |       
-  333 |       <PilgrimServicesSection />
-  334 |       {/* <SpecialOccasionsSection /> */}
-
-Expected '</', got '.'
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[00:09:48.379] Browser ERROR   ./app/page.tsx:332:32
-Parsing ecmascript source code failed
-  330 |
-  331 |       <MantrasPage //      
-> 332 |       <PilgrimServicesSection />
-      |                                ^
-  333 |       {/* <SpecialOccasionsSection /> */}
-  334 |
-  335 |       {/* Gallery Section */}
-
-Expression expected
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[00:09:48.379] Browser ERROR   ./app/page.tsx:332:32
-Parsing ecmascript source code failed
-  330 |
-  331 |       <MantrasPage /      
-> 332 |       <PilgrimServicesSection />
-      |                                ^
-  333 |       {/* <SpecialOccasionsSection /> */}
-  334 |
-  335 |       {/* Gallery Section */}
-
-Expression expected
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[00:09:49.310] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:09:50.295] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:10:58.856] Server  LOG      ✓ Compiled in 221ms
-[01:10:39.090] Server  LOG      ✓ Compiled in 1371ms
-[01:10:41.916] Server  LOG      ✓ Compiled in 355ms
-[01:11:13.936] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[01:11:16.879] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[01:11:17.905] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[01:11:19.539] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:11:41.817] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:11:41.838] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_179b90d2._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:11:41.842] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:11:41.847] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:11:41.852] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:11:41.853] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:11:41.855] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:11:41.857] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:11:41.863] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[01:11:41.871] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:11:41.873] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_179b90d2._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:11:41.874] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:11:41.875] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:11:41.876] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:11:41.876] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:11:41.877] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:11:41.877] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:11:41.879] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[01:11:41.953] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[01:11:41.974] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:11:41.977] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_179b90d2._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:11:41.978] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:11:41.979] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:11:41.981] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:11:41.983] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:11:41.985] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:11:41.985] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:11:41.986] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[01:11:41.993] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:11:41.995] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_179b90d2._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:11:41.996] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:11:41.997] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:11:41.998] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:11:41.999] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:11:42.001] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:11:42.002] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:11:42.003] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[01:11:43.779] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[01:11:43.788] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:11:43.792] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_179b90d2._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:11:43.794] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:11:43.794] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:11:43.795] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:11:43.796] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:11:43.799] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:11:43.799] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:11:43.800] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[01:11:43.804] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:11:43.806] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_179b90d2._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:11:43.808] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:11:43.809] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:11:43.810] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:11:43.811] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:11:43.817] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:11:43.819] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:11:43.819] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[01:11:44.161] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/page"
-[01:12:11.118] Server  LOG      ✓ Compiled in 105ms
-[01:12:57.074] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[01:12:58.240] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[01:12:58.435] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:12:58.494] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[01:12:58.625] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[01:12:58.762] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[01:17:20.101] Server  LOG      ✓ Compiled in 854ms
-[01:17:20.455] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:17:20.542] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_179b90d2._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:17:20.543] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:17:20.544] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:17:20.545] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:17:20.551] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:17:20.555] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:17:20.578] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:17:20.587] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[01:17:20.594] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:17:20.596] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_179b90d2._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:17:20.597] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:17:20.599] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:17:20.601] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:17:20.602] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:17:20.603] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:17:20.604] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:17:20.607] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
-[01:17:21.647] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[01:17:21.682] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[01:17:22.473] Server  LOG      ✓ Compiled in 1057ms
-[01:17:22.547] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[01:17:23.523] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[01:17:23.752] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:17:29.234] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[01:17:29.446] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[01:17:29.788] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[01:17:30.809] Browser WARN    Image with src "/om4.jpeg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:11:21.069] Browser WARN    Image with src "/om4.jpeg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[01:18:12.444] Server  LOG      ○ Compiling /festivals/mantras ...
-[01:18:12.728] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /festivals/mantras. Please move it to viewport export instead.
+[00:14:11.693] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /festivals/mantras. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[01:18:12.940] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[01:18:17.678] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+[00:14:12.110] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:30:42.653] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[01:18:18.050] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+[00:30:59.128] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /all-events. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[01:18:18.629] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+[00:30:59.539] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[01:18:40.319] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /mantras. Please move it to viewport export instead.
+[00:31:58.922] Server  LOG      ✓ Compiled in 565ms
+[00:49:30.519] Server  LOG      ✓ Compiled in 749ms
+[00:49:32.918] Server  LOG      ✓ Compiled in 303ms
+[00:49:41.150] Server  LOG      ✓ Compiled in 195ms
+[00:49:44.225] Server  LOG      ✓ Compiled in 172ms
+[00:49:48.636] Server  LOG      ✓ Compiled in 358ms
+[00:49:55.359] Server  LOG      ✓ Compiled in 203ms
+[00:49:58.415] Server  LOG      ✓ Compiled in 263ms
+[00:50:19.026] Server  LOG      ✓ Compiled in 128ms
+[00:50:23.778] Server  LOG      ✓ Compiled in 131ms
+[00:50:25.891] Server  LOG      ✓ Compiled in 201ms
+[00:50:28.451] Server  LOG      ✓ Compiled in 140ms
+[00:50:33.867] Server  LOG      ✓ Compiled in 163ms
+[00:50:35.148] Server  LOG      ✓ Compiled in 160ms
+[00:50:36.371] Server  LOG      ✓ Compiled in 157ms
+[00:52:23.298] Server  LOG      ✓ Compiled in 553ms
+[00:52:37.736] Server  LOG      ✓ Compiled in 236ms
+[00:52:46.741] Server  LOG      ✓ Compiled in 214ms
+[00:52:48.869] Server  LOG      ✓ Compiled in 256ms
+[00:52:52.774] Server  LOG      ✓ Compiled in 149ms
+[00:52:56.728] Server  LOG      ✓ Compiled in 149ms
+[00:53:04.724] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:53:04.725] Browser ERROR   uncaughtError: Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+Open your browser's console to view the Component stack trace.
+[00:53:04.727] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:53:04.742] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:53:04.760] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:53:04.775] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:53:04.806] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:53:05.126] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:53:05.126] Browser ERROR   uncaughtError: Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+Open your browser's console to view the Component stack trace.
+[00:53:05.126] Browser ERROR   uncaughtError: Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+Open your browser's console to view the Component stack trace.
+[00:53:05.126] Browser ERROR   uncaughtError: Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+Open your browser's console to view the Component stack trace.
+[00:53:05.127] Browser ERROR   uncaughtError: Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+Open your browser's console to view the Component stack trace.
+[00:53:05.127] Browser ERROR   uncaughtError: Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+Open your browser's console to view the Component stack trace.
+[00:53:05.129] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:53:05.135] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:53:05.141] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:53:05.146] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:53:05.164] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:53:05.850] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /all-events. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[01:18:48.524] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[01:18:48.769] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[01:18:50.333] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[01:18:52.876] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[01:18:55.286] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[01:18:55.658] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[01:20:37.754] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[01:20:37.978] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[01:20:39.249] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[01:22:15.438] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[01:22:15.619] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[01:22:15.907] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[01:22:16.155] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[01:23:11.467] Server  LOG      ✓ Compiled in 533ms
-[01:23:18.274] Server  LOG      ✓ Compiled in 128ms
-[01:23:19.808] Server  LOG      ✓ Compiled in 153ms
-[01:23:29.665] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /mantras. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[01:33:57.876] Server  LOG      ✓ Compiled in 692ms
-[01:34:36.789] Server  LOG      ✓ Compiled in 125ms
-[01:34:39.001] Server  LOG      ✓ Compiled in 164ms
-[01:34:45.182] Server  LOG      ✓ Compiled in 110ms
-[01:34:49.327] Server  LOG      ✓ Compiled in 102ms
-[01:34:50.592] Server  LOG      ✓ Compiled in 132ms
-[01:35:12.353] Server  LOG      ✓ Compiled in 87ms
-[01:35:14.351] Server  LOG      ✓ Compiled in 92ms
-[01:35:28.240] Server  LOG      ✓ Compiled in 73ms
-[01:35:33.018] Server  LOG      ✓ Compiled in 91ms
-[01:35:35.761] Server  LOG      ✓ Compiled in 78ms
-[01:35:37.434] Server  LOG      ✓ Compiled in 91ms
-[01:35:56.694] Server  LOG      ✓ Compiled in 93ms
-[01:36:52.625] Server  LOG      ✓ Compiled in 77ms
-[01:37:00.648] Server  LOG      ✓ Compiled in 74ms
-[01:37:03.200] Server  LOG      ✓ Compiled in 74ms
-[01:37:16.036] Server  LOG      ✓ Compiled in 78ms
-[01:37:18.288] Server  LOG      ✓ Compiled in 75ms
-[01:37:30.775] Server  LOG      ✓ Compiled in 88ms
-[01:37:40.964] Server  LOG      ✓ Compiled in 76ms
-[01:37:43.394] Server  LOG      ✓ Compiled in 81ms
-[01:37:52.653] Server  LOG      ✓ Compiled in 73ms
-[01:37:57.165] Server  LOG      ✓ Compiled in 70ms
-[01:38:03.848] Server  LOG      ✓ Compiled in 83ms
-[01:38:06.688] Server  LOG      ✓ Compiled in 83ms
-[01:40:22.279] Server  LOG      ✓ Compiled in 83ms
-[01:40:28.539] Server  LOG      ✓ Compiled in 91ms
-[01:40:30.705] Server  LOG      ✓ Compiled in 93ms
-[01:40:43.408] Server  LOG      ✓ Compiled in 76ms
-[01:40:46.224] Server  LOG      ✓ Compiled in 64ms
-[01:40:48.670] Server  LOG      ✓ Compiled in 120ms
-[01:41:01.374] Server  LOG      ✓ Compiled in 122ms
-[01:41:04.220] Server  LOG      ✓ Compiled in 98ms
-[01:41:13.914] Server  LOG      ✓ Compiled in 79ms
-[01:41:16.362] Server  LOG      ✓ Compiled in 70ms
-[01:41:27.769] Server  LOG      ✓ Compiled in 86ms
-[01:41:30.213] Server  LOG      ✓ Compiled in 86ms
-[01:41:53.259] Server  LOG      ✓ Compiled in 85ms
-[01:41:54.625] Server  LOG      ✓ Compiled in 89ms
-[01:42:47.942] Server  LOG      ✓ Compiled in 73ms
-[01:42:51.305] Server  LOG      ✓ Compiled in 71ms
-[01:43:43.422] Server  LOG      ✓ Compiled in 80ms
-[01:43:45.505] Server  LOG      ✓ Compiled in 88ms
-[01:43:50.816] Server  LOG      ✓ Compiled in 73ms
-[01:43:57.012] Server  LOG      ✓ Compiled in 76ms
-[01:44:12.448] Server  LOG      ✓ Compiled in 126ms
-[01:44:25.218] Server  LOG      ✓ Compiled in 75ms
-[01:44:37.107] Server  LOG      ✓ Compiled in 77ms
-[01:44:47.446] Server  LOG      ✓ Compiled in 69ms
-[01:44:54.124] Server  LOG      ✓ Compiled in 64ms
-[01:45:01.967] Server  LOG      ✓ Compiled in 67ms
-[01:55:55.156] Server  LOG      ✓ Compiled in 138ms
-[01:56:00.832] Server  LOG      ✓ Compiled in 258ms
-[01:56:05.861] Server  LOG      ✓ Compiled in 96ms
-[01:56:09.025] Server  LOG      ✓ Compiled in 76ms
-[01:56:11.789] Server  LOG      ✓ Compiled in 88ms
-[01:56:30.504] Server  LOG      ✓ Compiled in 114ms
-[01:56:40.945] Server  LOG      ✓ Compiled in 82ms
-[01:56:53.698] Server  LOG      ✓ Compiled in 73ms
-[01:57:08.119] Server  LOG      ✓ Compiled in 69ms
-[01:57:17.183] Server  LOG      ✓ Compiled in 74ms
-[01:58:49.673] Server  LOG      ✓ Compiled in 102ms
-[01:58:59.897] Server  LOG      ✓ Compiled in 78ms
-[01:59:10.886] Server  LOG      ✓ Compiled in 83ms
-[01:59:19.404] Server  LOG      ✓ Compiled in 82ms
-[01:59:32.833] Server  LOG      ✓ Compiled in 91ms
-[02:00:02.405] Server  LOG      ✓ Compiled in 73ms
-[02:00:21.238] Server  LOG      ✓ Compiled in 79ms
-[02:00:22.536] Server  LOG      ✓ Compiled in 69ms
-[02:00:27.699] Server  LOG      ✓ Compiled in 76ms
-[02:01:00.650] Server  LOG      ✓ Compiled in 81ms
-[02:05:55.574] Server  LOG      ✓ Compiled in 79ms
-[02:05:59.003] Server  LOG      ✓ Compiled in 93ms
-[02:06:07.809] Server  LOG      ✓ Compiled in 93ms
-[02:06:21.362] Server  LOG      ✓ Compiled in 785ms
-[02:08:00.158] Server  LOG      ✓ Compiled in 136ms
-[02:08:04.553] Server  LOG      ✓ Compiled in 93ms
-[02:08:06.400] Server  LOG      ✓ Compiled in 92ms
-[02:08:10.447] Server  LOG      ✓ Compiled in 94ms
-[02:14:25.349] Server  LOG      ✓ Compiled in 200ms
-[02:14:29.989] Server  LOG      ✓ Compiled in 96ms
-[02:14:37.316] Server  LOG      ✓ Compiled in 87ms
-[02:14:53.187] Server  LOG      ✓ Compiled in 149ms
-[02:15:28.002] Server  LOG      ✓ Compiled in 75ms
-[02:15:32.768] Server  LOG      ✓ Compiled in 110ms
-[02:16:10.602] Server  LOG      ✓ Compiled in 97ms
-[02:16:33.642] Server  LOG      ✓ Compiled in 114ms
-[02:17:49.487] Server  LOG      ✓ Compiled in 140ms
-[02:18:01.059] Server  LOG      ✓ Compiled in 77ms
-[02:18:05.156] Server  LOG      ✓ Compiled in 78ms
-[02:18:06.955] Server  LOG      ✓ Compiled in 79ms
-[02:18:08.685] Server  LOG      ✓ Compiled in 105ms
-[02:18:19.192] Server  LOG      ✓ Compiled in 80ms
-[02:18:29.617] Server  LOG      ✓ Compiled in 148ms
-[02:18:31.415] Server  LOG      ✓ Compiled in 63ms
-[02:18:34.811] Server  LOG      ✓ Compiled in 121ms
-[02:18:39.362] Server  LOG      ✓ Compiled in 101ms
-[02:18:50.379] Server  LOG      ✓ Compiled in 74ms
-[02:19:00.353] Server  LOG      ✓ Compiled in 69ms
-[02:19:04.050] Server  LOG      ✓ Compiled in 96ms
-[02:19:05.847] Server  LOG      ✓ Compiled in 79ms
-[02:19:22.499] Server  LOG      ✓ Compiled in 81ms
-[02:19:31.755] Server  LOG      ✓ Compiled in 88ms
-[02:19:36.936] Server  LOG      ✓ Compiled in 77ms
-[02:19:58.401] Server  LOG      ✓ Compiled in 82ms
-[02:21:54.007] Server  LOG      ✓ Compiled in 96ms
-[02:22:03.249] Server  LOG      ✓ Compiled in 122ms
-[02:22:06.497] Server  LOG      ✓ Compiled in 101ms
-[02:22:17.170] Server  LOG      ✓ Compiled in 80ms
-[02:22:40.830] Server  LOG      ✓ Compiled in 74ms
-[02:22:44.161] Server  LOG      ✓ Compiled in 83ms
-[02:22:46.579] Server  LOG      ✓ Compiled in 71ms
-[02:23:20.308] Server  LOG      ✓ Compiled in 76ms
-[02:23:30.417] Server  LOG      ✓ Compiled in 73ms
-[02:23:35.599] Server  LOG      ✓ Compiled in 95ms
-[02:23:55.227] Server  LOG      ✓ Compiled in 128ms
-[02:23:58.423] Server  LOG      ✓ Compiled in 92ms
-[02:24:00.474] Server  LOG      ✓ Compiled in 83ms
-[02:24:07.999] Server  LOG      ✓ Compiled in 73ms
-[02:24:58.554] Server  LOG      ✓ Compiled in 111ms
-[02:25:05.479] Server  LOG      ✓ Compiled in 77ms
-[02:25:08.443] Server  LOG      ✓ Compiled in 97ms
-[02:25:09.673] Server  LOG      ✓ Compiled in 74ms
-[02:25:12.437] Server  LOG      ✓ Compiled in 78ms
-[02:25:29.554] Server  LOG      ✓ Compiled in 76ms
-[02:25:30.820] Server  LOG      ✓ Compiled in 97ms
-[02:25:36.915] Server  LOG      ✓ Compiled in 61ms
-[02:25:42.972] Server  LOG      ✓ Compiled in 66ms
-[02:25:44.092] Server  LOG      ✓ Compiled in 66ms
-[02:26:03.176] Server  LOG      ✓ Compiled in 79ms
-[02:26:09.535] Server  LOG      ✓ Compiled in 67ms
-[02:26:12.381] Server  LOG      ✓ Compiled in 79ms
-[02:26:14.263] Server  LOG      ✓ Compiled in 76ms
-[02:26:35.079] Server  LOG      ✓ Compiled in 92ms
-[02:27:37.551] Server  LOG      ✓ Compiled in 81ms
-[02:27:40.565] Server  LOG      ✓ Compiled in 74ms
-[02:27:43.795] Server  LOG      ✓ Compiled in 79ms
-[02:27:45.178] Server  LOG      ✓ Compiled in 90ms
-[02:27:58.433] Server  LOG      ✓ Compiled in 89ms
-[02:28:15.848] Server  LOG      ✓ Compiled in 76ms
-[02:28:19.980] Server  LOG      ✓ Compiled in 71ms
-[02:28:45.423] Server  LOG      ✓ Compiled in 105ms
-[02:28:54.763] Server  LOG      ✓ Compiled in 74ms
-[02:28:58.710] Server  LOG      ✓ Compiled in 92ms
-[02:29:00.957] Server  LOG      ✓ Compiled in 75ms
-[02:29:03.089] Server  LOG      ✓ Compiled in 79ms
-[02:29:04.587] Server  LOG      ✓ Compiled in 67ms
-[02:29:18.824] Server  LOG      ✓ Compiled in 74ms
-[02:29:27.433] Server  LOG      ✓ Compiled in 70ms
-[02:29:28.631] Server  LOG      ✓ Compiled in 61ms
-[02:29:31.977] Server  LOG      ✓ Compiled in 73ms
-[02:29:47.563] Server  LOG      ✓ Compiled in 196ms
-[02:30:01.633] Server  LOG      ✓ Compiled in 67ms
-[02:30:03.732] Server  LOG      ✓ Compiled in 100ms
-[02:30:18.035] Server  LOG      ✓ Compiled in 71ms
-[02:30:23.682] Server  LOG      ✓ Compiled in 121ms
-[02:30:25.192] Server  LOG      ✓ Compiled in 93ms
-[02:30:49.644] Server  LOG      ✓ Compiled in 90ms
-[02:31:44.504] Server  LOG      ✓ Compiled in 102ms
-[02:32:28.813] Server  LOG      ✓ Compiled in 104ms
-[02:32:32.392] Server  LOG      ✓ Compiled in 83ms
-[02:33:36.968] Server  LOG      ✓ Compiled in 95ms
-[02:33:45.340] Server  LOG      ✓ Compiled in 71ms
-[02:33:52.848] Server  LOG      ✓ Compiled in 141ms
-[02:34:04.456] Server  LOG      ✓ Compiled in 69ms
-[02:34:20.075] Server  LOG      ✓ Compiled in 90ms
-[02:34:22.788] Server  LOG      ✓ Compiled in 85ms
-[02:35:16.606] Server  LOG      ✓ Compiled in 106ms
-[02:35:25.081] Server  LOG      ✓ Compiled in 87ms
-[02:35:27.744] Server  LOG      ✓ Compiled in 108ms
-[02:35:53.336] Server  LOG      ✓ Compiled in 88ms
-[02:36:52.039] Server  LOG      ✓ Compiled in 140ms
-[02:36:56.793] Server  LOG      ✓ Compiled in 79ms
-[02:37:01.705] Server  LOG      ✓ Compiled in 68ms
-[02:37:25.884] Server  LOG      ✓ Compiled in 132ms
-[02:37:37.770] Server  LOG      ✓ Compiled in 118ms
-[02:38:04.548] Server  LOG      ✓ Compiled in 80ms
-[02:38:12.274] Server  LOG      ✓ Compiled in 87ms
-[02:38:15.220] Server  LOG      ✓ Compiled in 69ms
-[02:38:16.603] Server  LOG      ✓ Compiled in 84ms
-[02:38:31.588] Server  LOG      ✓ Compiled in 86ms
-[02:38:40.581] Server  LOG      ✓ Compiled in 73ms
-[02:38:44.125] Server  LOG      ✓ Compiled in 114ms
-[02:39:01.861] Server  LOG      ✓ Compiled in 70ms
-[02:40:11.945] Server  LOG      ✓ Compiled in 74ms
-[02:40:53.158] Server  LOG      ✓ Compiled in 100ms
-[02:40:55.936] Server  LOG      ✓ Compiled in 71ms
-[02:40:57.200] Server  LOG      ✓ Compiled in 89ms
-[02:40:58.214] Server  LOG      ✓ Compiled in 75ms
-[02:47:58.987] Server  LOG      ✓ Compiled in 657ms
-[02:48:10.427] Server  LOG      ✓ Compiled in 173ms
-[02:50:04.920] Server  LOG      ✓ Compiled in 95ms
-[02:50:52.059] Server  LOG      ✓ Compiled in 91ms
-[02:51:18.420] Server  LOG      ✓ Compiled in 106ms
-[02:52:05.793] Server  LOG      ✓ Compiled in 84ms
-[02:53:06.053] Server  LOG      ✓ Compiled in 99ms
-[02:58:20.833] Server  LOG      ✓ Compiled in 659ms
-[02:59:35.586] Server  LOG      ✓ Compiled in 146ms
-[02:59:37.249] Server  LOG      ✓ Compiled in 129ms
-[02:59:38.518] Server  LOG      ✓ Compiled in 119ms
-[02:59:40.648] Server  LOG      ✓ Compiled in 80ms
-[02:59:41.973] Server  LOG      ✓ Compiled in 87ms
-[02:59:48.216] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /mantras. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[02:59:48.229] Browser ERROR   ./lib/mantraData.ts:225:51
+[00:53:06.830] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:53:06.832] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:53:06.833] Browser ERROR   uncaughtError: Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+Open your browser's console to view the Component stack trace.
+[00:53:06.833] Browser ERROR   uncaughtError: Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+Open your browser's console to view the Component stack trace.
+[00:53:06.833] Browser ERROR   uncaughtError: Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+Open your browser's console to view the Component stack trace.
+[00:53:06.833] Browser ERROR   uncaughtError: Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+Open your browser's console to view the Component stack trace.
+[00:53:06.833] Browser ERROR   ./components/Header.tsx:314:9
 Parsing ecmascript source code failed
-  223 |     description: "Songs sung during the Pada Pooja ritual.",
-  224 |     songs: [
-> 225 |       { id: "s8_1", title: "1 ROJA POOKALE, url: "YOUR_CLOUDINARY_LINK_HERE", duration: "07:30" },
-      |                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^
-  226 |       { id: "s8_2", title: "Paadha Malar", url: "YOUR_CLOUDINARY_LINK_HERE", duration: "07:30" },
-  227 |       { id: "s8_3", title: "Paadha Malar", url: "YOUR_CLOUDINARY_LINK_HERE", duration: "07:30" },
-  228 |       { id: "s8_4", title: "Paadha Malar", url: "YOUR_CLOUDINARY_LINK_HERE", duration: "07:30" },
+  312 |         label: 'Melmaruvathur Adhiparasakthi Spiritual Movement (MASM)', 
+  313 |         href: 'https://masm.omsakthiamma.in' 
+> 314 |         href: 'https://masm.omsakthiamma.in' 
+      |         ^^^^
+  315 |       },
+  316 |       { 
+  317 |         label: "Adhiparasakthi Siddhar Peeda Women's Charitable Trust (ASPWCT)", 
 
-Expected ',', got 'YOUR_CLOUDINARY_LINK_HERE'
+Expected ',', got 'href'
 
-Import traces:
-  Client Component Browser:
-    ./lib/mantraData.ts [Client Component Browser]
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./lib/mantraData.ts [Client Component SSR]
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[02:59:48.229] Browser ERROR   ./lib/mantraData.ts:225:51
+Import trace:
+  Server Component:
+    ./components/Header.tsx
+    ./app/layout.tsx
+[00:53:06.833] Browser ERROR   ./components/Header.tsx:314:9
 Parsing ecmascript source code failed
-  223 |     description: "Songs sung during the Pada Pooja ritual.",
-  224 |     songs: [
-> 225 |       { id: "s8_1", title: "1 ROJA POOKALE, url: "YOUR_CLOUDINARY_LINK_HERE", duration: "07:30" },
-      |                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^
-  226 |       { id: "s8_2", title: "2 PAADHAM", url: "YOUR_CLOUDINARY_LINK_HERE", duration: "07:30" },
-  227 |       { id: "s8_3", title: "Paadha Malar", url: "YOUR_CLOUDINARY_LINK_HERE", duration: "07:30" },
-  228 |       { id: "s8_4", title: "Paadha Malar", url: "YOUR_CLOUDINARY_LINK_HERE", duration: "07:30" },
+  312 |         label: 'Melmaruvathur Adhiparasakthi Spiritual Movement (MASM)', 
+  313 |         href: 'https://masm.omsakthiamma.in' 
+> 314 |         href: '' 
+      |         ^^^^
+  315 |       },
+  316 |       { 
+  317 |         label: "Adhiparasakthi Siddhar Peeda Women's Charitable Trust (ASPWCT)", 
 
-Expected ',', got 'YOUR_CLOUDINARY_LINK_HERE'
+Expected ',', got 'href'
 
-Import traces:
-  Client Component Browser:
-    ./lib/mantraData.ts [Client Component Browser]
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./lib/mantraData.ts [Client Component SSR]
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[02:59:48.229] Browser ERROR   ./lib/mantraData.ts:225:51
+Import trace:
+  Server Component:
+    ./components/Header.tsx
+    ./app/layout.tsx
+[00:53:06.833] Browser ERROR   ./components/Header.tsx:314:9
 Parsing ecmascript source code failed
-  223 |     description: "Songs sung during the Pada Pooja ritual.",
-  224 |     songs: [
-> 225 |       { id: "s8_1", title: "1 ROJA POOKALE, url: "YOUR_CLOUDINARY_LINK_HERE", duration: "07:30" },
-      |                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^
-  226 |       { id: "s8_2", title: "2 PAADHAM", url: "YOUR_CLOUDINARY_LINK_HERE", duration: "07:30" },
-  227 |       { id: "s8_3", title: "3 KALAVELLAM", url: "YOUR_CLOUDINARY_LINK_HERE", duration: "07:30" },
-  228 |       { id: "s8_4", title: "Paadha Malar", url: "YOUR_CLOUDINARY_LINK_HERE", duration: "07:30" },
+  312 |         label: 'Melmaruvathur Adhiparasakthi Spiritual Movement (MASM)', 
+  313 |         href: 'https://masm.omsakthiamma.in' 
+> 314 |         href: '#' 
+      |         ^^^^
+  315 |       },
+  316 |       { 
+  317 |         label: "Adhiparasakthi Siddhar Peeda Women's Charitable Trust (ASPWCT)", 
 
-Expected ',', got 'YOUR_CLOUDINARY_LINK_HERE'
+Expected ',', got 'href'
 
-Import traces:
-  Client Component Browser:
-    ./lib/mantraData.ts [Client Component Browser]
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./lib/mantraData.ts [Client Component SSR]
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[02:59:48.229] Browser ERROR   ./lib/mantraData.ts:225:51
+Import trace:
+  Server Component:
+    ./components/Header.tsx
+    ./app/layout.tsx
+[00:53:06.834] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:53:06.835] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:53:06.841] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:53:06.845] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:53:07.781] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:53:08.504] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:53:09.137] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[00:53:09.137] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[00:53:09.137] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[00:53:09.575] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /all-events. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:53:10.328] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /all-events. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:53:11.231] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /all-events. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:53:12.242] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /all-events. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:53:12.749] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /all-events. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:53:13.655] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /all-events. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:53:14.171] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /all-events. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:53:25.289] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[00:53:25.290] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[00:53:25.290] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[00:53:26.636] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /all-events. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:53:27.224] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:53:27.528] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:53:44.944] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[00:53:44.944] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[00:53:44.944] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[00:53:45.237] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[00:53:45.237] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[00:53:45.237] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[00:53:45.237] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[00:53:45.237] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[00:53:45.237] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[00:53:48.107] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /online_services/donations. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:53:48.437] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:01:21.314] Server  LOG      ✓ Compiled in 797ms
+[01:01:22.459] Browser ERROR   uncaughtError: ReferenceError: generalDonations is not defined
+[01:01:25.579] Server  LOG      ✓ Compiled in 328ms
+[01:01:28.670] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:01:29.927] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /online_services/donations. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:01:31.430] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:03:01.304] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /festivals/mantras. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:03:01.611] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:04:03.943] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[01:04:03.944] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[01:04:03.944] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[01:04:04.995] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[01:04:04.995] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[01:04:04.995] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[01:04:04.995] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[01:04:04.995] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[01:04:04.995] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[01:04:07.051] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[01:04:07.051] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[01:04:07.051] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[01:08:28.986] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:08:28.988] Browser ERROR   uncaughtError: Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+Open your browser's console to view the Component stack trace.
+[01:08:29.149] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /festivals/mantras. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:08:29.815] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:08:29.817] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:08:29.817] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:08:29.818] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:08:29.819] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:08:29.820] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:08:29.821] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:08:29.824] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:08:29.825] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:08:29.827] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:08:29.830] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:08:29.833] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:08:29.833] Browser ERROR   uncaughtError: Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+Open your browser's console to view the Component stack trace.
+[01:08:29.834] Browser ERROR   uncaughtError: Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+Open your browser's console to view the Component stack trace.
+[01:08:29.834] Browser ERROR   uncaughtError: Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+Open your browser's console to view the Component stack trace.
+[01:08:29.834] Browser ERROR   uncaughtError: Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+Open your browser's console to view the Component stack trace.
+[01:08:29.834] Browser ERROR   uncaughtError: Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+Open your browser's console to view the Component stack trace.
+[01:08:29.834] Browser ERROR   uncaughtError: Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+Open your browser's console to view the Component stack trace.
+[01:08:29.834] Browser ERROR   uncaughtError: Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+Open your browser's console to view the Component stack trace.
+[01:08:29.834] Browser ERROR   uncaughtError: Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+Open your browser's console to view the Component stack trace.
+[01:08:29.834] Browser ERROR   uncaughtError: Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+Open your browser's console to view the Component stack trace.
+[01:08:29.834] Browser ERROR   ./components/Header.tsx:314:9
 Parsing ecmascript source code failed
-  223 |     description: "Songs sung during the Pada Pooja ritual.",
-  224 |     songs: [
-> 225 |       { id: "s8_1", title: "1 ROJA POOKALE, url: "YOUR_CLOUDINARY_LINK_HERE", duration: "07:30" },
-      |                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^
-  226 |       { id: "s8_2", title: "2 PAADHAM", url: "YOUR_CLOUDINARY_LINK_HERE", duration: "07:30" },
-  227 |       { id: "s8_3", title: "3 KALAVELLAM", url: "YOUR_CLOUDINARY_LINK_HERE", duration: "07:30" },
-  228 |       { id: "s8_4", title: "4 MANTHIRA PUNNAGAI", url: "YOUR_CLOUDINARY_LINK_HERE", duration: "07:30" },
+  312 |         label: 'Melmaruvathur Adhiparasakthi Spiritual Movement (MASM)', 
+  313 |         href: 'https://masm.omsakthiamma.in' 
+> 314 |         href: 'https://masm.omsakthiamma.in' 
+      |         ^^^^
+  315 |       },
+  316 |       { 
+  317 |         label: "Adhiparasakthi Siddhar Peeda Women's Charitable Trust (ASPWCT)", 
 
-Expected ',', got 'YOUR_CLOUDINARY_LINK_HERE'
+Expected ',', got 'href'
 
-Import traces:
-  Client Component Browser:
-    ./lib/mantraData.ts [Client Component Browser]
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./lib/mantraData.ts [Client Component SSR]
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[02:59:48.229] Browser ERROR   ./lib/mantraData.ts:225:51
+Import trace:
+  Server Component:
+    ./components/Header.tsx
+    ./app/layout.tsx
+[01:08:29.834] Browser ERROR   ./components/Header.tsx:314:9
 Parsing ecmascript source code failed
-  223 |     description: "Songs sung during the Pada Pooja ritual.",
-  224 |     songs: [
-> 225 |       { id: "s8_1", title: "1 ROJA POOKALE, url: "YOUR_CLOUDINARY_LINK_HERE", duration: "07:30" },
-      |                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^
-  226 |       { id: "s8_2", title: "2 PAADHAM", url: "YOUR_CLOUDINARY_LINK_HERE", duration: "07:30" },
-  227 |       { id: "s8_3", title: "3 KALAVELLAM", url: "YOUR_CLOUDINARY_LINK_HERE", duration: "07:30" },
-  228 |       { id: "s8_4", title: "4 MANTHIRA PUNNAGAI", url: "YOUR_CLOUDINARY_LINK_HERE", duration: "07:30" },
+  312 |         label: 'Melmaruvathur Adhiparasakthi Spiritual Movement (MASM)', 
+  313 |         href: 'https://masm.omsakthiamma.in' 
+> 314 |         href: '' 
+      |         ^^^^
+  315 |       },
+  316 |       { 
+  317 |         label: "Adhiparasakthi Siddhar Peeda Women's Charitable Trust (ASPWCT)", 
 
-Expected ',', got 'YOUR_CLOUDINARY_LINK_HERE'
+Expected ',', got 'href'
 
-Import traces:
-  Client Component Browser:
-    ./lib/mantraData.ts [Client Component Browser]
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./lib/mantraData.ts [Client Component SSR]
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[02:59:48.229] Browser ERROR   ./lib/mantraData.ts:225:51
+Import trace:
+  Server Component:
+    ./components/Header.tsx
+    ./app/layout.tsx
+[01:08:29.834] Browser ERROR   ./components/Header.tsx:314:9
 Parsing ecmascript source code failed
-  223 |     description: "Songs sung during the Pada Pooja ritual.",
-  224 |     songs: [
-> 225 |       { id: "s8_1", title: "1 ROJA POOKALE, url: "YOUR_CLOUDINARY_LINK_HERE", duration: "07:30" },
-      |                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^
-  226 |       { id: "s8_2", title: "2 PAADHAM", url: "YOUR_CLOUDINARY_LINK_HERE", duration: "07:30" },
-  227 |       { id: "s8_3", title: "3 KALAVELLAM", url: "YOUR_CLOUDINARY_LINK_HERE", duration: "07:30" },
-  228 |       { id: "s8_4", title: "4 MANTHIRA PUNNAGAI", url: "YOUR_CLOUDINARY_LINK_HERE", duration: "07:30" },
+  312 |         label: 'Melmaruvathur Adhiparasakthi Spiritual Movement (MASM)', 
+  313 |         href: 'https://masm.omsakthiamma.in' 
+> 314 |         href: '#' 
+      |         ^^^^
+  315 |       },
+  316 |       { 
+  317 |         label: "Adhiparasakthi Siddhar Peeda Women's Charitable Trust (ASPWCT)", 
 
-Expected ',', got 'YOUR_CLOUDINARY_LINK_HERE'
+Expected ',', got 'href'
 
-Import traces:
-  Client Component Browser:
-    ./lib/mantraData.ts [Client Component Browser]
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./lib/mantraData.ts [Client Component SSR]
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[02:59:48.229] Browser ERROR   ./lib/mantraData.ts:225:51
+Import trace:
+  Server Component:
+    ./components/Header.tsx
+    ./app/layout.tsx
+[01:08:29.835] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:08:29.836] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:08:29.838] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:08:29.841] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:08:29.842] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:08:29.844] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:08:29.845] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:08:30.601] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:15:26.183] Server  LOG      ✓ Compiled in 356ms
+[01:16:31.156] Server  LOG      ✓ Compiled in 214ms
+[01:16:45.233] Server  LOG      ✓ Compiled in 263ms
+[01:16:45.455] Browser ERROR   ./app/festivals/mantras/page.tsx:398:13
 Parsing ecmascript source code failed
-  223 |     description: "Songs sung during the Pada Pooja ritual.",
-  224 |     songs: [
-> 225 |       { id: "s8_1", title: "1 ROJA POOKALE, url: "YOUR_CLOUDINARY_LINK_HERE", duration: "07:30" },
-      |                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^
-  226 |       { id: "s8_2", title: "2 PAADHAM", url: "YOUR_CLOUDINARY_LINK_HERE", duration: "07:30" },
-  227 |       { id: "s8_3", title: "3 KALAVELLAM", url: "YOUR_CLOUDINARY_LINK_HERE", duration: "07:30" },
-  228 |       { id: "s8_4", title: "4 MANTHIRA PUNNAGAI", url: "YOUR_CLOUDINARY_LINK_HERE", duration: "07:30" },
+  396 |         </motion.div>
+  397 |
+> 398 |       </div>
+      |             ^
+> 399 |     </PageTemplate>
+      | ^^^^^
+  400 |   );
+  401 | }
 
-Expected ',', got 'YOUR_CLOUDINARY_LINK_HERE'
+Expected '</', got 'jsx text (
+    )'
 
 Import traces:
   Client Component Browser:
-    ./lib/mantraData.ts [Client Component Browser]
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
+    ./app/festivals/mantras/page.tsx [Client Component Browser]
+    ./app/festivals/mantras/page.tsx [Server Component]
 
   Client Component SSR:
-    ./lib/mantraData.ts [Client Component SSR]
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[02:59:48.229] Browser ERROR   ./lib/mantraData.ts:225:51
+    ./app/festivals/mantras/page.tsx [Client Component SSR]
+    ./app/festivals/mantras/page.tsx [Server Component]
+[01:17:46.886] Server  LOG      ✓ Compiled in 146ms
+[01:17:47.452] Browser ERROR   ./app/festivals/mantras/page.tsx:396:22
 Parsing ecmascript source code failed
-  223 |     description: "Songs sung during the Pada Pooja ritual.",
-  224 |     songs: [
-> 225 |       { id: "s8_1", title: "1 ROJA POOKALE, url: "YOUR_CLOUDINARY_LINK_HERE", duration: "07:30" },
-      |                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^
-  226 |       { id: "s8_2", title: "2 PAADHAM", url: "YOUR_CLOUDINARY_LINK_HERE", duration: "07:30" },
-  227 |       { id: "s8_3", title: "3 KALAVELLAM", url: "YOUR_CLOUDINARY_LINK_HERE", duration: "07:30" },
-  228 |       { id: "s8_4", title: "4 MANTHIRA PUNNAGAI", url: "YOUR_CLOUDINARY_LINK_HERE", duration: "07:30" },
+  394 |           </div>
+  395 |
+> 396 |         </motion.div>
+      |                      ^
+> 397 |
+      | ^
+> 398 |       </div>
+      | ^^^^^^^
+  399 |     </PageTemplate>
+  400 |   );
+  401 | }
 
-Expected ',', got 'YOUR_CLOUDINARY_LINK_HERE'
+Expected '</', got 'jsx text (
 
-Import traces:
-  Client Component Browser:
-    ./lib/mantraData.ts [Client Component Browser]
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./lib/mantraData.ts [Client Component SSR]
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[02:59:48.370] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /mantras. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[02:59:48.796] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./lib/mantraData.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[02:59:48.797] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./lib/mantraData.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[02:59:48.799] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./lib/mantraData.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[02:59:48.868] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /mantras. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[02:59:48.875] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./lib/mantraData.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[02:59:48.878] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./lib/mantraData.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[02:59:48.878] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./lib/mantraData.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[02:59:48.879] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./lib/mantraData.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[02:59:48.880] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./lib/mantraData.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[02:59:48.880] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./lib/mantraData.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[02:59:48.979] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /mantras. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[02:59:49.628] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\_60ee8ddc._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:59:49.643] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\[turbopack]_runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:59:49.661] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:59:49.701] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'songs')
-[02:59:49.820] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /mantras. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[02:59:50.066] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /mantras. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[02:59:50.117] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /mantras. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[02:59:50.194] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\_60ee8ddc._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:59:50.195] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\[turbopack]_runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:59:50.198] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:59:50.199] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'songs')
-[02:59:50.251] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /mantras. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[02:59:50.347] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /mantras. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[02:59:50.799] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:59:51.003] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'songs')
-[03:00:09.434] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:00:10.012] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\_aebea4dc._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:00:10.016] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\[turbopack]_runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:00:10.020] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:00:10.023] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'songs')
-[03:00:10.063] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:00:10.297] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:00:10.552] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'songs')
-[03:18:34.569] Server  LOG      ✓ Compiled in 1244ms
-[03:18:41.781] Server  LOG      ✓ Compiled in 457ms
-[03:18:46.240] Server  LOG      ✓ Compiled in 137ms
-[03:19:05.101] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[03:19:05.105] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./lib/mantraData.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[03:19:05.116] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[03:19:05.219] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[03:19:05.219] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./lib/mantraData.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[03:19:05.227] Browser ERROR   ./app/page.tsx:420:1
-Export featuredMantras doesn't exist in target module
-  418 | // Audio Player Imports
-  419 | import MantraPlayer from '@/components/MantraPlayer';
-> 420 | import { featuredMantras } from '@/lib/mantraData';
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  421 |
-  422 | export default function Home() {
-  423 |   return (
-
-The export featuredMantras was not found in module [project]/lib/mantraData.ts [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+      )'
 
 Import traces:
   Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
+    ./app/festivals/mantras/page.tsx [Client Component Browser]
+    ./app/festivals/mantras/page.tsx [Server Component]
 
   Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[03:19:05.227] Browser ERROR   ./app/page.tsx:420:1
-Export featuredMantras doesn't exist in target module
-  418 | // Audio Player Imports
-  419 | import MantraPlayer from '@/components/MantraPlayer';
-> 420 | import { featuredMantras } from '@/lib/mantraData';
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  421 |
-  422 | export default function Home() {
-  423 |   return (
-
-The export featuredMantras was not found in module [project]/lib/mantraData.ts [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[03:19:05.227] Browser ERROR   ./app/mantras/page.tsx:110:1
-Export mantraCollection doesn't exist in target module
-  108 | import { Folder, ChevronDown, ChevronUp, Music } from 'lucide-react';
-  109 | import MantraPlayer from '@/components/MantraPlayer';
-> 110 | import { mantraCollection } from '@/lib/mantraData';
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  111 |
-  112 | export default function AllMantrasPage() {
-  113 |   const [openFolderId, setOpenFolderId] = useState<string | null>(null);
-
-The export mantraCollection was not found in module [project]/lib/mantraData.ts [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/mantras/page.tsx [Client Component Browser]
-    ./app/mantras/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/mantras/page.tsx [Client Component SSR]
-    ./app/mantras/page.tsx [Server Component]
-[03:19:05.227] Browser ERROR   ./app/mantras/page.tsx:110:1
-Export mantraCollection doesn't exist in target module
-  108 | import { Folder, ChevronDown, ChevronUp, Music } from 'lucide-react';
-  109 | import MantraPlayer from '@/components/MantraPlayer';
-> 110 | import { mantraCollection } from '@/lib/mantraData';
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  111 |
-  112 | export default function AllMantrasPage() {
-  113 |   const [openFolderId, setOpenFolderId] = useState<string | null>(null);
-
-The export mantraCollection was not found in module [project]/lib/mantraData.ts [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/mantras/page.tsx [Client Component Browser]
-    ./app/mantras/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/mantras/page.tsx [Client Component SSR]
-    ./app/mantras/page.tsx [Server Component]
-[03:19:05.227] Browser ERROR   ./app/page.tsx:420:1
-Export featuredMantras doesn't exist in target module
-  418 | // Audio Player Imports
-  419 | import MantraPlayer from '@/components/MantraPlayer';
-> 420 | import { featuredMantras } from '@/lib/mantraData';
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  421 |
-  422 | export default function Home() {
-  423 |   return (
-
-The export featuredMantras was not found in module [project]/lib/mantraData.ts [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[03:19:05.227] Browser ERROR   ./app/page.tsx:420:1
-Export featuredMantras doesn't exist in target module
-  418 | // Audio Player Imports
-  419 | import MantraPlayer from '@/components/MantraPlayer';
-> 420 | import { featuredMantras } from '@/lib/mantraData';
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  421 |
-  422 | export default function Home() {
-  423 |   return (
-
-The export featuredMantras was not found in module [project]/lib/mantraData.ts [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[03:19:05.227] Browser ERROR   ./app/mantras/page.tsx:110:1
-Export mantraCollection doesn't exist in target module
-  108 | import { Folder, ChevronDown, ChevronUp, Music } from 'lucide-react';
-  109 | import MantraPlayer from '@/components/MantraPlayer';
-> 110 | import { mantraCollection } from '@/lib/mantraData';
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  111 |
-  112 | export default function AllMantrasPage() {
-  113 |   const [openFolderId, setOpenFolderId] = useState<string | null>(null);
-
-The export mantraCollection was not found in module [project]/lib/mantraData.ts [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/mantras/page.tsx [Client Component Browser]
-    ./app/mantras/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/mantras/page.tsx [Client Component SSR]
-    ./app/mantras/page.tsx [Server Component]
-[03:19:05.227] Browser ERROR   ./app/mantras/page.tsx:110:1
-Export mantraCollection doesn't exist in target module
-  108 | import { Folder, ChevronDown, ChevronUp, Music } from 'lucide-react';
-  109 | import MantraPlayer from '@/components/MantraPlayer';
-> 110 | import { mantraCollection } from '@/lib/mantraData';
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  111 |
-  112 | export default function AllMantrasPage() {
-  113 |   const [openFolderId, setOpenFolderId] = useState<string | null>(null);
-
-The export mantraCollection was not found in module [project]/lib/mantraData.ts [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/mantras/page.tsx [Client Component Browser]
-    ./app/mantras/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/mantras/page.tsx [Client Component SSR]
-    ./app/mantras/page.tsx [Server Component]
-[03:19:05.227] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[03:19:07.169] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+    ./app/festivals/mantras/page.tsx [Client Component SSR]
+    ./app/festivals/mantras/page.tsx [Server Component]
+[01:17:48.527] Server  LOG      ✓ Compiled in 200ms
+[01:17:48.849] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /festivals/mantras. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:19:10.118] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+[01:17:50.346] Server  LOG      ✓ Compiled in 206ms
+[01:17:54.904] Server  LOG      ✓ Compiled in 313ms
+[01:18:33.774] Server  LOG      ✓ Compiled in 188ms
+[01:18:36.669] Server  LOG      ✓ Compiled in 292ms
+[01:18:48.831] Server  LOG      ✓ Compiled in 148ms
+[01:19:02.741] Server  LOG      ✓ Compiled in 133ms
+[01:19:11.788] Server  LOG      ✓ Compiled in 245ms
+[01:19:20.049] Server  LOG      ✓ Compiled in 150ms
+[01:19:21.263] Server  LOG      ✓ Compiled in 168ms
+[01:19:25.279] Server  LOG      ✓ Compiled in 178ms
+[01:20:20.621] Server  LOG      ✓ Compiled in 186ms
+[01:20:24.186] Server  LOG      ✓ Compiled in 199ms
+[01:21:51.701] Server  LOG      ✓ Compiled in 89ms
+[01:21:53.784] Server  LOG      ✓ Compiled in 99ms
+[01:21:55.649] Server  LOG      ✓ Compiled in 78ms
+[01:22:07.088] Server  LOG      ✓ Compiled in 74ms
+[01:22:11.373] Server  LOG      ✓ Compiled in 84ms
+[01:22:30.347] Server  LOG      ✓ Compiled in 76ms
+[01:22:34.378] Server  LOG      ✓ Compiled in 73ms
+[01:23:25.231] Server  LOG      ✓ Compiled in 92ms
+[01:23:42.915] Server  LOG      ✓ Compiled in 82ms
+[01:24:30.537] Server  LOG      ✓ Compiled in 169ms
+[01:24:47.697] Server  LOG      ✓ Compiled in 100ms
+[01:25:08.400] Server  LOG      ✓ Compiled in 77ms
+[01:25:10.165] Server  LOG      ✓ Compiled in 93ms
+[01:26:03.877] Server  LOG      ✓ Compiled in 80ms
+[01:26:06.898] Server  LOG      ✓ Compiled in 78ms
+[01:26:08.841] Server  LOG      ✓ Compiled in 72ms
+[01:26:23.123] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[01:26:23.123] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[01:26:23.124] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[01:26:23.916] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[01:26:23.916] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[01:26:23.916] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[01:26:23.916] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[01:26:23.916] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[01:26:23.916] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[01:26:23.916] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[01:26:23.916] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[01:26:23.916] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[01:26:23.916] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[01:26:23.917] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[01:26:23.917] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[01:26:25.460] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:19:10.680] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:20:50.381] Server  LOG      ✓ Compiled in 508ms
-[03:20:52.122] Server  LOG      ✓ Compiled in 141ms
-[03:20:53.337] Server  LOG      ✓ Compiled in 102ms
-[03:20:57.249] Server  LOG      ✓ Compiled in 105ms
-[03:21:01.151] Server  LOG      ✓ Compiled in 100ms
-[03:21:03.211] Server  LOG      ✓ Compiled in 91ms
-[03:21:31.020] Server  LOG      ○ Compiling /page/terms_of_service ...
-[03:21:34.630] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /page/terms_of_service. Please move it to viewport export instead.
+[01:26:26.322] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:21:34.927] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[03:22:01.441] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+[01:26:32.743] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[01:26:32.743] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[01:26:32.743] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[01:26:32.743] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[01:26:32.743] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[01:26:32.743] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[01:26:32.743] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[01:26:32.743] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[01:26:32.743] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[01:26:32.743] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[01:26:32.743] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[01:26:32.743] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
+[01:26:36.815] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /district-president-instructions. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:22:01.655] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+[01:26:36.878] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /district-president-instructions. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:22:02.313] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:32:30.907] Server  LOG      ✓ Compiled in 1262ms
-[03:36:10.632] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /page/terms_of_service. Please move it to viewport export instead.
+[01:30:46.002] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:30:46.024] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_664f9fe0._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:30:46.031] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:30:46.037] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:30:46.040] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:30:46.042] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:30:46.045] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:30:46.086] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:30:46.103] Server  ERROR    ⨯ Error: The default export is not a React Component in "/district-president-instructions/page"
+[01:30:46.112] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:30:46.112] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_664f9fe0._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:30:46.113] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:30:46.114] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:30:46.115] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:30:46.116] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:30:46.118] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:30:46.119] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:30:46.132] Server  ERROR    ⨯ Error: The default export is not a React Component in "/district-president-instructions/page"
+[01:30:46.174] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:30:46.174] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_664f9fe0._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:30:46.175] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:30:46.175] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:30:46.176] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:30:46.177] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:30:46.177] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:30:46.177] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:30:46.178] Server  ERROR    ⨯ Error: The default export is not a React Component in "/district-president-instructions/page"
+[01:30:46.179] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /district-president-instructions. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:36:11.828] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:36:45.194] Server  LOG      ✓ Compiled in 459ms
-[03:36:47.794] Server  LOG      ✓ Compiled in 106ms
-[03:36:51.371] Server  LOG      ✓ Compiled in 107ms
-[03:37:06.590] Server  LOG      ○ Compiling /amma/about-amma ...
-[03:37:09.573] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /amma/about-amma. Please move it to viewport export instead.
+[01:30:46.189] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:30:46.190] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_664f9fe0._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:30:46.190] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:30:46.191] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:30:46.193] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:30:46.194] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:30:46.195] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:30:46.196] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:30:46.197] Server  ERROR    ⨯ Error: The default export is not a React Component in "/district-president-instructions/page"
+[01:30:48.144] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:30:48.145] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_664f9fe0._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:30:48.146] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:30:48.147] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:30:48.149] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:30:48.150] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:30:48.152] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:30:48.154] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:30:48.156] Server  ERROR    ⨯ Error: The default export is not a React Component in "/district-president-instructions/page"
+[01:30:48.157] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /district-president-instructions. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:37:10.077] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[03:37:11.582] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+[01:30:48.160] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:30:48.161] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_664f9fe0._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:30:48.161] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:30:48.162] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:30:48.163] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:30:48.164] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:30:48.167] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:30:48.169] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:30:48.171] Server  ERROR    ⨯ Error: The default export is not a React Component in "/district-president-instructions/page"
+[01:30:48.546] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/district-president-instructions/page"
+[01:30:48.739] Server  LOG      ✓ Compiled in 497ms
+[01:30:55.364] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /district-president-instructions. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:37:12.246] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+[01:30:55.993] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:36:32.351] Server  LOG      ✓ Compiled in 278ms
+[01:36:32.543] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:37:12.310] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+[01:36:38.313] Server  LOG      ✓ Compiled in 94ms
+[02:26:02.253] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:37:12.610] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+[02:26:03.251] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[02:26:03.818] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:37:12.771] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+[02:26:11.975] Server  LOG      ○ Compiling /irumudi-instruction ...
+[02:26:17.080] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /irumudi-instruction. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:37:12.920] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+[02:26:17.236] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /irumudi-instruction. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:45:47.567] Server  LOG      ✓ Compiled in 1147ms
-[03:45:49.869] Server  LOG      ✓ Compiled in 1352ms
-[03:45:52.625] Server  LOG      ✓ Compiled in 836ms
-[03:46:03.480] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /amma/about-amma. Please move it to viewport export instead.
+[02:26:17.329] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /irumudi-instruction. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:46:03.584] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /amma/about-amma. Please move it to viewport export instead.
+[02:26:17.468] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /irumudi-instruction. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:46:04.306] Server  LOG      ✓ Compiled in 222ms
-[03:46:05.252] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:46:09.607] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+[02:26:17.572] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /irumudi-instruction. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:50:20.205] Server  LOG      ✓ Compiled in 1321ms
-[03:50:31.437] Server  LOG      ✓ Compiled in 428ms
-[03:50:36.416] Server  LOG      ✓ Compiled in 114ms
-[03:50:38.162] Server  LOG      ✓ Compiled in 171ms
-[03:51:05.290] Server  LOG      ✓ Compiled in 129ms
-[03:51:10.096] Server  LOG      ✓ Compiled in 100ms
-[03:51:16.023] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /amma/about-amma. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:51:16.157] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /amma/about-amma. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:51:17.077] Server  LOG      ✓ Compiled in 175ms
-[03:51:17.826] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:52:40.302] Server  LOG      ○ Compiling /amma/miracles ...
-[03:52:41.436] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /amma/miracles. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:52:41.499] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /amma/miracles. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:52:41.703] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[03:52:48.286] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /siddhar-peedam/introduction. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:52:55.661] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /siddhar-peedam/schema. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:53:02.534] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /festivals/occasions. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:57:14.393] Server  LOG      ✓ Compiled in 1104ms
-[03:57:16.749] Server  LOG      ✓ Compiled in 1614ms
-[03:58:29.000] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /festivals/occasions. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:58:29.262] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /festivals/occasions. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:58:30.991] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:58:37.147] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /amma/about-amma. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[03:58:37.402] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior

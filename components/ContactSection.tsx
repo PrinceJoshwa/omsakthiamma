@@ -36,7 +36,7 @@
 //             {
 //               icon: Mail,
 //               title: 'Email',
-//               details: ['asqwjd@gmail.com'],
+//               details: ['aspwct@gmail.com'],
 //             },
 //             {
 //               icon: Clock,
@@ -128,7 +128,7 @@ export default function ContactSection() {
             {
               icon: Mail,
               title: 'Email',
-              details: ['asqwjd@gmail.com'],
+              details: ['aspwct@gmail.com'],
             },
             {
               icon: Clock,
