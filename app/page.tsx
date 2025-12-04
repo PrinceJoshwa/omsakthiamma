@@ -417,7 +417,9 @@ import DailyMessageSection from '@/components/DailyMessageSection';
 
 // Audio Player Imports
 import MantraPlayer from '@/components/MantraPlayer';
-import { featuredMantras } from '@/lib/mantraData';
+// import { featuredMantras } from '@/lib/mantraData';
+import { featuredMantras, mantrasAudioFolder, devotionalSongsFolder } from "@/lib/mantraData";
+
 
 export default function Home() {
   return (
@@ -521,7 +523,7 @@ export default function Home() {
           </motion.div>
         </div>
 
-        {/* 3. DEVOTIONAL SONGS (AUDIO) - NEW SECTION ADDED BELOW */}
+        {/* 3. DEVOTIONAL SONGS (AUDIO) - NEW SECTION ADDED BELOW
         <div className="max-w-7xl mx-auto px-4 border-t border-orange-100 pt-16">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -568,7 +570,102 @@ export default function Home() {
               </button>
             </Link>
           </div>
-        </div>
+        </div> */}
+
+{/* DEVOTIONAL SONGS SECTION */}
+<div className="max-w-7xl mx-auto px-4 border-t border-orange-100 pt-16">
+  <motion.div
+    initial={{ opacity: 0, y: 20 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    viewport={{ once: true }}
+    className="text-center mb-10"
+  >
+    <span className="px-4 py-1.5 bg-orange-100 text-orange-700 rounded-full text-xs font-bold tracking-wider uppercase mb-4 inline-block">
+      Devotional Songs
+    </span>
+    <h2 className="text-3xl md:text-4xl font-bold text-[#1a1a1a]">
+      Devotional Songs Collection
+    </h2>
+    <p className="text-gray-600 mt-3 max-w-2xl mx-auto text-sm md:text-base">
+      Listen to soulful songs.
+    </p>
+  </motion.div>
+
+  <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-6 mb-10">
+    {devotionalSongsFolder.songs.slice(0, 2).map((song, idx) => (
+      <motion.div
+        key={song.id}
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ delay: idx * 0.1 }}
+        viewport={{ once: true }}
+      >
+        <MantraPlayer
+          title={song.title}
+          src={song.url}
+          duration={song.duration}
+          lightMode={true}
+        />
+      </motion.div>
+    ))}
+  </div>
+
+  <div className="text-center">
+    <Link href="/devotional-songs">
+      <button className="inline-flex items-center gap-2 px-8 py-3 bg-[#a7150b] text-white rounded-full font-bold text-base shadow-lg hover:bg-[#8a0d08] transition-all duration-300 group">
+        View All Devotional Songs
+      </button>
+    </Link>
+  </div>
+</div>
+
+{/* MANTRAS AUDIO SECTION */}
+<div className="max-w-7xl mx-auto px-4 border-t border-orange-100 pt-16">
+  <motion.div
+    initial={{ opacity: 0, y: 20 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    viewport={{ once: true }}
+    className="text-center mb-10"
+  >
+    <span className="px-4 py-1.5 bg-orange-100 text-orange-700 rounded-full text-xs font-bold tracking-wider uppercase mb-4 inline-block">
+      Mantras Audio
+    </span>
+    <h2 className="text-3xl md:text-4xl font-bold text-[#1a1a1a]">
+      Powerful Mantras Collection
+    </h2>
+    <p className="text-gray-600 mt-3 max-w-2xl mx-auto text-sm md:text-base">
+      Listen to divine mantras.
+    </p>
+  </motion.div>
+
+  <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-6 mb-10">
+    {mantrasAudioFolder.songs.slice(0, 2).map((mantra, idx) => (
+      <motion.div
+        key={mantra.id}
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ delay: idx * 0.1 }}
+        viewport={{ once: true }}
+      >
+        <MantraPlayer
+          title={mantra.title}
+          src={mantra.url}
+          duration={mantra.duration}
+          lightMode={true}
+        />
+      </motion.div>
+    ))}
+  </div>
+
+  <div className="text-center">
+    <Link href="/mantras-audio">
+      <button className="inline-flex items-center gap-2 px-8 py-3 bg-[#a7150b] text-white rounded-full font-bold text-base shadow-lg hover:bg-[#8a0d08]  transition-all duration-300 group">
+        View All Mantras Audio
+      </button>
+    </Link>
+  </div>
+</div>
+
 
       </section>
       

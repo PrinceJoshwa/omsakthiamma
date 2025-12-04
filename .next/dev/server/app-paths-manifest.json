@@ -1,10 +1,7 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/all-events/page": "app/all-events/page.js",
-  "/amma/message/page": "app/amma/message/page.js",
-  "/district-president-instructions/page": "app/district-president-instructions/page.js",
   "/festivals/mantras/page": "app/festivals/mantras/page.js",
-  "/irumudi-instruction/page": "app/irumudi-instruction/page.js",
-  "/online_services/donations/page": "app/online_services/donations/page.js",
-  "/page": "app/page.js"
+  "/page": "app/page.js",
+  "/publications/books/page": "app/publications/books/page.js",
+  "/publications/magazine/page": "app/publications/magazine/page.js"
 }

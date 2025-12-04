@@ -1543,6 +1543,10 @@
     max-height: var(--radix-select-content-available-height);
   }
 
+  .max-h-\[85vh\] {
+    max-height: 85vh;
+  }
+
   .max-h-\[90vh\] {
     max-height: 90vh;
   }
@@ -2723,7 +2727,7 @@
     background-color: #8b0000;
   }
 
-  .bg-\[\#a7150b\] {
+  .bg-\[\#a7150B\], .bg-\[\#a7150b\] {
     background-color: #a7150b;
   }
 
@@ -2766,6 +2770,42 @@
 
   .bg-\[\#fffcf2\] {
     background-color: #fffcf2;
+  }
+
+  .bg-\[3a7150b\] {
+    background-color: 3a7150b;
+  }
+
+  .bg-\[A7150B\] {
+    background-color: A7150B;
+  }
+
+  .bg-\[A7150b\] {
+    background-color: A7150b;
+  }
+
+  .bg-\[a7\] {
+    background-color: a7;
+  }
+
+  .bg-\[a71\] {
+    background-color: a71;
+  }
+
+  .bg-\[a710\] {
+    background-color: a710;
+  }
+
+  .bg-\[a7150B\] {
+    background-color: a7150B;
+  }
+
+  .bg-\[a7150\] {
+    background-color: a7150;
+  }
+
+  .bg-\[a7150b\] {
+    background-color: a7150b;
   }
 
   .bg-amber-50 {
