@@ -844,7 +844,7 @@ export default function MantrasPage() {
           <div className="flex items-center justify-center gap-3 mb-8">
             <Flower className="text-orange-400 w-6 h-6" />
             <h2 className="text-2xl md:text-3xl font-bold text-[#a7150b] font-serif">
-             மந்திர நூல்
+             நூல்
             </h2>
             <Flower className="text-orange-400 w-6 h-6" />
           </div>

@@ -407,16 +407,36 @@ const generalDonations = [
   { name: "Golden Chariot", href: "https://masm.omsakthiamma.in/donate-other/?c=GCP", icon: <Gem className="w-8 h-8" />, color: "text-amber-600", bg: "bg-amber-50" },
   { name: "Silver Chariot", href: "https://masm.omsakthiamma.in/donate-other/?c=SIC", icon: <Sparkles className="w-8 h-8" />, color: "text-gray-400", bg: "bg-gray-50" },
   { name: "Lakcharchanai", href: "https://masm.omsakthiamma.in/donate-laksh/", icon: <BookOpen className="w-8 h-8" />, color: "text-purple-500", bg: "bg-purple-50" },
-  { name: "Chitrapournami", href: "https://masm.omsakthiamma.in/donate-chitrapournami/", icon: <Moon className="w-8 h-8" />, color: "text-indigo-500", bg: "bg-indigo-50" },
+  // { name: "Chitrapournami", href: "https://masm.omsakthiamma.in/donate-chitrapournami/", icon: <Moon className="w-8 h-8" />, color: "text-indigo-500", bg: "bg-indigo-50" },
+  { name: "Chitrapournami", href: "#", icon: <Moon className="w-8 h-8" />, color: "text-indigo-500", bg: "bg-indigo-50" },
   { name: "Navaratri Kappu", href: "https://masm.omsakthiamma.in/donate-navaratri/", icon: <ShieldCheck className="w-8 h-8" />, color: "text-red-600", bg: "bg-red-50" },
-  { name: "Online Irumudi", href: "https://www.acmectrust.org/online-darshan/", icon: <CreditCard className="w-8 h-8" />, color: "text-green-600", bg: "bg-green-50" }
+  // { name: "Online Irumudi", href: "https://www.acmectrust.org/online-darshan/", icon: <CreditCard className="w-8 h-8" />, color: "text-green-600", bg: "bg-green-50" }
+  { name: "Online Irumudi", href: "#", icon: <CreditCard className="w-8 h-8" />, color: "text-green-600", bg: "bg-green-50" }
 ];
 
 const taxExemptDonations = [
-  { name: "Annadhanam (80G)", href: "https://aspwct.omsakthiamma.in/", icon: <Utensils className="w-6 h-6" />, desc: "Feeding the hungry" },
+  { name: "Annadhanam (80G)", href: "https://www.acmectrust.org/donate-thaipoosam-india/", icon: <Utensils className="w-6 h-6" />, desc: "Feeding the hungry" },
   { name: "Hospital Donations (80G)", href: "https://acmectrust.org/", icon: <Stethoscope className="w-6 h-6" />, desc: "Medical aid for the poor" },
-  { name: "Women Welfare (80G)", href: "https://acmectrust.org/", icon: <Users className="w-6 h-6" />, desc: "Empowering women" }
+  { name: "Women Welfare (80G)", href: "https://aspwct.omsakthiamma.in/", icon: <Users className="w-6 h-6" />, desc: "Empowering women" }
 ];
+// const generalDonations = [
+//   { name: "General Donation", href: "#", icon: <Heart className="w-8 h-8" />, color: "text-red-500", bg: "bg-red-50" },
+//   { name: "Daily Abhishegam", href: "#", icon: <Droplet className="w-8 h-8" />, color: "text-blue-500", bg: "bg-blue-50" },
+//   { name: "Pournami Velaku Pooja", href: "#", icon: <Moon className="w-8 h-8" />, color: "text-yellow-500", bg: "bg-yellow-50" },
+//   { name: "Ammavasai Veli", href: "#", icon: <Sun className="w-8 h-8" />, color: "text-orange-500", bg: "bg-orange-50" },
+//   { name: "Golden Chariot", href: "#", icon: <Gem className="w-8 h-8" />, color: "text-amber-600", bg: "bg-amber-50" },
+//   { name: "Silver Chariot", href: "#", icon: <Sparkles className="w-8 h-8" />, color: "text-gray-400", bg: "bg-gray-50" },
+//   { name: "Lakcharchanai", href: "#", icon: <BookOpen className="w-8 h-8" />, color: "text-purple-500", bg: "bg-purple-50" },
+//   { name: "Chitrapournami", href: "#", icon: <Moon className="w-8 h-8" />, color: "text-indigo-500", bg: "bg-indigo-50" },
+//   { name: "Navaratri Kappu", href: "#", icon: <ShieldCheck className="w-8 h-8" />, color: "text-red-600", bg: "bg-red-50" },
+//   { name: "Online Irumudi", href: "#", icon: <CreditCard className="w-8 h-8" />, color: "text-green-600", bg: "bg-green-50" }
+// ];
+
+// const taxExemptDonations = [
+//   { name: "Annadhanam (80G)", href: "https://www.acmectrust.org/donate-thaipoosam-india/", icon: <Utensils className="w-6 h-6" />, desc: "Feeding the hungry" },
+//   { name: "Hospital Donations (80G)", href: "https://acmectrust.org/", icon: <Stethoscope className="w-6 h-6" />, desc: "Medical aid for the poor" },
+//   { name: "Women Welfare (80G)", href: "https://aspwct.omsakthiamma.in/", icon: <Users className="w-6 h-6" />, desc: "Empowering women" }
+// ];
 
 
 // --- ANIMATION VARIANTS ---

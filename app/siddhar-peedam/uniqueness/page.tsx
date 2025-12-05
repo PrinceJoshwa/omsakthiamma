@@ -49,7 +49,8 @@ const uniquenessPoints = [
     content: "Melmaruvathur is a place of marvel because Goddess Adhiparasakthi has incarnated Herself in the human form (Avatar) as Arulthiru Bangaru Adigalar (fondly called as 'AMMA' meaning mother in Tamil - symbolising His motherly affection to one and all), and provides solutions to the innumerable complex problems of human beings.",
     icon: <Heart className="w-6 h-6 text-white" />,
     color: "bg-red-600",
-    image: "/amma.jpg", // Using the image of Adigalar you uploaded earlier
+    // image: "/amma.jpg", 
+    image: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939240/amma_wdurjp.jpg", 
     imageAlt: "Arulthiru Bangaru Adigalar"
   },
   {
@@ -65,7 +66,8 @@ const uniquenessPoints = [
     content: "Devotees throng Melmaruvathur and the Siddhar Peedam in RED robes or clothes. The red colour has been chosen to symbolise the pigment of blood, which is common to all human beings on this Mother Earth, irrespective of caste, creed, gender, religion or any other discrimination.",
     icon: <Droplet className="w-6 h-6 text-white" />,
     color: "bg-[#a7150b]",
-    image: "/history.jpg", // Using the collage showing the red crowd
+    // image: "/history.jpg", // Using the collage showing the red crowd
+    image: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939272/history_thy63d.jpg", 
     imageAlt: "Devotees in Red Robes"
   },
   {

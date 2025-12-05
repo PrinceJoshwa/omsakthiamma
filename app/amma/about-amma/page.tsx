@@ -540,7 +540,8 @@ export default function AboutAmmaPage() {
             variants={containerVariants}
           >
             <motion.div variants={itemVariants} className="relative rounded-3xl overflow-hidden shadow-2xl h-[420px]">
-              <Image src="/amma_child.jpg" alt="Young Amma" fill className="object-cover" />
+              {/* <Image src="/amma_child.jpg" alt="Young Amma" fill className="object-cover" /> */}
+              <Image src="https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939227/amma_child_g8n2n1.jpg" alt="Young Amma" fill className="object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-[#a7150b]/40 to-transparent pointer-events-none" />
             </motion.div>
           </motion.div>
@@ -576,7 +577,8 @@ export default function AboutAmmaPage() {
         {/* Section: Divine Incarnation (Image Left / Text Right) */}
         <motion.section initial="hidden" whileInView="show" viewport={{ once: true }} variants={containerVariants} className="grid lg:grid-cols-2 gap-12 items-center">
           <motion.div variants={itemVariants} className="relative h-[380px] rounded-2xl overflow-hidden shadow-xl">
-            <Image src="/amma_young.jpg" alt="Early life" fill className="object-cover" />
+            {/* <Image src="/amma_young.jpg" alt="Early life" fill className="object-cover" /> */}
+            <Image src="https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939314/amma_young_doqfqv.jpg" alt="Early life" fill className="object-cover" />
             <div className="absolute -inset-4 -z-10 rounded-3xl bg-[#a7150b]/10 blur-xl" />
           </motion.div>
 
@@ -611,7 +613,8 @@ export default function AboutAmmaPage() {
           </motion.div>
 
           <motion.div variants={itemVariants} className="relative h-[360px] rounded-2xl overflow-hidden shadow-xl">
-            <Image src="/amma_young_boy.jpg" alt="Divine possession" fill className="object-cover" />
+            {/* <Image src="/amma_young_boy.jpg" alt="Divine possession" fill className="object-cover" /> */}
+            <Image src="https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939314/amma_young_boy_huvjp1.jpg" alt="Divine possession" fill className="object-cover" />
             <div className="absolute -inset-4 -z-10 rounded-3xl bg-[#f59e0b]/6 blur-xl" />
           </motion.div>
         </motion.section>
@@ -622,13 +625,16 @@ export default function AboutAmmaPage() {
 
           <motion.div variants={itemVariants} className="grid md:grid-cols-3 gap-6">
             <div className="relative h-48 rounded-xl overflow-hidden shadow-lg">
-              <Image src="/amma_family.jpg" alt="Family and early days" fill className="object-cover" />
+              {/* <Image src="/amma_family.jpg" alt="Family and early days" fill className="object-cover" /> */}
+              <Image src="https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939215/amma_family_x69tkv.jpg" alt="Family and early days" fill className="object-cover" />
             </div>
             <div className="relative h-48 rounded-xl overflow-hidden shadow-lg">
-              <Image src="/amma_simplicity.jpg" alt="Simplicity & Service" fill className="object-cover" />
+              {/* <Image src="/amma_simplicity.jpg" alt="Simplicity & Service" fill className="object-cover" /> */}
+              <Image src="https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939230/amma_simplicity_yg4gja.jpg" alt="Simplicity & Service" fill className="object-cover" />
             </div>
             <div className="relative h-48 rounded-xl overflow-hidden shadow-lg">
-              <Image src="/amma_child.jpg" alt="Child devotion" fill className="object-cover" />
+              {/* <Image src="/amma_child.jpg" alt="Child devotion" fill className="object-cover" /> */}
+              <Image src="https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939227/amma_child_g8n2n1.jpg" alt="Child devotion" fill className="object-cover" />
             </div>
           </motion.div>
 
@@ -643,7 +649,8 @@ export default function AboutAmmaPage() {
         {/* Section: The True Inner Urge */}
         <motion.section initial="hidden" whileInView="show" viewport={{ once: true }} variants={containerVariants} className="grid lg:grid-cols-2 gap-12 items-center bg-orange-50/40 p-8 rounded-2xl">
           <motion.div variants={itemVariants} className="relative h-[320px] rounded-xl overflow-hidden shadow-xl">
-            <Image src="/amma_child.jpg" alt="Inner Urge" fill className="object-cover" />
+            {/* <Image src="/amma_child.jpg" alt="Inner Urge" fill className="object-cover" /> */}
+            <Image src="https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939227/amma_child_g8n2n1.jpg" alt="Inner Urge" fill className="object-cover" />
             <div className="absolute -inset-4 -z-10 rounded-3xl bg-[#f97316]/8 blur-xl" />
           </motion.div>
 
@@ -674,7 +681,8 @@ export default function AboutAmmaPage() {
           </motion.div>
 
           <motion.div variants={itemVariants} className="relative h-[360px] rounded-2xl overflow-hidden shadow-lg">
-            <Image src="/amma_family.jpg" alt="Family life image" fill className="object-cover" />
+            {/* <Image src="/amma_family.jpg" alt="Family life image" fill className="object-cover" /> */}
+            <Image src="https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939215/amma_family_x69tkv.jpg" alt="Family life image" fill className="object-cover" />
           </motion.div>
         </motion.section>
 
@@ -695,14 +703,16 @@ export default function AboutAmmaPage() {
           </motion.div>
 
           <motion.div variants={itemVariants} className="relative h-[320px] rounded-xl overflow-hidden shadow-xl">
-            <Image src="/amma_simplicity.jpg" alt="Simplicity image" fill className="object-cover" />
+            {/* <Image src="/amma_simplicity.jpg" alt="Simplicity image" fill className="object-cover" /> */}
+            <Image src="https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939230/amma_simplicity_yg4gja.jpg" alt="Simplicity image" fill className="object-cover" />
           </motion.div>
         </motion.section>
 
         {/* Section: Service to Humanity */}
         <motion.section initial="hidden" whileInView="show" viewport={{ once: true }} variants={containerVariants} className="grid lg:grid-cols-2 gap-12 items-center">
           <motion.div variants={itemVariants} className="relative h-[340px] rounded-2xl overflow-hidden shadow-xl">
-            <Image src="/amma_young.jpg" alt="Service activities" fill className="object-cover" />
+            {/* <Image src="/amma_young.jpg" alt="Service activities" fill className="object-cover" /> */}
+            <Image src="https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939314/amma_young_doqfqv.jpg" alt="Service activities" fill className="object-cover" />
           </motion.div>
 
           <motion.div variants={itemVariants} className="prose prose-lg text-gray-700">

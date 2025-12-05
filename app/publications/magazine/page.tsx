@@ -17,7 +17,8 @@ import Image from "next/image";
 export default function MagazinePage() {
   const magazines = [
     {
-      image: "/mega.png",
+      // image: "/mega.png",
+      image: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939079/mega_l8gywn.png",
       title: "Sakthi Oli Magazine Feb 2016",
       published: "2016-03-12 05:23:31",
       price: "₹25",

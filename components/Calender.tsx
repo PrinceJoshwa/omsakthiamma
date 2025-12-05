@@ -66,7 +66,7 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Calendar as CalendarIcon, Moon, Sun, Sparkles, Globe } from 'lucide-react';
 
-type EventType = 'festivals' | 'amavasai' | 'pournami' | 'google';
+type EventType = 'festivals' | 'Ammavasai' | 'pournami' | 'google';
 
 export default function TempleCalendar() {
   const [activeTab, setActiveTab] = useState<EventType>('festivals');
@@ -88,7 +88,7 @@ export default function TempleCalendar() {
   ];
 
   // Data extracted from PDF Page 4 [cite: 16]
-  const amavasai = [
+  const Ammavasai = [
     { date: "18.01.2026", day: "Sunday" },
     { date: "17.02.2026", day: "Tuesday" },
     { date: "18.03.2026", day: "Wednesday" },
@@ -137,7 +137,7 @@ export default function TempleCalendar() {
         <div className="flex justify-center gap-3 mb-10 flex-wrap">
           {[
             { id: 'festivals', label: 'Major Festivals', icon: Sparkles },
-            { id: 'amavasai', label: 'Ammavasai Velvi', icon: Sun },
+            { id: 'Ammavasai', label: 'Ammavasai Velvi', icon: Sun },
             { id: 'pournami', label: 'Pournami Pooja', icon: Moon },
             { id: 'google', label: 'Live Calendar', icon: Globe }, // Merged Google Calendar Tab
           ].map((tab) => (
@@ -193,10 +193,10 @@ export default function TempleCalendar() {
               </motion.div>
             )}
 
-            {/* 2. AMAVASAI TAB */}
-            {activeTab === 'amavasai' && (
+            {/* 2. Ammavasai TAB */}
+            {activeTab === 'Ammavasai' && (
               <motion.div
-                key="amavasai"
+                key="Ammavasai"
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
                 exit={{ opacity: 0, x: 20 }}
@@ -208,7 +208,7 @@ export default function TempleCalendar() {
                   <p className="text-gray-500 text-sm">Monthly New Moon Sacrificial Fire Rituals</p>
                 </div>
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                  {amavasai.map((item, idx) => (
+                  {Ammavasai.map((item, idx) => (
                     <div key={idx} className="bg-white rounded-xl p-4 text-center border border-gray-200 shadow-sm hover:shadow-md hover:border-[#a7150b] transition-all">
                       <div className="text-lg font-bold text-gray-800">{item.date}</div>
                       <div className="text-[#a7150b] font-bold text-xs uppercase mt-1">{item.day}</div>

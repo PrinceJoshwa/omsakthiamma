@@ -296,13 +296,13 @@ export default function Footer() {
           </p>
 
           <div className="flex items-center gap-6">
-            <Link href="#" className="bg-[#8a0d08] text-white p-2 rounded-md hover:bg-black transition-colors">
+            <Link href="https://www.facebook.com/MelmaruvathurSiddharPeedam" target='_blank' className="bg-[#8a0d08] text-white p-2 rounded-md hover:bg-black transition-colors">
               <Facebook className="w-4 h-4" />
             </Link>
-            <Link href="#" className="bg-[#8a0d08] text-white p-2 rounded-md hover:bg-black transition-colors">
+            <Link href="https://www.youtube.com/c/MelmaruvathurSiddharPeedam" target='_blank' className="bg-[#8a0d08] text-white p-2 rounded-md hover:bg-black transition-colors">
               <Youtube className="w-4 h-4" />
             </Link>
-            <Link href="#" className="bg-[#8a0d08] text-white p-2 rounded-md hover:bg-black transition-colors">
+            <Link href="https://x.com/SiddharPeedam" target='_blank' className="bg-[#8a0d08] text-white p-2 rounded-md hover:bg-black transition-colors">
               <Twitter className="w-4 h-4" />
             </Link>
           </div>

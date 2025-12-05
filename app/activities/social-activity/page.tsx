@@ -39,7 +39,8 @@ export default function SocialActivityPage() {
               className="relative h-64 md:h-auto bg-gray-100"
             >
               <Image 
-                src="/social.png" 
+                // src="/social.png" 
+                src="https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939112/social_khsv33.png" 
                 alt="Social Service Activities"
                 fill
                 className="object-cover"

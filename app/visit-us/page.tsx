@@ -116,7 +116,7 @@ export default function VisitUsPage() {
             transition={{ duration: 0.8 }}
           >
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.694708505044!2d79.738536!3d12.927615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a531f20c8a4a993%3A0xcb80752d19f2cdc6!2sOm%20Shakthi%20Temple!5e0!3m2!1sen!2sin!4v1700000000000"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1948.1351779505444!2d79.8302251!3d12.4316987!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a531ba1c8f58fe1%3A0x6c8fbe2c73a2554a!2sOm%20Shakthi%20Temple!5e0!3m2!1sen!2sin!4v1764937181488!5m2!1sen!2sin"
               width="100%"
               height="450"
               loading="lazy"

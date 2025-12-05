@@ -90,7 +90,8 @@ export default function AboutSection() {
           className="relative h-[300px] md:h-[500px] w-full rounded-2xl overflow-hidden shadow-xl border-4 border-white"
         >
           <Image
-            src="/bangaru.jpg"
+            // src="/bangaru.jpg"
+            src="https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg"
             alt="Arul Thiru Bangaru Adigalar"
             fill
             className="object-fill hover:scale-105 transition-transform duration-700"

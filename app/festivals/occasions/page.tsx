@@ -38,7 +38,8 @@ const occasionsData = [
     highlights: ["Sakthi Malai Vrutham", "Irumudi Offering", "Angapradakshinam (Rolling on ground)"],
     icon: <Flame className="w-6 h-6 text-orange-500" />,
     accentColor: "border-orange-500",
-    imageSrc: "/occasion.jpg", // Using your uploaded 'occasion.jpg'
+    // imageSrc: "/occasion.jpg", 
+    imageSrc: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939103/occasion_tkfaud.jpg", 
     imageAlt: "Thai Poosam Irumudi and Fire Pot procession"
   },
   {
@@ -49,7 +50,8 @@ const occasionsData = [
     highlights: ["Free Marriages", "Welfare Distribution (Sewing Machines, Tricycles)", "Service to the Poor"],
     icon: <Gift className="w-6 h-6 text-pink-600" />,
     accentColor: "border-pink-600",
-    imageSrc: "/ammabirthday.jpg", // Using your uploaded 'ammabirthday.jpg'
+    // imageSrc: "/ammabirthday.jpg", // Using your uploaded 'ammabirthday.jpg'
+    imageSrc: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939325/ammabirthday_kqgze8.jpg", // Using your uploaded 'ammabirthday.jpg'
     imageAlt: "Amma's Birthday celebrations and welfare distribution"
   },
   {
@@ -60,7 +62,8 @@ const occasionsData = [
     highlights: ["10,008 Women Yagnam", "Kalasa Vilakku Puja", "Prayers for Rain & World Peace"],
     icon: <Moon className="w-6 h-6 text-yellow-500" />,
     accentColor: "border-yellow-500",
-    imageSrc: "/chitrapournami.jpg", // Using your uploaded 'chitrapournami.jpg'
+    // imageSrc: "/chitrapournami.jpg",
+    imageSrc: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939368/chitrapournami_aiszbx.jpg",
     imageAlt: "Chitra Pournami Yagnam setups"
   },
   {
@@ -71,7 +74,8 @@ const occasionsData = [
     highlights: ["Gruel (Koozh) Abishekam", "Amma carrying the Pot", "Angapradakshinam"],
     icon: <Droplet className="w-6 h-6 text-red-600" />,
     accentColor: "border-red-600",
-    imageSrc: "/aadipooram.jpg", // Using your uploaded 'aadipooram.jpg'
+    // imageSrc: "/aadipooram.jpg", 
+    imageSrc: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939249/aadipooram_zff3ae.jpg", // Using your uploaded 'aadipooram.jpg'
     imageAlt: "Aadi Pooram Gruel Pot procession"
   },
   {
@@ -82,7 +86,8 @@ const occasionsData = [
     highlights: ["Akhandam (Eternal Lamp)", "Laksharchana", "Daily Alankarams", "Silver Chariot (Women only)"],
     icon: <Sparkles className="w-6 h-6 text-indigo-500" />,
     accentColor: "border-indigo-500",
-    imageSrc: "/navratri.jpeg", // Using your uploaded 'navratri.jpeg'
+    // imageSrc: "/navratri.jpeg",
+    imageSrc: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939081/navratri_pcitav.jpg",
     imageAlt: "Navaratri Alankarams and Silver Chariot"
   }
 ];

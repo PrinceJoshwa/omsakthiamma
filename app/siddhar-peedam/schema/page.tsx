@@ -134,7 +134,8 @@ export default function SanctumPage() {
           className="relative w-full h-[500px] rounded-3xl overflow-hidden shadow-2xl mb-20 group"
         >
           <Image
-            src="/deity.jpg" // ⭐ Replace with your image path
+            // src="/deity.jpg" 
+            src="https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939332/deity_bpbqhk.jpg" 
             alt="Adhiparasakthi Deity in Sanctum Sanctorum"
             fill
             className="object-fill object-top transition-transform duration-700 group-hover:scale-105"

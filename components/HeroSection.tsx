@@ -100,7 +100,8 @@ import Link from 'next/link';
 import { FileText, UserCheck, Heart, ArrowRight } from 'lucide-react'; // Icons for clarity
 
 export default function HeroSection() {
-  const heroImage = "/hero1.jpeg"; 
+  // const heroImage = "/hero1.jpeg"; 
+  const heroImage = "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939055/hero1_i2rvap.jpg"; 
 
   return (
     <section className="relative w-full flex flex-col md:flex-row overflow-hidden">
@@ -145,7 +146,7 @@ export default function HeroSection() {
             </Link>
             
             {/* 2. Donate */}
-            <Link href="/poojas-donations">
+            <Link href="/online_services/donations">
               <motion.button
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}

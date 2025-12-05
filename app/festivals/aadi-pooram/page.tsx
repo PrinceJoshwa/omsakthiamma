@@ -156,7 +156,8 @@ export default function AadiPooramPage() {
             className="relative h-72 md:h-96 rounded-2xl overflow-hidden shadow-xl border-4 border-white group"
           >
             <Image 
-              src="/aadipooramfes.jpg" 
+              // src="/aadipooramfes.jpg" 
+              src="https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939157/aadipooramfes_lnn7cp.jpg" 
               alt="Women carrying pots in procession" 
               fill
               className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -174,7 +175,8 @@ export default function AadiPooramPage() {
             className="relative h-72 md:h-96 rounded-2xl overflow-hidden shadow-xl border-4 border-white group"
           >
             <Image 
-              src="/adipooramfes1.jpeg" 
+              // src="/adipooramfes1.jpeg" 
+              src="https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939199/adipooramfes1_u2lzey.jpg" 
               alt="Devotees serving and receiving blessings" 
               fill
               className="object-cover transition-transform duration-700 group-hover:scale-105"

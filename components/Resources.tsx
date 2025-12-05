@@ -389,7 +389,8 @@ export default function ResourcesSection() {
                 {books.map((book) => (
                   <div key={book.id} className="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden flex flex-col sm:flex-row">
                     <div className="w-full sm:w-48 h-48 sm:h-auto relative shrink-0 bg-gray-50">
-                      <Image src={book.image || '/om3.jpeg'} alt={book.title} fill className="object-contain p-4" />
+                      {/* <Image src={book.image || '/om3.jpeg'} alt={book.title} fill className="object-contain p-4" /> */}
+                      <Image src={book.image || 'https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939123/om3_f76xrf.jpg'} alt={book.title} fill className="object-contain p-4" />
                     </div>
                     <div className="p-4 md:p-6 flex flex-col justify-center flex-grow">
                       <h3 className="text-base md:text-lg font-bold text-[#1a1a1a] mb-1">{book.title}</h3>

@@ -20,7 +20,7 @@
 //   { label: 'Home', href: '/' },
 //   {
 //     label: 'Amma',
-//     href: '/amma',
+//     href: '#',
 //     dropdown: [
 //       { label: 'Miracles', href: '/amma/miracles' },
 //       { label: 'Divine Wisdom', href: '/amma/divine-wisdom' },
@@ -29,7 +29,7 @@
 //   },
 //   {
 //     label: 'Siddhar Peedam',
-//     href: '/siddhar-peedam',
+//     href: '#',
 //     dropdown: [
 //       { label: 'Introduction', href: '/siddhar-peedam/introduction' },
 //       { label: 'History', href: '/siddhar-peedam/history' },
@@ -40,7 +40,7 @@
 //   },
 //   {
 //     label: 'Festivals',
-//     href: '/festivals',
+//     href: '#',
 //     dropdown: [
 //       { label: 'Occasions', href: '/festivals/occasions' },
 //       { label: 'Poojas', href: '/festivals/poojas' },
@@ -51,7 +51,7 @@
 //   },
 //   {
 //     label: 'Activities',
-//     href: '/activities',
+//     href: '#',
 //     dropdown: [
 //       { label: 'Worshipping Centres', href: '/activities/worshipping-centres' },
 //       { label: 'Sakthi Peedams', href: '/activities/sakthi-peedams' },
@@ -64,7 +64,7 @@
 //   },
 //   {
 //     label: 'Publications',
-//     href: '/publications',
+//     href: '#',
 //     dropdown: [
 //       { label: 'Articles', href: '/publications/articles' },
 //       { label: 'Books', href: '/publications/books' },
@@ -77,22 +77,18 @@
 //     dropdown: [
 //       { 
 //         label: 'Melmaruvathur Adhiparasakthi Spiritual Movement (MASM)', 
-//         // href: 'https://masm.omsakthiamma.in' 
 //         href: '#' 
 //       },
 //       { 
 //         label: "Adhiparasakthi Siddhar Peeda Women's Charitable Trust (ASPWCT)", 
-//         // href: 'https://aspwct.omsakthiamma.in'
 //         href: '#'  
 //       },
 //       { 
 //         label: 'Adhiparasakthi Charitable Medical Educational and Cultural Trust (ACMEC)', 
-//         // href: 'https://acmectrust.org' 
 //         href: '#' 
 //       },
 //       { 
 //         label: 'Adhiparasakthi Charitable and Annadhanam Society (ACAS)', 
-//         // href: 'https://acas.omsakthiamma.in' 
 //         href: '#' 
 //       },
 //     ],
@@ -101,7 +97,8 @@
 // ];
 
 // export default function Header() {
-//   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
+//   const [openDropdown, setOpenDropdown] = useState<string | null>(null); // Desktop hover state
+//   const [mobileDropdown, setMobileDropdown] = useState<string | null>(null); // Mobile click state
 //   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 //   const [scrolled, setScrolled] = useState(false);
 
@@ -111,6 +108,11 @@
 //     return () => window.removeEventListener('scroll', handleScroll);
 //   }, []);
 
+//   // Helper to toggle mobile accordions
+//   const toggleMobileDropdown = (label: string) => {
+//     setMobileDropdown(mobileDropdown === label ? null : label);
+//   };
+
 //   return (
 //     <header 
 //       className={`sticky top-0 z-50 w-full transition-all duration-500 ${
@@ -119,7 +121,6 @@
 //           : 'bg-gradient-to-r from-[#ffc107] to-[#ffb300] py-3 shadow-md'
 //       }`}
 //     >
-//       {/* UPDATED: Changed max-w-7xl to max-w-[95%] to move logo further left */}
 //       <div className="max-w-[95%] mx-auto px-4 md:px-6">
 //         <div className="flex items-center justify-between">
           
@@ -127,7 +128,8 @@
 //           <Link href="/" className="flex items-center gap-3 group">
 //             <div className="relative w-12 h-12 md:w-14 md:h-14 bg-white rounded-full p-1 shadow-inner group-hover:scale-105 transition-transform duration-300">
 //               <img
-//                 src="/logo.png"
+//                 // src="/logo.png"
+//                 src="https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939097/logo_dl1zqj.png"
 //                 alt="Logo"
 //                 className="w-full h-full object-contain"
 //               />
@@ -173,11 +175,9 @@
 //                       animate={{ opacity: 1, y: 0, scale: 1 }}
 //                       exit={{ opacity: 0, y: 10, scale: 0.95 }}
 //                       transition={{ duration: 0.2 }}
-//                       // UPDATED: Use 'w-max' for Associated Trusts to fit content in one line, 'w-60' for others
 //                       className={`absolute top-full left-0 mt-2 bg-white rounded-xl shadow-2xl border border-yellow-100 overflow-hidden origin-top-left p-2 z-50 ${
 //                         item.label === 'Associated Trusts' ? 'w-max' : 'w-60'
 //                       }`}
-//                       // Adjust position if it goes off screen on the right (optional safety for wide menus)
 //                       style={item.label === 'Associated Trusts' ? { right: 0, left: 'auto', transformOrigin: 'top right' } : {}}
 //                     >
 //                       {item.dropdown.map((subitem) => {
@@ -188,7 +188,6 @@
 //                             href={subitem.href}
 //                             target={isExternal ? "_blank" : undefined}
 //                             rel={isExternal ? "noopener noreferrer" : undefined}
-//                             // UPDATED: Changed whitespace-normal to whitespace-nowrap for single line text
 //                             className="block px-4 py-2.5 text-sm font-medium text-gray-700 hover:bg-red-50 hover:text-[#a7150b] rounded-lg transition-colors whitespace-nowrap"
 //                           >
 //                             {subitem.label}
@@ -229,33 +228,59 @@
 //             initial={{ opacity: 0, height: 0 }}
 //             animate={{ opacity: 1, height: 'auto' }}
 //             exit={{ opacity: 0, height: 0 }}
-//             className="lg:hidden bg-white border-t border-yellow-200 overflow-hidden shadow-inner"
+//             className="lg:hidden bg-white border-t border-yellow-200 overflow-hidden shadow-inner max-h-[85vh] overflow-y-auto"
 //           >
 //             <nav className="flex flex-col p-4 space-y-1">
 //               {navItems.map((item) => (
 //                 <div key={item.label} className="border-b border-gray-100 last:border-0 pb-2">
 //                   {item.dropdown ? (
-//                     <div className="space-y-2">
-//                       <div className="px-4 py-2 font-bold text-[#a7150b]">{item.label}</div>
-//                       <div className="pl-4 bg-gray-50 rounded-lg py-2 space-y-1">
-//                         {item.dropdown.map((sub) => {
-//                           const isExternal = sub.href.startsWith('http');
-//                           return (
-//                             <Link
-//                               key={sub.href}
-//                               href={sub.href}
-//                               target={isExternal ? "_blank" : undefined}
-//                               rel={isExternal ? "noopener noreferrer" : undefined}
-//                               className="block px-4 py-2 text-sm text-gray-600 hover:text-[#a7150b] font-medium"
-//                               onClick={() => setMobileMenuOpen(false)}
-//                             >
-//                               {sub.label}
-//                             </Link>
-//                           );
-//                         })}
-//                       </div>
+//                     <div className="space-y-1">
+//                       {/* Clickable Header for Dropdown items */}
+//                       <button
+//                         onClick={() => toggleMobileDropdown(item.label)}
+//                         className="w-full flex items-center justify-between px-4 py-3 font-bold text-[#a7150b] hover:bg-red-50 rounded-lg transition-colors"
+//                       >
+//                         <span>{item.label}</span>
+//                         <ChevronDown 
+//                           className={`w-4 h-4 transition-transform duration-300 ${
+//                             mobileDropdown === item.label ? 'rotate-180' : ''
+//                           }`} 
+//                         />
+//                       </button>
+
+//                       {/* Collapsible Content */}
+//                       <AnimatePresence>
+//                         {mobileDropdown === item.label && (
+//                           <motion.div
+//                             initial={{ height: 0, opacity: 0 }}
+//                             animate={{ height: 'auto', opacity: 1 }}
+//                             exit={{ height: 0, opacity: 0 }}
+//                             transition={{ duration: 0.2 }}
+//                             className="overflow-hidden"
+//                           >
+//                             <div className="pl-4 bg-gray-50 rounded-lg py-2 space-y-1 mx-2">
+//                               {item.dropdown.map((sub) => {
+//                                 const isExternal = sub.href.startsWith('http');
+//                                 return (
+//                                   <Link
+//                                     key={sub.href}
+//                                     href={sub.href}
+//                                     target={isExternal ? "_blank" : undefined}
+//                                     rel={isExternal ? "noopener noreferrer" : undefined}
+//                                     className="block px-4 py-2 text-sm text-gray-600 hover:text-[#a7150b] font-medium"
+//                                     onClick={() => setMobileMenuOpen(false)}
+//                                   >
+//                                     {sub.label}
+//                                   </Link>
+//                                 );
+//                               })}
+//                             </div>
+//                           </motion.div>
+//                         )}
+//                       </AnimatePresence>
 //                     </div>
 //                   ) : (
+//                     // Standard Link without dropdown
 //                     <Link
 //                       href={item.href}
 //                       className="block px-4 py-3 font-bold text-gray-800 hover:text-[#a7150b] hover:bg-red-50 rounded-lg"
@@ -279,7 +304,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ChevronDown, Menu, X, Search, Heart } from 'lucide-react';
+import { ChevronDown, Menu, X, Heart } from 'lucide-react';
 
 interface DropdownItem {
   label: string;
@@ -296,7 +321,7 @@ const navItems: NavItem[] = [
   { label: 'Home', href: '/' },
   {
     label: 'Amma',
-    href: '/amma',
+    href: '#',
     dropdown: [
       { label: 'Miracles', href: '/amma/miracles' },
       { label: 'Divine Wisdom', href: '/amma/divine-wisdom' },
@@ -305,7 +330,7 @@ const navItems: NavItem[] = [
   },
   {
     label: 'Siddhar Peedam',
-    href: '/siddhar-peedam',
+    href: '#',
     dropdown: [
       { label: 'Introduction', href: '/siddhar-peedam/introduction' },
       { label: 'History', href: '/siddhar-peedam/history' },
@@ -316,7 +341,7 @@ const navItems: NavItem[] = [
   },
   {
     label: 'Festivals',
-    href: '/festivals',
+    href: '#',
     dropdown: [
       { label: 'Occasions', href: '/festivals/occasions' },
       { label: 'Poojas', href: '/festivals/poojas' },
@@ -327,7 +352,7 @@ const navItems: NavItem[] = [
   },
   {
     label: 'Activities',
-    href: '/activities',
+    href: '#',
     dropdown: [
       { label: 'Worshipping Centres', href: '/activities/worshipping-centres' },
       { label: 'Sakthi Peedams', href: '/activities/sakthi-peedams' },
@@ -340,7 +365,7 @@ const navItems: NavItem[] = [
   },
   {
     label: 'Publications',
-    href: '/publications',
+    href: '#',
     dropdown: [
       { label: 'Articles', href: '/publications/articles' },
       { label: 'Books', href: '/publications/books' },
@@ -351,30 +376,20 @@ const navItems: NavItem[] = [
     label: 'Associated Trusts',
     href: '#', 
     dropdown: [
-      { 
-        label: 'Melmaruvathur Adhiparasakthi Spiritual Movement (MASM)', 
-        href: '#' 
-      },
-      { 
-        label: "Adhiparasakthi Siddhar Peeda Women's Charitable Trust (ASPWCT)", 
-        href: '#'  
-      },
-      { 
-        label: 'Adhiparasakthi Charitable Medical Educational and Cultural Trust (ACMEC)', 
-        href: '#' 
-      },
-      { 
-        label: 'Adhiparasakthi Charitable and Annadhanam Society (ACAS)', 
-        href: '#' 
-      },
+      { label: 'Melmaruvathur Adhiparasakthi Spiritual Movement (MASM)', href: '#' },
+      { label: "Adhiparasakthi Siddhar Peeda Women's Charitable Trust (ASPWCT)", href: '#'  },
+      { label: 'Adhiparasakthi Charitable Medical Educational and Cultural Trust (ACMEC)', href: '#' },
+      { label: 'Adhiparasakthi Charitable and Annadhanam Society (ACAS)', href: '#' },
+      { label: 'Arul Thiru Bangaru Adigalar Charitable Trust (ABC TRUST)', href: '#' },
+
     ],
   },
   { label: 'Visit Us', href: '/visit-us' },
 ];
 
 export default function Header() {
-  const [openDropdown, setOpenDropdown] = useState<string | null>(null); // Desktop hover state
-  const [mobileDropdown, setMobileDropdown] = useState<string | null>(null); // Mobile click state
+  const [openDropdown, setOpenDropdown] = useState<string | null>(null);
+  const [mobileDropdown, setMobileDropdown] = useState<string | null>(null);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
@@ -384,7 +399,6 @@ export default function Header() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // Helper to toggle mobile accordions
   const toggleMobileDropdown = (label: string) => {
     setMobileDropdown(mobileDropdown === label ? null : label);
   };
@@ -404,7 +418,7 @@ export default function Header() {
           <Link href="/" className="flex items-center gap-3 group">
             <div className="relative w-12 h-12 md:w-14 md:h-14 bg-white rounded-full p-1 shadow-inner group-hover:scale-105 transition-transform duration-300">
               <img
-                src="/logo.png"
+                src="https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939097/logo_dl1zqj.png"
                 alt="Logo"
                 className="w-full h-full object-contain"
               />
@@ -456,10 +470,10 @@ export default function Header() {
                       style={item.label === 'Associated Trusts' ? { right: 0, left: 'auto', transformOrigin: 'top right' } : {}}
                     >
                       {item.dropdown.map((subitem) => {
-                         const isExternal = subitem.href.startsWith('http');
-                         return (
+                        const isExternal = subitem.href.startsWith('http');
+                        return (
                           <Link
-                            key={subitem.href}
+                            key={`${subitem.label}-${subitem.href}`}  // ⭐ FIXED UNIQUE KEY
                             href={subitem.href}
                             target={isExternal ? "_blank" : undefined}
                             rel={isExternal ? "noopener noreferrer" : undefined}
@@ -510,7 +524,6 @@ export default function Header() {
                 <div key={item.label} className="border-b border-gray-100 last:border-0 pb-2">
                   {item.dropdown ? (
                     <div className="space-y-1">
-                      {/* Clickable Header for Dropdown items */}
                       <button
                         onClick={() => toggleMobileDropdown(item.label)}
                         className="w-full flex items-center justify-between px-4 py-3 font-bold text-[#a7150b] hover:bg-red-50 rounded-lg transition-colors"
@@ -538,7 +551,7 @@ export default function Header() {
                                 const isExternal = sub.href.startsWith('http');
                                 return (
                                   <Link
-                                    key={sub.href}
+                                    key={`${sub.label}-${sub.href}`}  // ⭐ FIXED UNIQUE KEY
                                     href={sub.href}
                                     target={isExternal ? "_blank" : undefined}
                                     rel={isExternal ? "noopener noreferrer" : undefined}
@@ -555,7 +568,6 @@ export default function Header() {
                       </AnimatePresence>
                     </div>
                   ) : (
-                    // Standard Link without dropdown
                     <Link
                       href={item.href}
                       className="block px-4 py-3 font-bold text-gray-800 hover:text-[#a7150b] hover:bg-red-50 rounded-lg"

@@ -565,7 +565,7 @@ export default function CircularPage() {
               {/* Signature Image */}
               <div className="h-20 w-48 ml-auto mb-2 relative">
                 <Image
-                  src="/sign.png"   // <-- your signature path
+                  src="https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939083/Screenshot_2025-12-04_161454_hxyemn.png"   // <-- your signature path
                   alt="Signature"
                   fill
                   className="object-contain"

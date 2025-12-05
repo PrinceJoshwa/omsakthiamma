@@ -113,7 +113,7 @@
 //                 Standard darshan hours are <span className="font-bold">3:00 AM - 1:00 PM</span> and <span className="font-bold">3:00 PM - 8:00 PM</span>.
 //               </p>
 //               <p className="text-[#a7150b] font-medium italic">
-//                 * On Sundays, Tuesdays, Fridays, Amavasai, Pournami, and Festival days, there will be no break in Darshan timings.
+//                 * On Sundays, Tuesdays, Fridays, Ammavasai, Pournami, and Festival days, there will be no break in Darshan timings.
 //               </p>
 //             </div>
 //           </div>
@@ -233,7 +233,7 @@ export default function PoojaTimingsSection() {
                 Standard darshan hours: <span className="font-bold">3:00 AM - 1:00 PM</span> & <span className="font-bold">3:00 PM - 8:00 PM</span>.
               </p>
               <p className="text-[#a7150b] font-medium italic">
-                * On Sundays, Tuesdays, Fridays, Amavasai, Pournami, and Festival days, there is NO break.
+                * On Sundays, Tuesdays, Fridays, Ammavasai, Pournami, and Festival days, there is NO break.
               </p>
             </div>
           </div>
