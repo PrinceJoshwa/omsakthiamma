@@ -528,7 +528,7 @@ export default function Home() {
       <ResourcesSection />
       <EventsSection />
       <GoogleCalendarSection />
-      <LatestUpdatesSection />
+      {/* <LatestUpdatesSection /> */}
       <ActivitiesSection />
       <ContactSection />
       <WhatsAppChat />
