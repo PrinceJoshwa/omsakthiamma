@@ -1376,3 +1376,8 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [06:07:55.376] Server  LOG      ✓ Compiled in 76.6s
 [06:27:24.136] Server  LOG      ✓ Compiled in 1168.7s
 [06:42:05.363] Server  LOG      ✓ Compiled in 1105ms
+[07:18:16.734] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[07:18:20.678] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[07:18:21.259] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport

@@ -171,13 +171,20 @@ export default function ContactSection() {
           <p className="text-base md:text-lg text-gray-700 mb-6">
             Have questions? We're here to help you on your spiritual journey.
           </p>
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="px-8 py-3 bg-[#a7150b] text-white rounded-lg font-bold hover:bg-[#8a0d08] transition text-sm md:text-base"
-          >
-            Send us a Message
-          </motion.button>
+<a
+  href="https://wa.me/919342396571?text=Hello%2C%20I%20need%20more%20information%20about%20the%20Temple."
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <motion.button
+    whileHover={{ scale: 1.05 }}
+    whileTap={{ scale: 0.95 }}
+    className="px-8 py-3 bg-[#a7150b] text-white rounded-lg font-bold hover:bg-[#8a0d08] transition text-sm md:text-base"
+  >
+    Send us a Message
+  </motion.button>
+</a>
+
         </motion.div>
       </motion.div>
     </section>
