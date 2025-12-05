@@ -135,7 +135,7 @@ export default function SanctumPage() {
         >
           <Image
             // src="/deity.jpg" 
-            src="https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939332/deity_bpbqhk.jpg" 
+            src="https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764956596/WhatsApp_Image_2025-12-05_at_11.04.55_PM_baru44.jpg" 
             alt="Adhiparasakthi Deity in Sanctum Sanctorum"
             fill
             className="object-fill object-top transition-transform duration-700 group-hover:scale-105"
