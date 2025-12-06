@@ -1,114 +1,3 @@
-// // 'use client';
-
-// // import { motion } from 'framer-motion';
-
-// // export default function PoojasDonationsPage() {
-
-// //   const donationList = [
-// //     "GENERAL",
-// //     "DAILY ABHISEGAM",
-// //     "POURNAMI VELAKU POOJA",
-// //     "AMMAVASAI VELI",
-// //     "GOLDEN CHARIOT",
-// //     "SILVER CHARIOT",
-// //     "LAKCHARCHANAI",
-// //     "CHITRAPOURNAM",
-// //     "NAVARATRI KAPPU",
-// //     "ONLINE IRUMUDI"
-// //   ];
-
-// //   const donation80G = [
-// //     "Women Welfare (80G)",
-// //     "Hospital Donations (80G)",
-// //     "Annadhanam (80G)"
-// //   ];
-
-// //   return (
-// //     <div className="min-h-screen bg-white pb-20">
-
-// //       {/* PAGE HEADER */}
-// //       <section className="py-12 px-4 text-center">
-// //         <h1 className="text-4xl font-bold text-[#a7150b]">Donations</h1>
-// //       </section>
-
-// //       {/* ORANGE BUTTON GRID */}
-// //       <section className="px-4 max-w-7xl mx-auto grid md:grid-cols-3 gap-6 mb-16 text-center">
-// //         {donationList.map((item, i) => (
-// //           <motion.div
-// //             key={i}
-// //             initial={{ opacity: 0, y: 20 }}
-// //             animate={{ opacity: 1, y: 0 }}
-// //             transition={{ delay: i * 0.05 }}
-// //             className="bg-[#ff6600] text-white font-semibold py-6 rounded-sm cursor-pointer hover:bg-[#e35900]"
-// //           >
-// //             {item}
-// //           </motion.div>
-// //         ))}
-// //       </section>
-
-// //       {/* BANK DETAILS + CHEQUE SECTION (centered) */}
-// //       <section className="px-4 max-w-4xl mx-auto grid md:grid-cols-2 gap-10 mb-16 text-center">
-
-// //         {/* LEFT: BANK DETAILS */}
-// //         <div>
-// //           <h2 className="text-xl font-bold mb-4">RTGS/IMPS/NEFT</h2>
-
-// //           <p className="text-sm leading-relaxed">
-// //             ACCOUNT NAME : MASM<br />
-// //             ACCOUNT NUMBER : 1760163000001158<br />
-// //             BANK NAME : KARUR VYSYA BANK<br />
-// //             BRANCH : ACHIYARPPAKKAM (603301)<br />
-// //             IFSC CODE : KVBL0001760<br /><br />
-
-// //             Once made the payment through the bank transfer, please send
-// //             an email to <span className="font-bold">aspwct@gmail.com</span> with the
-// //             transaction details (Your name, date, transaction ID, and address).
-// //           </p>
-// //         </div>
-
-// //         {/* RIGHT: CHEQUE / DRAFT */}
-// //         <div>
-// //           <h2 className="text-xl font-bold mb-4">Cheques / Draft</h2>
-
-// //           <p className="text-sm leading-relaxed">
-// //             All spiritual friends are requested to donate via cheque or draft
-// //             drawn in favour of MASM, payable at Chennai.<br /><br />
-
-// //             Melmaruvathur Adhiparasakthi Spiritual Movement,<br />
-// //             ARULMIGU ADHIPARASAKTHI SIDDHAR PEEDAM,<br />
-// //             Melmaruvathur - 603 319, Chengalpattu District,<br />
-// //             Tamil Nadu, India.<br /><br />
-
-// //             Phone : 044-27529391, 27529313<br />
-// //             Email : aspwct@gmail.com
-// //           </p>
-// //         </div>
-
-// //       </section>
-
-// //       {/* 80G DONATIONS SECTION */}
-// //       <section className="px-4 max-w-5xl mx-auto text-center">
-// //         <h2 className="text-xl font-bold mb-6">80G Donations</h2>
-
-// //         <div className="grid md:grid-cols-3 gap-6">
-// //           {donation80G.map((item, i) => (
-// //             <motion.div
-// //               key={i}
-// //               initial={{ opacity: 0, y: 20 }}
-// //               animate={{ opacity: 1, y: 0 }}
-// //               transition={{ delay: 0.1 + i * 0.05 }}
-// //               className="bg-[#ff6600] text-white py-6 font-semibold rounded-sm hover:bg-[#e35900]"
-// //             >
-// //               {item}
-// //             </motion.div>
-// //           ))}
-// //         </div>
-// //       </section>
-
-// //     </div>
-// //   );
-// // }
-
 // "use client";
 
 // import React, { useState } from "react";
@@ -142,17 +31,36 @@
 //   { name: "Golden Chariot", href: "https://masm.omsakthiamma.in/donate-other/?c=GCP", icon: <Gem className="w-8 h-8" />, color: "text-amber-600", bg: "bg-amber-50" },
 //   { name: "Silver Chariot", href: "https://masm.omsakthiamma.in/donate-other/?c=SIC", icon: <Sparkles className="w-8 h-8" />, color: "text-gray-400", bg: "bg-gray-50" },
 //   { name: "Lakcharchanai", href: "https://masm.omsakthiamma.in/donate-laksh/", icon: <BookOpen className="w-8 h-8" />, color: "text-purple-500", bg: "bg-purple-50" },
-//   { name: "Chitrapournami", href: "https://masm.omsakthiamma.in/donate-chitrapournami/", icon: <Moon className="w-8 h-8" />, color: "text-indigo-500", bg: "bg-indigo-50" },
+//   // { name: "Chitrapournami", href: "https://masm.omsakthiamma.in/donate-chitrapournami/", icon: <Moon className="w-8 h-8" />, color: "text-indigo-500", bg: "bg-indigo-50" },
+//   { name: "Chitrapournami", href: "#", icon: <Moon className="w-8 h-8" />, color: "text-indigo-500", bg: "bg-indigo-50" },
 //   { name: "Navaratri Kappu", href: "https://masm.omsakthiamma.in/donate-navaratri/", icon: <ShieldCheck className="w-8 h-8" />, color: "text-red-600", bg: "bg-red-50" },
-//   { name: "Online Irumudi", href: "https://www.acmectrust.org/online-darshan/", icon: <CreditCard className="w-8 h-8" />, color: "text-green-600", bg: "bg-green-50" }
+//   // { name: "Online Irumudi", href: "https://www.acmectrust.org/online-darshan/", icon: <CreditCard className="w-8 h-8" />, color: "text-green-600", bg: "bg-green-50" }
+//   { name: "Online Irumudi", href: "#", icon: <CreditCard className="w-8 h-8" />, color: "text-green-600", bg: "bg-green-50" }
 // ];
-
 
 // const taxExemptDonations = [
-//   { name: "Annadhanam (80G)", href: "https://aspwct.omsakthiamma.in/", icon: <Utensils className="w-6 h-6" />, desc: "Feeding the hungry" },
+//   { name: "Annadhanam (80G)", href: "https://www.acmectrust.org/donate-thaipoosam-india/", icon: <Utensils className="w-6 h-6" />, desc: "Feeding the hungry" },
 //   { name: "Hospital Donations (80G)", href: "https://acmectrust.org/", icon: <Stethoscope className="w-6 h-6" />, desc: "Medical aid for the poor" },
-//   { name: "Women Welfare (80G)", href: "https://acmectrust.org/", icon: <Users className="w-6 h-6" />, desc: "Empowering women" }
+//   { name: "Women Welfare (80G)", href: "https://aspwct.omsakthiamma.in/", icon: <Users className="w-6 h-6" />, desc: "Empowering women" }
 // ];
+// // const generalDonations = [
+// //   { name: "General Donation", href: "#", icon: <Heart className="w-8 h-8" />, color: "text-red-500", bg: "bg-red-50" },
+// //   { name: "Daily Abhishegam", href: "#", icon: <Droplet className="w-8 h-8" />, color: "text-blue-500", bg: "bg-blue-50" },
+// //   { name: "Pournami Velaku Pooja", href: "#", icon: <Moon className="w-8 h-8" />, color: "text-yellow-500", bg: "bg-yellow-50" },
+// //   { name: "Ammavasai Veli", href: "#", icon: <Sun className="w-8 h-8" />, color: "text-orange-500", bg: "bg-orange-50" },
+// //   { name: "Golden Chariot", href: "#", icon: <Gem className="w-8 h-8" />, color: "text-amber-600", bg: "bg-amber-50" },
+// //   { name: "Silver Chariot", href: "#", icon: <Sparkles className="w-8 h-8" />, color: "text-gray-400", bg: "bg-gray-50" },
+// //   { name: "Lakcharchanai", href: "#", icon: <BookOpen className="w-8 h-8" />, color: "text-purple-500", bg: "bg-purple-50" },
+// //   { name: "Chitrapournami", href: "#", icon: <Moon className="w-8 h-8" />, color: "text-indigo-500", bg: "bg-indigo-50" },
+// //   { name: "Navaratri Kappu", href: "#", icon: <ShieldCheck className="w-8 h-8" />, color: "text-red-600", bg: "bg-red-50" },
+// //   { name: "Online Irumudi", href: "#", icon: <CreditCard className="w-8 h-8" />, color: "text-green-600", bg: "bg-green-50" }
+// // ];
+
+// // const taxExemptDonations = [
+// //   { name: "Annadhanam (80G)", href: "https://www.acmectrust.org/donate-thaipoosam-india/", icon: <Utensils className="w-6 h-6" />, desc: "Feeding the hungry" },
+// //   { name: "Hospital Donations (80G)", href: "https://acmectrust.org/", icon: <Stethoscope className="w-6 h-6" />, desc: "Medical aid for the poor" },
+// //   { name: "Women Welfare (80G)", href: "https://aspwct.omsakthiamma.in/", icon: <Users className="w-6 h-6" />, desc: "Empowering women" }
+// // ];
 
 
 // // --- ANIMATION VARIANTS ---
@@ -181,13 +89,11 @@
 
 //   return (
 //     <div className="min-h-screen bg-gray-50 pb-24">
-      
+
 //       {/* --- HEADER SECTION --- */}
-//       {/* Changed padding to be balanced (py-20) instead of large bottom padding */}
 //       <div className="bg-[#a7150b] text-white py-20 px-4 text-center relative overflow-hidden">
-//         {/* Subtle Pattern Background */}
 //         <div className="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
-        
+
 //         <motion.div 
 //           initial={{ opacity: 0, y: 20 }}
 //           animate={{ opacity: 1, y: 0 }}
@@ -203,9 +109,8 @@
 
 //       {/* --- MAIN CONTENT CONTAINER --- */}
 //       <div className="max-w-7xl mx-auto px-4 relative z-20">
-        
+
 //         {/* 1. SACRED OFFERINGS GRID */}
-//         {/* Changed from negative margin (-mt-20) to positive margin (mt-12) to sit BELOW header */}
 //         <motion.div
 //           variants={containerVariants}
 //           initial="hidden"
@@ -213,29 +118,36 @@
 //           className="mt-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 mb-24"
 //         >
 //           {generalDonations.map((item, index) => (
-//             <motion.div
+            
+//             <a 
 //               key={index}
-//               variants={itemVariants}
-//               whileHover={{ y: -8 }}
-//               className="bg-white rounded-2xl p-8 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col items-center justify-center text-center group cursor-pointer border border-gray-100 hover:border-gray-200"
+//               href={item.href} 
+//               target="_blank" 
+//               rel="noopener noreferrer"
+//               className="block"
 //             >
-//               {/* Icon Circle */}
-//               <div className={`p-4 rounded-full mb-6 transition-colors duration-300 ${item.bg} ${item.color}`}>
-//                 {item.icon}
-//               </div>
-              
-//               {/* Text */}
-//               <h3 className="text-gray-800 font-bold text-sm md:text-base group-hover:text-[#a7150b] transition-colors">
-//                 {item.name}
-//               </h3>
-//             </motion.div>
+//               <motion.div
+//                 variants={itemVariants}
+//                 whileHover={{ y: -8 }}
+//                 className="bg-white rounded-2xl p-8 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col items-center justify-center text-center group cursor-pointer border border-gray-100 hover:border-gray-200"
+//               >
+//                 <div className={`p-4 rounded-full mb-6 transition-colors duration-300 ${item.bg} ${item.color}`}>
+//                   {item.icon}
+//                 </div>
+//                 <h3 className="text-gray-800 font-bold text-sm md:text-base group-hover:text-[#a7150b] transition-colors">
+//                   {item.name}
+//                 </h3>
+//               </motion.div>
+//             </a>
+          
 //           ))}
 //         </motion.div>
 
 
+
 //         {/* 2. BANK DETAILS SECTION */}
 //         <div className="grid md:grid-cols-2 gap-8 mb-20">
-          
+
 //           {/* RTGS / NEFT CARD */}
 //           <motion.div 
 //             initial={{ opacity: 0, x: -20 }}
@@ -251,7 +163,6 @@
 //             </div>
 
 //             <div className="space-y-5">
-//               {/* Account Number */}
 //               <div className="bg-gray-50 p-5 rounded-xl border border-gray-200 flex justify-between items-center group">
 //                 <div>
 //                   <p className="text-xs text-gray-500 font-bold uppercase tracking-wider mb-1">Account Number</p>
@@ -260,13 +171,11 @@
 //                 <button 
 //                   onClick={() => handleCopy("1760163000001158", "acc")}
 //                   className="p-2 bg-white rounded-lg shadow-sm text-gray-400 hover:text-[#a7150b] transition-colors"
-//                   title="Copy"
 //                 >
 //                   {copiedField === "acc" ? <Check className="w-5 h-5 text-green-600" /> : <Copy className="w-5 h-5" />}
 //                 </button>
 //               </div>
 
-//               {/* IFSC Code */}
 //               <div className="bg-gray-50 p-5 rounded-xl border border-gray-200 flex justify-between items-center group">
 //                 <div>
 //                   <p className="text-xs text-gray-500 font-bold uppercase tracking-wider mb-1">IFSC Code</p>
@@ -275,34 +184,34 @@
 //                 <button 
 //                   onClick={() => handleCopy("KVBL0001760", "ifsc")}
 //                   className="p-2 bg-white rounded-lg shadow-sm text-gray-400 hover:text-[#a7150b] transition-colors"
-//                   title="Copy"
 //                 >
 //                   {copiedField === "ifsc" ? <Check className="w-5 h-5 text-green-600" /> : <Copy className="w-5 h-5" />}
 //                 </button>
 //               </div>
 
 //               <div className="grid grid-cols-2 gap-4 text-sm text-gray-600 pt-2">
-//                  <div>
-//                    <p className="font-bold text-gray-900">Bank Name</p>
-//                    <p>Karur Vysya Bank</p>
-//                  </div>
-//                  <div>
-//                    <p className="font-bold text-gray-900">Branch</p>
-//                    <p>Achiyarppakkam</p>
-//                  </div>
+//                 <div>
+//                   <p className="font-bold text-gray-900">Bank Name</p>
+//                   <p>Karur Vysya Bank</p>
+//                 </div>
+//                 <div>
+//                   <p className="font-bold text-gray-900">Branch</p>
+//                   <p>Achiyarppakkam</p>
+//                 </div>
 //               </div>
 
-//               {/* Email Notice */}
 //               <div className="mt-4 pt-6 border-t border-gray-100">
-//                  <div className="flex gap-3 items-start text-sm text-gray-600 bg-blue-50 p-4 rounded-lg">
-//                    <Mail className="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" />
-//                    <p>
-//                      After transfer, kindly email transaction details to <strong className="text-blue-700">aspwct@gmail.com</strong>
-//                    </p>
-//                  </div>
+//                 <div className="flex gap-3 items-start text-sm text-gray-600 bg-blue-50 p-4 rounded-lg">
+//                   <Mail className="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" />
+//                   <p>
+//                     After transfer, kindly email transaction details to <strong className="text-blue-700">aspwct@gmail.com</strong>
+//                   </p>
+//                 </div>
 //               </div>
 //             </div>
 //           </motion.div>
+
+
 
 
 //           {/* CHEQUE / DRAFT CARD */}
@@ -312,7 +221,7 @@
 //             viewport={{ once: true }}
 //             className="bg-white rounded-3xl shadow-md p-8 md:p-10 border border-gray-100"
 //           >
-//              <div className="flex items-center gap-4 mb-8">
+//             <div className="flex items-center gap-4 mb-8">
 //               <div className="bg-gray-100 p-3 rounded-full text-gray-700">
 //                 <span className="font-serif font-bold text-lg">DD</span>
 //               </div>
@@ -324,17 +233,19 @@
 //             </p>
 
 //             <div className="bg-gray-50 p-6 rounded-2xl border border-dashed border-gray-300">
-//                <p className="text-xs text-gray-400 uppercase font-bold mb-3 tracking-wider">Mailing Address</p>
-//                <p className="font-medium text-gray-800 leading-7">
-//                  Melmaruvathur Adhiparasakthi Spiritual Movement,<br/>
-//                  ARULMIGU ADHIPARASAKTHI SIDDHAR PEEDAM,<br/>
-//                  Melmaruvathur - 603 319,<br/>
-//                  Chengalpattu District, Tamil Nadu, India.
-//                </p>
+//               <p className="text-xs text-gray-400 uppercase font-bold mb-3 tracking-wider">Mailing Address</p>
+//               <p className="font-medium text-gray-800 leading-7">
+//                 Melmaruvathur Adhiparasakthi Spiritual Movement,<br/>
+//                 ARULMIGU ADHIPARASAKTHI SIDDHAR PEEDAM,<br/>
+//                 Melmaruvathur - 603 319,<br/>
+//                 Chengalpattu District, Tamil Nadu, India.
+//               </p>
 //             </div>
 //           </motion.div>
 
 //         </div>
+
+
 
 
 //         {/* 3. 80G TAX EXEMPTION SECTION */}
@@ -344,23 +255,32 @@
 //           viewport={{ once: true }}
 //           className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-3xl p-10 md:p-16 text-center text-white relative overflow-hidden shadow-2xl"
 //         >
-//           {/* Decorative shapes */}
 //           <div className="absolute top-0 right-0 -mr-20 -mt-20 w-64 h-64 bg-orange-500 opacity-20 rounded-full blur-3xl"></div>
 //           <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-64 h-64 bg-red-600 opacity-20 rounded-full blur-3xl"></div>
 
 //           <div className="relative z-10 max-w-4xl mx-auto">
 //             <h2 className="text-3xl font-bold mb-10 font-serif">Tax Exempt Contributions (80G)</h2>
-            
+
 //             <div className="grid md:grid-cols-3 gap-6">
+
 //               {taxExemptDonations.map((item, index) => (
-//                 <div key={index} className="bg-white/5 backdrop-blur-md border border-white/10 p-6 rounded-2xl hover:bg-white/10 transition-colors group">
-//                    <div className="mb-4 inline-flex p-4 bg-white/10 rounded-full text-orange-400 group-hover:scale-110 transition-transform">
-//                      {item.icon}
-//                    </div>
-//                    <h3 className="font-bold text-lg mb-2">{item.name}</h3>
-//                    <p className="text-sm text-gray-400">{item.desc}</p>
-//                 </div>
+//                 <a 
+//                   key={index}
+//                   href={item.href}
+//                   target="_blank"
+//                   rel="noopener noreferrer"
+//                   className="block"
+//                 >
+//                   <div className="bg-white/5 backdrop-blur-md border border-white/10 p-6 rounded-2xl hover:bg-white/10 transition-colors group">
+//                     <div className="mb-4 inline-flex p-4 bg-white/10 rounded-full text-orange-400 group-hover:scale-110 transition-transform">
+//                       {item.icon}
+//                     </div>
+//                     <h3 className="font-bold text-lg mb-2">{item.name}</h3>
+//                     <p className="text-sm text-gray-400">{item.desc}</p>
+//                   </div>
+//                 </a>
 //               ))}
+
 //             </div>
 
 //             <p className="mt-10 text-sm text-gray-400 max-w-2xl mx-auto">
@@ -373,7 +293,6 @@
 //     </div>
 //   );
 // }
-
 "use client";
 
 import React, { useState } from "react";
@@ -419,24 +338,6 @@ const taxExemptDonations = [
   { name: "Hospital Donations (80G)", href: "https://acmectrust.org/", icon: <Stethoscope className="w-6 h-6" />, desc: "Medical aid for the poor" },
   { name: "Women Welfare (80G)", href: "https://aspwct.omsakthiamma.in/", icon: <Users className="w-6 h-6" />, desc: "Empowering women" }
 ];
-// const generalDonations = [
-//   { name: "General Donation", href: "#", icon: <Heart className="w-8 h-8" />, color: "text-red-500", bg: "bg-red-50" },
-//   { name: "Daily Abhishegam", href: "#", icon: <Droplet className="w-8 h-8" />, color: "text-blue-500", bg: "bg-blue-50" },
-//   { name: "Pournami Velaku Pooja", href: "#", icon: <Moon className="w-8 h-8" />, color: "text-yellow-500", bg: "bg-yellow-50" },
-//   { name: "Ammavasai Veli", href: "#", icon: <Sun className="w-8 h-8" />, color: "text-orange-500", bg: "bg-orange-50" },
-//   { name: "Golden Chariot", href: "#", icon: <Gem className="w-8 h-8" />, color: "text-amber-600", bg: "bg-amber-50" },
-//   { name: "Silver Chariot", href: "#", icon: <Sparkles className="w-8 h-8" />, color: "text-gray-400", bg: "bg-gray-50" },
-//   { name: "Lakcharchanai", href: "#", icon: <BookOpen className="w-8 h-8" />, color: "text-purple-500", bg: "bg-purple-50" },
-//   { name: "Chitrapournami", href: "#", icon: <Moon className="w-8 h-8" />, color: "text-indigo-500", bg: "bg-indigo-50" },
-//   { name: "Navaratri Kappu", href: "#", icon: <ShieldCheck className="w-8 h-8" />, color: "text-red-600", bg: "bg-red-50" },
-//   { name: "Online Irumudi", href: "#", icon: <CreditCard className="w-8 h-8" />, color: "text-green-600", bg: "bg-green-50" }
-// ];
-
-// const taxExemptDonations = [
-//   { name: "Annadhanam (80G)", href: "https://www.acmectrust.org/donate-thaipoosam-india/", icon: <Utensils className="w-6 h-6" />, desc: "Feeding the hungry" },
-//   { name: "Hospital Donations (80G)", href: "https://acmectrust.org/", icon: <Stethoscope className="w-6 h-6" />, desc: "Medical aid for the poor" },
-//   { name: "Women Welfare (80G)", href: "https://aspwct.omsakthiamma.in/", icon: <Users className="w-6 h-6" />, desc: "Empowering women" }
-// ];
 
 
 // --- ANIMATION VARIANTS ---
@@ -451,7 +352,14 @@ const containerVariants = {
 
 const itemVariants = {
   hidden: { opacity: 0, y: 30 },
-  show: { opacity: 1, y: 0, transition: { type: "spring", stiffness: 50 } }
+  show: { 
+    opacity: 1, 
+    y: 0, 
+    transition: { 
+      type: "spring" as const, // <--- FIXED: Added 'as const' here to solve the build error
+      stiffness: 50 
+    } 
+  }
 };
 
 export default function PoojasDonationsPage() {

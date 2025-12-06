@@ -5,14 +5,13 @@
 // import { motion } from "framer-motion";
 // import Image from "next/image";
 // import { 
-//   MountainSnow, // For Swayambu
-//   Accessibility, // For posture
-//   HandMetal, // For mudra/hand gesture
-//   Flower2 // For lotus peedam
+//   MountainSnow, 
+//   Accessibility, 
+//   HandMetal, 
+//   Flower2 
 // } from "lucide-react";
 
 // // --- 1. STRUCTURED DATA FOR CARDS ---
-// // I've created distinct features based on the description of the deity and sanctum.
 // const sanctumFeatures = [
 //   {
 //     title: "The Swayambu",
@@ -24,7 +23,7 @@
 //     title: "Divine Posture",
 //     icon: <Accessibility className="w-8 h-8 text-white" />,
 //     description: "The Mother is in a sitting posture with Her right leg folded. Her left leg is let down, signifying Her supreme place above everything.",
-//     accentColor: "bg-[#a7150b]" // Theme color
+//     accentColor: "bg-[#a7150b]" 
 //   },
 //   {
 //     title: "Sacred Hand Gestures",
@@ -62,9 +61,6 @@
 //       noTopPadding={true}
 //       noContentTopPadding={true}
 //     >
-//       {/* Assuming you have saved the deity image as '/public/deity.png'. 
-//         Replace this with the actual path to your image.
-//       */}
 //       <div className="max-w-6xl mx-auto px-4 py-12">
         
 //         {/* --- HERO SECTION WITH IMAGE --- */}
@@ -72,17 +68,20 @@
 //           initial={{ opacity: 0, y: 20 }}
 //           animate={{ opacity: 1, y: 0 }}
 //           transition={{ duration: 0.8 }}
-//           className="relative w-full h-[500px] rounded-3xl overflow-hidden shadow-2xl mb-20 group"
+//           // UPDATED: h-[400px] for mobile, md:h-[500px] keeps original desktop height
+//           className="relative w-full h-[400px] md:h-[500px] rounded-3xl overflow-hidden shadow-2xl mb-20 group"
 //         >
 //           <Image
-//             // src="/deity.jpg" 
 //             src="https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764956596/WhatsApp_Image_2025-12-05_at_11.04.55_PM_baru44.jpg" 
 //             alt="Adhiparasakthi Deity in Sanctum Sanctorum"
 //             fill
-//             className="object-fill object-top transition-transform duration-700 group-hover:scale-105"
+//             // UPDATED: object-cover for mobile (prevents distortion), md:object-fill keeps original desktop look
+//             className="object-cover md:object-fill object-top transition-transform duration-700 group-hover:scale-105"
 //             priority
 //           />
-//           <div className="absolute inset-0 bg-gradient-to-t from-[#a7150b]/80 via-transparent to-transparent opacity-70"></div>
+//           {/* UPDATED: Stronger gradient on mobile to make text readable */}
+//           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent md:from-[#a7150b]/80 md:via-transparent to-transparent opacity-70"></div>
+          
 //           <div className="absolute bottom-0 left-0 p-8 md:p-12 max-w-3xl">
 //              <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-serif">
 //                Illustrious Adhiparasakthi
@@ -120,16 +119,13 @@
 //               whileHover={{ y: -10 }}
 //               className="bg-white rounded-2xl p-1 relative overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 group"
 //             >
-//               {/* Colored accent border/background */}
 //               <div className={`absolute inset-0 opacity-10 transition-opacity group-hover:opacity-20 ${feature.accentColor}`}></div>
               
 //               <div className="relative bg-white h-full rounded-xl p-8 z-10 flex flex-col md:flex-row items-start gap-6">
-//                 {/* Icon Container */}
 //                 <div className={`flex-shrink-0 p-4 rounded-full shadow-lg ${feature.accentColor} transform transition-transform group-hover:scale-110 group-hover:rotate-6`}>
 //                   {feature.icon}
 //                 </div>
                 
-//                 {/* Text Content */}
 //                 <div>
 //                   <h3 className="text-2xl font-bold text-gray-800 mb-3 group-hover:text-[#a7150b] transition-colors">
 //                     {feature.title}
@@ -215,7 +211,15 @@ const containerVariants = {
 
 const cardVariants = {
   hidden: { opacity: 0, y: 30, scale: 0.95 },
-  show: { opacity: 1, y: 0, scale: 1, transition: { duration: 0.5, type: "spring" } }
+  show: { 
+    opacity: 1, 
+    y: 0, 
+    scale: 1, 
+    transition: { 
+      duration: 0.5, 
+      type: "spring" as const // <--- FIXED: Added 'as const' here
+    } 
+  }
 };
 
 export default function SanctumPage() {
