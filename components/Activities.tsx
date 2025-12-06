@@ -105,19 +105,34 @@ import Image from 'next/image';
 import Link from 'next/link';  // ⭐ ADDED
 
 export default function ActivitiesSection() {
+  // const activities = [
+  //   { title: "Social Service", href: "/activities/social-activity",Target: "_blank", desc: "Helping the needy", image: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939123/om3_f76xrf.jpg" },
+  //   { title: "Medical Camps", href: "http://acmectrust.org/",Target: "_blank", desc: "Health for all", image: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" },
+  //   { title: "Education", href: "http://acmectrust.org/",Target: "_blank", desc: "Empowering minds", image: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939095/om5_ppv6nl.jpg" },
+  //   { title: "Annadhanam", href: "https://www.acmectrust.org/donate-thaipoosam-india/", Target: "_blank", desc: "Feeding the hungry", image: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939123/om3_f76xrf.jpg" },
+  //   { title: "Spirituality", href: "http://masm.omsakthiamma.in/", desc: "Divine path", Target: "_blank",image: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" },
+  // ];
+
+  // const supportOptions = [
+  //   { label: "Daily Abhisegam", href: "https://masm.omsakthiamma.in/donate-abhisegam/", Target: "_blank" },
+  //   { label: "Golden Chariot", href: "https://masm.omsakthiamma.in/donate-other/?c=GCP", Target: "_blank" },
+  //   { label: "Women Welfare", href: "https://aspwct.omsakthiamma.in/", Target: "_blank" },
+  //   { label: "Annadhanam", href: "https://www.acmectrust.org/donate-thaipoosam-india/",Target: "_blank" },
+  // ];
+
   const activities = [
-    { title: "Social Service", href: "/activities/social-activity",Target: "_blank", desc: "Helping the needy", image: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939123/om3_f76xrf.jpg" },
-    { title: "Medical Camps", href: "http://acmectrust.org/",Target: "_blank", desc: "Health for all", image: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" },
-    { title: "Education", href: "http://acmectrust.org/",Target: "_blank", desc: "Empowering minds", image: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939095/om5_ppv6nl.jpg" },
-    { title: "Annadhanam", href: "https://www.acmectrust.org/donate-thaipoosam-india/", Target: "_blank", desc: "Feeding the hungry", image: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939123/om3_f76xrf.jpg" },
-    { title: "Spirituality", href: "http://masm.omsakthiamma.in/", desc: "Divine path", Target: "_blank",image: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" },
+    { title: "Social Service", href: "#", desc: "Helping the needy", image: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939123/om3_f76xrf.jpg" },
+    { title: "Medical Camps", href: "#", desc: "Health for all", image: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" },
+    { title: "Education", href: "#", desc: "Empowering minds", image: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939095/om5_ppv6nl.jpg" },
+    { title: "Annadhanam", href: "#", desc: "Feeding the hungry", image: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939123/om3_f76xrf.jpg" },
+    { title: "Spirituality", href: "#", desc: "Divine path", image: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" },
   ];
 
   const supportOptions = [
-    { label: "Daily Abhisegam", href: "https://masm.omsakthiamma.in/donate-abhisegam/", Target: "_blank" },
-    { label: "Golden Chariot", href: "https://masm.omsakthiamma.in/donate-other/?c=GCP", Target: "_blank" },
-    { label: "Women Welfare", href: "https://aspwct.omsakthiamma.in/", Target: "_blank" },
-    { label: "Annadhanam", href: "https://www.acmectrust.org/donate-thaipoosam-india/",Target: "_blank" },
+    { label: "Daily Abhisegam", href: "#" },
+    { label: "Golden Chariot", href: "#" },
+    { label: "Women Welfare", href: "#" },
+    { label: "Annadhanam", href: "#" },
   ];
 
   return (

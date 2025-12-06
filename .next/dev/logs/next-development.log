@@ -1,69 +1,63 @@
-[00:00:02.694] Server  LOG      ✓ Ready in 1924ms
-[00:00:12.139] Server  LOG      ○ Compiling / ...
-[00:00:24.613] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:00:26.979] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:00:28.011] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:30.905] Server  LOG      ○ Compiling /_not-found/page ...
-[00:00:32.637] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:00:39.034] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /siddhar-peedam/schema. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:00:39.431] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:00:55.445] Server  LOG      ✓ Compiled in 271ms
-[00:00:57.923] Server  LOG      ✓ Compiled in 235ms
-[00:00:59.941] Server  LOG      ✓ Compiled in 332ms
-[00:01:47.397] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /siddhar-peedam/schema. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:01:50.452] Server  LOG      ○ Compiling /siddhar-peedam/introduction ...
-[00:01:53.033] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /siddhar-peedam/introduction. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:01:53.164] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /siddhar-peedam/introduction. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:02:02.872] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /siddhar-peedam/schema. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:02:05.054] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /siddhar-peedam/introduction. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:02:08.685] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /siddhar-peedam/history. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:02:12.656] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /siddhar-peedam/introduction. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:02:14.444] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /siddhar-peedam/schema. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:02:16.538] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /siddhar-peedam/schema. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:02:19.319] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /festivals/occasions. Please move it to viewport export instead.
-Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:10:36.123] Server  LOG      ✓ Compiled in 6.8s
-[00:12:34.966] Server  LOG      ✓ Compiled in 1117ms
-[00:13:00.784] Server  LOG      ✓ Compiled in 254ms
-[00:13:08.042] Server  LOG      ✓ Compiled in 191ms
-[00:13:27.497] Server  LOG      ✓ Compiled in 268ms
-[00:13:28.993] Server  LOG      ✓ Compiled in 255ms
-[00:14:09.905] Server  LOG      ○ Compiling /online_services/donations ...
-[00:14:40.717] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
-[00:14:40.717] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
-[00:14:40.717] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
-[00:14:40.717] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
-[00:15:00.044] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
-[00:15:00.044] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
-[00:15:00.044] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
-[00:15:00.044] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
-[00:15:00.218] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
-[00:15:00.218] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
-[00:15:00.218] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
-[00:15:00.218] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
-[00:18:31.341] Server  LOG      ✓ Compiled in 1736ms
-[00:19:24.179] Server  LOG      ○ Compiling /siddhar-peedam/uniqueness ...
-[00:19:33.999] Server  LOG      ○ Compiling /siddhar-peedam/four-ideals ...
-[00:20:59.452] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
-[00:20:59.452] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
-[00:20:59.452] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
-[00:20:59.452] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
-[00:20:59.729] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
-[00:20:59.729] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
-[00:20:59.729] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
-[00:20:59.729] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. #
-[00:21:41.587] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:22:39.815] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:00:02.158] Server  LOG      ✓ Ready in 1344ms
+[00:00:05.256] Server  LOG      ○ Compiling /festivals/occasions ...
+[00:00:12.254] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:16.834] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939103/occasion_tkfaud.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:17.375] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939249/aadipooram_zff3ae.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:17.644] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939325/ammabirthday_kqgze8.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:17.776] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939081/navratri_pcitav.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:19.562] Server  ERROR   TimeoutError: The operation was aborted due to timeout
+[00:00:21.678] Server  LOG      ○ Compiling / ...
+[00:00:23.196] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:00:27.663] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939055/hero1_i2rvap.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:28.385] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:32.447] Server  ERROR    ⨯ "upstream image response timed out for" "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg"
+[00:01:39.932] Server  ERROR   TimeoutError: The operation was aborted due to timeout
+[00:06:31.193] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:31.780] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939103/occasion_tkfaud.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:06:31.780] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939325/ammabirthday_kqgze8.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:06:31.780] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939249/aadipooram_zff3ae.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:06:31.781] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939081/navratri_pcitav.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:06:32.664] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939325/ammabirthday_kqgze8.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:06:36.513] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939368/chitrapournami_aiszbx.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:07:15.042] Server  LOG      ○ Compiling /siddhar-peedam/schema ...
+[00:07:20.208] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:17:47.820] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939055/hero1_i2rvap.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:17:48.531] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:17:56.704] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:17:59.397] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939123/om3_f76xrf.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:18:00.774] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939095/om5_ppv6nl.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:29:16.763] Server  LOG      ✓ Compiled in 1467ms
+[00:29:20.711] Server  LOG      ✓ Compiled in 2.2s
+[00:29:22.985] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:29:25.184] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939055/hero1_i2rvap.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:29:25.184] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:29:25.185] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939123/om3_f76xrf.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:29:25.185] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:29:25.185] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939095/om5_ppv6nl.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:29:29.125] Server  LOG      ✓ Compiled in 752ms
+[00:29:30.738] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:29:43.921] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:33:32.855] Server  LOG      ✓ Compiled in 280ms
+[00:33:35.708] Server  LOG      ✓ Compiled in 402ms
+[00:42:19.565] Server  LOG      ✓ Compiled in 672ms
+[00:42:20.604] Server  LOG      ✓ Compiled in 376ms
+[00:42:52.525] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939249/aadipooram_zff3ae.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:42:52.525] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939081/navratri_pcitav.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:42:52.756] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939368/chitrapournami_aiszbx.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:42:52.757] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939325/ammabirthday_kqgze8.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:42:52.757] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939103/occasion_tkfaud.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:50:48.496] Server  LOG      ✓ Compiled in 749ms
+[00:50:49.187] Browser ERROR   uncaughtError: ReferenceError: activities is not defined
+[00:50:52.307] Server  LOG      ✓ Compiled in 149ms
+[00:50:53.661] Server  LOG      ✓ Compiled in 220ms
+[00:52:52.154] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:53:00.551] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:53:00.552] Browser ERROR   uncaughtError: ReferenceError: activities is not defined
+[00:53:01.357] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:53:02.303] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939055/hero1_i2rvap.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:02.303] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:04.255] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:07.108] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939123/om3_f76xrf.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:07.108] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939095/om5_ppv6nl.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes

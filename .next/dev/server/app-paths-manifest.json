@@ -1,14 +1,6 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/amma/divine-wisdom/page": "app/amma/divine-wisdom/page.js",
-  "/amma/message/page": "app/amma/message/page.js",
-  "/amma/miracles/page": "app/amma/miracles/page.js",
   "/festivals/occasions/page": "app/festivals/occasions/page.js",
-  "/online_services/donations/page": "app/online_services/donations/page.js",
   "/page": "app/page.js",
-  "/siddhar-peedam/four-ideals/page": "app/siddhar-peedam/four-ideals/page.js",
-  "/siddhar-peedam/history/page": "app/siddhar-peedam/history/page.js",
-  "/siddhar-peedam/introduction/page": "app/siddhar-peedam/introduction/page.js",
-  "/siddhar-peedam/schema/page": "app/siddhar-peedam/schema/page.js",
-  "/siddhar-peedam/uniqueness/page": "app/siddhar-peedam/uniqueness/page.js"
+  "/siddhar-peedam/schema/page": "app/siddhar-peedam/schema/page.js"
 }
