@@ -261,7 +261,7 @@ export default function Home() {
             </p>
           </motion.div>
 
-          <div className="grid md:grid-cols-3 gap-6 md:gap-8">
+          {/* <div className="grid md:grid-cols-3 gap-6 md:gap-8">
             {[
               {
                 icon: '🕉️',
@@ -304,8 +304,77 @@ export default function Home() {
                 </div>
               </motion.div>
             ))}
-          </div>
+          </div> */}
 
+<div className="grid md:grid-cols-3 gap-6 md:gap-8">
+  {[
+    {
+      icon: '🕉️',
+      title: 'Moola Manthiram',
+      description: [
+        'OMSAKTHIYE PARASAKTHIYE!',
+        'OMSAKTHIYE ADHIPARASAKTHIYE!',
+        'OMSAKTHIYE MARUVOOR ARASIYE!',
+        'OMSAKTHIYE OM VINAYAGA!',
+        'OMSAKTHIYE OM KAMAKSHIYE!',
+        'OMSAKTHIYE OM BANGARU KAMAKSHIYE!'
+      ],
+      color: 'border-red-500'
+    },
+    {
+      icon: '🙏',
+      title: 'மூலமந்திரம்',
+      description: [
+        'ஓம்சக்தியே! பராசக்தியே!',
+        'ஓம்சக்தியே! ஆதிபராசக்தியே!',
+        'ஓம்சக்தியே! மருவூர் அரசியே!',
+        'ஓம்சக்தியே! ஓம் விநாயகா!',
+        'ஓம்சக்தியே! ஓம் காமாட்சியே!',
+        'ஓம்சக்தியே! ஓம் பங்காரு காமாட்சியே!' // Now forced to stay on one line
+      ],
+      color: 'border-yellow-500'
+    },
+    {
+      icon: '✨',
+      title: 'Divine Blessings',
+      // Kept as string for paragraph block
+      description: 'எண்ணங்கள் கோடி எழுந்தாடி உனை நாடி என்னைக் கடத்து என்றே இங்கோடி நான் வந்தேன் என்மீதில் அருள்நாடி எவ்விக் குதித்தோடி வா!',
+      color: 'border-orange-500'
+    },
+  ].map((item, idx) => (
+    <motion.div
+      key={item.title}
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ delay: idx * 0.2 }}
+      viewport={{ once: true }}
+      whileHover={{ y: -5 }}
+      // Reduced side padding (px-4) slightly to give text more room
+      className={`relative py-8 px-4 md:p-8 bg-white rounded-xl shadow-lg border-t-4 ${item.color} group overflow-hidden`}
+    >
+      <div className="absolute top-4 right-4 text-8xl md:text-9xl opacity-5 select-none grayscale group-hover:grayscale-0 transition-all duration-500">
+        {item.icon}
+      </div>
+
+      <div className="relative z-10 flex flex-col items-center text-center">
+        <div className="text-4xl md:text-5xl mb-4 md:mb-6">{item.icon}</div>
+        <h3 className="text-xl md:text-2xl font-bold text-[#a7150b] mb-4 md:mb-6">{item.title}</h3>
+        
+        <div className="text-gray-700 font-medium text-sm md:text-base space-y-3 w-full">
+          {Array.isArray(item.description) ? (
+            item.description.map((line, i) => (
+              <p key={i} className="whitespace-nowrap tracking-tight leading-relaxed">
+                {line}
+              </p>
+            ))
+          ) : (
+            <p className="leading-loose">{item.description}</p>
+          )}
+        </div>
+      </div>
+    </motion.div>
+  ))}
+</div>
           {/* View All Text Mantras Button */}
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
