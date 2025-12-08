@@ -129,10 +129,14 @@ export default function ActivitiesSection() {
   ];
 
   const supportOptions = [
-    { label: "Daily Abhisegam", href: "#" },
-    { label: "Golden Chariot", href: "#" },
-    { label: "Women Welfare", href: "#" },
-    { label: "Annadhanam", href: "#" },
+    // { label: "Daily Abhisegam", href: "#" },
+    // { label: "Golden Chariot", href: "#" },
+    // { label: "Women Welfare", href: "#" },
+    // { label: "Annadhanam", href: "#" },
+    { label: "Daily Abhisegam", href: "https://masm.omsakthiamma.in/donate-abhisegam/", Target: "_blank" },
+    { label: "Golden Chariot", href: "https://masm.omsakthiamma.in/donate-other/?c=GCP", Target: "_blank" },
+    { label: "Women Welfare", href: "https://aspwct.omsakthiamma.in/", Target: "_blank" },
+    { label: "Annadhanam", href: "https://www.acmectrust.org/donate-thaipoosam-india/",Target: "_blank" },
   ];
 
   return (

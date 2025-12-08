@@ -123,7 +123,7 @@ export default function ContactSection() {
             {
               icon: Phone,
               title: 'Phone',
-              details: ['044-27529391', '044-27529313'],
+              details: ['+91 44 27529199', '+91 44 27529313'],
             },
             {
               icon: Mail,
