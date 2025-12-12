@@ -334,8 +334,8 @@ const generalDonations = [
 ];
 
 const taxExemptDonations = [
-  { name: "Annadhanam (80G)", href: "https://www.acmectrust.org/donate-thaipoosam-india/", icon: <Utensils className="w-6 h-6" />, desc: "Feeding the hungry" },
-  { name: "Hospital Donations (80G)", href: "https://acmectrust.org/", icon: <Stethoscope className="w-6 h-6" />, desc: "Medical aid for the poor" },
+  { name: "Thaipoosam Annadhanam (80G/Non 80G)", href: "https://www.acmectrust.org/donate-thaipoosam/", icon: <Utensils className="w-6 h-6" />, desc: "Feeding the hungry" },
+  { name: "Other Donations (80/Non 80G)", href: "https://www.acmectrust.org/donate/", icon: <Stethoscope className="w-6 h-6" />, desc: "Medical, Guru Kanickai, Education" },
   { name: "Women Welfare (80G)", href: "https://aspwct.omsakthiamma.in/", icon: <Users className="w-6 h-6" />, desc: "Empowering women" }
 ];
 

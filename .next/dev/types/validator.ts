@@ -270,6 +270,24 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   type __Unused = __Check
 }
 
+// Validate ../../../app/notices/district-timings/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/notices/district-timings">> = Specific
+  const handler = {} as typeof import("../../../app/notices/district-timings/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../app/notices/sanctum-schedule/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/notices/sanctum-schedule">> = Specific
+  const handler = {} as typeof import("../../../app/notices/sanctum-schedule/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../../app/online_services/donations/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/online_services/donations">> = Specific
