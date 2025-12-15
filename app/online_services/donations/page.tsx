@@ -330,7 +330,7 @@ const generalDonations = [
   { name: "Chitrapournami", href: "#", icon: <Moon className="w-8 h-8" />, color: "text-indigo-500", bg: "bg-indigo-50" },
   { name: "Navaratri Kappu", href: "https://masm.omsakthiamma.in/donate-navaratri/", icon: <ShieldCheck className="w-8 h-8" />, color: "text-red-600", bg: "bg-red-50" },
   // { name: "Online Irumudi", href: "https://www.acmectrust.org/online-darshan/", icon: <CreditCard className="w-8 h-8" />, color: "text-green-600", bg: "bg-green-50" }
-  { name: "Online Irumudi", href: "#", icon: <CreditCard className="w-8 h-8" />, color: "text-green-600", bg: "bg-green-50" }
+  { name: "Online Irumudi", href: "https://www.acmectrust.org/online-darshan/", icon: <CreditCard className="w-8 h-8" />, color: "text-green-600", bg: "bg-green-50" }
 ];
 
 const taxExemptDonations = [
