@@ -443,6 +443,7 @@ import DailyMessageSection from '@/components/DailyMessageSection';
 import MantraPlayer from '@/components/MantraPlayer';
 // import { featuredMantras } from '@/lib/mantraData';
 import { featuredMantras, mantrasAudioFolder, devotionalSongsFolder } from "@/lib/mantraData";
+import IrumudiSection from '@/components/IrumudiSection';
 
 
 export default function Home() {
@@ -830,6 +831,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <IrumudiSection />
       
       <SacredFestivalsSection />
       

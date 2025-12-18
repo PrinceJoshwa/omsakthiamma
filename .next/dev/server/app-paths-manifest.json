@@ -1,9 +1,5 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/district-president-instructions/page": "app/district-president-instructions/page.js",
-  "/irumudi-instruction/page": "app/irumudi-instruction/page.js",
-  "/notices/district-timings/page": "app/notices/district-timings/page.js",
-  "/notices/sanctum-schedule/page": "app/notices/sanctum-schedule/page.js",
-  "/page": "app/page.js",
-  "/visit-us/page": "app/visit-us/page.js"
+  "/irumudi-significance/page": "app/irumudi-significance/page.js",
+  "/page": "app/page.js"
 }
