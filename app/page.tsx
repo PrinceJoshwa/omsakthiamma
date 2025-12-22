@@ -452,6 +452,7 @@ export default function Home() {
       <EventPopup />
       
       <HeroSection />
+      <IrumudiSection />
       <FeaturedVideoSection />
 
       {/* --- NEW SECTION: IRUMUDI BANNER (Added Here) --- */}
@@ -831,7 +832,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <IrumudiSection />
+      
       
       <SacredFestivalsSection />
       
