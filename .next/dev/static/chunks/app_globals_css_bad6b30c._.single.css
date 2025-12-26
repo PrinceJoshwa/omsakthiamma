@@ -636,6 +636,10 @@
     top: calc(var(--spacing) * -3);
   }
 
+  .-top-4 {
+    top: calc(var(--spacing) * -4);
+  }
+
   .-top-12 {
     top: calc(var(--spacing) * -12);
   }
@@ -690,6 +694,10 @@
 
   .-right-2 {
     right: calc(var(--spacing) * -2);
+  }
+
+  .-right-4 {
+    right: calc(var(--spacing) * -4);
   }
 
   .-right-10 {
@@ -1463,6 +1471,10 @@
 
   .max-h-\[85vh\] {
     max-height: 85vh;
+  }
+
+  .max-h-\[90vh\] {
+    max-height: 90vh;
   }
 
   .max-h-\[300px\] {
@@ -2768,6 +2780,16 @@
   @supports (color: color-mix(in lab, red, red)) {
     .bg-black\/50 {
       background-color: color-mix(in oklab, var(--color-black) 50%, transparent);
+    }
+  }
+
+  .bg-black\/60 {
+    background-color: #0009;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .bg-black\/60 {
+      background-color: color-mix(in oklab, var(--color-black) 60%, transparent);
     }
   }
 
@@ -6800,6 +6822,12 @@
   }
 
   @media (min-width: 48rem) {
+    .md\:min-h-\[600px\] {
+      min-height: 600px;
+    }
+  }
+
+  @media (min-width: 48rem) {
     .md\:w-1\/2 {
       width: 50%;
     }
@@ -7082,6 +7110,12 @@
       --tw-gradient-via: transparent;
       --tw-gradient-via-stops: var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-via) var(--tw-gradient-via-position), var(--tw-gradient-to) var(--tw-gradient-to-position);
       --tw-gradient-stops: var(--tw-gradient-via-stops);
+    }
+  }
+
+  @media (min-width: 48rem) {
+    .md\:object-cover {
+      object-fit: cover;
     }
   }
 
