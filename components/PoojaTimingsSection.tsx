@@ -7,6 +7,7 @@ export default function PoojaTimingsSection() {
   const poojaTimings = [
     { name: 'Subhaprabatha Archana', time: '5:30 AM - 6:30 AM' },
     { name: 'Mangala Harathi', time: '7:00 AM - 8:00 AM' },
+    { name: 'Anmiga Guru Bangaru Amma Padhapoojai at Arutkoodam', time: '11:00 AM' },
     { name: 'Midday Archana', time: '12:00 PM - 1:00 PM' },
     { name: 'Sayartha Archana', time: '5:30 PM - 6:30 PM' },
     { name: 'Sandhya Harathi', time: '7:00 PM - 8:00 PM' },

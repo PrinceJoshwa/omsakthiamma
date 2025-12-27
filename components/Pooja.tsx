@@ -142,6 +142,7 @@ export default function PoojaTimingsSection() {
     { time: '3:00 - 4:00 AM', event: 'Abishekam', icon: Sun },
     { time: '4:00 - 5:30 AM', event: 'Alangaram', icon: Sun }, 
     { time: '5:30 AM', event: 'Maha Deeparathanai & Public Darshan Starts', icon: Sun },
+    { time: '11:00 AM', event: 'Anmiga Guru Bangaru Amma Padhapoojai at Arutkoodam', icon: Sun },
     { time: '8:00 PM', event: 'Temple closes for Public Darshan', icon: Moon },
   ];
 
