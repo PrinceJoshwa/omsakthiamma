@@ -370,6 +370,7 @@ const navItems: NavItem[] = [
       { label: 'Spiritual Conferences', href: '/activities/spiritual-conferences' },
       { label: 'Spiritual Tours', href: '/activities/spiritual-tours' },
       { label: 'Social Activity', href: '/activities/social-activity' },
+      { label: 'Volunteering', href: '/activities/volunteer' },
     ],
   },
   {

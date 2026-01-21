@@ -418,7 +418,7 @@
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
-import { ArrowRight, Sparkles, Music } from 'lucide-react';
+import { ArrowRight, Sparkles, Music, ClipboardList, Phone, CalendarCheck } from 'lucide-react';
 
 // Component Imports
 import HeroSection from '@/components/HeroSection';
@@ -444,6 +444,7 @@ import MantraPlayer from '@/components/MantraPlayer';
 // import { featuredMantras } from '@/lib/mantraData';
 import { featuredMantras, mantrasAudioFolder, devotionalSongsFolder } from "@/lib/mantraData";
 import IrumudiSection from '@/components/IrumudiSection';
+import NoticeCarousel from '@/components/Notification';
 
 
 export default function Home() {
@@ -452,6 +453,7 @@ export default function Home() {
       <EventPopup />
       
       <HeroSection />
+      <NoticeCarousel />
       <IrumudiSection />
       <FeaturedVideoSection />
 
@@ -846,6 +848,57 @@ export default function Home() {
       <GoogleCalendarSection />
       {/* <LatestUpdatesSection /> */}
       <ActivitiesSection />
+      {/* --- NEW VOLUNTEER CTA SECTION --- */}
+      <section className="py-12 bg-orange-50/50 border-y border-orange-100">
+        <div className="max-w-7xl mx-auto px-4 text-center">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="mb-8"
+          >
+            <span className="px-4 py-1 bg-red-100 text-[#a7150b] rounded-full text-xs font-bold tracking-wider uppercase mb-3 inline-block">
+              Seva Opportunity
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold text-[#1a1a1a] mb-4">
+              Join as a Volunteer
+            </h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">
+              "செவ்வாடை அணிபவர்களுக்குச் சேவை மனப்பான்மையும், செவிலித்தாய் மனப்பான்மையும் இருக்க வேண்டும்."
+            </p>
+          </motion.div>
+
+          {/* The 3 Steps Visual (Mini Version) */}
+          <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto mb-10">
+            {[
+              { icon: ClipboardList, title: "Apply Online", desc: "Fill the form" },
+              { icon: Phone, title: "Get Verified", desc: "Receive a call" },
+              { icon: CalendarCheck, title: "Start Seva", desc: "Visit Peedam" }
+            ].map((step, idx) => (
+              <motion.div 
+                key={idx}
+                initial={{ opacity: 0, scale: 0.9 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                transition={{ delay: idx * 0.1 }}
+                viewport={{ once: true }}
+                className="bg-white p-6 rounded-xl shadow-sm border border-orange-100 flex flex-col items-center"
+              >
+                <div className="bg-orange-50 p-3 rounded-full mb-3 text-[#a7150b]">
+                  <step.icon className="w-6 h-6" />
+                </div>
+                <h3 className="font-bold text-gray-900">{step.title}</h3>
+                <p className="text-sm text-gray-500">{step.desc}</p>
+              </motion.div>
+            ))}
+          </div>
+
+          <Link href="/activities/volunteer">
+            <button className="px-8 py-3 bg-[#a7150b] text-white rounded-full font-bold shadow-lg hover:bg-[#8a0d08] hover:shadow-xl transition-all duration-300">
+              Apply for Volunteering
+            </button>
+          </Link>
+        </div>
+      </section>
       <ContactSection />
       <WhatsAppChat />
     </main>

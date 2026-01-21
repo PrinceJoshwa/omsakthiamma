@@ -1,40 +1,199 @@
-[00:00:02.278] Server  LOG      ✓ Ready in 1594ms
-[00:00:19.625] Server  LOG      ○ Compiling / ...
-[00:00:26.930] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:27.535] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939055/hero1_i2rvap.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:29.403] Server  LOG      ○ Compiling /_not-found/page ...
-[00:00:29.628] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:29.628] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:35.831] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939123/om3_f76xrf.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:35.831] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939095/om5_ppv6nl.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:36.811] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:37.155] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939055/hero1_i2rvap.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:37.411] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:37.412] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:37.412] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939095/om5_ppv6nl.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:37.412] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939123/om3_f76xrf.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:07:06.141] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:07:06.869] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939055/hero1_i2rvap.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:07:09.115] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:07:09.778] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:07:15.706] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939095/om5_ppv6nl.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:07:15.706] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939123/om3_f76xrf.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:10:58.426] Server  LOG      ✓ Compiled in 1420ms
-[00:11:00.367] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-
-Check the render method of `PoojaTimingsSection`.
-[00:11:01.092] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:11:01.119] Server  LOG      ✓ Compiled in 92ms
-[00:11:02.617] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:11:03.452] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939055/hero1_i2rvap.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:11:03.452] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:11:03.452] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939123/om3_f76xrf.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:11:03.452] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:11:03.452] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939095/om5_ppv6nl.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:11:04.381] Server  LOG      ✓ Compiled in 184ms
-[00:11:44.375] Server  LOG      ✓ Compiled in 85ms
-[00:11:48.138] Server  LOG      ✓ Compiled in 90ms
-[00:11:50.320] Server  LOG      ✓ Compiled in 102ms
-[00:11:55.031] Server  LOG      ✓ Compiled in 94ms
-[00:11:56.959] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:00:08.421] Server  LOG      ✓ Ready in 6.8s
+[00:01:12.594] Server  LOG      ○ Compiling / ...
+[00:01:32.811] Server  ERROR   TimeoutError: The operation was aborted due to timeout
+[00:01:37.679] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:38.772] Server  LOG      ○ Compiling /_not-found/page ...
+[00:01:43.862] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939055/hero1_i2rvap.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:43.862] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:43.862] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939123/om3_f76xrf.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:43.862] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:43.862] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939095/om5_ppv6nl.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:29.970] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:12:09.831] Server  LOG      ✓ Compiled in 4.2s
+[00:12:12.402] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/notice1.jpg" "received" null
+[00:12:12.455] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/notice2.jpg" "received" null
+[00:13:52.136] Server  LOG      ✓ Compiled in 508ms
+[00:13:53.779] Server  LOG      ✓ Compiled in 435ms
+[00:13:54.830] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/notice2.jpg" "received" null
+[00:13:54.837] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/notice1.jpg" "received" null
+[00:13:59.562] Server  LOG      ✓ Compiled in 174ms
+[00:14:02.496] Server  LOG      ✓ Compiled in 199ms
+[00:21:29.704] Server  LOG      ✓ Compiled in 1105ms
+[00:21:31.030] Server  LOG      ✓ Compiled in 953ms
+[00:23:38.401] Server  LOG      ✓ Compiled in 575ms
+[00:23:39.672] Server  LOG      ✓ Compiled in 126ms
+[00:23:56.223] Server  LOG      ✓ Compiled in 719ms
+[00:24:23.538] Server  LOG      ✓ Compiled in 645ms
+[00:24:34.870] Server  LOG      ✓ Compiled in 347ms
+[00:24:41.988] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:24:42.000] Browser ERROR   uncaughtError: ReferenceError: AnimatePresence is not defined
+[00:24:42.014] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:24:44.915] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:24:44.916] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:24:44.917] Browser ERROR   ./app/page.tsx:456:24
+Parsing ecmascript source code failed
+  454 |       <HeroSection />
+  455 |       <N
+> 456 |       <IrumudiSection />
+      |                        ^
+  457 |       <FeaturedVideoSection />
+  458 |
+  459 |       {/* --- NEW SECTION: IRUMUDI BANNER (Added Here) --- */}
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:24:44.917] Browser ERROR   ./app/page.tsx:456:24
+Parsing ecmascript source code failed
+  454 |       <HeroSection />
+  455 |       <Noti
+> 456 |       <IrumudiSection />
+      |                        ^
+  457 |       <FeaturedVideoSection />
+  458 |
+  459 |       {/* --- NEW SECTION: IRUMUDI BANNER (Added Here) --- */}
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:24:44.917] Browser ERROR   ./app/page.tsx:457:24
+Parsing ecmascript source code failed
+  455 |       <HeroSection />
+  456 |       <NoticeCarousel
+> 457 |       <IrumudiSection />
+      |                        ^
+  458 |       <FeaturedVideoSection />
+  459 |
+  460 |       {/* --- NEW SECTION: IRUMUDI BANNER (Added Here) --- */}
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:24:44.917] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:24:48.668] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/notice2.jpg" "received" null
+[00:24:52.184] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:24:52.685] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939055/hero1_i2rvap.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:24:54.832] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:25:02.894] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:26:39.895] Server  LOG      ✓ Compiled in 1870ms
+[00:26:42.151] Server  LOG      ✓ Compiled in 1788ms
+[00:26:42.653] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:26:42.709] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `Home`.
+[00:26:46.857] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/notice1.jpg" "received" null
+[00:26:47.231] Server  LOG      ✓ Compiled in 752ms
+[00:26:48.404] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/notice1.jpg" "received" null
+[00:26:50.048] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:26:52.209] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <SegmentViewNode type="page" pagePath="page.tsx">
+      <SegmentTrieNode>
+      <ClientPageRoot Component={function Home} serverProvidedParams={{...}}>
+        <Home params={Promise} searchParams={Promise}>
+          <main className="bg-white o...">
+            <EventPopup>
+            <HeroSection>
+            <NoticeCarousel>
+              <section className="w-full bg-...">
+                <div className="relative w...">
+                  <AnimatePresence mode="wait">
+                    <PresenceChild isPresent={true} initial={undefined} custom={undefined} presenceAffectsLayout={true} ...>
+                      <motion.div initial={{opacity:0,x:50}} animate={{opacity:1,x:0}} exit={{opacity:0,x:-50}} ...>
+                        <div className="relative w..." style={{opacity:0, ...}} ref={function useMotionRef.useCallback}>
+                          <img
+                            alt="Notice 1"
+                            fetchPriority={undefined}
+                            loading={undefined}
+                            width={undefined}
+                            height={undefined}
+                            decoding="async"
+                            data-nimg="fill"
+                            className="object-contain"
+                            style={{position:"absolute",height:"100%",width:"100%",left:0,top:0,right:0,bottom:0,objectFit:undefined, ...}}
+                            sizes="100vw"
++                           srcSet={"/_next/image?url=%2Fnotice1.jpeg&w=640&q=75 640w, /_next/image?url=%2Fnotice1.jp..."}
+-                           srcSet={"/_next/image?url=%2Fnotice1.jpg&w=640&q=75 640w, /_next/image?url=%2Fnotice1.jpg..."}
++                           src={"/_next/image?url=%2Fnotice1.jpeg&w=3840&q=75"}
+-                           src={"/_next/image?url=%2Fnotice1.jpg&w=3840&q=75"}
+                            ref={function}
+                            onLoad={function onLoad}
+                            onError={function onError}
+                          >
+                          ...
+                  ...
+            ...
+
+[00:26:52.212] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939055/hero1_i2rvap.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:26:52.213] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:26:52.213] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939123/om3_f76xrf.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:26:52.213] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:26:52.213] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939095/om5_ppv6nl.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:27:04.251] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/notice2.jpg" "received" null
+[00:27:08.295] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:08.897] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939055/hero1_i2rvap.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:27:08.897] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:27:10.885] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:27:41.466] Server  ERROR   TimeoutError: The operation was aborted due to timeout
+[00:27:49.098] Server  LOG      ✓ Compiled in 659ms
+[00:29:00.149] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:29:00.500] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939055/hero1_i2rvap.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:29:02.541] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:29:28.922] Server  LOG      ✓ Compiled in 522ms
+[00:29:29.283] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/notice1.jpg" "received" null
+[00:29:29.595] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/notice1.jpg" "received" null
+[00:29:30.017] Server  LOG      ✓ Compiled in 383ms
+[00:30:37.010] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939055/hero1_i2rvap.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:30:39.471] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:32:33.188] Server  LOG      ✓ Compiled in 1542ms
+[00:32:34.063] Browser ERROR   ReactDOM.preload(): Expected two arguments, a non-empty `href` string and an `options` object with an `as` property valid for a `<link rel="preload" as="..." />` tag.%s  The `href` argument encountered was an empty string.
+[00:32:34.063] Browser ERROR   ReactDOM.preload(): Expected two arguments, a non-empty `href` string and an `options` object with an `as` property valid for a `<link rel="preload" as="..." />` tag.%s  The `href` argument encountered was an empty string.
+[00:32:34.065] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:32:34.065] Browser ERROR   Image is missing required "src" property: <img>
+[00:32:34.065] Browser ERROR   ReactDOM.preload(): Expected two arguments, a non-empty `href` string and an `options` object with an `as` property valid for a `<link rel="preload" as="..." />` tag.%s  The `href` argument encountered was an empty string.
+[00:32:34.065] Browser ERROR   ReactDOM.preload(): Expected two arguments, a non-empty `href` string and an `options` object with an `as` property valid for a `<link rel="preload" as="..." />` tag.%s  The `href` argument encountered was an empty string.
+[00:32:36.080] Browser ERROR   ReactDOM.preload(): Expected two arguments, a non-empty `href` string and an `options` object with an `as` property valid for a `<link rel="preload" as="..." />` tag.%s  The `href` argument encountered was an empty string.
+[00:32:36.080] Browser ERROR   ReactDOM.preload(): Expected two arguments, a non-empty `href` string and an `options` object with an `as` property valid for a `<link rel="preload" as="..." />` tag.%s  The `href` argument encountered was an empty string.
+[00:32:36.080] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:32:36.080] Browser ERROR   Image is missing required "src" property: <img>
+[00:32:36.080] Browser ERROR   ReactDOM.preload(): Expected two arguments, a non-empty `href` string and an `options` object with an `as` property valid for a `<link rel="preload" as="..." />` tag.%s  The `href` argument encountered was an empty string.
+[00:32:36.080] Browser ERROR   ReactDOM.preload(): Expected two arguments, a non-empty `href` string and an `options` object with an `as` property valid for a `<link rel="preload" as="..." />` tag.%s  The `href` argument encountered was an empty string.
+[00:32:37.238] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:32:37.238] Browser ERROR   ReactDOM.preload(): Expected two arguments, a non-empty `href` string and an `options` object with an `as` property valid for a `<link rel="preload" as="..." />` tag.%s  The `href` argument encountered was an empty string.
+[00:32:37.238] Browser ERROR   ReactDOM.preload(): Expected two arguments, a non-empty `href` string and an `options` object with an `as` property valid for a `<link rel="preload" as="..." />` tag.%s  The `href` argument encountered was an empty string.
+[00:32:37.238] Browser ERROR   Image is missing required "src" property: <img>
+[00:32:37.238] Browser ERROR   Image is missing required "src" property: <img>
+[00:32:44.828] Server  LOG      ✓ Compiled in 221ms
