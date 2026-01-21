@@ -32,9 +32,9 @@ export default function NoticeCarousel() {
           <h2 className="text-3xl md:text-4xl font-bold text-[#1a1a1a]">
             Important Announcements
           </h2>
-          <p className="text-gray-600 mt-2">
+          {/* <p className="text-gray-600 mt-2">
             Use the arrows to view all circulars
-          </p>
+          </p> */}
         </div>
 
         {/* Carousel Container */}
