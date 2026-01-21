@@ -297,6 +297,15 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   type __Unused = __Check
 }
 
+// Validate ../../../app/notices/notification/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/notices/notification">> = Specific
+  const handler = {} as typeof import("../../../app/notices/notification/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../../app/notices/sanctum-schedule/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/notices/sanctum-schedule">> = Specific

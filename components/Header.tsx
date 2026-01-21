@@ -387,10 +387,11 @@ const navItems: NavItem[] = [
     label: 'Notices',
     href: '#',
     dropdown: [
-      { label: 'Instructions to Districts', href: '/district-president-instructions' },
-      { label: 'Devotee Guidelines', href: '/irumudi-instruction' },
-      { label: 'Sanctum Service Schedule', href: '/notices/sanctum-schedule' },
-      { label: 'District-wise Timings', href: '/notices/district-timings' },
+      { label: 'Notifications', href: '/notices/notification' },
+      // { label: 'Instructions to Districts', href: '/district-president-instructions' },
+      // { label: 'Devotee Guidelines', href: '/irumudi-instruction' },
+      // { label: 'Sanctum Service Schedule', href: '/notices/sanctum-schedule' },
+      // { label: 'District-wise Timings', href: '/notices/district-timings' },
     ],
   },
   {
