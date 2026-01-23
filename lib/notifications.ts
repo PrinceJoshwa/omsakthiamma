@@ -1,0 +1,58 @@
+// path: data/notifications.ts
+
+export type NotificationType = 'pdf' | 'image';
+
+export interface NotificationItem {
+  id: string;      // Unique ID (e.g., '2025-12-22-1')
+  title: string;   // Display title
+  date: string;    // Format: YYYY-MM-DD (Crucial for sorting logic)
+  fileSize: string;
+  type: NotificationType;
+  urls: string[];     // Path inside the public folder
+}
+
+export const NOTIFICATIONS_DATA: NotificationItem[] = [
+  // --- ADD NEW NOTIFICATIONS HERE ---
+  // The page will automatically sort these (Newest date will appear at the top)
+  
+  {
+    id: '2025-11-27-1',
+    title: 'திரு குடமுழுக்கு விழா- பண்ருட்டி (கடலூர்)',
+    date: '2026-01-23',
+    fileSize: '1.2 MB',
+    type: 'image',
+    urls: ['/invitation.jpeg', '/invitation1.jpeg'],
+  },
+  {
+    id: '2025-11-27-1',
+    title: 'Thaipusam Irumudi Festival 2025-26 - Official Instructions',
+    date: '2025-11-27',
+    fileSize: '1.2 MB',
+    type: 'pdf',
+    urls: ['/IRUMUDI-INSTRUCTIONS.pdf'],
+  },
+  {
+    id: '2025-12-22-1',
+    title: 'List of Mandatory Items for Irumudi Bag - 2025',
+    date: '2025-12-22',
+    fileSize: '450 kb',
+    type: 'image',
+    urls: ['/notices/22.12.25.jpeg'],
+  },
+  {
+    id: '2025-12-12-1',
+    title: 'District-wise Time Schedule for Irumudi Submission',
+    date: '2025-12-12',
+    fileSize: '320 kb',
+    type: 'image',
+    urls: ['/notices/12.12.2025.jpeg'], 
+  },
+  {
+    id: '2025-12-12-2',
+    title: 'Mandram Karuvarai Pani Schedule (Dec 2025)',
+    date: '2025-12-12',
+    fileSize: '380 kb',
+    type: 'image',
+    urls: ['/notices/12.12.25.jpeg'],
+  },
+];
