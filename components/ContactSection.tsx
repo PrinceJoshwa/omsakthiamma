@@ -36,7 +36,7 @@
 //             {
 //               icon: Mail,
 //               title: 'Email',
-//               details: ['aspwct@gmail.com'],
+//               details: ['contact@omsakthiamma.org'],
 //             },
 //             {
 //               icon: Clock,
@@ -128,7 +128,7 @@ export default function ContactSection() {
             {
               icon: Mail,
               title: 'Email',
-              details: ['aspwct@gmail.com'],
+              details: ['contact@omsakthiamma.org'],
             },
             {
               icon: Clock,

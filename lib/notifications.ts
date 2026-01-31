@@ -55,4 +55,13 @@ export const NOTIFICATIONS_DATA: NotificationItem[] = [
     type: 'image',
     urls: ['/notices/12.12.25.jpeg'],
   },
-];
+    {
+    id: '2026-01-31-1',
+    title: '86 வது அவதாரத்திருநாள் மக்கள் நலப்பணி 2026',
+    date: '2026-01-31',
+    fileSize: '1.45 MB',
+    type: 'pdf'
+    ,
+    urls: ['/notices/86.pdf','/notices/12.12.25.jpeg'],
+  },
+]

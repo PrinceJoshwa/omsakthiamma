@@ -94,7 +94,7 @@
 
 //     <li className="flex items-center gap-2">
 //       <Mail className="w-4 h-4" />
-//       <span>aspwct@gmail.com</span>
+//       <span>contact@omsakthiamma.org</span>
 //     </li>
 
 //   </ul>

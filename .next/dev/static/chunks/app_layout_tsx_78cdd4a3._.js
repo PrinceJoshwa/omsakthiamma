@@ -9,7 +9,7 @@
   "static/chunks/node_modules_@fortawesome_fontawesome-svg-core_index_mjs_79b8db01._.js",
   "static/chunks/node_modules_@fortawesome_free-solid-svg-icons_index_mjs_e676fced._.js",
   "static/chunks/node_modules_@fortawesome_free-brands-svg-icons_index_mjs_6070a283._.js",
-  "static/chunks/node_modules_dd7754dd._.js"
+  "static/chunks/node_modules_2d721074._.js"
 ],
     source: "dynamic"
 });

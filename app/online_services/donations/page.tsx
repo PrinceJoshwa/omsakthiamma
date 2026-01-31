@@ -204,7 +204,7 @@
 //                 <div className="flex gap-3 items-start text-sm text-gray-600 bg-blue-50 p-4 rounded-lg">
 //                   <Mail className="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" />
 //                   <p>
-//                     After transfer, kindly email transaction details to <strong className="text-blue-700">aspwct@gmail.com</strong>
+//                     After transfer, kindly email transaction details to <strong className="text-blue-700">contact@omsakthiamma.org</strong>
 //                   </p>
 //                 </div>
 //               </div>
@@ -330,7 +330,7 @@ const generalDonations = [
   { name: "Chitrapournami", href: "#", icon: <Moon className="w-8 h-8" />, color: "text-indigo-500", bg: "bg-indigo-50" },
   { name: "Navaratri Kappu", href: "https://masm.omsakthiamma.in/donate-navaratri/", icon: <ShieldCheck className="w-8 h-8" />, color: "text-red-600", bg: "bg-red-50" },
   // { name: "Online Irumudi", href: "https://www.acmectrust.org/online-darshan/", icon: <CreditCard className="w-8 h-8" />, color: "text-green-600", bg: "bg-green-50" }
-  { name: "Online Irumudi", href: "https://www.acmectrust.org/online-darshan/", icon: <CreditCard className="w-8 h-8" />, color: "text-green-600", bg: "bg-green-50" }
+  { name: "Online Irumudi", href: "https://donations.acmectrust.org/online-darshan/", icon: <CreditCard className="w-8 h-8" />, color: "text-green-600", bg: "bg-green-50" }
 ];
 
 const taxExemptDonations = [
@@ -488,7 +488,7 @@ export default function PoojasDonationsPage() {
                 <div className="flex gap-3 items-start text-sm text-gray-600 bg-blue-50 p-4 rounded-lg">
                   <Mail className="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" />
                   <p>
-                    After transfer, kindly email transaction details to <strong className="text-blue-700">aspwct@gmail.com</strong>
+                    After transfer, kindly email transaction details to <strong className="text-blue-700">contact@omsakthiamma.org</strong>
                   </p>
                 </div>
               </div>

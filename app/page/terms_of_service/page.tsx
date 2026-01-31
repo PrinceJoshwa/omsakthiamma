@@ -92,7 +92,7 @@ export default function TermsPage() {
                 This Privacy Policy applies to all of the products, services and websites offered by Adhiparasakthi Siddhar Peedam. Sometimes, we may post product specific privacy notices or Help Centre materials to explain our products in more detail.
               </p>
               <p className="mb-4">
-                If you have any questions about this Privacy Policy, please feel free to contact us through our website or write to us at <a href="mailto:aspwct@gmail.com" className="text-blue-600 hover:underline">aspwct@gmail.com</a>.
+                If you have any questions about this Privacy Policy, please feel free to contact us through our website or write to us at <a href="mailto:contact@omsakthiamma.org" className="text-blue-600 hover:underline">contact@omsakthiamma.org</a>.
               </p>
               
               <h3 className="text-lg font-bold text-[#1a1a1a] mt-6 mb-2">Changes to our Privacy Policy</h3>
@@ -105,7 +105,7 @@ export default function TermsPage() {
             <section>
               <h2 className="text-2xl font-bold text-[#a7150b] mb-4">DND Policy</h2>
               <p>
-                If you wish to stop any further sms/email alerts/contacts from our side, all you need to do is to send an email to <a href="mailto:aspwct@gmail.com" className="text-blue-600 hover:underline">aspwct@gmail.com</a> with your mobile numbers and you will be excluded from the alerts list.
+                If you wish to stop any further sms/email alerts/contacts from our side, all you need to do is to send an email to <a href="mailto:contact@omsakthiamma.org" className="text-blue-600 hover:underline">contact@omsakthiamma.org</a> with your mobile numbers and you will be excluded from the alerts list.
               </p>
             </section>
 
@@ -159,7 +159,7 @@ export default function TermsPage() {
                   <div className="bg-white p-2 rounded-full h-fit shadow-sm text-[#a7150b]">
                     <Mail className="w-5 h-5" />
                   </div>
-                  <a href="mailto:aspwct@gmail.com" className="text-[#1a1a1a] hover:text-[#a7150b] transition-colors">aspwct@gmail.com</a>
+                  <a href="mailto:contact@omsakthiamma.org" className="text-[#1a1a1a] hover:text-[#a7150b] transition-colors">contact@omsakthiamma.org</a>
                 </div>
 
                  <div className="flex gap-4 items-center">
