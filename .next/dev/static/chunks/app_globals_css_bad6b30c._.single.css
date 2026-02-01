@@ -2875,10 +2875,6 @@
     background-color: lab(64.4963% 49.3667 68.6636 / .08);
   }
 
-  .bg-\[\#fdf5e6\] {
-    background-color: #fdf5e6;
-  }
-
   .bg-\[\#ffc107\] {
     background-color: #ffc107;
   }
@@ -2886,10 +2882,6 @@
   .bg-\[\#ffc107\]\/95 {
     background-color: #ffc107f2;
     background-color: lab(82.1049% 13.6744 82.4483 / .95);
-  }
-
-  .bg-\[\#fffbeb\] {
-    background-color: #fffbeb;
   }
 
   .bg-\[\#fffbf0\] {
@@ -6009,12 +6001,6 @@
   @media (hover: hover) {
     .hover\:text-\[\#ffc107\]:hover {
       color: #ffc107;
-    }
-  }
-
-  @media (hover: hover) {
-    .hover\:text-black:hover {
-      color: var(--color-black);
     }
   }
 
