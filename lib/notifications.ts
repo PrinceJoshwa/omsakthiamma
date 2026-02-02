@@ -64,4 +64,13 @@ export const NOTIFICATIONS_DATA: NotificationItem[] = [
     ,
     urls: ['/notices/86.pdf','/notices/12.12.25.jpeg'],
   },
+    {
+    id: '2026-02-02-1',
+    title: 'அருள்மிகு அம்மா அவர்களின் 86வது அவதாரத்திருநாள் ஜோதி வழிபாடு',
+    date: '2026-02-02',
+    fileSize: '45.6kb',
+    type: 'image'
+    ,
+    urls: ['/notices/02.02.2026.jpeg'],
+  },
 ]
