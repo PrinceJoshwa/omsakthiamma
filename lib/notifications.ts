@@ -73,4 +73,5 @@ export const NOTIFICATIONS_DATA: NotificationItem[] = [
     ,
     urls: ['/notices/02.02.2026.jpeg'],
   },
+  
 ]

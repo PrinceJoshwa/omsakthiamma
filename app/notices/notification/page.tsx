@@ -1,47 +1,15 @@
 // 'use client';
 
-// import { useState } from 'react';
+// import { useState, useMemo } from 'react';
 // import Link from 'next/link';
-// import Image from 'next/image'; // Import Next.js Image component
+// import Image from 'next/image'; 
 // import { motion, AnimatePresence } from 'framer-motion';
-// import { FileText, ChevronRight, X, Calendar, AlertCircle, ExternalLink, ImageIcon } from 'lucide-react';
-// import { format } from 'date-fns';
+// // Added ChevronLeft and ChevronRight for slider navigation
+// import { FileText, ChevronRight, ChevronLeft, X, Calendar, AlertCircle, ExternalLink, ImageIcon } from 'lucide-react';
+// import { format, parseISO } from 'date-fns';
 
-// // --- DATA: "General Notifications" Data ---
-// const NOTIFICATIONS_DATA = [
-//   {
-//     id: 101,
-//     title: 'Thaipusam Irumudi Festival 2025-26 - Official Instructions',
-//     date: '2025-11-27',
-//     fileSize: '1.2 MB',
-//     type: 'pdf', // Added type
-//     url: '/IRUMUDI-INSTRUCTIONS.pdf', // Make sure this file is in public/notices/
-//   },
-//   {
-//     id: 102,
-//     title: 'List of Mandatory Items for Irumudi Bag - 2025',
-//     date: '2025-12-22',
-//     fileSize: '450 kb',
-//     type: 'image', // This is an image
-//     url: '/notices/22.12.25.jpeg', // Use the exact filename you uploaded
-//   },
-//   {
-//     id: 103,
-//     title: 'District-wise Time Schedule for Irumudi Submission',
-//     date: '2025-12-12',
-//     fileSize: '320 kb',
-//     type: 'image',
-//     url: '/notices/12.12.2025.jpeg', 
-//   },
-//   {
-//     id: 104,
-//     title: 'Mandram Karuvarai Pani Schedule (Dec 2025)',
-//     date: '2025-12-12',
-//     fileSize: '380 kb',
-//     type: 'image',
-//     url: '/notices/12.12.25.jpeg',
-//   },
-// ];
+// // --- IMPORT DATA ---
+// import { NOTIFICATIONS_DATA, NotificationItem } from '@/lib/notifications'; 
 
 // // --- NAVIGATION LINKS MAPPING ---
 // const SIDEBAR_LINKS = [
@@ -53,18 +21,47 @@
 // ];
 
 // export default function NotificationsPage() {
-//   const [selectedDoc, setSelectedDoc] = useState<{ url: string, type: string } | null>(null);
+//   // Updated state to hold an array of URLs
+//   const [selectedDoc, setSelectedDoc] = useState<{ urls: string[], type: string } | null>(null);
+//   const [currentSlide, setCurrentSlide] = useState(0);
 
-//   // Sort Data (Newest First)
-//   const sortedData = NOTIFICATIONS_DATA.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+//   // --- LOGIC: Sort and Group ---
+//   const groupedData = useMemo(() => {
+//     // 1. Sort Data (Newest First based on the ISO date)
+//     const sorted = [...NOTIFICATIONS_DATA].sort((a, b) => 
+//       new Date(b.date).getTime() - new Date(a.date).getTime()
+//     );
 
-//   // Group by Date
-//   const groupedData = sortedData.reduce((acc, item) => {
-//     const dateKey = format(new Date(item.date), 'dd MM yyyy');
-//     if (!acc[dateKey]) acc[dateKey] = [];
-//     acc[dateKey].push(item);
-//     return acc;
-//   }, {} as Record<string, typeof sortedData>);
+//     // 2. Group by Date (Convert to Indian Format: dd-MM-yyyy)
+//     return sorted.reduce((acc, item) => {
+//       const dateKey = format(parseISO(item.date), 'dd-MM-yyyy');
+//       if (!acc[dateKey]) acc[dateKey] = [];
+//       acc[dateKey].push(item);
+//       return acc;
+//     }, {} as Record<string, NotificationItem[]>);
+//   }, []);
+
+//   // --- HANDLERS ---
+//   const handleOpenDoc = (urls: string[], type: string) => {
+//     setSelectedDoc({ urls, type });
+//     setCurrentSlide(0); // Always start from page 1
+//   };
+
+//   const nextSlide = (e: React.MouseEvent) => {
+//     e.stopPropagation();
+//     if (selectedDoc && currentSlide < selectedDoc.urls.length - 1) {
+//       setCurrentSlide((prev) => prev + 1);
+//     }
+//   };
+
+//   const prevSlide = (e: React.MouseEvent) => {
+//     e.stopPropagation();
+//     if (currentSlide > 0) {
+//       setCurrentSlide((prev) => prev - 1);
+//     }
+//   };
+
+//   const totalDocs = NOTIFICATIONS_DATA.length;
 
 //   return (
 //     <main className="min-h-screen bg-orange-50/30 pt-8 pb-16">
@@ -111,7 +108,7 @@
 //             <div className="px-6 py-4 border-b border-orange-100 flex items-center justify-between bg-white rounded-t-lg">
 //               <h2 className="text-xl font-bold text-[#a7150b] uppercase tracking-tight">General Notifications</h2>
 //               <span className="text-xs font-semibold bg-orange-100 text-[#a7150b] px-2 py-1 rounded">
-//                 {sortedData.length} Documents
+//                 {totalDocs} Documents
 //               </span>
 //             </div>
 
@@ -120,6 +117,7 @@
 //               {Object.keys(groupedData).length > 0 ? (
 //                 Object.entries(groupedData).map(([date, items]) => (
 //                   <div key={date} className="mb-2">
+//                     {/* Date Header: dd-MM-yyyy */}
 //                     <div className="bg-yellow-50 text-yellow-800 px-4 py-2 text-sm font-bold border-l-4 border-[#ffc107] flex items-center gap-2">
 //                        <Calendar className="w-4 h-4"/>
 //                        {date}
@@ -131,9 +129,15 @@
 //                             <h3 className="text-gray-800 font-medium group-hover:text-[#a7150b] transition-colors text-sm md:text-base leading-relaxed">
 //                               {item.title}
 //                             </h3>
+//                             {/* Optional: Show '2 Pages' badge if multiple URLs exist */}
+//                             {item.urls.length > 1 && (
+//                               <span className="inline-block mt-1 text-[10px] bg-gray-100 text-gray-500 px-2 py-0.5 rounded-full border border-gray-200">
+//                                 {item.urls.length} Pages
+//                               </span>
+//                             )}
 //                           </div>
 //                           <button
-//                             onClick={() => setSelectedDoc({ url: item.url, type: item.type })}
+//                             onClick={() => handleOpenDoc(item.urls, item.type)}
 //                             className="shrink-0 flex items-center gap-2 text-[#a7150b] bg-red-50 hover:bg-[#a7150b] hover:text-white px-3 py-1.5 rounded text-xs font-bold transition-all border border-red-100"
 //                           >
 //                             {item.type === 'pdf' ? <FileText className="w-4 h-4" /> : <ImageIcon className="w-4 h-4" />}
@@ -173,37 +177,68 @@
 //               onClick={(e) => e.stopPropagation()}
 //               className="bg-white w-full max-w-5xl h-[85vh] rounded-xl overflow-hidden shadow-2xl flex flex-col relative"
 //             >
+//               {/* Modal Header */}
 //               <div className="flex items-center justify-between px-4 py-3 border-b border-gray-200 bg-gray-50">
 //                 <span className="font-bold text-gray-700 flex items-center gap-2">
 //                   {selectedDoc.type === 'pdf' ? <FileText className="w-5 h-5 text-[#a7150b]" /> : <ImageIcon className="w-5 h-5 text-[#a7150b]" />}
-//                   Document Viewer
+//                   <span>Document Viewer</span>
+//                   {/* Page Counter if multiple pages */}
+//                   {selectedDoc.urls.length > 1 && (
+//                     <span className="ml-2 text-xs font-normal text-gray-500 bg-gray-200 px-2 py-0.5 rounded-full">
+//                       Page {currentSlide + 1} of {selectedDoc.urls.length}
+//                     </span>
+//                   )}
 //                 </span>
 //                 <button onClick={() => setSelectedDoc(null)} className="p-2 hover:bg-gray-200 rounded-full transition-colors">
 //                   <X className="w-6 h-6 text-gray-600" />
 //                 </button>
 //               </div>
 
-//               <div className="flex-1 bg-gray-100 relative group overflow-auto flex items-center justify-center">
-//                 {/* LOGIC TO SWITCH BETWEEN PDF IFRAME AND IMAGE */}
-//                 {selectedDoc.type === 'pdf' ? (
-//                   <>
-//                     <div className="absolute inset-0 z-10 w-full h-full" onContextMenu={(e) => e.preventDefault()} style={{ pointerEvents: 'none' }}></div>
-//                     <iframe
-//                       src={`${selectedDoc.url}#toolbar=0&navpanes=0&scrollbar=0`}
-//                       className="w-full h-full"
-//                       title="PDF Viewer"
-//                     />
-//                   </>
-//                 ) : (
-//                   <div className="relative w-full h-full p-4 flex items-center justify-center">
-//                      {/* Standard HTML img tag is often better for dynamic/modal loading than Next.js Image if dimensions are unknown */}
-//                     <img 
-//                       src={selectedDoc.url} 
-//                       alt="Notification Document" 
-//                       className="max-w-full max-h-full object-contain shadow-lg"
-//                     />
-//                   </div>
+//               {/* Modal Content */}
+//               <div className="flex-1 bg-gray-100 relative group overflow-hidden flex items-center justify-center">
+                
+//                 {/* PREVIOUS ARROW (Only if multiple pages) */}
+//                 {selectedDoc.urls.length > 1 && (
+//                   <button 
+//                     onClick={prevSlide}
+//                     disabled={currentSlide === 0}
+//                     className={`absolute left-4 z-20 p-2 rounded-full bg-white/80 shadow-lg backdrop-blur hover:bg-white transition-all ${currentSlide === 0 ? 'opacity-30 cursor-not-allowed' : 'opacity-100 hover:scale-110'}`}
+//                   >
+//                     <ChevronLeft className="w-6 h-6 text-gray-800" />
+//                   </button>
 //                 )}
+
+//                 {/* NEXT ARROW (Only if multiple pages) */}
+//                 {selectedDoc.urls.length > 1 && (
+//                   <button 
+//                     onClick={nextSlide}
+//                     disabled={currentSlide === selectedDoc.urls.length - 1}
+//                     className={`absolute right-4 z-20 p-2 rounded-full bg-white/80 shadow-lg backdrop-blur hover:bg-white transition-all ${currentSlide === selectedDoc.urls.length - 1 ? 'opacity-30 cursor-not-allowed' : 'opacity-100 hover:scale-110'}`}
+//                   >
+//                     <ChevronRight className="w-6 h-6 text-gray-800" />
+//                   </button>
+//                 )}
+
+//                 {/* Main Content Area */}
+//                 <div className="w-full h-full overflow-auto flex items-center justify-center p-4">
+//                   {selectedDoc.type === 'pdf' ? (
+//                     <>
+//                       <div className="absolute inset-0 z-10 w-full h-full" onContextMenu={(e) => e.preventDefault()} style={{ pointerEvents: 'none' }}></div>
+//                       <iframe
+//                         key={selectedDoc.urls[currentSlide]} // Force reload on slide change
+//                         src={`${selectedDoc.urls[currentSlide]}#toolbar=0&navpanes=0&scrollbar=0`}
+//                         className="w-full h-full"
+//                         title="PDF Viewer"
+//                       />
+//                     </>
+//                   ) : (
+//                     <img 
+//                       src={selectedDoc.urls[currentSlide]} 
+//                       alt={`Page ${currentSlide + 1}`} 
+//                       className="max-w-full max-h-full object-contain shadow-lg animate-in fade-in duration-300"
+//                     />
+//                   )}
+//                 </div>
 //               </div>
               
 //               <div className="bg-yellow-50 px-4 py-2 text-xs text-yellow-800 text-center border-t border-yellow-100 font-medium">
@@ -219,20 +254,25 @@
 
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import Link from 'next/link';
-import Image from 'next/image'; 
 import { motion, AnimatePresence } from 'framer-motion';
-// Added ChevronLeft and ChevronRight for slider navigation
 import { FileText, ChevronRight, ChevronLeft, X, Calendar, AlertCircle, ExternalLink, ImageIcon } from 'lucide-react';
 import { format, parseISO } from 'date-fns';
 
-// --- IMPORT DATA ---
-import { NOTIFICATIONS_DATA, NotificationItem } from '@/lib/notifications'; 
+// --- TYPE DEFINITION ---
+export interface NotificationItem {
+  id: string;
+  title: string;
+  date: string;
+  fileSize: string;
+  type: 'pdf' | 'image';
+  urls: string[];
+}
 
 // --- NAVIGATION LINKS MAPPING ---
 const SIDEBAR_LINKS = [
-  { label: 'General Notifications', href: '/notifications', isActive: true },
+  { label: 'General Notifications', href: '/notices/notification', isActive: true },
   { label: 'Instructions to Districts', href: '/district-president-instructions', isActive: false },
   { label: 'Devotee Guidelines', href: '/irumudi-instruction', isActive: false },
   { label: 'Sanctum Service Schedule', href: '/notices/sanctum-schedule', isActive: false },
@@ -240,30 +280,45 @@ const SIDEBAR_LINKS = [
 ];
 
 export default function NotificationsPage() {
-  // Updated state to hold an array of URLs
+  const [data, setData] = useState<NotificationItem[]>([]);
+  const [loading, setLoading] = useState(true);
+  
+  // Viewer State
   const [selectedDoc, setSelectedDoc] = useState<{ urls: string[], type: string } | null>(null);
   const [currentSlide, setCurrentSlide] = useState(0);
 
+  // --- FETCH DATA FROM JSON ---
+  useEffect(() => {
+    fetch('/notifications.json')
+      .then((res) => res.json())
+      .then((jsonData) => {
+        setData(jsonData);
+        setLoading(false);
+      })
+      .catch((err) => {
+        console.error('Failed to load notifications', err);
+        setLoading(false);
+      });
+  }, []);
+
   // --- LOGIC: Sort and Group ---
   const groupedData = useMemo(() => {
-    // 1. Sort Data (Newest First based on the ISO date)
-    const sorted = [...NOTIFICATIONS_DATA].sort((a, b) => 
+    const sorted = [...data].sort((a, b) => 
       new Date(b.date).getTime() - new Date(a.date).getTime()
     );
 
-    // 2. Group by Date (Convert to Indian Format: dd-MM-yyyy)
     return sorted.reduce((acc, item) => {
       const dateKey = format(parseISO(item.date), 'dd-MM-yyyy');
       if (!acc[dateKey]) acc[dateKey] = [];
       acc[dateKey].push(item);
       return acc;
     }, {} as Record<string, NotificationItem[]>);
-  }, []);
+  }, [data]);
 
   // --- HANDLERS ---
   const handleOpenDoc = (urls: string[], type: string) => {
     setSelectedDoc({ urls, type });
-    setCurrentSlide(0); // Always start from page 1
+    setCurrentSlide(0);
   };
 
   const nextSlide = (e: React.MouseEvent) => {
@@ -279,8 +334,6 @@ export default function NotificationsPage() {
       setCurrentSlide((prev) => prev - 1);
     }
   };
-
-  const totalDocs = NOTIFICATIONS_DATA.length;
 
   return (
     <main className="min-h-screen bg-orange-50/30 pt-8 pb-16">
@@ -327,16 +380,17 @@ export default function NotificationsPage() {
             <div className="px-6 py-4 border-b border-orange-100 flex items-center justify-between bg-white rounded-t-lg">
               <h2 className="text-xl font-bold text-[#a7150b] uppercase tracking-tight">General Notifications</h2>
               <span className="text-xs font-semibold bg-orange-100 text-[#a7150b] px-2 py-1 rounded">
-                {totalDocs} Documents
+                {data.length} Documents
               </span>
             </div>
 
             {/* List Content */}
             <div className="p-2">
-              {Object.keys(groupedData).length > 0 ? (
+              {loading ? (
+                 <div className="p-12 text-center text-gray-400">Loading notifications...</div>
+              ) : Object.keys(groupedData).length > 0 ? (
                 Object.entries(groupedData).map(([date, items]) => (
                   <div key={date} className="mb-2">
-                    {/* Date Header: dd-MM-yyyy */}
                     <div className="bg-yellow-50 text-yellow-800 px-4 py-2 text-sm font-bold border-l-4 border-[#ffc107] flex items-center gap-2">
                        <Calendar className="w-4 h-4"/>
                        {date}
@@ -348,7 +402,6 @@ export default function NotificationsPage() {
                             <h3 className="text-gray-800 font-medium group-hover:text-[#a7150b] transition-colors text-sm md:text-base leading-relaxed">
                               {item.title}
                             </h3>
-                            {/* Optional: Show '2 Pages' badge if multiple URLs exist */}
                             {item.urls.length > 1 && (
                               <span className="inline-block mt-1 text-[10px] bg-gray-100 text-gray-500 px-2 py-0.5 rounded-full border border-gray-200">
                                 {item.urls.length} Pages
@@ -356,7 +409,7 @@ export default function NotificationsPage() {
                             )}
                           </div>
                           <button
-                            onClick={() => handleOpenDoc(item.urls, item.type)}
+                            onClick={() => handleOpenDoc(item.urls, item.type as string)}
                             className="shrink-0 flex items-center gap-2 text-[#a7150b] bg-red-50 hover:bg-[#a7150b] hover:text-white px-3 py-1.5 rounded text-xs font-bold transition-all border border-red-100"
                           >
                             {item.type === 'pdf' ? <FileText className="w-4 h-4" /> : <ImageIcon className="w-4 h-4" />}
@@ -396,12 +449,10 @@ export default function NotificationsPage() {
               onClick={(e) => e.stopPropagation()}
               className="bg-white w-full max-w-5xl h-[85vh] rounded-xl overflow-hidden shadow-2xl flex flex-col relative"
             >
-              {/* Modal Header */}
               <div className="flex items-center justify-between px-4 py-3 border-b border-gray-200 bg-gray-50">
                 <span className="font-bold text-gray-700 flex items-center gap-2">
                   {selectedDoc.type === 'pdf' ? <FileText className="w-5 h-5 text-[#a7150b]" /> : <ImageIcon className="w-5 h-5 text-[#a7150b]" />}
                   <span>Document Viewer</span>
-                  {/* Page Counter if multiple pages */}
                   {selectedDoc.urls.length > 1 && (
                     <span className="ml-2 text-xs font-normal text-gray-500 bg-gray-200 px-2 py-0.5 rounded-full">
                       Page {currentSlide + 1} of {selectedDoc.urls.length}
@@ -413,10 +464,7 @@ export default function NotificationsPage() {
                 </button>
               </div>
 
-              {/* Modal Content */}
               <div className="flex-1 bg-gray-100 relative group overflow-hidden flex items-center justify-center">
-                
-                {/* PREVIOUS ARROW (Only if multiple pages) */}
                 {selectedDoc.urls.length > 1 && (
                   <button 
                     onClick={prevSlide}
@@ -426,8 +474,6 @@ export default function NotificationsPage() {
                     <ChevronLeft className="w-6 h-6 text-gray-800" />
                   </button>
                 )}
-
-                {/* NEXT ARROW (Only if multiple pages) */}
                 {selectedDoc.urls.length > 1 && (
                   <button 
                     onClick={nextSlide}
@@ -438,13 +484,12 @@ export default function NotificationsPage() {
                   </button>
                 )}
 
-                {/* Main Content Area */}
                 <div className="w-full h-full overflow-auto flex items-center justify-center p-4">
                   {selectedDoc.type === 'pdf' ? (
                     <>
                       <div className="absolute inset-0 z-10 w-full h-full" onContextMenu={(e) => e.preventDefault()} style={{ pointerEvents: 'none' }}></div>
                       <iframe
-                        key={selectedDoc.urls[currentSlide]} // Force reload on slide change
+                        key={selectedDoc.urls[currentSlide]}
                         src={`${selectedDoc.urls[currentSlide]}#toolbar=0&navpanes=0&scrollbar=0`}
                         className="w-full h-full"
                         title="PDF Viewer"

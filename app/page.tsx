@@ -453,12 +453,12 @@ export default function Home() {
       <EventPopup />
       
       <HeroSection />
-      <NoticeCarousel />
-      <IrumudiSection />
+      {/* <NoticeCarousel /> */}
+      {/* <IrumudiSection /> */}
       <FeaturedVideoSection />
 
       {/* --- NEW SECTION: IRUMUDI BANNER (Added Here) --- */}
-      <section className="max-w-7xl mx-auto px-4 py-8 md:py-12">
+      {/* <section className="max-w-7xl mx-auto px-4 py-8 md:py-12">
         <motion.div 
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
@@ -466,7 +466,6 @@ export default function Home() {
           viewport={{ once: true }}
           className="relative w-full rounded-xl overflow-hidden shadow-2xl border-2 border-orange-100"
         >
-          {/* Ensure home-img.jpeg is in your public folder */}
           <Image 
             src="/home-img.jpeg" 
             alt="Irumudi Peru Vizha 2025-2026 Celebration Details"
@@ -476,7 +475,7 @@ export default function Home() {
             priority 
           />
         </motion.div>
-      </section>
+      </section> */}
 
       {/* --- COMBINED INTRODUCTION & MANTRAS SECTION --- */}
       <section className="relative py-12 md:py-24 overflow-hidden">
