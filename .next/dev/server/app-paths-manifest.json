@@ -1,10 +1,7 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/all-events/page": "app/all-events/page.js",
-  "/amma/miracles/page": "app/amma/miracles/page.js",
-  "/district-president-instructions/page": "app/district-president-instructions/page.js",
-  "/irumudi-significance/page": "app/irumudi-significance/page.js",
   "/notices/notification/page": "app/notices/notification/page.js",
+  "/online_services/donations/page": "app/online_services/donations/page.js",
   "/page": "app/page.js",
-  "/playlist/page": "app/playlist/page.js"
+  "/visit-us/page": "app/visit-us/page.js"
 }

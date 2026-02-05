@@ -443,17 +443,29 @@ export default function PoojasDonationsPage() {
               <div className="bg-red-50 p-3 rounded-full text-[#a7150b]">
                 <BankIcon className="w-6 h-6" />
               </div>
-              <h2 className="text-2xl font-bold text-gray-800 font-serif">Bank Transfer</h2>
+              <h2 className="text-2xl font-bold text-gray-800 font-serif">Bank Transfer (RTGS/IMPS/NEFT)</h2>
             </div>
 
             <div className="space-y-5">
               <div className="bg-gray-50 p-5 rounded-xl border border-gray-200 flex justify-between items-center group">
                 <div>
-                  <p className="text-xs text-gray-500 font-bold uppercase tracking-wider mb-1">Account Number</p>
-                  <p className="text-lg md:text-xl font-mono font-bold text-gray-800 tracking-wide">1760163000001158</p>
+                  <p className="text-xs text-gray-500 font-bold uppercase tracking-wider mb-1">Account Name</p>
+                  <p className="text-lg md:text-xl font-mono font-bold text-gray-800 tracking-wide">MASM</p>
                 </div>
                 <button 
-                  onClick={() => handleCopy("1760163000001158", "acc")}
+                  onClick={() => handleCopy("MASM", "accName")}
+                  className="p-2 bg-white rounded-lg shadow-sm text-gray-400 hover:text-[#a7150b] transition-colors"
+                >
+                  {copiedField === "accName" ? <Check className="w-5 h-5 text-green-600" /> : <Copy className="w-5 h-5" />}
+                </button>
+              </div>
+              <div className="bg-gray-50 p-5 rounded-xl border border-gray-200 flex justify-between items-center group">
+                <div>
+                  <p className="text-xs text-gray-500 font-bold uppercase tracking-wider mb-1">Account Number</p>
+                  <p className="text-lg md:text-xl font-mono font-bold text-gray-800 tracking-wide">1766135000001158</p>
+                </div>
+                <button 
+                  onClick={() => handleCopy("1766135000001158", "acc")}
                   className="p-2 bg-white rounded-lg shadow-sm text-gray-400 hover:text-[#a7150b] transition-colors"
                 >
                   {copiedField === "acc" ? <Check className="w-5 h-5 text-green-600" /> : <Copy className="w-5 h-5" />}
@@ -463,10 +475,10 @@ export default function PoojasDonationsPage() {
               <div className="bg-gray-50 p-5 rounded-xl border border-gray-200 flex justify-between items-center group">
                 <div>
                   <p className="text-xs text-gray-500 font-bold uppercase tracking-wider mb-1">IFSC Code</p>
-                  <p className="text-lg md:text-xl font-mono font-bold text-gray-800 tracking-wide">KVBL0001760</p>
+                  <p className="text-lg md:text-xl font-mono font-bold text-gray-800 tracking-wide">KVBL0001766</p>
                 </div>
                 <button 
-                  onClick={() => handleCopy("KVBL0001760", "ifsc")}
+                  onClick={() => handleCopy("KVBL0001766", "ifsc")}
                   className="p-2 bg-white rounded-lg shadow-sm text-gray-400 hover:text-[#a7150b] transition-colors"
                 >
                   {copiedField === "ifsc" ? <Check className="w-5 h-5 text-green-600" /> : <Copy className="w-5 h-5" />}
@@ -476,11 +488,11 @@ export default function PoojasDonationsPage() {
               <div className="grid grid-cols-2 gap-4 text-sm text-gray-600 pt-2">
                 <div>
                   <p className="font-bold text-gray-900">Bank Name</p>
-                  <p>Karur Vysya Bank</p>
+                  <p>KARUR VYSYA BANK</p>
                 </div>
                 <div>
                   <p className="font-bold text-gray-900">Branch</p>
-                  <p>Achiyarppakkam</p>
+                  <p>ACHARAPPAKKAM (603301)</p>
                 </div>
               </div>
 
