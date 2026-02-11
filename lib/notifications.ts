@@ -16,6 +16,14 @@ export const NOTIFICATIONS_DATA: NotificationItem[] = [
   // The page will automatically sort these (Newest date will appear at the top)
   
   {
+    id: '2026-02-09-1',
+    title: 'ஆதிபராசக்தி மருத்துவமனை - சுற்றறிக்கை ',
+    date: '2026-02-09',
+    fileSize: '1.2 MB',
+    type: 'image',
+    urls: ['/02.09.26.jpeg'],
+  },
+  {
     id: '2025-11-27-1',
     title: 'திரு குடமுழுக்கு விழா- பண்ருட்டி (கடலூர்)',
     date: '2026-01-23',
