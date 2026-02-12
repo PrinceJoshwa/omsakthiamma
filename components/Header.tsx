@@ -438,8 +438,8 @@ const navItems: NavItem[] = [
     label: 'Associated Trusts',
     href: '#', 
     dropdown: [
-      { label: 'Melmaruvathur Adhiparasakthi Spiritual Movement (MASM)', href: '#' },
-      { label: "Adhiparasakthi Siddhar Peeda Women's Charitable Trust (ASPWCT)", href: '#' },
+      { label: 'Melmaruvathur Adhiparasakthi Spiritual Movement (MASM)', href: 'https://www.omsakthimasm.org' },
+      { label: "Adhiparasakthi Siddhar Peeda Women's Charitable Trust (ASPWCT)", href: 'https://www.omsakthiaspwct.org' },
       { label: 'Adhiparasakthi Charitable Medical Educational and Cultural Trust (ACMEC)', href: 'https://www.acmectrust.com/' },
       { label: 'Adhiparasakthi Charitable and Annadhanam Society (ACAS)', href: 'https://www.annadhanamsociety.org/' },
       { label: 'Arul Thiru Bangaru Adigalar Charitable Trust (ABC TRUST)', href: '#' },
