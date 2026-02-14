@@ -322,7 +322,7 @@ const generalDonations = [
   { name: "General Donation", href: "https://masm.omsakthiamma.in/donate/", icon: <Heart className="w-8 h-8" />, color: "text-red-500", bg: "bg-red-50" },
   { name: "Daily Abhishegam", href: "https://masm.omsakthiamma.in/donate-abhisegam/", icon: <Droplet className="w-8 h-8" />, color: "text-blue-500", bg: "bg-blue-50" },
   { name: "Pournami Velaku Pooja", href: "https://masm.omsakthiamma.in/donate-other/?c=VELAKU", icon: <Moon className="w-8 h-8" />, color: "text-yellow-500", bg: "bg-yellow-50" },
-  { name: "Ammavasai Veli", href: "https://masm.omsakthiamma.in/donate-other/?c=A7", icon: <Sun className="w-8 h-8" />, color: "text-orange-500", bg: "bg-orange-50" },
+  { name: "Ammavasai Velvi", href: "https://masm.omsakthiamma.in/donate-other/?c=A7", icon: <Sun className="w-8 h-8" />, color: "text-orange-500", bg: "bg-orange-50" },
   { name: "Golden Chariot", href: "https://masm.omsakthiamma.in/donate-other/?c=GCP", icon: <Gem className="w-8 h-8" />, color: "text-amber-600", bg: "bg-amber-50" },
   { name: "Silver Chariot", href: "https://masm.omsakthiamma.in/donate-other/?c=SIC", icon: <Sparkles className="w-8 h-8" />, color: "text-gray-400", bg: "bg-gray-50" },
   { name: "Lakcharchanai", href: "https://masm.omsakthiamma.in/donate-laksh/", icon: <BookOpen className="w-8 h-8" />, color: "text-purple-500", bg: "bg-purple-50" },
