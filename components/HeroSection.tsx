@@ -101,7 +101,8 @@ import { FileText, UserCheck, Heart, ArrowRight } from 'lucide-react'; // Icons 
 
 export default function HeroSection() {
   // const heroImage = "/hero1.jpeg"; 
-  const heroImage = "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939055/hero1_i2rvap.jpg"; 
+  // const heroImage = "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939055/hero1_i2rvap.jpg"; 
+  const heroImage = "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771331460/WhatsApp_Image_2026-02-17_at_2.59.22_PM_1_nt513j.jpg"; 
 
   return (
     <section className="relative w-full flex flex-col md:flex-row overflow-hidden">
@@ -164,14 +165,15 @@ export default function HeroSection() {
             </div>
 
             {/* 3. District President Instructions */}
-            <Link href="/district-president-instructions">
+            {/* <Link href="/district-president-instructions"> */}
+            <Link href="/notices/notification">
               <motion.button
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 className="w-full flex flex-col items-center justify-center p-3 bg-white border border-gray-200 rounded-xl hover:border-blue-300 hover:shadow-md transition-all group"
               >
                 <div className="flex items-center gap-2 text-gray-800 font-bold text-sm">
-                  <FileText className="w-4 h-4 text-blue-600" /> Instructions to Districts
+                  <FileText className="w-4 h-4 text-blue-600" /> Instructions to District Incharge
                 </div>
                 <span className="text-[10px] text-gray-500 font-tamil mt-1 group-hover:text-blue-600">மாவட்ட தலைவர் அறிவுறுத்தல்கள்</span>
               </motion.button>
@@ -209,7 +211,7 @@ export default function HeroSection() {
             alt="Arul Thiru Bangaru Adigalar"
             fill
             priority
-            className="object-cover object-top md:shadow-[-10px_0_30px_rgba(0,0,0,0.1)]" 
+            className="object-fill object-top md:shadow-[-10px_0_30px_rgba(0,0,0,0.1)]" 
           />
           {/* Mobile Gradient */}
           <div className="absolute inset-0 bg-gradient-to-t from-white/20 to-transparent md:hidden"></div>

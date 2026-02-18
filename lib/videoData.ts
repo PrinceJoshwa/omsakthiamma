@@ -1,4 +1,5 @@
 export const videoUrls = [
+    "https://www.youtube.com/embed/6W0pACtnEsM?si=lniFTCzzzf5qdZ3Q",
 "https://www.youtube.com/watch?v=gnIi6CfZIMU",
 "https://www.youtube.com/watch?v=v7ObvfN_tVw",
 "https://www.youtube.com/watch?v=ELMMqJENGmM",

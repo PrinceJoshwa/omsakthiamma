@@ -1,7 +1,5 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/amma/miracles/page": "app/amma/miracles/page.js",
   "/notices/notification/page": "app/notices/notification/page.js",
-  "/online_services/donations/page": "app/online_services/donations/page.js",
   "/page": "app/page.js"
 }

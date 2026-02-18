@@ -218,10 +218,11 @@ export default function EventBanner() {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border-[6px] border-[#ffc107] group max-w-sm mx-auto md:max-w-full">
               <div className="aspect-[9/14] relative w-full"> 
                 <Image 
-                  src="https://res.cloudinary.com/dvd7o5nph/image/upload/v1770837614/WhatsApp_Image_2026-02-11_at_5.37.47_PM_s8ejlz.jpg" 
+                  src="https://res.cloudinary.com/dvd7o5nph/image/upload/v1771331460/WhatsApp_Image_2026-02-17_at_2.59.22_PM_s0ssyo.jpg" 
+                  // src="https://res.cloudinary.com/dvd7o5nph/image/upload/v1770837614/WhatsApp_Image_2026-02-11_at_5.37.47_PM_s8ejlz.jpg" 
                   alt="86th Avathara Thirunal Poster"
                   fill
-                  className="object-cover"
+                  className="object-fill"
                   priority
                 />
               </div>

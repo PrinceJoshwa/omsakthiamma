@@ -1527,6 +1527,7 @@ export default function VolunteerPage() {
               {/* PLACEHOLDER IMAGE: Replace 'src' with your actual image of volunteers/temple */}
               <Image 
                 src="https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939055/hero1_i2rvap.jpg" 
+                // src="https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939055/hero1_i2rvap.jpg" 
                 alt="Volunteers serving at the temple"
                 fill
                 className="object-fill"

@@ -154,15 +154,15 @@ import Link from 'next/link';
 export default function EventsSection() {
   // Data extracted from the 2026 Schedule PDF
   const upcomingEvents = [
-    {
-      month: 'JAN',
-      day: '31',
-      year: '2026',
-      title: 'Thaipoosa Jyothi Peruvizha',
-      subtitle: 'தைப்பூசஜோதி பெருவிழா',
-      time: 'All Day Celebration',
-      description: 'The grand festival of Divine Light. Devotees carry Irumudi and seek blessings at the Sanctum Sanctorum.',
-    },
+    // {
+    //   month: 'JAN',
+    //   day: '31',
+    //   year: '2026',
+    //   title: 'Thaipoosa Jyothi Peruvizha',
+    //   subtitle: 'தைப்பூசஜோதி பெருவிழா',
+    //   time: 'All Day Celebration',
+    //   description: 'The grand festival of Divine Light. Devotees carry Irumudi and seek blessings at the Sanctum Sanctorum.',
+    // },
     {
       month: 'MAR',
       day: '03',
