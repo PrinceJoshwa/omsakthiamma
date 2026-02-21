@@ -124,7 +124,7 @@ const schedule = [
 ];
 
 const specialDays = [
-  "Sundays", "Tuesdays", "Fridays", "New Moon Days", "Full Moon Days", "Festival Days"
+  "Sundays", "Tuesdays", "Thursday", "Fridays", "New Moon Days", "Full Moon Days", "Festival Days"
 ];
 
 const containerVariants = {
