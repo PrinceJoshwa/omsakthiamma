@@ -2850,3 +2850,1184 @@ Import trace:
 [01:21:44.102] Browser ERROR   Image is missing required "src" property: <img>
 [01:21:44.847] Server  LOG      ✓ Compiled in 194ms
 [01:21:53.986] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771673388/WORLD_RECORD_POSTER.jpg_kkmzi9.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:36:47.395] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:36:47.407] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:36:47.412] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:36:47.413] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:36:47.414] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:36:47.415] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:36:47.415] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:36:47.416] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:36:47.418] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:36:47.418] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:36:47.419] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:36:47.419] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:36:52.386] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:36:52.389] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:36:52.391] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:36:52.401] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:36:56.076] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:36:56.077] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:36:56.078] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:36:56.079] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:36:56.275] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:36:56.276] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:36:56.277] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:36:56.277] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:36:56.278] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:36:56.278] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:36:56.279] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:36:56.279] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:36:56.280] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:36:56.283] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:36:56.285] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:36:56.286] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:36:56.291] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:36:56.946] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771331460/WhatsApp_Image_2026-02-17_at_2.59.22_PM_1_nt513j.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:36:56.946] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771331460/WhatsApp_Image_2026-02-17_at_2.59.22_PM_s0ssyo.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:36:56.946] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:36:58.835] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:36:58.837] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:36:58.844] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:36:58.857] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:36:59.617] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:36:59.763] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/WORLD RECORD POSTER.jpg.jpg" "received" null
+[02:37:06.652] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:37:06.659] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:37:06.673] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:37:06.724] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:37:07.847] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/world-record-poster-2.jpg" "received" null
+[02:37:07.944] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:37:07.950] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:37:07.953] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:37:07.955] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:37:08.735] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/WORLD RECORD POSTER.jpg.jpg" "received" null
+[02:37:08.838] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:37:08.846] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:37:08.869] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:37:08.879] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:37:09.572] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/world-record-poster-2.jpg" "received" null
+[02:41:54.122] Server  LOG      ✓ Compiled in 753ms
+[02:41:54.941] Server  LOG      ✓ Compiled in 527ms
+[02:41:55.200] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `Home`.
+[02:41:55.238] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:41:55.386] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:41:55.388] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:41:55.391] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:41:55.393] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:41:57.466] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:41:57.466] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:41:57.467] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:41:57.467] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:41:57.468] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:41:57.468] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:41:57.469] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:41:57.469] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:41:57.469] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:41:57.470] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:41:57.472] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:41:57.473] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:41:57.534] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:41:57.719] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:41:57.720] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:41:57.723] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:41:57.724] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:41:59.148] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771331460/WhatsApp_Image_2026-02-17_at_2.59.22_PM_1_nt513j.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:41:59.148] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771331460/WhatsApp_Image_2026-02-17_at_2.59.22_PM_s0ssyo.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:41:59.148] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:41:59.148] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939123/om3_f76xrf.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:41:59.148] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:41:59.148] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939095/om5_ppv6nl.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:42:01.143] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:42:01.144] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:42:01.145] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:42:01.146] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:42:01.246] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/WORLD RECORD POSTER.jpg.jpg" "received" null
+[02:42:03.495] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:42:03.496] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:42:03.499] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:42:03.502] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:42:03.942] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/world-record-poster-2.jpg" "received" null
+[02:42:04.264] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[02:42:05.450] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:42:05.455] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:42:05.462] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:42:05.472] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:42:05.957] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/WORLD RECORD POSTER.jpg.jpg" "received" null
+[02:42:08.463] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:42:08.485] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:42:08.557] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:42:08.571] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:42:09.091] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/world-record-poster-2.jpg" "received" null
+[02:42:11.372] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:42:11.377] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:42:11.384] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:42:11.393] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:42:11.849] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/WORLD RECORD POSTER.jpg.jpg" "received" null
+[02:42:14.392] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:42:14.400] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:42:14.415] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:42:14.433] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:42:14.919] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/world-record-poster-2.jpg" "received" null
+[02:42:17.394] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:42:17.398] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:42:17.411] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:42:17.417] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:42:17.930] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/WORLD RECORD POSTER.jpg.jpg" "received" null
+[02:42:20.505] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:42:20.518] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:42:20.544] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:42:20.564] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:42:21.195] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/world-record-poster-2.jpg" "received" null
+[02:42:23.442] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:42:23.454] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:42:23.483] Server  WARN     ⚠ [next]/internal/font/google/geist_9232b81.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9232b81.module.css
+    [next]/internal/font/google/geist_9232b81.js
+    ./app/layout.tsx
+
+
+[02:42:23.498] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[02:42:24.021] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/WORLD RECORD POSTER.jpg.jpg" "received" null
+[02:43:36.087] Server  LOG      ✓ Compiled in 827ms
+[02:43:37.101] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771673388/WORLD_RECORD_POSTER.jpg_kkmzi9.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:43:46.139] Server  LOG      ✓ Compiled in 250ms
+[02:43:56.471] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771673357/WhatsApp_Image_2026-02-21_at_3.54.17_PM_ccvhn3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
