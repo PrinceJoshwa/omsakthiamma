@@ -1526,7 +1526,7 @@ export default function VolunteerPage() {
             <div className="absolute inset-0 bg-gray-200 rounded-[2rem] overflow-hidden shadow-2xl transform rotate-2 hover:rotate-0 transition-transform duration-700 ease-out">
               {/* PLACEHOLDER IMAGE: Replace 'src' with your actual image of volunteers/temple */}
               <Image 
-                src="https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939055/hero1_i2rvap.jpg" 
+                src="https://res.cloudinary.com/dvd7o5nph/image/upload/v1771904017/WhatsApp_Image_2026-02-23_at_8.36.34_PM_tv8zba.jpg" 
                 // src="https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939055/hero1_i2rvap.jpg" 
                 alt="Volunteers serving at the temple"
                 fill
@@ -1538,7 +1538,7 @@ export default function VolunteerPage() {
             </div>
 
             {/* Floating Glass Card (Tamil Quote 2) */}
-            <motion.div 
+            {/* <motion.div 
               initial={{ y: 20, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.6, duration: 0.6 }}
@@ -1549,7 +1549,7 @@ export default function VolunteerPage() {
                 "ஆன்மிகத்தில் தொண்டுதான் முக்கியம்."
               </p>
               <p className="text-gray-500 text-xs mt-2 font-medium uppercase tracking-widest">Adhiparasakthi</p>
-            </motion.div>
+            </motion.div> */}
 
             {/* Decorative Dots */}
             <div className="absolute -top-6 -right-6 w-24 h-24 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-20"></div>

@@ -2791,10 +2791,6 @@
     border-color: var(--color-red-100);
   }
 
-  .border-red-200 {
-    border-color: var(--color-red-200);
-  }
-
   .border-red-500 {
     border-color: var(--color-red-500);
   }
@@ -4903,16 +4899,6 @@
     }
   }
 
-  .shadow-red-900\/20 {
-    --tw-shadow-color: #82181a33;
-  }
-
-  @supports (color: color-mix(in lab, red, red)) {
-    .shadow-red-900\/20 {
-      --tw-shadow-color: color-mix(in oklab, color-mix(in oklab, var(--color-red-900) 20%, transparent) var(--tw-shadow-alpha), transparent);
-    }
-  }
-
   .ring-red-100 {
     --tw-ring-color: var(--color-red-100);
   }
@@ -6039,12 +6025,6 @@
   @media (hover: hover) {
     .hover\:bg-red-700:hover {
       background-color: var(--color-red-700);
-    }
-  }
-
-  @media (hover: hover) {
-    .hover\:bg-red-800:hover {
-      background-color: var(--color-red-800);
     }
   }
 
