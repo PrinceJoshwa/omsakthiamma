@@ -1182,6 +1182,23 @@ export default function MessagePage() {
         </div>
 
         <div className="max-w-7xl mx-auto px-4 pb-20">
+
+          {/* <div className="w-full flex justify-center mb-8">
+            <img 
+              src="/message.png" 
+              alt="Amma's Message" 
+              className="w-full max-w-5xl rounded-2xl shadow-md object-fill max-h-[400px]" 
+            />
+          </div> */}
+
+          {/* --- ADDED IMAGE SECTION --- */}
+          <div className="w-full flex justify-center mb-8 px-4">
+            <img 
+             src="/message.png" 
+              alt="Amma's Message" 
+              className="w-full max-w-3xl rounded-2xl shadow-md h-auto object-contain" 
+            />
+          </div>
           
           {/* Header Stats */}
           <div className="text-center mb-8">
