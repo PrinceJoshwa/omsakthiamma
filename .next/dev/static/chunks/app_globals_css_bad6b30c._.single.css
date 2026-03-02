@@ -1313,6 +1313,10 @@
     aspect-ratio: 9 / 14;
   }
 
+  .aspect-\[9\/16\] {
+    aspect-ratio: 9 / 16;
+  }
+
   .aspect-\[210\/297\] {
     aspect-ratio: 210 / 297;
   }
@@ -2927,6 +2931,10 @@
   .bg-\[\#a7150b\]\/20 {
     background-color: #a7150b33;
     background-color: lab(36.2823% 56.0327 46.6269 / .2);
+  }
+
+  .bg-\[\#d81b11\] {
+    background-color: #d81b11;
   }
 
   .bg-\[\#f59e0b\]\/6 {
