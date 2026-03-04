@@ -1,149 +1,16 @@
-[00:00:03.548] Server  LOG      ✓ Ready in 2.4s
-[00:00:09.924] Server  LOG      ○ Compiling / ...
-[00:00:22.578] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:24.124] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771331460/WhatsApp_Image_2026-02-17_at_2.59.22_PM_1_nt513j.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:24.124] Browser WARN    Image with src "/mobile.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:24.124] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771331460/WhatsApp_Image_2026-02-17_at_2.59.22_PM_s0ssyo.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:24.124] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:24.888] Server  LOG      ○ Compiling /_not-found/page ...
-[00:00:27.112] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:40.807] Server  ERROR    ⨯ "upstream image response timed out for" "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg"
-[00:00:48.301] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\image-optimizer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:50.053] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:50.384] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\response-cache\index.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:50.813] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\lib\batcher.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:52.166] Server  ERROR   Error: "url" parameter is valid but upstream response timed out
-[00:12:16.060] Server  LOG      ✓ Compiled in 2.6s
-[00:12:18.072] Browser ERROR   ./components/FeaturedVideo.tsx:96:1
-Parsing ecmascript source code failed
-  94 |  'use client';
-  95 |
-> 96 | import { motion } from 'framer-motion';
-     | ^^^^^^
-  97 | import { useRef } from 'react';
-  98 |
-  99 | export default function FeaturedVideoSection() {
-
-'import', and 'export' cannot be used outside of module code
-
-Import traces:
-  Client Component Browser:
-    ./components/FeaturedVideo.tsx [Client Component Browser]
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/FeaturedVideo.tsx [Client Component SSR]
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[00:12:29.864] Server  LOG      ✓ Compiled in 273ms
-[00:12:49.267] Server  LOG      ✓ Compiled in 443ms
-[00:13:15.539] Server  LOG      ✓ Compiled in 183ms
-[00:13:28.250] Server  LOG      ✓ Compiled in 173ms
-[00:13:43.965] Server  LOG      ✓ Compiled in 204ms
-[00:24:36.645] Server  LOG      ○ Compiling /notices/sanctum-schedule ...
-[00:24:52.114] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:28:21.199] Server  LOG      ○ Compiling /notices/notification ...
-[00:28:30.028] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:28:31.122] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2026-02-24-1
-[03:36:24.199] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:36:29.179] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2026-02-24-1
-[03:36:49.682] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[03:36:49.683] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771331460/WhatsApp_Image_2026-02-17_at_2.59.22_PM_1_nt513j.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[03:36:49.683] Browser WARN    Image with src "/mobile.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[03:36:49.683] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771331460/WhatsApp_Image_2026-02-17_at_2.59.22_PM_s0ssyo.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[03:36:50.155] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[03:36:50.155] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939123/om3_f76xrf.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[03:36:50.156] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[03:36:50.156] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939095/om5_ppv6nl.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[03:37:09.047] Server  LOG      ○ Compiling /train-schedule ...
-[03:37:57.929] Server  LOG      ✓ Compiled in 652ms
-[03:37:58.540] Server  LOG      ✓ Compiled in 169ms
-[03:40:56.529] Server  LOG      ✓ Compiled in 903ms
-[03:40:57.804] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:40:57.833] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_2ce05cc2._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:40:57.845] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:40:57.846] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:40:57.849] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:40:57.851] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:40:57.861] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:40:57.865] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:40:57.873] Server  ERROR    ⨯ Error: The default export is not a React Component in "/train-schedule/page"
-[03:40:57.884] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:40:57.887] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_2ce05cc2._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:40:57.892] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:40:57.896] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:40:57.898] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:40:57.899] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:40:57.900] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:40:57.901] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:40:57.908] Server  ERROR    ⨯ Error: The default export is not a React Component in "/train-schedule/page"
-[03:40:58.067] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:40:58.069] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_2ce05cc2._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:40:58.073] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:40:58.085] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:40:58.098] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:40:58.100] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:40:58.101] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:40:58.102] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:40:58.104] Server  ERROR    ⨯ Error: The default export is not a React Component in "/train-schedule/page"
-[03:40:58.118] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:40:58.122] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_2ce05cc2._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:40:58.124] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:40:58.126] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:40:58.128] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:40:58.131] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:40:58.135] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:40:58.136] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:40:58.139] Server  ERROR    ⨯ Error: The default export is not a React Component in "/train-schedule/page"
-[03:40:58.263] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:40:58.264] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_2ce05cc2._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:40:58.266] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:40:58.268] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:40:58.275] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:40:58.277] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:40:58.278] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:40:58.280] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:40:58.284] Server  ERROR    ⨯ Error: The default export is not a React Component in "/train-schedule/page"
-[03:40:58.299] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:40:58.301] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\node_modules_next_dist_2ce05cc2._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:40:58.303] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:40:58.316] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:40:58.319] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:40:58.332] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:40:58.353] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:40:58.366] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[03:40:58.380] Server  ERROR    ⨯ Error: The default export is not a React Component in "/train-schedule/page"
-[03:41:00.107] Server  LOG      ✓ Compiled in 2.5s
-[03:41:00.921] Server  LOG      ○ Compiling /_error ...
-[03:41:02.491] Server  LOG      ✓ Compiled in 126ms
-[03:41:02.850] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/train-schedule/page"
-[03:41:10.751] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:53:53.799] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[03:53:53.799] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771331460/WhatsApp_Image_2026-02-17_at_2.59.22_PM_1_nt513j.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[03:53:53.799] Browser WARN    Image with src "/mobile.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[03:53:53.799] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771331460/WhatsApp_Image_2026-02-17_at_2.59.22_PM_s0ssyo.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[03:53:54.102] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[03:53:55.738] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[03:56:15.512] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:56:16.155] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771331460/WhatsApp_Image_2026-02-17_at_2.59.22_PM_1_nt513j.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[03:56:16.155] Browser WARN    Image with src "/mobile.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[03:56:16.155] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771331460/WhatsApp_Image_2026-02-17_at_2.59.22_PM_s0ssyo.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[03:56:18.233] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[03:56:38.534] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:56:38.931] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771331460/WhatsApp_Image_2026-02-17_at_2.59.22_PM_1_nt513j.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[03:56:38.931] Browser WARN    Image with src "/mobile.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[03:56:38.931] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771331460/WhatsApp_Image_2026-02-17_at_2.59.22_PM_s0ssyo.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[03:56:40.937] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[03:56:46.361] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[04:00:52.471] Server  LOG      ✓ Compiled in 706ms
-[04:01:56.143] Server  LOG      ✓ Compiled in 136ms
-[04:02:03.670] Server  LOG      ✓ Compiled in 118ms
-[04:02:10.563] Server  LOG      ✓ Compiled in 115ms
-[04:02:16.292] Server  LOG      ✓ Compiled in 146ms
-[04:02:28.195] Server  LOG      ✓ Compiled in 145ms
-[04:02:30.228] Server  LOG      ✓ Compiled in 107ms
-[04:07:41.742] Server  LOG      ✓ Compiled in 676ms
-[04:07:44.763] Server  LOG      ✓ Compiled in 519ms
-[04:07:51.034] Server  LOG      ✓ Compiled in 180ms
-[04:07:51.579] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:04.555] Server  LOG      ✓ Ready in 3.3s
+[00:17:15.963] Server  LOG      ○ Compiling / ...
+[00:17:28.203] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:29.099] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771331460/WhatsApp_Image_2026-02-17_at_2.59.22_PM_1_nt513j.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:17:29.099] Browser WARN    Image with src "/mobile.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:17:29.099] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771331460/WhatsApp_Image_2026-02-17_at_2.59.22_PM_s0ssyo.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:17:31.637] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:17:38.164] Server  LOG      ○ Compiling /notices/notification ...
+[00:17:40.184] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:17:40.185] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2026-02-24-1
+[00:17:40.185] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2026-02-24-1
+[00:20:14.007] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:14.532] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2026-02-24-1
+[00:20:16.240] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2026-02-24-1
+[00:20:17.842] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2026-02-24-1
+[00:21:28.028] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2026-02-24-1

@@ -3036,16 +3036,6 @@
     }
   }
 
-  .bg-black\/75 {
-    background-color: #000000bf;
-  }
-
-  @supports (color: color-mix(in lab, red, red)) {
-    .bg-black\/75 {
-      background-color: color-mix(in oklab, var(--color-black) 75%, transparent);
-    }
-  }
-
   .bg-black\/80 {
     background-color: #000c;
   }
@@ -3067,16 +3057,6 @@
   @supports (color: color-mix(in lab, red, red)) {
     .bg-blue-50\/30 {
       background-color: color-mix(in oklab, var(--color-blue-50) 30%, transparent);
-    }
-  }
-
-  .bg-blue-50\/50 {
-    background-color: #eff6ff80;
-  }
-
-  @supports (color: color-mix(in lab, red, red)) {
-    .bg-blue-50\/50 {
-      background-color: color-mix(in oklab, var(--color-blue-50) 50%, transparent);
     }
   }
 
