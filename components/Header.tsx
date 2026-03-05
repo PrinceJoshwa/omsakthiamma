@@ -414,6 +414,7 @@ const navItems: NavItem[] = [
       { label: 'Spiritual Magazines', href: '/activities/spiritual-magazines' },
       { label: 'Spiritual Conferences', href: '/activities/spiritual-conferences' },
       { label: 'Spiritual Tours', href: '/activities/spiritual-tours' },
+      { label: 'Drawing the Shree Chakra - World Record', href: '/activities/shree-chakra-world-record' },
       { label: 'Social Activity', href: '/activities/social-activity' },
       { label: 'Volunteering', href: '/activities/volunteer' },
     ],

@@ -54,6 +54,15 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   type __Unused = __Check
 }
 
+// Validate ../../../app/activities/shree-chakra-world-record/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/activities/shree-chakra-world-record">> = Specific
+  const handler = {} as typeof import("../../../app/activities/shree-chakra-world-record/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../../app/activities/social-activity/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/activities/social-activity">> = Specific
