@@ -57,7 +57,7 @@ export default function ShreeChakraWorldRecord() {
               className="relative h-[350px] md:h-[450px] w-full rounded-3xl overflow-hidden shadow-2xl border-4 border-white"
             >
               <Image 
-                src="https://res.cloudinary.com/dvd7o5nph/image/upload/v1772704473/03.03.2026_Award_copy.jpg_z6lttp.jpg" 
+                src="https://res.cloudinary.com/dvd7o5nph/image/upload/v1772860679/WhatsApp_Image_2026-03-06_at_2.39.02_PM_axzonu.jpg" 
                 alt="Devotees drawing Shree Chakra"
                 fill
                 className="object-fill"
