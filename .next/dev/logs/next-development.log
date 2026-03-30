@@ -1,161 +1,79 @@
-[00:00:06.748] Server  LOG      ✓ Ready in 6s
-[01:28:14.007] Server  LOG      ○ Compiling / ...
-[01:28:24.220] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:28:25.077] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771331460/WhatsApp_Image_2026-02-17_at_2.59.22_PM_1_nt513j.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:28:25.077] Browser WARN    Image with src "/mobile.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:28:25.077] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771331460/WhatsApp_Image_2026-02-17_at_2.59.22_PM_s0ssyo.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:28:27.000] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:39:31.698] Server  LOG      ✓ Compiled in 1509ms
-[01:39:33.328] Server  LOG      ✓ Compiled in 1023ms
-[01:39:38.685] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[01:39:38.693] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+[00:00:12.396] Server  LOG      ✓ Ready in 11.6s
+[00:00:31.183] Server  LOG      ○ Compiling / ...
+[00:00:36.797] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:39.215] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771331460/WhatsApp_Image_2026-02-17_at_2.59.22_PM_1_nt513j.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:39.215] Browser WARN    Image with src "/mobile.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:39.215] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1772701329/WhatsApp_Image_2026-03-05_at_12.18.24_PM_j23g5m.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:39.215] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:39.215] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939123/om3_f76xrf.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:39.215] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:39.215] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939095/om5_ppv6nl.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:52.483] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:08:19.513] Server  LOG      ○ Compiling /notices/notification ...
+[00:08:24.950] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:08:24.950] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2026-02-24-1
+[00:08:24.950] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2026-02-24-1
+[01:08:23.746] Server  LOG      ○ Compiling /notices/sanctum-schedule ...
+[01:15:36.876] Server  LOG      ✓ Compiled in 356ms
+[01:15:37.264] Browser ERROR   uncaughtError: ReferenceError: scheduleData is not defined
+[01:15:41.138] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:15:41.142] Server  LOG      ✓ Compiled in 198ms
+[01:15:42.451] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:16:41.133] Server  LOG      ✓ Compiled in 154ms
+[01:16:50.133] Server  LOG      ✓ Compiled in 146ms
+[01:31:51.749] Server  LOG      ○ Compiling /activities/volunteer ...
+[01:32:03.246] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:32:03.247] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771904017/WhatsApp_Image_2026-02-23_at_8.36.34_PM_tv8zba.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:39:21.500] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771331460/WhatsApp_Image_2026-02-17_at_2.59.22_PM_1_nt513j.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:39:21.500] Browser WARN    Image with src "/mobile.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:39:21.500] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1772701329/WhatsApp_Image_2026-03-05_at_12.18.24_PM_j23g5m.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:39:23.503] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:39:40.274] Server  LOG      ○ Compiling /all-events ...
+[01:43:40.946] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:44:50.244] Server  LOG      ✓ Compiled in 1333ms
+[01:45:01.058] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:45:01.987] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771331460/WhatsApp_Image_2026-02-17_at_2.59.22_PM_1_nt513j.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:45:01.987] Browser WARN    Image with src "/mobile.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:45:01.987] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1772701329/WhatsApp_Image_2026-03-05_at_12.18.24_PM_j23g5m.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:45:01.987] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:45:01.987] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:45:26.305] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:46:45.901] Server  LOG      ✓ Compiled in 199ms
+[01:46:47.045] Server  LOG      ✓ Compiled in 192ms
+[01:46:56.478] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:47:01.016] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:47:01.511] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771331460/WhatsApp_Image_2026-02-17_at_2.59.22_PM_1_nt513j.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:47:01.511] Browser WARN    Image with src "/mobile.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:47:01.512] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1772701329/WhatsApp_Image_2026-03-05_at_12.18.24_PM_j23g5m.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:47:03.533] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:47:22.143] Server  LOG      ✓ Compiled in 245ms
+[01:47:29.290] Server  LOG      ✓ Compiled in 151ms
+[01:48:35.727] Server  LOG      ✓ Compiled in 697ms
+[01:48:38.839] Server  LOG      ✓ Compiled in 557ms
+[01:48:55.874] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:48:55.874] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771904017/WhatsApp_Image_2026-02-23_at_8.36.34_PM_tv8zba.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:53:15.424] Server  LOG      ✓ Compiled in 357ms
+[01:55:40.395] Server  LOG      ✓ Compiled in 179ms
+[01:56:49.370] Server  LOG      ✓ Compiled in 281ms
+[01:56:52.380] Server  LOG      ✓ Compiled in 168ms
+[01:57:50.490] Server  LOG      ✓ Compiled in 184ms
+[01:57:52.815] Server  LOG      ✓ Compiled in 141ms
+[01:58:24.843] Server  LOG      ✓ Compiled in 230ms
+[01:58:29.368] Server  LOG      ✓ Compiled in 145ms
+[01:58:30.705] Server  LOG      ✓ Compiled in 160ms
+[02:10:35.482] Server  LOG      ✓ Compiled in 1492ms
+[02:10:37.191] Server  LOG      ✓ Compiled in 1377ms
+[02:10:40.262] Server  LOG      ✓ Compiled in 541ms
+[02:12:06.756] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
 
 Check the render method of `Home`.
-[01:39:47.581] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:39:48.600] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771331460/WhatsApp_Image_2026-02-17_at_2.59.22_PM_1_nt513j.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:39:48.601] Browser WARN    Image with src "/mobile.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:39:48.601] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771331460/WhatsApp_Image_2026-02-17_at_2.59.22_PM_s0ssyo.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:39:48.602] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:39:52.050] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:41:12.411] Server  LOG      ✓ Compiled in 3.5s
-[01:41:15.353] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1772701329/WhatsApp_Image_2026-03-05_at_12.18.24_PM_j23g5m.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[02:23:26.430] Server  LOG      ✓ Compiled in 13.5s
-[02:24:08.268] Server  LOG      ✓ Compiled in 266ms
-[02:24:29.681] Server  LOG      ✓ Compiled in 53ms
-[02:24:34.057] Server  LOG      ✓ Compiled in 56ms
-[02:24:57.811] Server  LOG      ✓ Compiled in 5.2s
-[02:28:11.097] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Spiritual Tours
-[02:28:11.099] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Spiritual Tours
-[02:28:18.958] Server  LOG      ○ Compiling /activities/shree-chakra-world-record ...
-[02:28:32.175] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[02:28:33.385] Server  ERROR    ⨯ "upstream image response failed for" "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1741162446/WhatsApp_Image_2026-03-05_at_10.44.59_AM_1_uobgkq.jpg" 404
-[02:28:33.460] Server  ERROR    ⨯ "upstream image response failed for" "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1741162447/WhatsApp_Image_2026-03-05_at_10.44.59_AM_2_goxf29.jpg" 404
-[02:28:33.506] Server  ERROR    ⨯ "upstream image response failed for" "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1741162446/WhatsApp_Image_2026-03-05_at_10.44.57_AM1_koyv9c.jpg" 404
-[02:28:33.512] Server  ERROR    ⨯ "upstream image response failed for" "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1741162447/03.03.2026_Award_copy1.jpg_x49s4i.jpg" 404
-[02:28:33.655] Server  ERROR    ⨯ "upstream image response failed for" "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1741162446/WhatsApp_Image_2026-03-05_at_10.44.59_AM_nmdxyx.jpg" 404
-[02:28:35.383] Server  ERROR    ⨯ "upstream image response failed for" "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1741162446/WhatsApp_Image_2026-03-05_at_10.44.57_AM_qovwve.jpg" 404
-[02:48:12.369] Server  LOG      ✓ Compiled in 962ms
-[02:48:20.005] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1772704459/WhatsApp_Image_2026-03-05_at_10.44.57_AM_qnbh5k.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[02:48:51.341] Server  LOG      ✓ Compiled in 72ms
-[02:48:52.995] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1772704439/WhatsApp_Image_2026-03-05_at_10.44.57_AM1_x09ubc.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[02:50:02.370] Server  LOG      ✓ Compiled in 161ms
-[02:50:08.849] Server  LOG      ✓ Compiled in 76ms
-[02:52:07.130] Server  LOG      ✓ Compiled in 1313ms
-[02:52:08.002] Browser ERROR   ./app/activities/shree-chakra-world-record/page.tsx:180:246
-Parsing ecmascript source code failed
-  178 |             >
-  179 |                <Image 
-> 180 |                   src="https://res.cloudinary.com/dsj3kcbf4/image/upload/v1741162447/03.03.2026_Award_copy1.jpg_x49s4i.jpghttps://res.cloudinary.com/dvd7o5nph/image/upload/v1772704473/03.03.2026_Award_copy.jpg_z6lttp.jpg"Award Ceremony with Amma" 
-      |                                                                                                                                                                                                                                                      ^^
-  181 |                   fill 
-  182 |                   className="object-cover group-hover:scale-105 transition-transform duration-700" 
-  183 |                />
-
-Unterminated string constant
-
-Import traces:
-  Client Component Browser:
-    ./app/activities/shree-chakra-world-record/page.tsx [Client Component Browser]
-    ./app/activities/shree-chakra-world-record/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/activities/shree-chakra-world-record/page.tsx [Client Component SSR]
-    ./app/activities/shree-chakra-world-record/page.tsx [Server Component]
-[02:52:10.214] Server  LOG      ✓ Compiled in 135ms
-[02:52:19.978] Server  LOG      ✓ Compiled in 37ms
-[02:52:28.462] Server  ERROR   TimeoutError: The operation was aborted due to timeout
-[02:52:29.157] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:52:31.341] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1772704459/WhatsApp_Image_2026-03-05_at_10.44.57_AM_qnbh5k.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[02:52:31.341] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1772704439/WhatsApp_Image_2026-03-05_at_10.44.57_AM1_x09ubc.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[02:52:31.545] Server  LOG      ○ Compiling /_error ...
-[02:52:31.664] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1772704459/WhatsApp_Image_2026-03-05_at_10.44.57_AM_qnbh5k.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[02:52:35.431] Server  ERROR    ⨯ "upstream image response failed for" "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1741162446/WhatsApp_Image_2026-03-05_at_10.44.59_AM_1_uobgkq.jpg" 404
-[02:52:35.651] Server  ERROR    ⨯ "upstream image response failed for" "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1741162446/WhatsApp_Image_2026-03-05_at_10.44.59_AM_nmdxyx.jpg" 404
-[02:52:35.704] Server  ERROR    ⨯ "upstream image response failed for" "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1741162447/WhatsApp_Image_2026-03-05_at_10.44.59_AM_2_goxf29.jpg" 404
-[02:52:36.369] Server  ERROR   TimeoutError: The operation was aborted due to timeout
-[02:53:53.740] Server  LOG      ✓ Compiled in 127ms
-[02:53:54.002] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
-[02:53:54.002] Browser ERROR   Image is missing required "src" property: <img>
-[02:54:06.013] Server  LOG      ✓ Compiled in 30ms
-[02:54:14.666] Server  ERROR   TimeoutError: The operation was aborted due to timeout
-[02:54:22.597] Server  LOG      ✓ Compiled in 68ms
-[02:54:24.597] Server  LOG      ✓ Compiled in 52ms
-[03:06:40.352] Server  LOG      ✓ Compiled in 829ms
-[03:06:43.755] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1772704439/WhatsApp_Image_2026-03-05_at_10.44.59_AM_3_keicjr.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[03:42:25.935] Server  LOG      ✓ Compiled in 2.3s
-[03:42:29.006] Server  LOG      ✓ Compiled in 562ms
-[03:42:48.698] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/crowd-drawing-hall.jpg" "received" null
-[03:42:49.068] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:42:49.216] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/cert-writing.jpg" "received" null
-[03:42:49.400] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/award-ceremony.jpg" "received" null
-[03:42:49.462] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/cert-drawing.jpg" "received" null
-[03:42:49.727] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/cert-recital.jpg" "received" null
-[03:42:50.116] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/divine-offering.jpg" "received" null
-[03:42:50.479] Browser WARN    Image with src "/award-ceremony.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[03:42:50.479] Browser WARN    Image with src "/cert-drawing.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[03:42:50.480] Browser WARN    Image with src "/cert-drawing.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[03:42:50.480] Browser WARN    Image with src "/cert-writing.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[03:42:50.480] Browser WARN    Image with src "/cert-writing.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[03:42:50.480] Browser WARN    Image with src "/cert-recital.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[03:42:50.480] Browser WARN    Image with src "/cert-recital.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[03:42:50.480] Browser WARN    Image with src "/divine-offering.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[03:43:17.782] Server  LOG      ✓ Compiled in 621ms
-[03:43:18.853] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1772704439/WhatsApp_Image_2026-03-05_at_10.44.59_AM_3_keicjr.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[03:43:18.853] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1772704459/WhatsApp_Image_2026-03-05_at_10.44.57_AM_qnbh5k.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[03:43:18.871] Server  ERROR    ⨯ "upstream image response failed for" "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1741162446/WhatsApp_Image_2026-03-05_at_10.44.59_AM_nmdxyx.jpg" 404
-[03:43:18.903] Server  ERROR    ⨯ "upstream image response failed for" "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1741162446/WhatsApp_Image_2026-03-05_at_10.44.59_AM_1_uobgkq.jpg" 404
-[03:43:19.064] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1772704439/WhatsApp_Image_2026-03-05_at_10.44.57_AM1_x09ubc.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[03:43:19.331] Server  ERROR    ⨯ "upstream image response failed for" "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1741162447/WhatsApp_Image_2026-03-05_at_10.44.59_AM_2_goxf29.jpg" 404
-[03:44:16.092] Server  LOG      ✓ Compiled in 92ms
-[03:44:17.655] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1772704445/WhatsApp_Image_2026-03-05_at_10.44.59_AM_1_hmj7vr.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[03:44:46.828] Server  LOG      ✓ Compiled in 109ms
-[03:45:09.656] Server  LOG      ✓ Compiled in 55ms
-[03:45:11.172] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1772704434/WhatsApp_Image_2026-03-05_at_10.44.59_AM_2_tlv38j.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[03:45:28.623] Server  LOG      ✓ Compiled in 73ms
-[03:45:32.177] Server  LOG      ✓ Compiled in 296ms
-[03:45:32.997] Browser ERROR   ./app/activities/shree-chakra-world-record/page.tsx:132:13
-Parsing ecmascript source code failed
-  130 |               img: "https://res.cloudinary.com/dvd7o5nph/image/upload/v1772704434/WhatsApp_Image_2026-03-05_at_10.44.59_AM_2_tlv38j.jpg" 
-  131 |             }
-> 132 |             {
-      |             ^
-  133 |               title: "Most People Simultaneously Writing a Spiritual Text",
-  134 |               authority: "World Records Union",
-  135 |               desc: "8,822 participants across 258 locations transcribed the sacred text in unison.",
-
-Expected '</', got '{'
-
-Import traces:
-  Client Component Browser:
-    ./app/activities/shree-chakra-world-record/page.tsx [Client Component Browser]
-    ./app/activities/shree-chakra-world-record/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/activities/shree-chakra-world-record/page.tsx [Client Component SSR]
-    ./app/activities/shree-chakra-world-record/page.tsx [Server Component]
-[03:45:34.992] Browser ERROR   ./app/activities/shree-chakra-world-record/page.tsx:132:13
-Parsing ecmascript source code failed
-  130 |               img: "https://res.cloudinary.com/dvd7o5nph/image/upload/v1772704434/WhatsApp_Image_2026-03-05_at_10.44.59_AM_2_tlv38j.jpg" 
-  131 |             }
-> 132 |             {
-      |             ^
-  133 |               title: "Most People Simultaneously Writing a Spiritual Text",
-  134 |               authority: "World Records Union",
-  135 |               desc: "8,822 participants across 258 locations transcribed the sacred text in unison.",
-
-Expected '</', got '{'
-
-Import traces:
-  Client Component Browser:
-    ./app/activities/shree-chakra-world-record/page.tsx [Client Component Browser]
-    ./app/activities/shree-chakra-world-record/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/activities/shree-chakra-world-record/page.tsx [Client Component SSR]
-    ./app/activities/shree-chakra-world-record/page.tsx [Server Component]
-[03:45:36.464] Server  LOG      ✓ Compiled in 132ms
-[03:48:57.078] Server  LOG      ✓ Compiled in 1194ms
-[03:49:17.275] Server  LOG      ✓ Compiled in 93ms
-[03:49:21.846] Server  LOG      ✓ Compiled in 68ms
-[03:49:28.468] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1772704473/03.03.2026_Award_copy.jpg_z6lttp.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:12:06.970] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:12:16.251] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:12:17.476] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771331460/WhatsApp_Image_2026-02-17_at_2.59.22_PM_1_nt513j.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:12:17.476] Browser WARN    Image with src "/mobile.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:12:17.476] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1772701329/WhatsApp_Image_2026-03-05_at_12.18.24_PM_j23g5m.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:12:17.476] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:12:17.476] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:14:02.770] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939123/om3_f76xrf.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:14:02.771] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939095/om5_ppv6nl.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes

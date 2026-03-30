@@ -350,38 +350,70 @@ import { Calendar, Users, Clock, AlertCircle, Search, Phone } from 'lucide-react
 import { useState } from 'react';
 
 // FULL DATA FROM IMAGES (March 01, 2026 - March 31, 2026) - Corrected Spellings
+// const scheduleData = [
+//   { date: '01.03.2026', day: 'Sunday', reg: 'SL & NK', mandram: "Arulmigu Amma's 86th Birthday Avathara Thirunal Festival (Masi Pournami) Salem & Namakkal District Forums", district: 'Salem & Namakkal' },
+//   { date: '02.03.2026', day: 'Monday', reg: 'SL & NK', mandram: "Arulmigu Amma's 86th Birthday Avathara Thirunal Festival (Masi Pournami) Salem & Namakkal District Forums", district: 'Salem & Namakkal' },
+//   { date: '03.03.2026', day: 'Tuesday', reg: 'SL & NK', mandram: "Arulmigu Amma's 86th Birthday Avathara Thirunal Festival (Masi Pournami) Salem & Namakkal District Forums", district: 'Salem & Namakkal' },
+//   { date: '04.03.2026', day: 'Wednesday', reg: 'TN', mandram: 'Tirunelveli District Forums', district: 'Tirunelveli' },
+//   { date: '05.03.2026', day: 'Thursday', reg: 'VEW-19', mandram: 'Poigai (Anaicut Circle)', district: 'Vellore' },
+//   { date: '06.03.2026', day: 'Friday', reg: 'KSW-16', mandram: 'Nagarapatti', district: 'Krishnagiri West' },
+//   { date: '07.03.2026', day: 'Saturday', reg: 'TVN-02', mandram: 'Gummidipoondi', district: 'Tiruvallur' },
+//   { date: '08.03.2026', day: 'Sunday', reg: 'TRE-07', mandram: 'Ganesapuram', district: 'Tiruchirappalli' },
+//   { date: '09.03.2026', day: 'Monday', reg: 'VP', mandram: 'Villupuram District Forums', district: 'Villupuram' },
+//   { date: '10.03.2026', day: 'Tuesday', reg: 'ARN-01', mandram: 'Sendhurai', district: 'Ariyalur' },
+//   { date: '11.03.2026', day: 'Wednesday', reg: 'ARS', mandram: 'Ariyalur South Circle Forums', district: 'Ariyalur' },
+//   { date: '12.03.2026', day: 'Thursday', reg: 'KU', mandram: 'Kallakurichi District Forums', district: 'Kallakurichi' },
+//   { date: '13.03.2026', day: 'Friday', reg: 'TJS-29', mandram: 'Ponninnirai', district: 'Thanjavur' },
+//   { date: '14.03.2026', day: 'Saturday', reg: 'MCI-14', mandram: 'Koyambedu', district: 'Central Chennai' },
+//   { date: '15.03.2026', day: 'Sunday', reg: 'TTW-04', mandram: 'Manthithoppu - Kovilpatti', district: 'Thoothukudi' },
+//   { date: '16.03.2026', day: 'Monday', reg: 'PD', mandram: 'Pudukkottai District Forums', district: 'Pudukkottai' },
+//   { date: '17.03.2026', day: 'Tuesday', reg: 'KNC1, KNC2', mandram: 'C1, C2 Circle Forums', district: 'Krishnagiri North' },
+//   { date: '18.03.2026', day: 'Wednesday', reg: 'AP', mandram: 'Panguni Amavasai Vizha', district: 'Andhra State (Chittoor Urban)' },
+//   { date: '19.03.2026', day: 'Thursday', reg: 'AP & TE', mandram: 'Ugadi Function', district: 'Andhra & Telangana (Chittoor Rural)' },
+//   { date: '20.03.2026', day: 'Friday', reg: 'TPN-04', mandram: 'Anupparpalayam', district: 'Tiruppur' },
+//   { date: '21.03.2026', day: 'Saturday', reg: 'KSE-20 & 82', mandram: 'Jinjampatti & Theerthagiripatti', district: 'Krishnagiri South' },
+//   { date: '22.03.2026', day: 'Sunday', reg: 'MCI-07', mandram: 'K.K. Nagar', district: 'Central Chennai' },
+//   { date: '23.03.2026', day: 'Monday', reg: 'KA-98', mandram: 'Venkatapura', district: 'Karnataka' },
+//   { date: '24.03.2026', day: 'Tuesday', reg: 'TIW-18', mandram: 'Kalnarashampatti', district: 'Tirupattur' },
+//   { date: '25.03.2026', day: 'Wednesday', reg: 'RP', mandram: 'Ranipet District Forums', district: 'Ranipet' },
+//   { date: '26.03.2026', day: 'Thursday', reg: 'TMKPE-50', mandram: 'Sannippoondi', district: 'Tiruvannamalai' },
+//   { date: '27.03.2026', day: 'Friday', reg: 'MDW-06', mandram: 'Usilampatti', district: 'Madurai' },
+//   { date: '28.03.2026', day: 'Saturday', reg: 'CPW', mandram: 'Chengalpattu West Circle Forums', district: 'Chengalpattu' },
+//   { date: '29.03.2026', day: 'Sunday', reg: 'PE', mandram: 'Perambalur District Forums', district: 'Perambalur' },
+//   { date: '30.03.2026', day: 'Monday', reg: 'KA-248', mandram: 'HMT Layout', district: 'Karnataka' },
+//   { date: '31.03.2026', day: 'Tuesday', reg: 'MNA-02', mandram: 'Rajangam Nagar', district: 'North Chennai' },
+// ];
 const scheduleData = [
-  { date: '01.03.2026', day: 'Sunday', reg: 'SL & NK', mandram: "Arulmigu Amma's 86th Birthday Avathara Thirunal Festival (Masi Pournami) Salem & Namakkal District Forums", district: 'Salem & Namakkal' },
-  { date: '02.03.2026', day: 'Monday', reg: 'SL & NK', mandram: "Arulmigu Amma's 86th Birthday Avathara Thirunal Festival (Masi Pournami) Salem & Namakkal District Forums", district: 'Salem & Namakkal' },
-  { date: '03.03.2026', day: 'Tuesday', reg: 'SL & NK', mandram: "Arulmigu Amma's 86th Birthday Avathara Thirunal Festival (Masi Pournami) Salem & Namakkal District Forums", district: 'Salem & Namakkal' },
-  { date: '04.03.2026', day: 'Wednesday', reg: 'TN', mandram: 'Tirunelveli District Forums', district: 'Tirunelveli' },
-  { date: '05.03.2026', day: 'Thursday', reg: 'VEW-19', mandram: 'Poigai (Anaicut Circle)', district: 'Vellore' },
-  { date: '06.03.2026', day: 'Friday', reg: 'KSW-16', mandram: 'Nagarapatti', district: 'Krishnagiri West' },
-  { date: '07.03.2026', day: 'Saturday', reg: 'TVN-02', mandram: 'Gummidipoondi', district: 'Tiruvallur' },
-  { date: '08.03.2026', day: 'Sunday', reg: 'TRE-07', mandram: 'Ganesapuram', district: 'Tiruchirappalli' },
-  { date: '09.03.2026', day: 'Monday', reg: 'VP', mandram: 'Villupuram District Forums', district: 'Villupuram' },
-  { date: '10.03.2026', day: 'Tuesday', reg: 'ARN-01', mandram: 'Sendhurai', district: 'Ariyalur' },
-  { date: '11.03.2026', day: 'Wednesday', reg: 'ARS', mandram: 'Ariyalur South Circle Forums', district: 'Ariyalur' },
-  { date: '12.03.2026', day: 'Thursday', reg: 'KU', mandram: 'Kallakurichi District Forums', district: 'Kallakurichi' },
-  { date: '13.03.2026', day: 'Friday', reg: 'TJS-29', mandram: 'Ponninnirai', district: 'Thanjavur' },
-  { date: '14.03.2026', day: 'Saturday', reg: 'MCI-14', mandram: 'Koyambedu', district: 'Central Chennai' },
-  { date: '15.03.2026', day: 'Sunday', reg: 'TTW-04', mandram: 'Manthithoppu - Kovilpatti', district: 'Thoothukudi' },
-  { date: '16.03.2026', day: 'Monday', reg: 'PD', mandram: 'Pudukkottai District Forums', district: 'Pudukkottai' },
-  { date: '17.03.2026', day: 'Tuesday', reg: 'KNC1, KNC2', mandram: 'C1, C2 Circle Forums', district: 'Krishnagiri North' },
-  { date: '18.03.2026', day: 'Wednesday', reg: 'AP', mandram: 'Panguni Amavasai Vizha', district: 'Andhra State (Chittoor Urban)' },
-  { date: '19.03.2026', day: 'Thursday', reg: 'AP & TE', mandram: 'Ugadi Function', district: 'Andhra & Telangana (Chittoor Rural)' },
-  { date: '20.03.2026', day: 'Friday', reg: 'TPN-04', mandram: 'Anupparpalayam', district: 'Tiruppur' },
-  { date: '21.03.2026', day: 'Saturday', reg: 'KSE-20 & 82', mandram: 'Jinjampatti & Theerthagiripatti', district: 'Krishnagiri South' },
-  { date: '22.03.2026', day: 'Sunday', reg: 'MCI-07', mandram: 'K.K. Nagar', district: 'Central Chennai' },
-  { date: '23.03.2026', day: 'Monday', reg: 'KA-98', mandram: 'Venkatapura', district: 'Karnataka' },
-  { date: '24.03.2026', day: 'Tuesday', reg: 'TIW-18', mandram: 'Kalnarashampatti', district: 'Tirupattur' },
-  { date: '25.03.2026', day: 'Wednesday', reg: 'RP', mandram: 'Ranipet District Forums', district: 'Ranipet' },
-  { date: '26.03.2026', day: 'Thursday', reg: 'TMKPE-50', mandram: 'Sannippoondi', district: 'Tiruvannamalai' },
-  { date: '27.03.2026', day: 'Friday', reg: 'MDW-06', mandram: 'Usilampatti', district: 'Madurai' },
-  { date: '28.03.2026', day: 'Saturday', reg: 'CPW', mandram: 'Chengalpattu West Circle Forums', district: 'Chengalpattu' },
-  { date: '29.03.2026', day: 'Sunday', reg: 'PE', mandram: 'Perambalur District Forums', district: 'Perambalur' },
-  { date: '30.03.2026', day: 'Monday', reg: 'KA-248', mandram: 'HMT Layout', district: 'Karnataka' },
-  { date: '31.03.2026', day: 'Tuesday', reg: 'MNA-02', mandram: 'Rajangam Nagar', district: 'North Chennai' },
+  { date: '01.04.2026', day: 'Wednesday', reg: 'SS-14', mandram: 'Panguni Pournami - Senthamangalam Sakthipeedam', district: 'Namakkal' },
+  { date: '02.04.2026', day: 'Thursday', reg: 'TPE-08 & TPE-09', mandram: 'Pudhu Vengkaraiyam Palayam & Durai Ramasamy Nagar', district: 'Tiruppur' },
+  { date: '03.04.2026', day: 'Friday', reg: 'CD-22', mandram: 'Kattumannarkoil', district: 'Cuddalore' },
+  { date: '04.04.2026', day: 'Saturday', reg: 'VRTC-01', mandram: 'Kutchampattiputhur, Aruppukottai', district: 'Virudhunagar' },
+  { date: '05.04.2026', day: 'Sunday', reg: 'TKS-05', mandram: 'Pungampatti', district: 'Tenkasi' },
+  { date: '06.04.2026', day: 'Monday', reg: 'DGN-11', mandram: 'Sinthalavadampatti', district: 'Dindigul' },
+  { date: '07.04.2026', day: 'Tuesday', reg: 'TNE-11', mandram: 'Melanatham', district: 'Tirunelveli' },
+  { date: '08.04.2026', day: 'Wednesday', reg: 'SS-58', mandram: 'Devakottai Sakthipeedam', district: 'Sivaganga' },
+  { date: '09.04.2026', day: 'Thursday', reg: 'TMKPN-32', mandram: 'Mel Sadayanodai', district: 'Tiruvannamalai' },
+  { date: '10.04.2026', day: 'Friday', reg: 'PD', mandram: 'Pudukkottai District Mandrams', district: 'Pudukkottai' },
+  { date: '11.04.2026', day: 'Saturday', reg: 'MCI-14', mandram: 'Koyambedu', district: 'Central Chennai' },
+  { date: '12.04.2026', day: 'Sunday', reg: 'VP-122 & VP-402', mandram: 'Venmaniyathur and Siruvakkur', district: 'Villupuram' },
+  { date: '13.04.2026', day: 'Monday', reg: 'TV-83', mandram: 'Arani', district: 'Tiruvallur' },
+  { date: '14.04.2026', day: 'Tuesday', reg: 'KP & CP', mandram: '"Parabhava" Tamil New Year Festival', district: 'Kanchipuram & Chengalpattu' },
+  { date: '15.04.2026', day: 'Wednesday', reg: 'KA-94', mandram: 'Koramangla', district: 'Karnataka' },
+  { date: '16.04.2026', day: 'Thursday', reg: 'KUS 02 & KUS 15', mandram: 'Thimmapuram and Sembakurichi', district: 'Kallakurichi' },
+  { date: '17.04.2026', day: 'Friday', reg: 'SS-49, SS-50, SS-51', mandram: 'Chithirai Amavasai - Thabal Thanthi Nagar, Palamedu, Karadikkal Sakthipeedams', district: 'Madurai' },
+  { date: '18.04.2026', day: 'Saturday', reg: 'PEN-11, PEN-18, PEN-19', mandram: 'Pennakonam 1, 2, 3 Mandrams', district: 'Perambalur' },
+  { date: '19.04.2026', day: 'Sunday', reg: 'RNN-15', mandram: 'Puliyur', district: 'Ramanathapuram' },
+  { date: '20.04.2026', day: 'Monday', reg: 'TMVV', mandram: 'Vandavasi Circle Mandrams', district: 'Tiruvannamalai' },
+  { date: '21.04.2026', day: 'Tuesday', reg: 'MD 19', mandram: 'Kochadai', district: 'Madurai' },
+  { date: '22.04.2026', day: 'Wednesday', reg: 'KA-133', mandram: 'Chellaghatta', district: 'Karnataka' },
+  { date: '23.04.2026', day: 'Thursday', reg: 'TMKPE-47', mandram: 'Aavoor', district: 'Tiruvannamalai' },
+  { date: '24.04.2026', day: 'Friday', reg: 'KSW-40', mandram: 'Nappirampatti', district: 'Krishnagiri South' },
+  { date: '25.04.2026', day: 'Saturday', reg: 'ED', mandram: 'Erode District Mandrams', district: 'Erode' },
+  { date: '26.04.2026', day: 'Sunday', reg: 'VRAK-01', mandram: 'Aziz Nagar - Aruppukottai', district: 'Virudhunagar' },
+  { date: '27.04.2026', day: 'Monday', reg: 'KA-211', mandram: 'Gowtham Nagar', district: 'Karnataka' },
+  { date: '28.04.2026', day: 'Tuesday', reg: 'MD-04', mandram: 'Sokkalinga Nagar', district: 'Madurai' },
+  { date: '29.04.2026', day: 'Wednesday', reg: 'VRSP-05', mandram: 'Vathirairuppu', district: 'Virudhunagar' },
+  { date: '30.04.2026', day: 'Thursday', reg: 'TJ', mandram: 'Chitra Pournami Festival', district: 'Thanjavur' },
 ];
 
 export default function SanctumSchedulePage() {
@@ -404,12 +436,12 @@ export default function SanctumSchedulePage() {
         >
           <div className="inline-flex items-center gap-2 bg-red-100 text-[#a7150b] px-4 py-1.5 rounded-full font-bold text-sm uppercase tracking-wider mb-4">
             <Calendar className="w-4 h-4" />
-            March 2026 Schedule
+            April 2026 Schedule
           </div>
           <h1 className="text-3xl md:text-4xl font-black text-[#1a1a1a] mb-2 font-tamil">
             கருவறைப் பணி (Sanctum Service)
           </h1>
-          <p className="text-gray-600">Detailed Schedule for March 01, 2026 - March 31, 2026</p>
+          <p className="text-gray-600">Detailed Schedule for April 01, 2026 - April 30, 2026</p>
         </motion.div>
 
         {/* Search */}
