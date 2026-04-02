@@ -4964,6 +4964,11 @@
     filter: var(--tw-blur, ) var(--tw-brightness, ) var(--tw-contrast, ) var(--tw-grayscale, ) var(--tw-hue-rotate, ) var(--tw-invert, ) var(--tw-saturate, ) var(--tw-sepia, ) var(--tw-drop-shadow, );
   }
 
+  .blur-\[3px\] {
+    --tw-blur: blur(3px);
+    filter: var(--tw-blur, ) var(--tw-brightness, ) var(--tw-contrast, ) var(--tw-grayscale, ) var(--tw-hue-rotate, ) var(--tw-invert, ) var(--tw-saturate, ) var(--tw-sepia, ) var(--tw-drop-shadow, );
+  }
+
   .blur-xl {
     --tw-blur: blur(var(--blur-xl));
     filter: var(--tw-blur, ) var(--tw-brightness, ) var(--tw-contrast, ) var(--tw-grayscale, ) var(--tw-hue-rotate, ) var(--tw-invert, ) var(--tw-saturate, ) var(--tw-sepia, ) var(--tw-drop-shadow, );
@@ -5292,6 +5297,12 @@
   @media (hover: hover) {
     .group-hover\:bg-orange-600:is(:where(.group):hover *) {
       background-color: var(--color-orange-600);
+    }
+  }
+
+  @media (hover: hover) {
+    .group-hover\:bg-transparent:is(:where(.group):hover *) {
+      background-color: #0000;
     }
   }
 
@@ -5974,6 +5985,18 @@
   }
 
   @media (hover: hover) {
+    .hover\:bg-black\/80:hover {
+      background-color: #000c;
+    }
+
+    @supports (color: color-mix(in lab, red, red)) {
+      .hover\:bg-black\/80:hover {
+        background-color: color-mix(in oklab, var(--color-black) 80%, transparent);
+      }
+    }
+  }
+
+  @media (hover: hover) {
     .hover\:bg-blue-700:hover {
       background-color: var(--color-blue-700);
     }
@@ -6066,6 +6089,12 @@
   @media (hover: hover) {
     .hover\:bg-red-700:hover {
       background-color: var(--color-red-700);
+    }
+  }
+
+  @media (hover: hover) {
+    .hover\:bg-red-800:hover {
+      background-color: var(--color-red-800);
     }
   }
 
@@ -7492,6 +7521,12 @@
   }
 
   @media (min-width: 48rem) {
+    .md\:w-2\/5 {
+      width: 40%;
+    }
+  }
+
+  @media (min-width: 48rem) {
     .md\:w-2\/12 {
       width: 16.6667%;
     }
@@ -7560,6 +7595,12 @@
   @media (min-width: 48rem) {
     .md\:w-auto {
       width: auto;
+    }
+  }
+
+  @media (min-width: 48rem) {
+    .md\:w-max {
+      width: max-content;
     }
   }
 

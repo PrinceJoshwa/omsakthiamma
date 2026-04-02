@@ -80,3 +80,22 @@ Check the render method of `Home`.
 [07:47:17.325] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
 [07:47:17.545] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2026-02-24-1
 [09:20:54.115] Server  LOG      ✓ Compiled in 3.5s
+[70:47:08.328] Server  LOG      ✓ Compiled in 2.6s
+[70:47:10.020] Server  LOG      ✓ Compiled in 816ms
+[70:47:31.569] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[70:47:32.721] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771331460/WhatsApp_Image_2026-02-17_at_2.59.22_PM_1_nt513j.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[70:47:32.721] Browser WARN    Image with src "/mobile.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[70:47:32.721] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1772701329/WhatsApp_Image_2026-03-05_at_12.18.24_PM_j23g5m.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[70:47:32.721] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[70:47:34.732] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[70:51:45.440] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[70:51:45.726] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2026-02-24-1
+[70:51:45.726] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2026-02-24-1
+[70:51:56.070] Server  LOG      ○ Compiling /notices/sanctum-schedule ...
+[70:55:47.084] Server  LOG      ✓ Compiled in 1153ms
+[70:59:11.571] Server  LOG      ✓ Compiled in 2.1s
+[71:02:37.583] Server  LOG      ✓ Compiled in 1221ms
+[71:08:45.154] Server  LOG      ✓ Compiled in 4s
+[71:13:44.505] Server  LOG      ✓ Compiled in 5.9s
+[71:15:05.940] Server  LOG      ✓ Compiled in 3.1s
+[71:15:21.417] Server  LOG      ✓ Compiled in 452ms
