@@ -179,13 +179,19 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   title: "Om Sakthi Amma | Spiritual Wisdom & Divine Grace",
   description:
-    "Experience spiritual enlightenment through the teachings and grace of Om Sakthi Amma. Discover divine wisdom, sacred traditions, and transformative spiritual practices.",
+    "Experience spiritual enlightenment through the teachings and grace of Om Sakthi Amma. Discover divine wisdom, sacred traditions, and transformative spiritual practices",
+
   icons: {
     icon: "https://ik.imagekit.io/j0xzq9pns/Omsakthi%20/logo_dl1zqj.png",
     shortcut:
       "https://ik.imagekit.io/j0xzq9pns/Omsakthi%20/logo_dl1zqj.png",
     apple:
       "https://ik.imagekit.io/j0xzq9pns/Omsakthi%20/logo_dl1zqj.png",
+  },
+
+  /* ✅ ADD THIS */
+  other: {
+    "facebook-domain-verification": "nzf47ppi8yqsvhmvzr9cazz7eirkwr",
   },
 };
 

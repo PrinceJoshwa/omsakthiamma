@@ -88,7 +88,7 @@ export const devotionalSongsFolder: MantraFolder = {
   //   { id: "s30", title: "OM ATHISAYAMAANA", url: "https://res.cloudinary.com/dsj3kcbf4/video/upload/v1764875863/cwxroteyxiklekxwsyn4.mp3", duration: "17:14" },
   // ]
   songs: [
-    { id: "s1", title: "BANGARU KAVASAM", url: "./songs/1. BANGARU KAVASAM.mp3", duration: "27:12" },
+    { id: "s1", title: "BANGARU KAVASAM", url: "./songs/BANGARUKAVASAM.mp3", duration: "27:12" },
     { id: "s2", title: "VARUGA VARUGA", url: "https://res.cloudinary.com/dvd7o5nph/video/upload/v1770307715/2._VARUGA_VARUGA_ti6i9k_o12khl.mp3", duration: "04:49" },
     { id: "s3", title: "OMKARANAYAGIYE", url: "./songs/3. OMKARANAYAGIYE.mp3", duration: "05:22" },
     { id: "s4", title: "MARUVOORIN", url: "./songs/4. MARUVOORIN.mp3", duration: "06:18" },
