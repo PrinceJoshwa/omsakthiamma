@@ -1,147 +1,38 @@
-[00:00:07.436] Server  LOG      ✓ Ready in 6.5s
-[00:00:31.523] Server  LOG      ○ Compiling / ...
-[00:00:42.178] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:42.779] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:43.105] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771331460/WhatsApp_Image_2026-02-17_at_2.59.22_PM_1_nt513j.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:43.105] Browser WARN    Image with src "/mobile.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:43.105] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1772701329/WhatsApp_Image_2026-03-05_at_12.18.24_PM_j23g5m.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:45.479] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:45.736] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771331460/WhatsApp_Image_2026-02-17_at_2.59.22_PM_1_nt513j.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:45.737] Browser WARN    Image with src "/mobile.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:45.737] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1772701329/WhatsApp_Image_2026-03-05_at_12.18.24_PM_j23g5m.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:52.070] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:00:52.070] Browser WARN    Image with src "https://ik.imagekit.io/j0xzq9pns/Omsakthi%20/logo_dl1zqj.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:03:40.506] Server  LOG      ✓ Compiled in 234ms
-[00:03:47.760] Server  LOG      ✓ Compiled in 216ms
-[00:03:48.878] Server  LOG      ✓ Compiled in 223ms
-[00:03:54.133] Server  LOG      ✓ Compiled in 136ms
-[00:03:56.550] Server  LOG      ✓ Compiled in 133ms
-[00:04:02.780] Server  LOG      ✓ Compiled in 166ms
-[00:04:04.962] Server  LOG      ✓ Compiled in 125ms
-[00:04:17.073] Server  LOG      ✓ Compiled in 159ms
-[00:04:28.126] Server  LOG      ✓ Compiled in 164ms
-[00:04:36.696] Server  LOG      ✓ Compiled in 214ms
-[00:05:58.193] Server  LOG      ✓ Compiled in 286ms
-[00:05:59.320] Server  LOG      ✓ Compiled in 238ms
-[00:06:32.779] Server  LOG      ✓ Compiled in 347ms
-[00:06:34.149] Server  LOG      ✓ Compiled in 396ms
-[00:18:10.798] Server  LOG      ✓ Compiled in 232ms
-[00:18:16.777] Server  LOG      ✓ Compiled in 160ms
-[00:18:21.446] Server  LOG      ✓ Compiled in 259ms
-[00:18:21.745] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-33
-[00:18:21.745] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-33
-[00:18:21.747] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-33
-[00:18:25.755] Server  LOG      ✓ Compiled in 344ms
-[00:18:26.740] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-33
-[00:18:26.740] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-33
-[00:18:28.921] Server  LOG      ✓ Compiled in 212ms
-[00:18:29.738] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-33
-[00:18:30.929] Server  LOG      ✓ Compiled in 122ms
-[00:18:31.745] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-3
-[00:18:32.444] Server  LOG      ✓ Compiled in 312ms
-[00:18:54.018] Server  LOG      ✓ Compiled in 128ms
-[00:19:08.398] Server  LOG      ✓ Compiled in 168ms
-[00:19:23.855] Server  LOG      ✓ Compiled in 135ms
-[00:20:09.121] Server  LOG      ✓ Compiled in 183ms
-[00:20:10.707] Server  LOG      ✓ Compiled in 123ms
-[00:20:16.667] Server  LOG      ✓ Compiled in 125ms
-[00:20:20.916] Server  LOG      ✓ Compiled in 211ms
-[00:20:22.540] Server  LOG      ✓ Compiled in 113ms
-[00:20:23.929] Server  LOG      ✓ Compiled in 190ms
-[00:20:27.052] Server  LOG      ✓ Compiled in 168ms
-[00:20:28.355] Server  LOG      ✓ Compiled in 144ms
-[00:20:39.933] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:20:40.299] Browser WARN    Image with src "https://ik.imagekit.io/j0xzq9pns/Omsakthi%20/logo_dl1zqj.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:21:31.560] Server  LOG      ✓ Compiled in 148ms
-[00:21:31.732] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-36
-[00:21:39.680] Server  LOG      ✓ Compiled in 199ms
-[00:21:40.738] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-36
-[00:21:51.793] Server  LOG      ✓ Compiled in 130ms
-[00:21:52.741] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-36
-[00:21:53.228] Server  LOG      ✓ Compiled in 164ms
-[00:21:53.744] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-36
-[00:22:25.831] Server  LOG      ✓ Compiled in 144ms
-[00:22:26.743] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-36
-[00:22:32.973] Server  LOG      ✓ Compiled in 135ms
-[00:22:33.734] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-36
-[00:22:34.269] Server  LOG      ✓ Compiled in 167ms
-[00:22:34.739] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-36
-[00:23:38.610] Server  LOG      ✓ Compiled in 147ms
-[00:23:38.732] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-36
-[00:23:42.977] Server  LOG      ✓ Compiled in 159ms
-[00:23:43.744] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-36
-[00:23:53.049] Server  LOG      ✓ Compiled in 132ms
-[00:23:53.742] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-36
-[00:24:10.414] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:24:10.808] Browser WARN    Image with src "https://ik.imagekit.io/j0xzq9pns/Omsakthi%20/logo_dl1zqj.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:24:12.756] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-36
-[00:24:25.778] Server  LOG      ✓ Compiled in 124ms
-[00:24:26.730] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-36
-[00:24:30.446] Server  LOG      ✓ Compiled in 119ms
-[00:24:30.743] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-36
-[00:24:41.167] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:24:41.541] Browser WARN    Image with src "https://ik.imagekit.io/j0xzq9pns/Omsakthi%20/logo_dl1zqj.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:24:43.304] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-36
-[00:24:51.332] Server  LOG      ✓ Compiled in 150ms
-[00:24:51.744] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-36
-[00:25:31.800] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:25:31.800] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:25:35.862] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:25:35.862] Browser WARN    Image with src "https://ik.imagekit.io/j0xzq9pns/Omsakthi%20/logo_dl1zqj.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:25:37.597] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-36
-[00:28:08.177] Server  LOG      ✓ Compiled in 153ms
-[00:28:08.744] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-36
-[00:28:08.746] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-36
-[00:28:10.974] Server  LOG      ✓ Compiled in 150ms
-[00:28:11.565] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-36
-[00:28:11.741] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-36
-[00:28:41.011] Server  LOG      ✓ Compiled in 191ms
-[00:28:41.732] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-9
-[00:28:41.732] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-36
-[00:28:41.733] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-9
-[00:28:41.733] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-36
-[00:28:43.974] Server  LOG      ✓ Compiled in 142ms
-[00:28:44.743] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-36
-[00:28:44.745] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-36
-[00:28:46.390] Server  LOG      ✓ Compiled in 163ms
-[00:28:46.744] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-36
-[00:28:46.747] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-36
-[00:29:00.202] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:29:00.584] Browser WARN    Image with src "https://ik.imagekit.io/j0xzq9pns/Omsakthi%20/logo_dl1zqj.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:29:01.869] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-36
-[00:29:56.761] Server  LOG      ✓ Compiled in 186ms
-[00:29:57.521] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-36
-[00:29:57.737] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-36
-[00:30:16.103] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:30:16.498] Browser WARN    Image with src "https://ik.imagekit.io/j0xzq9pns/Omsakthi%20/logo_dl1zqj.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:30:17.739] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-36
-[00:30:49.606] Server  LOG      ✓ Compiled in 177ms
-[00:30:49.744] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-36
-[00:30:49.745] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-36
-[00:30:55.245] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:30:55.673] Browser WARN    Image with src "https://ik.imagekit.io/j0xzq9pns/Omsakthi%20/logo_dl1zqj.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:30:57.547] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-36
-[00:33:20.735] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:33:21.076] Browser WARN    Image with src "https://ik.imagekit.io/j0xzq9pns/Omsakthi%20/logo_dl1zqj.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:33:22.402] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-36
-[00:33:44.724] Server  LOG      ✓ Compiled in 128ms
-[00:33:45.738] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-36
-[00:33:56.995] Server  LOG      ✓ Compiled in 200ms
-[00:33:57.734] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-36
-[00:34:15.785] Server  LOG      ✓ Compiled in 140ms
-[00:34:16.736] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-9
-[00:34:16.736] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-36
-[00:34:18.590] Server  LOG      ✓ Compiled in 123ms
-[00:34:18.736] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-3
-[00:34:18.736] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-36
-[00:34:23.904] Server  LOG      ✓ Compiled in 254ms
-[00:34:24.732] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-36
-[00:34:28.793] Server  LOG      ✓ Compiled in 150ms
-[00:34:29.733] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-3
-[00:34:29.733] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-36
-[00:34:30.812] Server  LOG      ✓ Compiled in 125ms
-[00:34:31.745] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-36
-[00:34:38.137] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:34:38.505] Browser WARN    Image with src "https://ik.imagekit.io/j0xzq9pns/Omsakthi%20/logo_dl1zqj.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:34:40.540] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. img-2026-36
+[00:00:05.000] Server  LOG      ✓ Ready in 3.4s
+[01:11:43.367] Server  LOG      ○ Compiling /_not-found/page ...
+[01:12:31.657] Server  LOG      ○ Compiling / ...
+[01:12:37.537] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:12:39.094] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771331460/WhatsApp_Image_2026-02-17_at_2.59.22_PM_1_nt513j.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:12:39.094] Browser WARN    Image with src "/mobile.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:12:39.104] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1772701329/WhatsApp_Image_2026-03-05_at_12.18.24_PM_j23g5m.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:12:40.881] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:14:02.163] Server  LOG      ○ Compiling /amma/message ...
+[01:14:08.574] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:15:44.419] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939123/om3_f76xrf.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:15:44.419] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939095/om5_ppv6nl.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:15:44.511] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:53:53.417] Server  LOG      ✓ Compiled in 51.5s
+[01:53:59.350] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:54:02.852] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771331460/WhatsApp_Image_2026-02-17_at_2.59.22_PM_1_nt513j.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:54:02.852] Browser WARN    Image with src "/mobile.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:54:02.852] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1776797744/notice1_thc7bt.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:54:02.852] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:54:02.852] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939123/om3_f76xrf.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:54:02.852] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:54:02.852] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939095/om5_ppv6nl.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:57:07.479] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1776797744/notice2_zujh5s.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:00:09.744] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:00:09.749] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `Home`.
+[02:00:13.076] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:00:13.768] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/notice1.jpg" "received" null
+[02:00:14.171] Server  LOG      ✓ Compiled in 374.1s
+[02:00:14.206] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/notice1.jpg" "received" null
+[02:00:15.142] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:00:18.858] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771331460/WhatsApp_Image_2026-02-17_at_2.59.22_PM_1_nt513j.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:00:18.858] Browser WARN    Image with src "/mobile.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:00:18.858] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:00:18.859] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939123/om3_f76xrf.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:00:18.859] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:00:18.859] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939095/om5_ppv6nl.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes

@@ -379,7 +379,7 @@ const navItems: NavItem[] = [
     dropdown: [
       { label: 'Miracles', href: '/amma/miracles' },
       { label: 'Divine Wisdom', href: '/amma/divine-wisdom' },
-      // { label: 'Message', href: '/amma/message' },
+      { label: 'Message', href: '/amma/message' },
     ],
   },
   {
