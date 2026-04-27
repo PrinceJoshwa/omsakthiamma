@@ -1575,3 +1575,21 @@ Check the render method of `Home`.
 [03:51:23.445] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
 [03:58:59.347] Server  LOG      ✓ Compiled in 758ms
 [03:59:36.796] Server  LOG      ✓ Compiled in 489ms
+[04:15:52.549] Server  LOG      ✓ Compiled in 136ms
+[04:16:20.173] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:16:20.773] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1777294093/destop1.jpg_abkr2t.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:16:20.773] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1777294092/pounrnami_poster.jpg_n1r8gm.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:16:20.774] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:16:20.774] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:16:54.302] Server  LOG      ✓ Compiled in 191ms
+[04:17:10.003] Server  LOG      ✓ Compiled in 145ms
+[04:17:12.786] Server  LOG      ✓ Compiled in 149ms
+[04:17:21.932] Server  LOG      ✓ Compiled in 156ms
+[04:17:23.276] Server  LOG      ✓ Compiled in 126ms
+[04:17:30.244] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:17:30.712] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1777294093/destop1.jpg_abkr2t.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:17:30.712] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1777294092/pounrnami_poster.jpg_n1r8gm.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:17:30.712] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:17:30.712] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:17:33.569] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading

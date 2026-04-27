@@ -1074,8 +1074,8 @@ const parseDate = (dateStr: string) => {
 
 export default function EventPopup() {
   const [isOpen, setIsOpen] = useState(false);
-  // Added 'chithra' to the type definition
-  const [activeTab, setActiveTab] = useState<'chithra' | 'volunteer' | 'event' | 'train'>('chithra');
+  // Added 'chitra pournami' to the type definition
+  const [activeTab, setActiveTab] = useState<'chitra pournami' | 'volunteer' | 'event' | 'train'>('chitra pournami');
   const [searchTerm, setSearchTerm] = useState("");
   const [daysToGo, setDaysToGo] = useState(0);
   const [mainEvent, setMainEvent] = useState(masterEventList[0]);
@@ -1177,9 +1177,9 @@ export default function EventPopup() {
             <div className="w-full md:w-3/5 flex flex-col h-full bg-white">
               <div className="flex-none flex border-b border-gray-200">
                                 {/* NEW CHITHRA POURNAMI TAB */}
-                <button onClick={() => setActiveTab('chithra')} className={`flex-1 py-3 md:py-5 text-xs md:text-sm font-bold uppercase tracking-wide transition-colors relative ${activeTab === 'chithra' ? 'text-purple-600 bg-purple-50/30' : 'text-gray-400 hover:text-gray-600 hover:bg-gray-50'}`}>
-                  <span className="flex flex-col md:flex-row items-center justify-center gap-1 md:gap-2"><Moon className="w-4 h-4" /> <span className="text-[10px] md:text-sm leading-tight text-center">Chithra</span></span>
-                  {activeTab === 'chithra' && <motion.div layoutId="activeTab" className="absolute bottom-0 left-0 w-full h-1 bg-purple-600" />}
+                <button onClick={() => setActiveTab('chitra pournami')} className={`flex-1 py-3 md:py-5 text-xs md:text-sm font-bold uppercase tracking-wide transition-colors relative ${activeTab === 'chitra pournami' ? 'text-purple-600 bg-purple-50/30' : 'text-gray-400 hover:text-gray-600 hover:bg-gray-50'}`}>
+                  <span className="flex flex-col md:flex-row items-center justify-center gap-1 md:gap-2"><Moon className="w-4 h-4" /> <span className="text-[10px] md:text-sm leading-tight text-center">Chitra Pournami</span></span>
+                  {activeTab === 'chitra pournami' && <motion.div layoutId="activeTab" className="absolute bottom-0 left-0 w-full h-1 bg-purple-600" />}
                 </button>
                 <button onClick={() => setActiveTab('volunteer')} className={`flex-1 py-3 md:py-5 text-xs md:text-sm font-bold uppercase tracking-wide transition-colors relative ${activeTab === 'volunteer' ? 'text-orange-600 bg-orange-50/30' : 'text-gray-400 hover:text-gray-600 hover:bg-gray-50'}`}>
                   <span className="flex flex-col md:flex-row items-center justify-center gap-1 md:gap-2"><HeartHandshake className="w-4 h-4" /> <span>Volunteer</span></span>
@@ -1302,7 +1302,7 @@ export default function EventPopup() {
                 )}
 
 {  /* --- NEW: CHITHRA POURNAMI TAB --- */}
-                {activeTab === 'chithra' && (
+                {activeTab === 'chitra pournami' && (
                   <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="space-y-6 flex flex-col h-full pb-4">
                     <div className="text-center pt-2">
                        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-purple-100 border border-purple-200 text-purple-700 text-xs font-bold uppercase tracking-wider mb-4">
@@ -1352,7 +1352,7 @@ export default function EventPopup() {
                     <Link href="/train-schedule" onClick={() => setIsOpen(false)} className="w-full py-3 bg-blue-600 text-white rounded-xl font-bold hover:bg-blue-700 transition-all flex items-center justify-center gap-2 text-sm shadow-md">Open Full Schedule Page <ExternalLink className="w-4 h-4" /></Link>
                   )}
                   {/* Footer action for new tab */}
-                  {activeTab === 'chithra' && (
+                  {activeTab === 'chitra pournami' && (
                     <Link href="/all-events" onClick={() => setIsOpen(false)} className="w-full py-3 bg-purple-600 text-white rounded-xl font-bold hover:bg-purple-700 transition-all flex items-center justify-center gap-2 text-sm shadow-md group">View All Events<ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" /></Link>
                   )}
               </div>
