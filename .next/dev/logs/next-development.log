@@ -1,17 +1,1577 @@
-[00:00:14.618] Server  LOG      ✓ Ready in 13.7s
-[00:00:17.785] Server  LOG      ○ Compiling /_not-found/page ...
-[00:01:39.728] Server  LOG      ○ Compiling / ...
-[00:01:42.637] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:43.747] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771331460/WhatsApp_Image_2026-02-17_at_2.59.22_PM_1_nt513j.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:01:43.747] Browser WARN    Image with src "/mobile.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:01:43.755] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:01:43.755] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939123/om3_f76xrf.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:01:43.755] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:01:43.755] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939095/om5_ppv6nl.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:01:51.458] Server  ERROR    ⨯ "upstream image response timed out for" "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg"
-[00:01:52.312] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\image-optimizer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:01:52.439] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:01:52.533] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\response-cache\index.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:01:52.586] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\lib\batcher.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:01:52.836] Server  ERROR   Error: "url" parameter is valid but upstream response timed out
-[00:06:51.865] Server  LOG      ✓ Compiled in 308.8s
+[00:00:02.977] Server  LOG      ✓ Ready in 2.2s
+[00:00:34.838] Server  LOG      ○ Compiling / ...
+[00:00:49.885] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:50.980] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771331460/WhatsApp_Image_2026-02-17_at_2.59.22_PM_1_nt513j.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:50.980] Browser WARN    Image with src "/mobile.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:52.712] Server  LOG      ○ Compiling /_not-found/page ...
+[00:00:53.745] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:11:24.155] Server  LOG      ✓ Compiled in 2.3s
+[00:11:25.692] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `Home`.
+[00:11:26.469] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:11:26.881] Server  LOG      ✓ Compiled in 2.1s
+[00:11:27.636] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:11:41.885] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/chithirai-popup.jpg" "received" null
+[00:11:42.317] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:43.192] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771331460/WhatsApp_Image_2026-02-17_at_2.59.22_PM_1_nt513j.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:11:43.192] Browser WARN    Image with src "/mobile.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:11:43.192] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:11:45.436] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/chithirai-popup.jpg" "received" null
+[00:11:50.268] Server  LOG      ✓ Compiled in 178ms
+[00:18:43.134] Server  LOG      ✓ Compiled in 1096ms
+[00:18:45.632] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `Home`.
+[00:18:45.904] Server  ERROR    ⨯ ./components/EventPopup.tsx:894:1
+Module not found: Can't resolve './chithirai-popup.jpg'
+  892 |
+  893 | // Import the new Chithirai Pournami Image
+> 894 | import chithiraiPopupImg from './chithirai-popup.jpg'; 
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  895 |
+  896 | // --- UPDATED TRAIN DATA (From Document Schedules) ---
+  897 | const trainData = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:45.990] Server  ERROR    ⨯ ./components/EventPopup.tsx:894:1
+Module not found: Can't resolve './chithirai-popup.jpg'
+  892 |
+  893 | // Import the new Chithirai Pournami Image
+> 894 | import chithiraiPopupImg from './chithirai-popup.jpg'; 
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  895 |
+  896 | // --- UPDATED TRAIN DATA (From Document Schedules) ---
+  897 | const trainData = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:46.187] Server  ERROR    ⨯ ./components/EventPopup.tsx:894:1
+Module not found: Can't resolve './chithirai-popup.jpg'
+  892 |
+  893 | // Import the new Chithirai Pournami Image
+> 894 | import chithiraiPopupImg from './chithirai-popup.jpg'; 
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  895 |
+  896 | // --- UPDATED TRAIN DATA (From Document Schedules) ---
+  897 | const trainData = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:46.315] Server  ERROR    ⨯ ./components/EventPopup.tsx:894:1
+Module not found: Can't resolve './chithirai-popup.jpg'
+  892 |
+  893 | // Import the new Chithirai Pournami Image
+> 894 | import chithiraiPopupImg from './chithirai-popup.jpg'; 
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  895 |
+  896 | // --- UPDATED TRAIN DATA (From Document Schedules) ---
+  897 | const trainData = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:46.419] Server  ERROR    ⨯ ./components/EventPopup.tsx:894:1
+Module not found: Can't resolve './chithirai-popup.jpg'
+  892 |
+  893 | // Import the new Chithirai Pournami Image
+> 894 | import chithiraiPopupImg from './chithirai-popup.jpg'; 
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  895 |
+  896 | // --- UPDATED TRAIN DATA (From Document Schedules) ---
+  897 | const trainData = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:46.475] Server  ERROR    ⨯ ./components/EventPopup.tsx:894:1
+Module not found: Can't resolve './chithirai-popup.jpg'
+  892 |
+  893 | // Import the new Chithirai Pournami Image
+> 894 | import chithiraiPopupImg from './chithirai-popup.jpg'; 
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  895 |
+  896 | // --- UPDATED TRAIN DATA (From Document Schedules) ---
+  897 | const trainData = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:46.515] Server  ERROR    ⨯ ./components/EventPopup.tsx:894:1
+Module not found: Can't resolve './chithirai-popup.jpg'
+  892 |
+  893 | // Import the new Chithirai Pournami Image
+> 894 | import chithiraiPopupImg from './chithirai-popup.jpg'; 
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  895 |
+  896 | // --- UPDATED TRAIN DATA (From Document Schedules) ---
+  897 | const trainData = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:46.555] Server  ERROR    ⨯ ./components/EventPopup.tsx:894:1
+Module not found: Can't resolve './chithirai-popup.jpg'
+  892 |
+  893 | // Import the new Chithirai Pournami Image
+> 894 | import chithiraiPopupImg from './chithirai-popup.jpg'; 
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  895 |
+  896 | // --- UPDATED TRAIN DATA (From Document Schedules) ---
+  897 | const trainData = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:46.612] Server  ERROR    ⨯ ./components/EventPopup.tsx:894:1
+Module not found: Can't resolve './chithirai-popup.jpg'
+  892 |
+  893 | // Import the new Chithirai Pournami Image
+> 894 | import chithiraiPopupImg from './chithirai-popup.jpg'; 
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  895 |
+  896 | // --- UPDATED TRAIN DATA (From Document Schedules) ---
+  897 | const trainData = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:46.622] Server  ERROR    ⨯ ./components/EventPopup.tsx:894:1
+Module not found: Can't resolve './chithirai-popup.jpg'
+  892 |
+  893 | // Import the new Chithirai Pournami Image
+> 894 | import chithiraiPopupImg from './chithirai-popup.jpg'; 
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  895 |
+  896 | // --- UPDATED TRAIN DATA (From Document Schedules) ---
+  897 | const trainData = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:46.636] Server  ERROR    ⨯ ./components/EventPopup.tsx:894:1
+Module not found: Can't resolve './chithirai-popup.jpg'
+  892 |
+  893 | // Import the new Chithirai Pournami Image
+> 894 | import chithiraiPopupImg from './chithirai-popup.jpg'; 
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  895 |
+  896 | // --- UPDATED TRAIN DATA (From Document Schedules) ---
+  897 | const trainData = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:46.662] Server  ERROR    ⨯ ./components/EventPopup.tsx:894:1
+Module not found: Can't resolve './chithirai-popup.jpg'
+  892 |
+  893 | // Import the new Chithirai Pournami Image
+> 894 | import chithiraiPopupImg from './chithirai-popup.jpg'; 
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  895 |
+  896 | // --- UPDATED TRAIN DATA (From Document Schedules) ---
+  897 | const trainData = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:46.684] Server  ERROR    ⨯ ./components/EventPopup.tsx:894:1
+Module not found: Can't resolve './chithirai-popup.jpg'
+  892 |
+  893 | // Import the new Chithirai Pournami Image
+> 894 | import chithiraiPopupImg from './chithirai-popup.jpg'; 
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  895 |
+  896 | // --- UPDATED TRAIN DATA (From Document Schedules) ---
+  897 | const trainData = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:46.698] Server  ERROR    ⨯ ./components/EventPopup.tsx:894:1
+Module not found: Can't resolve './chithirai-popup.jpg'
+  892 |
+  893 | // Import the new Chithirai Pournami Image
+> 894 | import chithiraiPopupImg from './chithirai-popup.jpg'; 
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  895 |
+  896 | // --- UPDATED TRAIN DATA (From Document Schedules) ---
+  897 | const trainData = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:46.714] Server  ERROR    ⨯ ./components/EventPopup.tsx:894:1
+Module not found: Can't resolve './chithirai-popup.jpg'
+  892 |
+  893 | // Import the new Chithirai Pournami Image
+> 894 | import chithiraiPopupImg from './chithirai-popup.jpg'; 
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  895 |
+  896 | // --- UPDATED TRAIN DATA (From Document Schedules) ---
+  897 | const trainData = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:46.725] Server  ERROR    ⨯ ./components/EventPopup.tsx:894:1
+Module not found: Can't resolve './chithirai-popup.jpg'
+  892 |
+  893 | // Import the new Chithirai Pournami Image
+> 894 | import chithiraiPopupImg from './chithirai-popup.jpg'; 
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  895 |
+  896 | // --- UPDATED TRAIN DATA (From Document Schedules) ---
+  897 | const trainData = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:46.754] Server  ERROR    ⨯ ./components/EventPopup.tsx:894:1
+Module not found: Can't resolve './chithirai-popup.jpg'
+  892 |
+  893 | // Import the new Chithirai Pournami Image
+> 894 | import chithiraiPopupImg from './chithirai-popup.jpg'; 
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  895 |
+  896 | // --- UPDATED TRAIN DATA (From Document Schedules) ---
+  897 | const trainData = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:46.769] Server  ERROR    ⨯ ./components/EventPopup.tsx:894:1
+Module not found: Can't resolve './chithirai-popup.jpg'
+  892 |
+  893 | // Import the new Chithirai Pournami Image
+> 894 | import chithiraiPopupImg from './chithirai-popup.jpg'; 
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  895 |
+  896 | // --- UPDATED TRAIN DATA (From Document Schedules) ---
+  897 | const trainData = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:46.787] Server  ERROR    ⨯ ./components/EventPopup.tsx:894:1
+Module not found: Can't resolve './chithirai-popup.jpg'
+  892 |
+  893 | // Import the new Chithirai Pournami Image
+> 894 | import chithiraiPopupImg from './chithirai-popup.jpg'; 
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  895 |
+  896 | // --- UPDATED TRAIN DATA (From Document Schedules) ---
+  897 | const trainData = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:46.808] Server  ERROR    ⨯ ./components/EventPopup.tsx:894:1
+Module not found: Can't resolve './chithirai-popup.jpg'
+  892 |
+  893 | // Import the new Chithirai Pournami Image
+> 894 | import chithiraiPopupImg from './chithirai-popup.jpg'; 
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  895 |
+  896 | // --- UPDATED TRAIN DATA (From Document Schedules) ---
+  897 | const trainData = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:46.827] Server  ERROR    ⨯ ./components/EventPopup.tsx:894:1
+Module not found: Can't resolve './chithirai-popup.jpg'
+  892 |
+  893 | // Import the new Chithirai Pournami Image
+> 894 | import chithiraiPopupImg from './chithirai-popup.jpg'; 
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  895 |
+  896 | // --- UPDATED TRAIN DATA (From Document Schedules) ---
+  897 | const trainData = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:46.841] Server  ERROR    ⨯ ./components/EventPopup.tsx:894:1
+Module not found: Can't resolve './chithirai-popup.jpg'
+  892 |
+  893 | // Import the new Chithirai Pournami Image
+> 894 | import chithiraiPopupImg from './chithirai-popup.jpg'; 
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  895 |
+  896 | // --- UPDATED TRAIN DATA (From Document Schedules) ---
+  897 | const trainData = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:46.856] Server  ERROR    ⨯ ./components/EventPopup.tsx:894:1
+Module not found: Can't resolve './chithirai-popup.jpg'
+  892 |
+  893 | // Import the new Chithirai Pournami Image
+> 894 | import chithiraiPopupImg from './chithirai-popup.jpg'; 
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  895 |
+  896 | // --- UPDATED TRAIN DATA (From Document Schedules) ---
+  897 | const trainData = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:46.872] Server  ERROR    ⨯ ./components/EventPopup.tsx:894:1
+Module not found: Can't resolve './chithirai-popup.jpg'
+  892 |
+  893 | // Import the new Chithirai Pournami Image
+> 894 | import chithiraiPopupImg from './chithirai-popup.jpg'; 
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  895 |
+  896 | // --- UPDATED TRAIN DATA (From Document Schedules) ---
+  897 | const trainData = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:46.889] Server  ERROR    ⨯ ./components/EventPopup.tsx:894:1
+Module not found: Can't resolve './chithirai-popup.jpg'
+  892 |
+  893 | // Import the new Chithirai Pournami Image
+> 894 | import chithiraiPopupImg from './chithirai-popup.jpg'; 
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  895 |
+  896 | // --- UPDATED TRAIN DATA (From Document Schedules) ---
+  897 | const trainData = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:46.902] Server  ERROR    ⨯ ./components/EventPopup.tsx:894:1
+Module not found: Can't resolve './chithirai-popup.jpg'
+  892 |
+  893 | // Import the new Chithirai Pournami Image
+> 894 | import chithiraiPopupImg from './chithirai-popup.jpg'; 
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  895 |
+  896 | // --- UPDATED TRAIN DATA (From Document Schedules) ---
+  897 | const trainData = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:46.917] Server  ERROR    ⨯ ./components/EventPopup.tsx:894:1
+Module not found: Can't resolve './chithirai-popup.jpg'
+  892 |
+  893 | // Import the new Chithirai Pournami Image
+> 894 | import chithiraiPopupImg from './chithirai-popup.jpg'; 
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  895 |
+  896 | // --- UPDATED TRAIN DATA (From Document Schedules) ---
+  897 | const trainData = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:46.933] Server  ERROR    ⨯ ./components/EventPopup.tsx:894:1
+Module not found: Can't resolve './chithirai-popup.jpg'
+  892 |
+  893 | // Import the new Chithirai Pournami Image
+> 894 | import chithiraiPopupImg from './chithirai-popup.jpg'; 
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  895 |
+  896 | // --- UPDATED TRAIN DATA (From Document Schedules) ---
+  897 | const trainData = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:46.952] Server  ERROR    ⨯ ./components/EventPopup.tsx:894:1
+Module not found: Can't resolve './chithirai-popup.jpg'
+  892 |
+  893 | // Import the new Chithirai Pournami Image
+> 894 | import chithiraiPopupImg from './chithirai-popup.jpg'; 
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  895 |
+  896 | // --- UPDATED TRAIN DATA (From Document Schedules) ---
+  897 | const trainData = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:46.966] Server  ERROR    ⨯ ./components/EventPopup.tsx:894:1
+Module not found: Can't resolve './chithirai-popup.jpg'
+  892 |
+  893 | // Import the new Chithirai Pournami Image
+> 894 | import chithiraiPopupImg from './chithirai-popup.jpg'; 
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  895 |
+  896 | // --- UPDATED TRAIN DATA (From Document Schedules) ---
+  897 | const trainData = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:46.981] Server  ERROR    ⨯ ./components/EventPopup.tsx:894:1
+Module not found: Can't resolve './chithirai-popup.jpg'
+  892 |
+  893 | // Import the new Chithirai Pournami Image
+> 894 | import chithiraiPopupImg from './chithirai-popup.jpg'; 
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  895 |
+  896 | // --- UPDATED TRAIN DATA (From Document Schedules) ---
+  897 | const trainData = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:47.001] Server  ERROR    ⨯ ./components/EventPopup.tsx:894:1
+Module not found: Can't resolve './chithirai-popup.jpg'
+  892 |
+  893 | // Import the new Chithirai Pournami Image
+> 894 | import chithiraiPopupImg from './chithirai-popup.jpg'; 
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  895 |
+  896 | // --- UPDATED TRAIN DATA (From Document Schedules) ---
+  897 | const trainData = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:18:47.031] Server  LOG      ✓ Compiled in 1739ms
+[00:18:47.333] Browser ERROR   ./components/EventPopup.tsx:894:1
+Module not found: Can't resolve './chithirai-popup.jpg'
+  892 |
+  893 | // Import the new Chithirai Pournami Image
+> 894 | import chithiraiPopupImg from './chithirai-popup.jpg'; 
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  895 |
+  896 | // --- UPDATED TRAIN DATA (From Document Schedules) ---
+  897 | const trainData = [
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:18:47.726] Browser ERROR   ./components/EventPopup.tsx:894:1
+Module not found: Can't resolve './chithirai-popup.jpg'
+  892 |
+  893 | // Import the new Chithirai Pournami Image
+> 894 | import chithiraiPopupImg from './chithirai-popup.jpg'; 
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  895 |
+  896 | // --- UPDATED TRAIN DATA (From Document Schedules) ---
+  897 | const trainData = [
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:19:16.050] Server  LOG      ✓ Compiled in 266ms
+[00:19:17.055] Browser ERROR   ./components/EventPopup.tsx
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/components/EventPopup.tsx [app-client] (ecmascript)
+
+Caused by:
+- the chunking context (unknown) does not support external modules (request: https://res.cloudinary.com/dvd7o5nph/image/upload/v1777280802/chithirai-popup_v08j34.jpg)
+
+Debug info:
+- An error occurred while generating the chunk item [project]/components/EventPopup.tsx [app-client] (ecmascript)
+- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
+- Execution of *EcmascriptChunkItemContent::new failed
+- Execution of EcmascriptModuleContent::new failed
+- the chunking context (unknown) does not support external modules (request: https://res.cloudinary.com/dvd7o5nph/image/upload/v1777280802/chithirai-popup_v08j34.jpg)
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:19:20.859] Server  ERROR    ⨯ ./components/EventPopup.tsx
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/components/EventPopup.tsx [app-client] (ecmascript)
+
+Caused by:
+- the chunking context (unknown) does not support external modules (request: https://res.cloudinary.com/dvd7o5nph/image/upload/v1777280802/chithirai-popup_v08j34.jpg)
+
+Debug info:
+- An error occurred while generating the chunk item [project]/components/EventPopup.tsx [app-client] (ecmascript)
+- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
+- Execution of *EcmascriptChunkItemContent::new failed
+- Execution of EcmascriptModuleContent::new failed
+- the chunking context (unknown) does not support external modules (request: https://res.cloudinary.com/dvd7o5nph/image/upload/v1777280802/chithirai-popup_v08j34.jpg)
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+[00:19:21.032] Browser ERROR   ./components/EventPopup.tsx
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/components/EventPopup.tsx [app-client] (ecmascript)
+
+Caused by:
+- the chunking context (unknown) does not support external modules (request: https://res.cloudinary.com/dvd7o5nph/image/upload/v1777280802/chithirai-popup_v08j34.jpg)
+
+Debug info:
+- An error occurred while generating the chunk item [project]/components/EventPopup.tsx [app-client] (ecmascript)
+- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
+- Execution of *EcmascriptChunkItemContent::new failed
+- Execution of EcmascriptModuleContent::new failed
+- the chunking context (unknown) does not support external modules (request: https://res.cloudinary.com/dvd7o5nph/image/upload/v1777280802/chithirai-popup_v08j34.jpg)
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:19:22.758] Browser ERROR   ./components/EventPopup.tsx
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/components/EventPopup.tsx [app-client] (ecmascript)
+
+Caused by:
+- the chunking context (unknown) does not support external modules (request: https://res.cloudinary.com/dvd7o5nph/image/upload/v1777280802/chithirai-popup_v08j34.jpg)
+
+Debug info:
+- An error occurred while generating the chunk item [project]/components/EventPopup.tsx [app-client] (ecmascript)
+- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
+- Execution of *EcmascriptChunkItemContent::new failed
+- Execution of EcmascriptModuleContent::new failed
+- the chunking context (unknown) does not support external modules (request: https://res.cloudinary.com/dvd7o5nph/image/upload/v1777280802/chithirai-popup_v08j34.jpg)
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:19:22.942] Browser ERROR   ./components/EventPopup.tsx
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/components/EventPopup.tsx [app-client] (ecmascript)
+
+Caused by:
+- the chunking context (unknown) does not support external modules (request: https://res.cloudinary.com/dvd7o5nph/image/upload/v1777280802/chithirai-popup_v08j34.jpg)
+
+Debug info:
+- An error occurred while generating the chunk item [project]/components/EventPopup.tsx [app-client] (ecmascript)
+- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
+- Execution of *EcmascriptChunkItemContent::new failed
+- Execution of EcmascriptModuleContent::new failed
+- the chunking context (unknown) does not support external modules (request: https://res.cloudinary.com/dvd7o5nph/image/upload/v1777280802/chithirai-popup_v08j34.jpg)
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:19:24.234] Browser ERROR   ./components/EventPopup.tsx
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/components/EventPopup.tsx [app-client] (ecmascript)
+
+Caused by:
+- the chunking context (unknown) does not support external modules (request: https://res.cloudinary.com/dvd7o5nph/image/upload/v1777280802/chithirai-popup_v08j34.jpg)
+
+Debug info:
+- An error occurred while generating the chunk item [project]/components/EventPopup.tsx [app-client] (ecmascript)
+- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
+- Execution of *EcmascriptChunkItemContent::new failed
+- Execution of EcmascriptModuleContent::new failed
+- the chunking context (unknown) does not support external modules (request: https://res.cloudinary.com/dvd7o5nph/image/upload/v1777280802/chithirai-popup_v08j34.jpg)
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:19:24.670] Browser ERROR   uncaughtError: Error: ./components/EventPopup.tsx
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/components/EventPopup.tsx [app-client] (ecmascript)
+
+Caused by:
+- the chunking context (unknown) does not support external modules (request: https://res.cloudinary.com/dvd7o5nph/image/upload/v1777280802/chithirai-popup_v08j34.jpg)
+
+Debug info:
+- An error occurred while generating the chunk item [project]/components/EventPopup.tsx [app-client] (ecmascript)
+- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
+- Execution of *EcmascriptChunkItemContent::new failed
+- Execution of EcmascriptModuleContent::new failed
+- the chunking context (unknown) does not support external modules (request: https://res.cloudinary.com/dvd7o5nph/image/upload/v1777280802/chithirai-popup_v08j34.jpg)
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+[00:19:24.798] Browser ERROR   ./components/EventPopup.tsx
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/components/EventPopup.tsx [app-client] (ecmascript)
+
+Caused by:
+- the chunking context (unknown) does not support external modules (request: https://res.cloudinary.com/dvd7o5nph/image/upload/v1777280802/chithirai-popup_v08j34.jpg)
+
+Debug info:
+- An error occurred while generating the chunk item [project]/components/EventPopup.tsx [app-client] (ecmascript)
+- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
+- Execution of *EcmascriptChunkItemContent::new failed
+- Execution of EcmascriptModuleContent::new failed
+- the chunking context (unknown) does not support external modules (request: https://res.cloudinary.com/dvd7o5nph/image/upload/v1777280802/chithirai-popup_v08j34.jpg)
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:19:25.091] Browser ERROR   ./components/EventPopup.tsx
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/components/EventPopup.tsx [app-client] (ecmascript)
+
+Caused by:
+- the chunking context (unknown) does not support external modules (request: https://res.cloudinary.com/dvd7o5nph/image/upload/v1777280802/chithirai-popup_v08j34.jpg)
+
+Debug info:
+- An error occurred while generating the chunk item [project]/components/EventPopup.tsx [app-client] (ecmascript)
+- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
+- Execution of *EcmascriptChunkItemContent::new failed
+- Execution of EcmascriptModuleContent::new failed
+- the chunking context (unknown) does not support external modules (request: https://res.cloudinary.com/dvd7o5nph/image/upload/v1777280802/chithirai-popup_v08j34.jpg)
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:22:26.888] Server  ERROR    ⨯ ./components/EventPopup.tsx:894:1
+Module not found: Can't resolve './chithirai-popup.jpg'
+  892 |
+  893 | // Import the new Chithirai Pournami Image
+> 894 | import chithiraiPopupImg from './chithirai-popup.jpg'; 
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  895 |
+  896 | // --- UPDATED TRAIN DATA (From Document Schedules) ---
+  897 | const trainData = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:26.900] Server  ERROR    ⨯ ./components/EventPopup.tsx:894:1
+Module not found: Can't resolve './chithirai-popup.jpg'
+  892 |
+  893 | // Import the new Chithirai Pournami Image
+> 894 | import chithiraiPopupImg from './chithirai-popup.jpg'; 
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  895 |
+  896 | // --- UPDATED TRAIN DATA (From Document Schedules) ---
+  897 | const trainData = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:26.910] Server  ERROR    ⨯ ./components/EventPopup.tsx:894:1
+Module not found: Can't resolve './chithirai-popup.jpg'
+  892 |
+  893 | // Import the new Chithirai Pournami Image
+> 894 | import chithiraiPopupImg from './chithirai-popup.jpg'; 
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  895 |
+  896 | // --- UPDATED TRAIN DATA (From Document Schedules) ---
+  897 | const trainData = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:26.919] Server  ERROR    ⨯ ./components/EventPopup.tsx:894:1
+Module not found: Can't resolve './chithirai-popup.jpg'
+  892 |
+  893 | // Import the new Chithirai Pournami Image
+> 894 | import chithiraiPopupImg from './chithirai-popup.jpg'; 
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  895 |
+  896 | // --- UPDATED TRAIN DATA (From Document Schedules) ---
+  897 | const trainData = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:27.059] Browser ERROR   ./components/EventPopup.tsx:894:1
+Module not found: Can't resolve './chithirai-popup.jpg'
+  892 |
+  893 | // Import the new Chithirai Pournami Image
+> 894 | import chithiraiPopupImg from './chithirai-popup.jpg'; 
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  895 |
+  896 | // --- UPDATED TRAIN DATA (From Document Schedules) ---
+  897 | const trainData = [
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:22:28.582] Server  LOG      ✓ Compiled in 162ms
+[00:22:30.304] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:22:30.312] Server  ERROR    ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+[00:22:30.861] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:31.264] Browser ERROR   uncaughtError: SyntaxError: Invalid or unexpected token
+[00:22:40.555] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:41.028] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771331460/WhatsApp_Image_2026-02-17_at_2.59.22_PM_1_nt513j.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:22:41.028] Browser WARN    Image with src "/mobile.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:22:43.111] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:22:46.515] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1777280802/chithirai-popup_v08j34.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:57:56.687] Server  LOG      ✓ Compiled in 14.4s
+[02:58:08.883] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:58:11.700] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771331460/WhatsApp_Image_2026-02-17_at_2.59.22_PM_1_nt513j.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:58:11.700] Browser WARN    Image with src "/mobile.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:58:11.881] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:58:11.881] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:58:13.863] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1777280802/chithirai-popup_v08j34.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:02:20.147] Server  LOG      ✓ Compiled in 1708ms
+[03:02:21.841] Server  LOG      ✓ Compiled in 1527ms
+[03:02:23.252] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `Home`.
+[03:02:23.494] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[03:02:23.753] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[03:02:39.283] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:02:40.088] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771331460/WhatsApp_Image_2026-02-17_at_2.59.22_PM_1_nt513j.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:02:40.088] Browser WARN    Image with src "/mobile.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:02:40.088] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:02:40.088] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:02:41.954] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1777280802/chithirai-popup_v08j34.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:04:45.413] Server  LOG      ✓ Compiled in 811ms
+[03:09:34.612] Server  LOG      ✓ Compiled in 337ms
+[03:09:40.307] Server  LOG      ✓ Compiled in 537ms
+[03:10:05.413] Server  ERROR    ⨯ "upstream image response timed out for" "https://res.cloudinary.com/dvd7o5nph/image/upload/v1777280802/chithirai-popup_v08j34.jpg"
+[03:10:26.980] Server  LOG      ✓ Compiled in 228ms
+[03:10:33.753] Server  LOG      ✓ Compiled in 246ms
+[03:11:02.914] Server  ERROR    ⨯ "upstream image" "https://res.cloudinary.com/dvd7o5nph/image/upload/v1777280802/chithirai-popup_v08j34.jpg" "resolved to private ip" "[\"64:ff9b::6810:4f06\",\"64:ff9b::6810:4e06\"]"
+[03:11:14.439] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:11:15.210] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771331460/WhatsApp_Image_2026-02-17_at_2.59.22_PM_1_nt513j.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:11:15.210] Browser WARN    Image with src "/mobile.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:11:15.210] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:11:15.210] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:11:18.058] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[03:12:31.886] Server  LOG      ✓ Compiled in 258ms
+[03:13:01.355] Server  LOG      ✓ Compiled in 323ms
+[03:24:41.644] Server  LOG      ✓ Compiled in 1123ms
+[03:24:44.521] Server  LOG      ✓ Compiled in 583ms
+[03:25:17.708] Server  LOG      ✓ Compiled in 253ms
+[03:25:20.653] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[03:25:20.656] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `Home`.
+[03:25:20.766] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[03:25:20.823] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[03:25:29.899] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:25:31.134] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771331460/WhatsApp_Image_2026-02-17_at_2.59.22_PM_1_nt513j.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:25:31.134] Browser WARN    Image with src "/mobile.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:25:31.134] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:25:31.134] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:25:35.775] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1777280802/chithirai-popup_v08j34.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:28:04.271] Server  LOG      ✓ Compiled in 981ms
+[03:28:04.610] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/chithirai-popup.jpg" "received" null
+[03:28:13.534] Server  LOG      ✓ Compiled in 367ms
+[03:28:14.058] Browser ERROR   ./components/EventPopup.tsx:1304:40
+Parsing ecmascript source code failed
+  1302 |                 )}
+  1303 |
+> 1304 | /* --- NEW: CHITHRA POURNAMI TAB --- */}
+       |                                        ^
+  1305 |                 {activeTab === 'chithra' && (
+  1306 |                   <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="space-y-6 flex flex-col h-full pb-4">
+  1307 |                     <div className="text-center pt-2">
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[03:28:14.783] Server  LOG      ✓ Compiled in 205ms
+[03:28:22.108] Server  LOG      ✓ Compiled in 213ms
+[03:28:23.056] Browser ERROR   ./components/EventPopup.tsx:1304:40
+Parsing ecmascript source code failed
+  1302 |                 )}
+  1303 |
+> 1304 | /* --- NEW: CHITHRA POURNAMI TAB --- */}
+       |                                        ^
+  1305 |                 {activeTab === 'chithra' && (
+  1306 |                   <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="space-y-6 flex flex-col h-full pb-4">
+  1307 |                     <div className="text-center pt-2">
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[03:28:31.915] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:28:32.831] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771331460/WhatsApp_Image_2026-02-17_at_2.59.22_PM_1_nt513j.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:28:32.831] Browser WARN    Image with src "/mobile.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:28:32.831] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:28:32.831] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:28:37.558] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/chithirai-popup.jpg" "received" null
+[03:29:03.369] Server  LOG      ✓ Compiled in 266ms
+[03:29:14.692] Server  LOG      ○ Compiling /all-events ...
+[03:29:21.948] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[03:31:00.146] Server  LOG      ✓ Compiled in 243ms
+[03:31:04.101] Server  LOG      ✓ Compiled in 193ms
+[03:31:06.230] Server  LOG      ✓ Compiled in 185ms
+[03:32:02.960] Server  LOG      ✓ Compiled in 272ms
+[03:32:04.055] Browser ERROR   ./components/EventPopup.tsx:1078:55
+Parsing ecmascript source code failed
+  1076 |   const [isOpen, setIsOpen] = useState(false);
+  1077 |   // Added 'chithra' to the type definition
+> 1078 |   const [activeTab, setActiveTab] = useState<'chithra''volunteer' | 'event' | 'train' | 'chithra'>('volunteer');
+       |                                                       ^^^^^^^^^^^
+  1079 |   const [searchTerm, setSearchTerm] = useState("");
+  1080 |   const [daysToGo, setDaysToGo] = useState(0);
+  1081 |   const [mainEvent, setMainEvent] = useState(masterEventList[0]);
+
+Expected a semicolon
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[03:32:05.086] Browser ERROR   ./components/EventPopup.tsx:1078:56
+Parsing ecmascript source code failed
+  1076 |   const [isOpen, setIsOpen] = useState(false);
+  1077 |   // Added 'chithra' to the type definition
+> 1078 |   const [activeTab, setActiveTab] = useState<'chithra' 'volunteer' | 'event' | 'train' | 'chithra'>('volunteer');
+       |                                                        ^^^^^^^^^^^
+  1079 |   const [searchTerm, setSearchTerm] = useState("");
+  1080 |   const [daysToGo, setDaysToGo] = useState(0);
+  1081 |   const [mainEvent, setMainEvent] = useState(masterEventList[0]);
+
+Expected a semicolon
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[03:32:08.123] Server  LOG      ✓ Compiled in 213ms
+[03:32:30.219] Server  LOG      ✓ Compiled in 300ms
+[03:32:31.056] Browser ERROR   ./components/EventPopup.tsx:1078:79
+Parsing ecmascript source code failed
+  1076 |   const [isOpen, setIsOpen] = useState(false);
+  1077 |   // Added 'chithra' to the type definition
+> 1078 |   const [activeTab, setActiveTab] = useState<'chithra' | 'event' | 'train' |  | 'volunteer'>('volunteer');
+       |                                                                               ^
+  1079 |   const [searchTerm, setSearchTerm] = useState("");
+  1080 |   const [daysToGo, setDaysToGo] = useState(0);
+  1081 |   const [mainEvent, setMainEvent] = useState(masterEventList[0]);
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[03:33:00.053] Browser ERROR   ./components/EventPopup.tsx:1078:79
+Parsing ecmascript source code failed
+  1076 |   const [isOpen, setIsOpen] = useState(false);
+  1077 |   // Added 'chithra' to the type definition
+> 1078 |   const [activeTab, setActiveTab] = useState<'chithra' | 'event' | 'train' |  | 'volunteer'>('chithra');
+       |                                                                               ^
+  1079 |   const [searchTerm, setSearchTerm] = useState("");
+  1080 |   const [daysToGo, setDaysToGo] = useState(0);
+  1081 |   const [mainEvent, setMainEvent] = useState(masterEventList[0]);
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[03:33:11.057] Browser ERROR   ./components/EventPopup.tsx:1078:79
+Parsing ecmascript source code failed
+  1076 |   const [isOpen, setIsOpen] = useState(false);
+  1077 |   // Added 'chithra' to the type definition
+> 1078 |   const [activeTab, setActiveTab] = useState<'chithra' | 'event' | 'train' |  >('chithra');
+       |                                                                               ^
+  1079 |   const [searchTerm, setSearchTerm] = useState("");
+  1080 |   const [daysToGo, setDaysToGo] = useState(0);
+  1081 |   const [mainEvent, setMainEvent] = useState(masterEventList[0]);
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[03:33:13.056] Browser ERROR   ./components/EventPopup.tsx:1078:77
+Parsing ecmascript source code failed
+  1076 |   const [isOpen, setIsOpen] = useState(false);
+  1077 |   // Added 'chithra' to the type definition
+> 1078 |   const [activeTab, setActiveTab] = useState<'chithra' | 'event' | 'train' |>('chithra');
+       |                                                                             ^
+  1079 |   const [searchTerm, setSearchTerm] = useState("");
+  1080 |   const [daysToGo, setDaysToGo] = useState(0);
+  1081 |   const [mainEvent, setMainEvent] = useState(masterEventList[0]);
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[03:33:20.064] Browser ERROR   ./components/EventPopup.tsx:1078:58
+Parsing ecmascript source code failed
+  1076 |   const [isOpen, setIsOpen] = useState(false);
+  1077 |   // Added 'chithra' to the type definition
+> 1078 |   const [activeTab, setActiveTab] = useState<'chithra' | | 'volunteer''event' | 'train' |>('chithra');
+       |                                                          ^
+  1079 |   const [searchTerm, setSearchTerm] = useState("");
+  1080 |   const [daysToGo, setDaysToGo] = useState(0);
+  1081 |   const [mainEvent, setMainEvent] = useState(masterEventList[0]);
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[03:33:47.022] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:33:47.901] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771331460/WhatsApp_Image_2026-02-17_at_2.59.22_PM_1_nt513j.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:33:47.901] Browser WARN    Image with src "/mobile.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:33:47.901] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:33:47.901] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:35:10.934] Server  LOG      ✓ Compiled in 469ms
+[03:35:13.953] Server  LOG      ✓ Compiled in 180ms
+[03:35:15.630] Server  LOG      ✓ Compiled in 222ms
+[03:41:40.868] Server  LOG      ✓ Compiled in 1217ms
+[03:41:46.992] Server  LOG      ✓ Compiled in 190ms
+[03:42:11.728] Server  ERROR   TimeoutError: The operation was aborted due to timeout
+[03:42:16.933] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:42:17.713] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1777294093/destop1.jpg_abkr2t.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:42:17.714] Browser WARN    Image with src "/mobile.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:42:17.714] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:42:17.714] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:43:45.548] Server  LOG      ✓ Compiled in 235ms
+[03:43:47.536] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1777294093/destop_size.jpg_hnmzxm.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:44:01.726] Server  LOG      ✓ Compiled in 158ms
+[03:45:33.686] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:45:34.251] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1777294093/destop1.jpg_abkr2t.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:45:34.251] Browser WARN    Image with src "/mobile.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:45:34.251] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:45:34.251] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:45:37.099] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[03:45:47.846] Server  LOG      ✓ Compiled in 399ms
+[03:45:49.333] Server  LOG      ✓ Compiled in 316ms
+[03:46:14.156] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:46:14.640] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1777294093/destop1.jpg_abkr2t.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:46:14.641] Browser WARN    Image with src "/mobile.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:46:14.641] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:46:14.641] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:46:46.783] Server  LOG      ✓ Compiled in 211ms
+[03:46:48.738] Server  LOG      ✓ Compiled in 225ms
+[03:46:50.239] Server  LOG      ✓ Compiled in 149ms
+[03:51:11.069] Server  LOG      ✓ Compiled in 1533ms
+[03:51:12.252] Server  LOG      ✓ Compiled in 842ms
+[03:51:12.848] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[03:51:12.856] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `Home`.
+[03:51:22.887] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:51:23.445] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1777294093/destop1.jpg_abkr2t.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:51:23.445] Browser WARN    Image with src "/mobile.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:51:23.445] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:51:23.445] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:58:59.347] Server  LOG      ✓ Compiled in 758ms
+[03:59:36.796] Server  LOG      ✓ Compiled in 489ms

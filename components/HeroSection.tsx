@@ -231,8 +231,9 @@ import { FileText, UserCheck, Heart, ArrowRight } from 'lucide-react'; // Icons 
 
 export default function HeroSection() {
   // Define your separate images here
-  const desktopImage = "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771331460/WhatsApp_Image_2026-02-17_at_2.59.22_PM_1_nt513j.jpg"; 
-  const mobileImage = "/mobile.jpeg"; // <-- REPLACE THIS WITH YOUR MOBILE IMAGE URL
+  // const desktopImage = "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771331460/WhatsApp_Image_2026-02-17_at_2.59.22_PM_1_nt513j.jpg"; 
+  const desktopImage = "https://res.cloudinary.com/dvd7o5nph/image/upload/v1777294093/destop1.jpg_abkr2t.jpg"; 
+  const mobileImage = "https://res.cloudinary.com/dvd7o5nph/image/upload/v1777294092/pounrnami_poster.jpg_n1r8gm.jpg"; // <-- REPLACE THIS WITH YOUR MOBILE IMAGE URL
 
   return (
     <section className="relative w-full flex flex-col md:flex-row overflow-hidden">
@@ -350,7 +351,7 @@ export default function HeroSection() {
             alt="Arul Thiru Bangaru Adigalar Mobile"
             fill
             priority
-            className="block md:hidden object-cover object-top" 
+            className="block md:hidden object-fill object-top" 
           />
 
           {/* Mobile Gradient */}
