@@ -648,7 +648,8 @@ export default function EventBanner() {
   // or replace these paths with your hosted image URLs (e.g., Cloudinary).
   const notices = [
     "https://res.cloudinary.com/dvd7o5nph/image/upload/v1776797744/notice1_thc7bt.jpg", 
-    "https://res.cloudinary.com/dvd7o5nph/image/upload/v1776797744/notice2_zujh5s.jpg"
+    "https://res.cloudinary.com/dvd7o5nph/image/upload/v1776797744/notice2_zujh5s.jpg",
+    "https://res.cloudinary.com/dvd7o5nph/image/upload/v1777350973/WhatsApp_Image_2026-04-28_at_9.32.21_AM_wquzdr.jpg",
   ];
 
   const nextSlide = () => {
