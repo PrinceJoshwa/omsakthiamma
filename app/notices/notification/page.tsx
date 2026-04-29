@@ -730,7 +730,7 @@ const SIDEBAR_ITEMS = [
   { 
     label: 'Devotee Guidelines', 
     type: 'link', 
-    href: '/irumudi-instruction' 
+    href: '/devotee-guidelines' 
   },
   { 
     label: 'Sanctum Service Schedule', 
