@@ -1003,35 +1003,36 @@ const masterEventList = [
     location: "Adhiparasakthi Siddhar Peedam, Melmaruvathur",
     image: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg"
   },
-  {
-    date: "30.04.2026",
-    titleEnglish: "Chitra Pournami Velvi",
-    titleTamil: "சித்திரை பௌர்ணமி வேள்வி",
-    location: "Adhiparasakthi Siddhar Peedam, Melmaruvathur",
-    image: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg"
-  },
+
 
   // MAY
   {
     date: "01.05.2026",
-    titleEnglish: "Labour Day",
-    titleTamil: "தொழிலாளர் தினம்",
+    titleEnglish: "Chitra Pournami Velvi",
+    titleTamil: "சித்திரை பௌர்ணமி வேள்வி",
     location: "Adhiparasakthi Siddhar Peedam, Melmaruvathur",
-    image: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg"
+    image: "https://res.cloudinary.com/dvd7o5nph/image/upload/v1777464285/WhatsApp_Image_2026-04-29_at_4.32.20_PM_ruvbdv.jpg"
   },
+  // {
+  //   date: "01.05.2026",
+  //   titleEnglish: "Labour Day",
+  //   titleTamil: "தொழிலாளர் தினம்",
+  //   location: "Adhiparasakthi Siddhar Peedam, Melmaruvathur",
+  //   image: "https://res.cloudinary.com/dvd7o5nph/image/upload/v1777464285/WhatsApp_Image_2026-04-29_at_4.32.20_PM_ruvbdv.jpg"
+  // },
   {
     date: "16.05.2026",
     titleEnglish: "Ammavasai Velvi",
     titleTamil: "அமாவாசை வேள்வி",
     location: "Adhiparasakthi Siddhar Peedam, Melmaruvathur",
-    image: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg"
+    image: "https://res.cloudinary.com/dvd7o5nph/image/upload/v1777464285/WhatsApp_Image_2026-04-29_at_4.32.20_PM_ruvbdv.jpg"
   },
   {
     date: "31.05.2026",
     titleEnglish: "Pournami Pooja",
     titleTamil: "பௌர்ணமி பூஜை",
     location: "Adhiparasakthi Siddhar Peedam, Melmaruvathur",
-    image: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg"
+    image: "https://res.cloudinary.com/dvd7o5nph/image/upload/v1777464285/WhatsApp_Image_2026-04-29_at_4.32.20_PM_ruvbdv.jpg"
   },
 
   // JUNE
@@ -1040,14 +1041,14 @@ const masterEventList = [
     titleEnglish: "Ammavasai Velvi",
     titleTamil: "அமாவாசை வேள்வி",
     location: "Adhiparasakthi Siddhar Peedam, Melmaruvathur",
-    image: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg"
+    image: "https://res.cloudinary.com/dvd7o5nph/image/upload/v1777464285/WhatsApp_Image_2026-04-29_at_4.32.20_PM_ruvbdv.jpg"
   },
   {
     date: "29.06.2026",
     titleEnglish: "Pournami Pooja",
     titleTamil: "பௌர்ணமி பூஜை",
     location: "Adhiparasakthi Siddhar Peedam, Melmaruvathur",
-    image: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg"
+    image: "https://res.cloudinary.com/dvd7o5nph/image/upload/v1777464285/WhatsApp_Image_2026-04-29_at_4.32.20_PM_ruvbdv.jpg"
   },
 
   // JULY
@@ -1056,14 +1057,14 @@ const masterEventList = [
     titleEnglish: "Ammavasai Velvi",
     titleTamil: "அமாவாசை வேள்வி",
     location: "Adhiparasakthi Siddhar Peedam, Melmaruvathur",
-    image: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg"
+    image: "https://res.cloudinary.com/dvd7o5nph/image/upload/v1777464285/WhatsApp_Image_2026-04-29_at_4.32.20_PM_ruvbdv.jpg"
   },
   {
     date: "29.07.2026",
     titleEnglish: "Pournami Pooja",
     titleTamil: "பௌர்ணமி பூஜை",
     location: "Adhiparasakthi Siddhar Peedam, Melmaruvathur",
-    image: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg"
+    image: "https://res.cloudinary.com/dvd7o5nph/image/upload/v1777464285/WhatsApp_Image_2026-04-29_at_4.32.20_PM_ruvbdv.jpg"
   }
 ];
 
@@ -1151,7 +1152,7 @@ export default function EventPopup() {
                 src={mainEvent.image}
                 alt="Event Banner"
                 fill
-                className="object-cover opacity-90"
+                className="object-fill opacity-90"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent" />
               <div className="absolute bottom-0 left-0 w-full p-8 text-white">
