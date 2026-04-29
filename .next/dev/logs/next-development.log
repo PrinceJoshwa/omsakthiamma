@@ -1,7 +1,9 @@
-[00:00:02.341] Server  LOG      ✓ Ready in 1716ms
-[00:00:12.984] Server  LOG      ○ Compiling / ...
-[00:00:21.627] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:22.482] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1777294093/destop1.jpg_abkr2t.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:22.482] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1777294092/pounrnami_poster.jpg_n1r8gm.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:24.376] Server  LOG      ○ Compiling /_not-found/page ...
-[00:00:24.401] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:03.061] Server  LOG      ✓ Ready in 2.1s
+[00:00:15.533] Server  LOG      ○ Compiling / ...
+[00:00:27.270] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:27.930] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1777294093/destop1.jpg_abkr2t.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:27.930] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1777294092/pounrnami_poster.jpg_n1r8gm.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:30.184] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:21.393] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:25.798] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939095/om5_ppv6nl.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:25.798] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939123/om3_f76xrf.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
