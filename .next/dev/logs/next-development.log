@@ -110,3 +110,26 @@
 [07:31:53.875] Server  LOG      ✓ Compiled in 120ms
 [07:32:55.568] Server  LOG      ✓ Compiled in 134ms
 [07:33:00.727] Server  LOG      ✓ Compiled in 124ms
+[07:35:09.318] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[07:35:09.904] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1777294093/destop1.jpg_abkr2t.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:35:09.904] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1777294092/pounrnami_poster.jpg_n1r8gm.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:35:09.904] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:35:11.874] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1777464285/WhatsApp_Image_2026-04-29_at_4.32.20_PM_ruvbdv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:35:18.505] Server  LOG      ○ Compiling /devotee-guidelines ...
+[07:35:24.371] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[08:09:22.527] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[31:06:27.403] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[31:06:28.516] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1777294093/destop1.jpg_abkr2t.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[31:06:28.517] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1777294092/pounrnami_poster.jpg_n1r8gm.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[31:06:30.251] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1777464285/WhatsApp_Image_2026-04-29_at_4.32.20_PM_ruvbdv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[31:06:50.549] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[31:06:50.950] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2026-02-24-1
+[31:06:50.950] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2026-02-24-1
+[31:06:55.931] Server  LOG      ○ Compiling /notices/sanctum-schedule ...
+[31:17:13.930] Server  LOG      ✓ Compiled in 5.9s
+[31:17:29.564] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[31:20:07.011] Server  LOG      ✓ Compiled in 2.7s
+[31:20:59.133] Server  LOG      ✓ Compiled in 323ms
+[31:21:17.853] Server  LOG      ✓ Compiled in 6.7s
+[31:22:14.097] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[31:22:40.618] Server  LOG      ✓ Compiled in 2.6s

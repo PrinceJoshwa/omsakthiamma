@@ -1,6 +1,8 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
+  "/devotee-guidelines/page": "app/devotee-guidelines/page.js",
   "/irumudi-instruction/page": "app/irumudi-instruction/page.js",
   "/notices/notification/page": "app/notices/notification/page.js",
+  "/notices/sanctum-schedule/page": "app/notices/sanctum-schedule/page.js",
   "/page": "app/page.js"
 }

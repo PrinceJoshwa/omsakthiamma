@@ -327,10 +327,10 @@ const generalDonations = [
   { name: "Silver Chariot", href: "https://masm.omsakthiamma.in/donate-other/?c=SIC", icon: <Sparkles className="w-8 h-8" />, color: "text-gray-400", bg: "bg-gray-50" },
   // { name: "Lakcharchanai", href: "https://masm.omsakthiamma.in/donate-laksh/", icon: <BookOpen className="w-8 h-8" />, color: "text-purple-500", bg: "bg-purple-50" },
   // { name: "Chitrapournami", href: "https://masm.omsakthiamma.in/donate-chitrapournami/", icon: <Moon className="w-8 h-8" />, color: "text-indigo-500", bg: "bg-indigo-50" },
-  { name: "Chitrapournami", href: "https://masm.omsakthiamma.in/donate-chitrapournami/", icon: <Moon className="w-8 h-8" />, color: "text-indigo-500", bg: "bg-indigo-50" },
-  { name: "Navaratri Kappu", href: "https://masm.omsakthiamma.in/donate-navaratri/", icon: <ShieldCheck className="w-8 h-8" />, color: "text-red-600", bg: "bg-red-50" },
+  // { name: "Chitrapournami", href: "https://masm.omsakthiamma.in/donate-chitrapournami/", icon: <Moon className="w-8 h-8" />, color: "text-indigo-500", bg: "bg-indigo-50" },
+  // { name: "Navaratri Kappu", href: "https://masm.omsakthiamma.in/donate-navaratri/", icon: <ShieldCheck className="w-8 h-8" />, color: "text-red-600", bg: "bg-red-50" },
   // { name: "Online Irumudi", href: "https://www.acmectrust.org/online-darshan/", icon: <CreditCard className="w-8 h-8" />, color: "text-green-600", bg: "bg-green-50" }
-  { name: "Online Irumudi", href: "https://donations.acmectrust.org/online-darshan/", icon: <CreditCard className="w-8 h-8" />, color: "text-green-600", bg: "bg-green-50" }
+  // { name: "Online Irumudi", href: "https://donations.acmectrust.org/online-darshan/", icon: <CreditCard className="w-8 h-8" />, color: "text-green-600", bg: "bg-green-50" }
 ];
 
 const taxExemptDonations = [
