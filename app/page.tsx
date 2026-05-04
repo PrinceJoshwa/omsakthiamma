@@ -41,7 +41,7 @@ export default function Home() {
       <HeroSection />
       {/* <NoticeCarousel /> */}
       {/* <IrumudiSection /> */}
-      <EventBanner /> 
+      {/* <EventBanner />  */}
       <DailyMessageSection />
       <FeaturedVideoSection />
 
