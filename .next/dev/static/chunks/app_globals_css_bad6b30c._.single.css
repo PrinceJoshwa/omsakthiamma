@@ -1297,6 +1297,10 @@
     field-sizing: content;
   }
 
+  .aspect-\[3\/4\] {
+    aspect-ratio: 3 / 4;
+  }
+
   .aspect-\[4\/3\] {
     aspect-ratio: 4 / 3;
   }
@@ -2897,6 +2901,10 @@
 
   .border-yellow-500 {
     border-color: var(--color-yellow-500);
+  }
+
+  .border-t-\[\#a7150b\] {
+    border-top-color: #a7150b;
   }
 
   .border-t-transparent {
@@ -4668,6 +4676,16 @@
 
   .text-red-800 {
     color: var(--color-red-800);
+  }
+
+  .text-red-800\/80 {
+    color: #9f0712cc;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .text-red-800\/80 {
+      color: color-mix(in oklab, var(--color-red-800) 80%, transparent);
+    }
   }
 
   .text-white {
@@ -7382,6 +7400,12 @@
   @media (min-width: 48rem) {
     .md\:inline {
       display: inline;
+    }
+  }
+
+  @media (min-width: 48rem) {
+    .md\:aspect-\[4\/5\] {
+      aspect-ratio: 4 / 5;
     }
   }
 
