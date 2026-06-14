@@ -789,7 +789,8 @@ import { Calendar, MapPin, Sparkles } from 'lucide-react';
 
 export default function EventBanner() {
   // Single image URL for the event notice
-  const noticeImage = "https://res.cloudinary.com/dvd7o5nph/image/upload/v1779967952/notice_rwti9z.jpg";
+  // const noticeImage = "https://res.cloudinary.com/dvd7o5nph/image/upload/v1779967952/notice_rwti9z.jpg";
+  const noticeImage = "https://res.cloudinary.com/dvd7o5nph/image/upload/v1781469049/hero-omsakthi_ti7zw5.jpg";
 
   // Extracted schedule from the Tamil invitation poster
   const schedule = [
@@ -852,7 +853,7 @@ export default function EventBanner() {
               src={noticeImage} 
               alt="Aadi Pooram Invitation Page"
               fill
-              className="object-contain"
+              className="object-fill"
               priority
             />
           </div>
