@@ -2915,6 +2915,10 @@
     border-left-color: #a7150b;
   }
 
+  .border-l-\[\#ffc107\] {
+    border-left-color: #ffc107;
+  }
+
   .border-l-transparent {
     border-left-color: #0000;
   }
@@ -3748,6 +3752,20 @@
   }
 
   .from-white\/20 {
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+
+  .from-white\/30 {
+    --tw-gradient-from: #ffffff4d;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .from-white\/30 {
+      --tw-gradient-from: color-mix(in oklab, var(--color-white) 30%, transparent);
+    }
+  }
+
+  .from-white\/30 {
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
 
