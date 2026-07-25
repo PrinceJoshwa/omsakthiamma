@@ -1144,7 +1144,7 @@ export default function EventBanner() {
                   src={noticeImage} 
                   alt="55th Aadi Pooram Invitation Poster"
                   fill
-                  className="object-cover"
+                  className="object-fill"
                   priority
                 />
               </div>

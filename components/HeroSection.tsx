@@ -233,9 +233,9 @@ export default function HeroSection() {
   // Define your separate images here
   // const desktopImage = "https://res.cloudinary.com/dvd7o5nph/image/upload/v1771331460/WhatsApp_Image_2026-02-17_at_2.59.22_PM_1_nt513j.jpg"; 
   //  const desktopImage = "https://res.cloudinary.com/dvd7o5nph/image/upload/v1778147038/hero1_i2rvap_v06m2b.webp"; 
-   const desktopImage = "https://res.cloudinary.com/dvd7o5nph/image/upload/v1781469052/home-omsakthi_axw7eh.jpg"; 
+   const desktopImage = "https://res.cloudinary.com/dvd7o5nph/image/upload/v1781677795/55%E0%AE%B5%E0%AE%A4%E0%AF%81_%E0%AE%86%E0%AE%9F%E0%AE%BF%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%82%E0%AE%B0_%E0%AE%AA%E0%AF%86%E0%AE%B0%E0%AF%81%E0%AE%B5%E0%AE%BF%E0%AE%B4%E0%AE%BE-desktop_ogto9f.png"; 
   //  const mobileImage = "https://res.cloudinary.com/dvd7o5nph/image/upload/v1778147038/hero1_i2rvap_v06m2b.webp"; 
-   const mobileImage = "https://res.cloudinary.com/dvd7o5nph/image/upload/v1781469052/home-omsakthi_axw7eh.jpg"; 
+   const mobileImage = "https://res.cloudinary.com/dvd7o5nph/image/upload/v1781677817/55%E0%AE%B5%E0%AE%A4%E0%AF%81_%E0%AE%86%E0%AE%9F%E0%AE%BF%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%82%E0%AE%B0_%E0%AE%AA%E0%AF%86%E0%AE%B0%E0%AF%81%E0%AE%B5%E0%AE%BF%E0%AE%B4%E0%AE%BE-mobile_view_rlxtyb.png"; 
 
   return (
     <section className="relative w-full flex flex-col md:flex-row overflow-hidden">
@@ -344,7 +344,7 @@ export default function HeroSection() {
             alt="Arul Thiru Bangaru Adigalar Desktop"
             fill
             priority
-            className="hidden md:block object-fill object-top shadow-[-10px_0_30px_rgba(0,0,0,0.1)]" 
+            className="hidden md:block object-cover object-top shadow-[-10px_0_30px_rgba(0,0,0,0.1)]" 
           />
           
           {/* MOBILE IMAGE (Hidden on md and up) */}
