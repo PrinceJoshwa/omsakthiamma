@@ -31,7 +31,7 @@ import MantraPlayer from '@/components/MantraPlayer';
 import { featuredMantras, mantrasAudioFolder, devotionalSongsFolder } from "@/lib/mantraData";
 import IrumudiSection from '@/components/IrumudiSection';
 import NoticeCarousel from '@/components/Notification';
-import Julyevent from '@/components/july26event';
+// import Julyevent from '@/components/july26event';
 
 
 export default function Home() {
@@ -42,7 +42,7 @@ export default function Home() {
       <HeroSection />
       {/* <NoticeCarousel /> */}
       {/* <IrumudiSection /> */}
-      <Julyevent />
+      {/* <Julyevent /> */}
       <EventBanner /> 
       <DailyMessageSection />
       <FeaturedVideoSection />

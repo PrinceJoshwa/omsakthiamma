@@ -1445,56 +1445,56 @@ const masterEventList = [
     titleEnglish: "Thaipoosa Jyothi Peruvizha",
     titleTamil: "சித்தர் பீடத்தில் தைப்பூசஜோதி பெருவிழா",
     location: "Adhiparasakthi Siddhar Peedam, Melmaruvathur",
-    image: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg"
+    image: "https://res.cloudinary.com/dvd7o5nph/image/upload/v1785484011/WhatsApp_Image_2026-07-31_at_1.11.09_PM_qzferu.jpg"
   },
   {
     date: "17.02.2026",
     titleEnglish: "Ammavasai Velvi",
     titleTamil: "அமாவாசை வேள்வி",
     location: "Adhiparasakthi Siddhar Peedam, Melmaruvathur",
-    image: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" 
+    image: "https://res.cloudinary.com/dvd7o5nph/image/upload/v1785484011/WhatsApp_Image_2026-07-31_at_1.11.09_PM_qzferu.jpg" 
   },
   {
     date: "03.03.2026",
     titleEnglish: "Amma's 86th Birthday",
     titleTamil: "86வது அவதார திருநாள்",
     location: "Adhiparasakthi Siddhar Peedam, Melmaruvathur",
-    image: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg"
+    image: "https://res.cloudinary.com/dvd7o5nph/image/upload/v1785484011/WhatsApp_Image_2026-07-31_at_1.11.09_PM_qzferu.jpg"
   },
   {
     date: "18.03.2026",
     titleEnglish: "Ammavasai Velvi",
     titleTamil: "அமாவாசை வேள்வி",
     location: "Adhiparasakthi Siddhar Peedam, Melmaruvathur",
-    image: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg"
+    image: "https://res.cloudinary.com/dvd7o5nph/image/upload/v1785484011/WhatsApp_Image_2026-07-31_at_1.11.09_PM_qzferu.jpg"
   },
   {
     date: "19.03.2026",
     titleEnglish: "Telugu New Year",
     titleTamil: "தெலுங்கு வருடப்பிறப்பு",
     location: "Adhiparasakthi Siddhar Peedam, Melmaruvathur",
-    image: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg"
+    image: "https://res.cloudinary.com/dvd7o5nph/image/upload/v1785484011/WhatsApp_Image_2026-07-31_at_1.11.09_PM_qzferu.jpg"
   },
   {
     date: "01.04.2026",
     titleEnglish: "Pournami Pooja",
     titleTamil: "பௌர்ணமி பூஜை",
     location: "Adhiparasakthi Siddhar Peedam, Melmaruvathur",
-    image: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg"
+    image: "https://res.cloudinary.com/dvd7o5nph/image/upload/v1785484011/WhatsApp_Image_2026-07-31_at_1.11.09_PM_qzferu.jpg"
   },
   {
     date: "14.04.2026",
     titleEnglish: "Tamil New Year",
     titleTamil: "தமிழ் வருடப்பிறப்பு",
     location: "Adhiparasakthi Siddhar Peedam, Melmaruvathur",
-    image: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg"
+    image: "https://res.cloudinary.com/dvd7o5nph/image/upload/v1785484011/WhatsApp_Image_2026-07-31_at_1.11.09_PM_qzferu.jpg"
   },
   {
     date: "17.04.2026",
     titleEnglish: "Ammavasai Velvi",
     titleTamil: "அமாவாசை வேள்வி",
     location: "Adhiparasakthi Siddhar Peedam, Melmaruvathur",
-    image: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg"
+    image: "https://res.cloudinary.com/dvd7o5nph/image/upload/v1785484011/WhatsApp_Image_2026-07-31_at_1.11.09_PM_qzferu.jpg"
   },
   // MAY
   {
@@ -1502,21 +1502,21 @@ const masterEventList = [
     titleEnglish: "Chitra Pournami Velvi",
     titleTamil: "சித்திரை பௌர்ணமி வேள்வி",
     location: "Adhiparasakthi Siddhar Peedam, Melmaruvathur",
-    image: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg"
+    image: "https://res.cloudinary.com/dvd7o5nph/image/upload/v1785484011/WhatsApp_Image_2026-07-31_at_1.11.09_PM_qzferu.jpg"
   },
   {
     date: "16.05.2026",
     titleEnglish: "Ammavasai Velvi",
     titleTamil: "அமாவாசை வேள்வி",
     location: "Adhiparasakthi Siddhar Peedam, Melmaruvathur",
-    image: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg"
+    image: "https://res.cloudinary.com/dvd7o5nph/image/upload/v1785484011/WhatsApp_Image_2026-07-31_at_1.11.09_PM_qzferu.jpg"
   },
   {
     date: "31.05.2026",
     titleEnglish: "Pournami Pooja",
     titleTamil: "பௌர்ணமி பூஜை",
     location: "Adhiparasakthi Siddhar Peedam, Melmaruvathur",
-    image: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg"
+    image: "https://res.cloudinary.com/dvd7o5nph/image/upload/v1785484011/WhatsApp_Image_2026-07-31_at_1.11.09_PM_qzferu.jpg"
   },
 
   // JUNE
@@ -1525,14 +1525,14 @@ const masterEventList = [
     titleEnglish: "Ammavasai Velvi",
     titleTamil: "அமாவாசை வேள்வி",
     location: "Adhiparasakthi Siddhar Peedam, Melmaruvathur",
-    image: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg"
+    image: "https://res.cloudinary.com/dvd7o5nph/image/upload/v1785484011/WhatsApp_Image_2026-07-31_at_1.11.09_PM_qzferu.jpg"
   },
   {
     date: "29.06.2026",
     titleEnglish: "Pournami Pooja",
     titleTamil: "பௌர்ணமி பூஜை",
     location: "Adhiparasakthi Siddhar Peedam, Melmaruvathur",
-    image: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg"
+    image: "https://res.cloudinary.com/dvd7o5nph/image/upload/v1785484011/WhatsApp_Image_2026-07-31_at_1.11.09_PM_qzferu.jpg"
   },
 
   // JULY
@@ -1541,15 +1541,160 @@ const masterEventList = [
     titleEnglish: "Ammavasai Velvi",
     titleTamil: "அமாவாசை வேள்வி",
     location: "Adhiparasakthi Siddhar Peedam, Melmaruvathur",
-    image: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg"
+    image: "https://res.cloudinary.com/dvd7o5nph/image/upload/v1785484011/WhatsApp_Image_2026-07-31_at_1.11.09_PM_qzferu.jpg"
   },
   {
     date: "29.07.2026",
     titleEnglish: "Pournami Pooja",
     titleTamil: "பௌர்ணமி பூஜை",
     location: "Adhiparasakthi Siddhar Peedam, Melmaruvathur",
-    image: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg"
+    image: "https://res.cloudinary.com/dvd7o5nph/image/upload/v1785484011/WhatsApp_Image_2026-07-31_at_1.11.09_PM_qzferu.jpg"
+  },
+
+  // AUGUST
+  {
+    date: "12.08.2026",
+    titleEnglish: "Ammavasai Velvi",
+    titleTamil: "அமாவாசை வேள்வி",
+    location: "Adhiparasakthi Siddhar Peedam, Melmaruvathur",
+    image: "https://res.cloudinary.com/dvd7o5nph/image/upload/v1785484011/WhatsApp_Image_2026-07-31_at_1.11.09_PM_qzferu.jpg"
+  },
+  {
+    date: "14.08.2026",
+    titleEnglish: "55th Aadipooram Festival",
+    titleTamil: "55வது ஆடிப்பூர பெருவிழா",
+    location: "Adhiparasakthi Siddhar Peedam, Melmaruvathur",
+    image: "https://res.cloudinary.com/dvd7o5nph/image/upload/v1785484011/WhatsApp_Image_2026-07-31_at_1.11.09_PM_qzferu.jpg"
+  },
+  {
+    date: "15.08.2026",
+    titleEnglish: "Independence Day",
+    titleTamil: "சுதந்திரதினம்",
+    location: "Adhiparasakthi Siddhar Peedam, Melmaruvathur",
+    image: "https://res.cloudinary.com/dvd7o5nph/image/upload/v1785484011/WhatsApp_Image_2026-07-31_at_1.11.09_PM_qzferu.jpg"
+  },
+  {
+    date: "26.08.2026",
+    titleEnglish: "Milad un Nabi",
+    titleTamil: "மீலாடி நபி",
+    location: "Adhiparasakthi Siddhar Peedam, Melmaruvathur",
+    image: "https://res.cloudinary.com/dvd7o5nph/image/upload/v1785484011/WhatsApp_Image_2026-07-31_at_1.11.09_PM_qzferu.jpg"
+  },
+  {
+    date: "27.08.2026",
+    titleEnglish: "Pournami Pooja",
+    titleTamil: "பௌர்ணமி பூஜை",
+    location: "Adhiparasakthi Siddhar Peedam, Melmaruvathur",
+    image: "https://res.cloudinary.com/dvd7o5nph/image/upload/v1785484011/WhatsApp_Image_2026-07-31_at_1.11.09_PM_qzferu.jpg"
+  },
+
+  // SEPTEMBER
+  {
+    date: "04.09.2026",
+    titleEnglish: "Amma's Wedding Anniversary",
+    titleTamil: "திருமண நாள்",
+    location: "Adhiparasakthi Siddhar Peedam, Melmaruvathur",
+    image: "https://res.cloudinary.com/dvd7o5nph/image/upload/v1785484011/WhatsApp_Image_2026-07-31_at_1.11.09_PM_qzferu.jpg"
+  },
+  {
+    date: "10.09.2026",
+    titleEnglish: "Ammavasai Velvi",
+    titleTamil: "அமாவாசை வேள்வி",
+    location: "Adhiparasakthi Siddhar Peedam, Melmaruvathur",
+    image: "https://res.cloudinary.com/dvd7o5nph/image/upload/v1785484011/WhatsApp_Image_2026-07-31_at_1.11.09_PM_qzferu.jpg"
+  },
+  {
+    date: "14.09.2026",
+    titleEnglish: "Vinayagar Chathurthi",
+    titleTamil: "விநாயகர் சதுர்த்தி",
+    location: "Adhiparasakthi Siddhar Peedam, Melmaruvathur",
+    image: "https://res.cloudinary.com/dvd7o5nph/image/upload/v1785484011/WhatsApp_Image_2026-07-31_at_1.11.09_PM_qzferu.jpg"
+  },
+  {
+    date: "26.09.2026",
+    titleEnglish: "Pournami Pooja",
+    titleTamil: "பௌர்ணமி பூஜை",
+    location: "Adhiparasakthi Siddhar Peedam, Melmaruvathur",
+    image: "https://res.cloudinary.com/dvd7o5nph/image/upload/v1785484011/WhatsApp_Image_2026-07-31_at_1.11.09_PM_qzferu.jpg"
+  },
+
+  // OCTOBER
+  {
+    date: "02.10.2026",
+    titleEnglish: "Gandhi Jayanthi",
+    titleTamil: "காந்தி ஜெயந்தி",
+    location: "Adhiparasakthi Siddhar Peedam, Melmaruvathur",
+    image: "https://res.cloudinary.com/dvd7o5nph/image/upload/v1785484011/WhatsApp_Image_2026-07-31_at_1.11.09_PM_qzferu.jpg"
+  },
+  {
+    date: "10.10.2026",
+    titleEnglish: "Ammavasai Velvi",
+    titleTamil: "அமாவாசை வேள்வி",
+    location: "Adhiparasakthi Siddhar Peedam, Melmaruvathur",
+    image: "https://res.cloudinary.com/dvd7o5nph/image/upload/v1785484011/WhatsApp_Image_2026-07-31_at_1.11.09_PM_qzferu.jpg"
+  },
+  {
+    date: "11.10.2026",
+    titleEnglish: "Navarathri Starts",
+    titleTamil: "நவராத்திரி ஆரம்பம்",
+    location: "Adhiparasakthi Siddhar Peedam, Melmaruvathur",
+    image: "https://res.cloudinary.com/dvd7o5nph/image/upload/v1785484011/WhatsApp_Image_2026-07-31_at_1.11.09_PM_qzferu.jpg"
+  },
+  {
+    date: "19.10.2026",
+    titleEnglish: "Mukthi Day / Saraswathi Pooja",
+    titleTamil: "முக்தி அடைந்தநாள்",
+    location: "Adhiparasakthi Siddhar Peedam, Melmaruvathur",
+    image: "https://res.cloudinary.com/dvd7o5nph/image/upload/v1785484011/WhatsApp_Image_2026-07-31_at_1.11.09_PM_qzferu.jpg"
+  },
+  {
+    date: "25.10.2026",
+    titleEnglish: "Pournami Pooja",
+    titleTamil: "பௌர்ணமி பூஜை",
+    location: "Adhiparasakthi Siddhar Peedam, Melmaruvathur",
+    image: "https://res.cloudinary.com/dvd7o5nph/image/upload/v1785484011/WhatsApp_Image_2026-07-31_at_1.11.09_PM_qzferu.jpg"
+  },
+
+  // NOVEMBER
+  {
+    date: "08.11.2026",
+    titleEnglish: "Deepavali / Ammavasai",
+    titleTamil: "தீபாவளி",
+    location: "Adhiparasakthi Siddhar Peedam, Melmaruvathur",
+    image: "https://res.cloudinary.com/dvd7o5nph/image/upload/v1785484011/WhatsApp_Image_2026-07-31_at_1.11.09_PM_qzferu.jpg"
+  },
+  {
+    date: "24.11.2026",
+    titleEnglish: "Pournami Pooja",
+    titleTamil: "பௌர்ணமி பூஜை",
+    location: "Adhiparasakthi Siddhar Peedam, Melmaruvathur",
+    image: "https://res.cloudinary.com/dvd7o5nph/image/upload/v1785484011/WhatsApp_Image_2026-07-31_at_1.11.09_PM_qzferu.jpg"
+  },
+
+  // DECEMBER
+  // {
+  //   date: "08.12.2026",
+  //   titleEnglish: "Ammavasai Velvi",
+  //   titleTamil: "அமாவாசை வேள்வி",
+  //   location: "Adhiparasakthi Siddhar Peedam, Melmaruvathur",
+  //   image: "https://res.cloudinary.com/dvd7o5nph/image/upload/v1785484011/WhatsApp_Image_2026-07-31_at_1.11.09_PM_qzferu.jpg"
+  // },
+  {
+    date: "23.12.2026",
+    titleEnglish: "Pournami Pooja",
+    titleTamil: "பௌர்ணமி பூஜை",
+    location: "Adhiparasakthi Siddhar Peedam, Melmaruvathur",
+    image: "https://res.cloudinary.com/dvd7o5nph/image/upload/v1785484011/WhatsApp_Image_2026-07-31_at_1.11.09_PM_qzferu.jpg"
+  },
+  {
+    date: "25.12.2026",
+    titleEnglish: "Christmas",
+    titleTamil: "கிறிஸ்துமஸ்",
+    location: "Adhiparasakthi Siddhar Peedam, Melmaruvathur",
+    image: "https://res.cloudinary.com/dvd7o5nph/image/upload/v1785484011/WhatsApp_Image_2026-07-31_at_1.11.09_PM_qzferu.jpg"
   }
+
+  
 ];
 
 const parseDate = (dateStr: string) => {
