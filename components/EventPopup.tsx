@@ -2494,7 +2494,7 @@ export default function EventPopup() {
                     </div>
                   )}
                   {activeTab === 'abhishekam' && (
-                    <a href="https://masm.omsakthiamma.in/donate/" target="_blank" rel="noopener noreferrer" className="w-full py-3 bg-gradient-to-r from-amber-600 to-amber-700 text-white rounded-xl font-bold shadow-md hover:scale-[1.01] transition-all flex items-center justify-center gap-2 text-sm">
+                    <a href="https://masm.omsakthiamma.in/donate-india/" target="_blank" rel="noopener noreferrer" className="w-full py-3 bg-gradient-to-r from-amber-600 to-amber-700 text-white rounded-xl font-bold shadow-md hover:scale-[1.01] transition-all flex items-center justify-center gap-2 text-sm">
                       Proceed to Donation <ExternalLink className="w-4 h-4" />
                     </a>
                   )}

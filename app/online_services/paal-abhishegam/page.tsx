@@ -165,7 +165,7 @@ export default function PaalAbhishegamPage() {
               அம்மாவின் அருள் உங்கள் வாழ்வில் நிறையட்டும்.
             </p>
             
-            <Link href="https://masm.omsakthiamma.in/donate/">
+            <Link href="https://masm.omsakthiamma.in/donate-india/">
               <button className="relative inline-flex items-center justify-center px-10 py-5 text-lg font-bold text-white transition-all duration-300 bg-gradient-to-r from-[#a7150b] to-[#7a0a06] rounded-full shadow-2xl hover:shadow-[#a7150b]/50 hover:-translate-y-1 overflow-hidden group">
                 <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:animate-[shimmer_1.5s_infinite]"></span>
                 <span className="relative flex items-center gap-3">
