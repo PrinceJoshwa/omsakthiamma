@@ -1,6 +1,5 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/online_services/donations/page": "app/online_services/donations/page.js",
-  "/online_services/paal-abhishegam/page": "app/online_services/paal-abhishegam/page.js",
+  "/notices/notification/page": "app/notices/notification/page.js",
   "/page": "app/page.js"
 }
