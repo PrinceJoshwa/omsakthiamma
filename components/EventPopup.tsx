@@ -3042,7 +3042,7 @@ export default function EventPopup() {
                           <div className="p-3 bg-orange-200 text-orange-700 rounded-full shrink-0"><HeartHandshake className="w-5 h-5"/></div>
                           <div>
                              <h4 className="font-bold text-orange-900 text-sm">பங்களிப்பு</h4>
-                             <p className="text-xs text-orange-800 mt-1">பால் காணிக்கைக்கான கட்டணத்தைச் செலுத்தவும்</p>
+                             <p className="text-xs text-orange-800 mt-1">குறைந்தபட்சம் 100 ரூபாய் முதல்</p>
                           </div>
                        </div>
                        {/* Step 4 */}

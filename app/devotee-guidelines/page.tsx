@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 export default function NoticePage() {
   return (
     <PageTemplate 
-      title="Chitra Pournami Velvi" 
+      title="ஆடிப்பூர பெருவிழா" 
       subtitle="Guidelines for Devotees"
       noTopPadding={true}
       noContentTopPadding={true}
@@ -29,7 +29,7 @@ export default function NoticePage() {
           {/* Image Wrapper */}
           <div className="w-full">
             <img 
-              src="https://res.cloudinary.com/dvd7o5nph/image/upload/v1777462062/Notice-chitra_gqukpz.jpg" 
+              src="/aadi.jpeg" 
               alt="Chitra Pournami Notice" 
               // w-full makes the image stretch to fill the frame width
               // h-auto lets the height scale proportionally, causing natural page scroll

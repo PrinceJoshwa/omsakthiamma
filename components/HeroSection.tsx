@@ -321,7 +321,7 @@ export default function HeroSection() {
                 <div className="flex items-center gap-2 text-gray-800 font-bold text-sm">
                   <UserCheck className="w-4 h-4 text-red-600" /> Devotee Guidelines
                 </div>
-                <span className="text-[10px] text-gray-500 font-tamil mt-1 group-hover:text-red-600">சித்திரை பௌர்ணமி விதிமுறைகள்</span>
+                <span className="text-[10px] text-gray-500 font-tamil mt-1 group-hover:text-red-600">ஆடிப்பூர பெருவிழா விதிமுறைகள்</span>
               </motion.button>
             </Link>
 
