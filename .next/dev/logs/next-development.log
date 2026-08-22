@@ -1,16 +1,66 @@
-[00:00:18.268] Server  LOG      ✓ Ready in 11.7s
-[00:00:29.463] Server  LOG      ○ Compiling / ...
-[00:00:48.214] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:48.611] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:49.953] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1778147038/hero1_i2rvap_v06m2b.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:49.953] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:50.669] Server  LOG      ○ Compiling /_not-found/page ...
-[00:00:50.895] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1778147038/hero1_i2rvap_v06m2b.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:52.037] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1785484011/WhatsApp_Image_2026-07-31_at_1.11.09_PM_qzferu.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:55.140] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1785484011/WhatsApp_Image_2026-07-31_at_1.11.09_PM_qzferu.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:55.373] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1785484011/WhatsApp_Image_2026-07-31_at_1.11.09_PM_qzferu.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:01:12.750] Server  LOG      ✓ Compiled in 473ms
-[00:01:15.088] Browser WARN    Image with src "/navaratri.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:01:15.771] Browser WARN    Image with src "/navaratri.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:01:34.350] Server  LOG      ✓ Compiled in 199ms
+[00:00:34.294] Server  LOG      ✓ Ready in 29.8s
+[00:00:37.732] Server  LOG      ○ Compiling / ...
+[00:01:16.614] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:17.395] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1778147038/hero1_i2rvap_v06m2b.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:17.395] Browser WARN    Image with src "/navaratri.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:19.923] Server  LOG      ○ Compiling /_not-found/page ...
+[00:01:20.650] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1785484011/WhatsApp_Image_2026-07-31_at_1.11.09_PM_qzferu.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:25.622] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:26.977] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1778147038/hero1_i2rvap_v06m2b.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:26.977] Browser WARN    Image with src "/navaratri.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:28.983] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1785484011/WhatsApp_Image_2026-07-31_at_1.11.09_PM_qzferu.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:18.536] Server  LOG      ✓ Compiled in 504ms
+[00:03:33.029] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:33.770] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1778147038/hero1_i2rvap_v06m2b.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:33.770] Browser WARN    Image with src "/navaratri.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:35.832] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1777464285/WhatsApp_Image_2026-04-29_at_4.32.20_PM_ruvbdv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:04:13.974] Server  LOG      ✓ Compiled in 635ms
+[00:04:14.409] Browser ERROR   ./components/EventPopup.tsx:2122:90
+Parsing ecmascript source code failed
+  2120 |     titleTamil: "மீலாடி நபி",
+  2121 |     location: "Adhiparasakthi Siddhar Peedam, Melmaruvathur",
+> 2122 |     image: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg""
+       |                                                                                          ^
+  2123 |   },
+  2124 |   {
+  2125 |     date: "27.08.2026",
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:04:28.283] Server  LOG      ✓ Compiled in 368ms
+[00:04:56.491] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:57.354] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1778147038/hero1_i2rvap_v06m2b.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:04:57.354] Browser WARN    Image with src "/navaratri.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:04:59.454] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:08:56.348] Browser ERROR   ./components/EventPopup.tsx:2122:90
+Parsing ecmascript source code failed
+  2120 |     titleTamil: "மீலாடி நபி",
+  2121 |     location: "Adhiparasakthi Siddhar Peedam, Melmaruvathur",
+> 2122 |     image: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg""
+       |                                                                                          ^
+  2123 |   },
+  2124 |   {
+  2125 |     date: "27.08.2026",
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./components/EventPopup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/EventPopup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
