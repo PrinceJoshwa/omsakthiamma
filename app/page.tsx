@@ -32,6 +32,8 @@ import { featuredMantras, mantrasAudioFolder, devotionalSongsFolder } from "@/li
 import IrumudiSection from '@/components/IrumudiSection';
 import NoticeCarousel from '@/components/Notification';
 // import Julyevent from '@/components/july26event';
+import AnnadhanamBannerPage from '@/components/Navarathribanner';
+import LaksharchanaPage from '@/components/LaksharchanaBanner';
 
 
 export default function Home() {
@@ -43,7 +45,9 @@ export default function Home() {
       {/* <NoticeCarousel /> */}
       {/* <IrumudiSection /> */}
       {/* <Julyevent /> */}
+      <LaksharchanaPage />
       <EventBanner /> 
+      <AnnadhanamBannerPage />
       <DailyMessageSection />
       <FeaturedVideoSection />
 

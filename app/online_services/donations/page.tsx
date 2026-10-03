@@ -30,7 +30,7 @@
 //   { name: "Ammavasai Veli", href: "https://masm.omsakthiamma.in/donate-other/?c=A7", icon: <Sun className="w-8 h-8" />, color: "text-orange-500", bg: "bg-orange-50" },
 //   { name: "Golden Chariot", href: "https://masm.omsakthiamma.in/donate-other/?c=GCP", icon: <Gem className="w-8 h-8" />, color: "text-amber-600", bg: "bg-amber-50" },
 //   { name: "Silver Chariot", href: "https://masm.omsakthiamma.in/donate-other/?c=SIC", icon: <Sparkles className="w-8 h-8" />, color: "text-gray-400", bg: "bg-gray-50" },
-//   { name: "Lakcharchanai", href: "https://masm.omsakthiamma.in/donate-laksh/", icon: <BookOpen className="w-8 h-8" />, color: "text-purple-500", bg: "bg-purple-50" },
+//   { name: "Latcharchanai", href: "https://masm.omsakthiamma.in/donate-laksh/", icon: <BookOpen className="w-8 h-8" />, color: "text-purple-500", bg: "bg-purple-50" },
 //   // { name: "Chitrapournami", href: "https://masm.omsakthiamma.in/donate-chitrapournami/", icon: <Moon className="w-8 h-8" />, color: "text-indigo-500", bg: "bg-indigo-50" },
 //   { name: "Chitrapournami", href: "#", icon: <Moon className="w-8 h-8" />, color: "text-indigo-500", bg: "bg-indigo-50" },
 //   { name: "Navaratri Kappu", href: "https://masm.omsakthiamma.in/donate-navaratri/", icon: <ShieldCheck className="w-8 h-8" />, color: "text-red-600", bg: "bg-red-50" },
@@ -50,7 +50,7 @@
 // //   { name: "Ammavasai Veli", href: "#", icon: <Sun className="w-8 h-8" />, color: "text-orange-500", bg: "bg-orange-50" },
 // //   { name: "Golden Chariot", href: "#", icon: <Gem className="w-8 h-8" />, color: "text-amber-600", bg: "bg-amber-50" },
 // //   { name: "Silver Chariot", href: "#", icon: <Sparkles className="w-8 h-8" />, color: "text-gray-400", bg: "bg-gray-50" },
-// //   { name: "Lakcharchanai", href: "#", icon: <BookOpen className="w-8 h-8" />, color: "text-purple-500", bg: "bg-purple-50" },
+// //   { name: "Latcharchanai", href: "#", icon: <BookOpen className="w-8 h-8" />, color: "text-purple-500", bg: "bg-purple-50" },
 // //   { name: "Chitrapournami", href: "#", icon: <Moon className="w-8 h-8" />, color: "text-indigo-500", bg: "bg-indigo-50" },
 // //   { name: "Navaratri Kappu", href: "#", icon: <ShieldCheck className="w-8 h-8" />, color: "text-red-600", bg: "bg-red-50" },
 // //   { name: "Online Irumudi", href: "#", icon: <CreditCard className="w-8 h-8" />, color: "text-green-600", bg: "bg-green-50" }
@@ -313,7 +313,8 @@ import {
   Utensils,
   Stethoscope,
   Users,
-  CreditCard as BankIcon
+  CreditCard as BankIcon,
+  ExternalLink
 } from "lucide-react";
 
 // --- DATA STRUCTURES ---
@@ -321,12 +322,12 @@ import {
 const generalDonations = [
   { name: "General Donation", href: "https://masm.omsakthiamma.in/donate/", icon: <Heart className="w-8 h-8" />, color: "text-red-500", bg: "bg-red-50" },
   { name: "Daily Abhishegam", href: "https://masm.omsakthiamma.in/donate-abhisegam/", icon: <Droplet className="w-8 h-8" />, color: "text-blue-500", bg: "bg-blue-50" },
-  { name: "Pournami Velaku Pooja", href: "https://masm.omsakthiamma.in/donate-other/?c=VELAKU", icon: <Moon className="w-8 h-8" />, color: "text-yellow-500", bg: "bg-yellow-50" },
+  // { name: "Pournami Velaku Pooja", href: "https://masm.omsakthiamma.in/donate-other/?c=VELAKU", icon: <Moon className="w-8 h-8" />, color: "text-yellow-500", bg: "bg-yellow-50" },
   { name: "Ammavasai Velvi", href: "https://masm.omsakthiamma.in/donate-other/?c=A7", icon: <Sun className="w-8 h-8" />, color: "text-orange-500", bg: "bg-orange-50" },
   { name: "Golden Chariot", href: "https://masm.omsakthiamma.in/donate-other/?c=GCP", icon: <Gem className="w-8 h-8" />, color: "text-amber-600", bg: "bg-amber-50" },
   { name: "Silver Chariot", href: "https://masm.omsakthiamma.in/donate-other/?c=SIC", icon: <Sparkles className="w-8 h-8" />, color: "text-gray-400", bg: "bg-gray-50" },
-  { name: "Paal Abhishegam", href: "/online_services/paal-abhishegam", icon: <Droplet className="w-8 h-8" />, color: "text-blue-400", bg: "bg-blue-50" },
-  { name: "Lakcharchanai", href: "https://masm.omsakthiamma.in/donate-laksh/", icon: <BookOpen className="w-8 h-8" />, color: "text-purple-500", bg: "bg-purple-50" },
+  // { name: "Paal Abhishegam", href: "/online_services/paal-abhishegam", icon: <Droplet className="w-8 h-8" />, color: "text-blue-400", bg: "bg-blue-50" },
+  { name: "Latcharchanai", href: "https://masm.omsakthiamma.in/donate-laksh/", icon: <BookOpen className="w-8 h-8" />, color: "text-purple-500", bg: "bg-purple-50" },
   // { name: "Chitrapournami", href: "https://masm.omsakthiamma.in/donate-chitrapournami/", icon: <Moon className="w-8 h-8" />, color: "text-indigo-500", bg: "bg-indigo-50" },
   // { name: "Chitrapournami", href: "https://masm.omsakthiamma.in/donate-chitrapournami/", icon: <Moon className="w-8 h-8" />, color: "text-indigo-500", bg: "bg-indigo-50" },
   { name: "Navaratri Abhishegam & Kappu", href: "https://masm.omsakthiamma.in/donate-navaratri/", icon: <ShieldCheck className="w-8 h-8" />, color: "text-red-600", bg: "bg-red-50" },
@@ -428,6 +429,66 @@ export default function PoojasDonationsPage() {
             </a>
           
           ))}
+        </motion.div>
+
+{/* --- LATCHARCHANAI SPECIAL DETAILS SECTION --- */}
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="max-w-4xl mx-auto mb-24 px-6 md:px-10 py-10 bg-gradient-to-br from-purple-50/80 to-white border border-purple-100 rounded-3xl shadow-sm"
+        >
+          <h3 className="text-xl md:text-2xl text-gray-800 font-serif font-bold leading-relaxed mb-8 text-center">
+            மேல்மருவத்தூரில் நவராத்திரியில் நடைபெறும் லட்சார்ச்சனையில்...
+          </h3>
+
+          <div className="grid md:grid-cols-2 gap-6 mb-8">
+            <div className="bg-white p-5 rounded-2xl border border-purple-100 shadow-sm flex items-start gap-4">
+              <span className="flex-shrink-0 w-8 h-8 bg-purple-100 text-purple-700 font-bold rounded-full flex items-center justify-center text-sm">1</span>
+              <p className="text-gray-700 font-medium text-base pt-1">
+                உங்கள் குலதெய்வத்தின் பேரிலும் லட்சார்ச்சனை செய்யலாம்!
+              </p>
+            </div>
+
+            <div className="bg-white p-5 rounded-2xl border border-purple-100 shadow-sm flex items-start gap-4">
+              <span className="flex-shrink-0 w-8 h-8 bg-purple-100 text-purple-700 font-bold rounded-full flex items-center justify-center text-sm">2</span>
+              <p className="text-gray-700 font-medium text-base pt-1">
+                உங்கள் முன்னோர்களின் பெயர்களிலும் லட்சார்ச்சனை செய்யலாம்!
+              </p>
+            </div>
+
+            <div className="bg-white p-5 rounded-2xl border border-purple-100 shadow-sm flex items-start gap-4">
+              <span className="flex-shrink-0 w-8 h-8 bg-purple-100 text-purple-700 font-bold rounded-full flex items-center justify-center text-sm">3</span>
+              <div>
+                <p className="text-gray-700 font-medium text-base pt-1">
+                  உங்கள் சொத்துக்களின் பெயரிலும் லட்சார்ச்சனை செய்யலாம்!
+                </p>
+                <p className="text-sm text-purple-600 font-medium mt-1">(பட்டா எண் குறிப்பிட்டு)</p>
+              </div>
+            </div>
+
+            <div className="bg-white p-5 rounded-2xl border border-purple-100 shadow-sm flex items-start gap-4">
+              <span className="flex-shrink-0 w-8 h-8 bg-purple-100 text-purple-700 font-bold rounded-full flex items-center justify-center text-sm">4</span>
+              <div>
+                <p className="text-gray-700 font-medium text-base pt-1">
+                  உங்களின் வாகனங்களின் பெயரிலும் லட்சார்ச்சனை செய்யலாம்!
+                </p>
+                <p className="text-sm text-purple-600 font-medium mt-1">(பதிவு எண் குறிப்பிட்டு)</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="text-center">
+            <a 
+              href="https://masm.omsakthiamma.in/donate-laksh/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-purple-600 hover:bg-purple-700 text-white font-semibold px-8 py-4 rounded-2xl shadow-md transition-all duration-300 hover:shadow-lg"
+            >
+              <span>Latcharchanai Donation</span>
+              <ExternalLink className="w-5 h-5" />
+            </a>
+          </div>
         </motion.div>
 
 

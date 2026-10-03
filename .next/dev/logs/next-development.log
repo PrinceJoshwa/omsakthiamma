@@ -1,25 +1,1891 @@
-[00:00:30.033] Server  LOG      ✓ Ready in 19.5s
-[00:00:37.601] Server  LOG      ○ Compiling / ...
-[00:00:56.121] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:56.508] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1778147038/hero1_i2rvap_v06m2b.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:56.508] Browser WARN    Image with src "/navaratri.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:59.021] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1785484011/WhatsApp_Image_2026-07-31_at_1.11.09_PM_qzferu.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:59.109] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:01:04.238] Server  ERROR    ⨯ "upstream image response timed out for" "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939097/logo_dl1zqj.png"
-[00:01:04.417] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\image-optimizer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:01:04.455] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:01:04.471] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\response-cache\index.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:01:04.488] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\lib\batcher.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:01:04.567] Server  ERROR   Error: "url" parameter is valid but upstream response timed out
-[00:01:06.063] Server  ERROR   TimeoutError: The operation was aborted due to timeout
-[00:02:33.330] Server  LOG      ✓ Compiled in 238ms
-[00:02:33.566] Browser ERROR   uncaughtError: ReferenceError: masterEventList is not defined
-[00:02:54.862] Server  LOG      ✓ Compiled in 192ms
-[00:02:54.893] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:02:56.180] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:58.987] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1778147038/hero1_i2rvap_v06m2b.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:58.987] Browser WARN    Image with src "/navaratri.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:58.988] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:59.291] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:59.423] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:00:20.454] Server  LOG      ✓ Ready in 13.5s
+[22:18:30.790] Server  LOG      ○ Compiling / ...
+[22:18:47.262] Server  ERROR    ⨯ "upstream image" "https://res.cloudinary.com/dvd7o5nph/image/upload/v1778147038/hero1_i2rvap_v06m2b.webp" "resolved to private ip" "[\"64:ff9b::6810:4f06\",\"64:ff9b::6810:4e06\"]"
+[22:18:47.271] Server  ERROR    ⨯ "upstream image" "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939097/logo_dl1zqj.png" "resolved to private ip" "[\"64:ff9b::6810:4f06\",\"64:ff9b::6810:4e06\"]"
+[22:18:47.659] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\image-optimizer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[22:18:47.702] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[22:18:47.708] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\response-cache\index.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[22:18:47.719] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\lib\batcher.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[22:18:47.767] Server  ERROR   Error: "url" parameter is not allowed
+[22:18:47.795] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\image-optimizer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[22:18:47.818] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[22:18:47.863] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\response-cache\index.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[22:18:47.885] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\lib\batcher.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[22:18:47.897] Server  ERROR   Error: "url" parameter is not allowed
+[22:18:48.871] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[22:18:50.609] Server  LOG      ○ Compiling /_not-found/page ...
+[22:18:50.904] Server  ERROR    ⨯ "upstream image" "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" "resolved to private ip" "[\"64:ff9b::6810:4f06\",\"64:ff9b::6810:4e06\"]"
+[22:18:50.991] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\image-optimizer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[22:18:50.998] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[22:18:51.021] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\response-cache\index.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[22:18:51.030] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\lib\batcher.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[22:18:51.052] Server  ERROR   Error: "url" parameter is not allowed
+[22:18:51.279] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1778147038/hero1_i2rvap_v06m2b.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:18:51.279] Browser WARN    Image with src "/navaratri.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:18:51.279] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:18:51.649] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1778147038/hero1_i2rvap_v06m2b.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:18:51.649] Browser WARN    Image with src "/navaratri.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:18:53.454] Server  ERROR    ⨯ "upstream image" "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" "resolved to private ip" "[\"64:ff9b::6810:4f06\",\"64:ff9b::6810:4e06\"]"
+[22:18:53.489] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:18:53.619] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\image-optimizer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[22:18:53.626] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[22:18:53.634] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\response-cache\index.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[22:18:53.638] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\lib\batcher.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[22:18:53.640] Server  ERROR   Error: "url" parameter is not allowed
+[22:18:55.520] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:18:55.521] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[22:19:40.766] Server  LOG      ○ Compiling /notices/notification ...
+[22:19:45.976] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[22:19:45.976] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2026-07-25
+[22:19:45.976] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2026-02-24-1
+[22:25:14.492] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2026-07-25
+[22:25:14.492] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2026-02-24-1
+[22:25:14.492] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2026-07-25
+[22:25:14.492] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2026-02-24-1
+[22:51:32.107] Server  LOG      ✓ Compiled in 415ms
+[22:51:48.450] Server  LOG      ✓ Compiled in 246ms
+[22:51:49.543] Server  LOG      ✓ Compiled in 165ms
+[22:51:50.180] Browser ERROR   ./app/page.tsx:48:29
+Parsing ecmascript source code failed
+  46 |       <EventBanner /> 
+  47 |       <
+> 48 |       <DailyMessageSection />
+     |                             ^
+  49 |       <FeaturedVideoSection />
+  50 |
+  51 |       {/* --- NEW SECTION: IRUMUDI BANNER (Added Here) --- */}
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[22:51:50.180] Browser ERROR   ./app/page.tsx:48:29
+Parsing ecmascript source code failed
+  46 |       <EventBanner /> 
+  47 |       <
+> 48 |       <DailyMessageSection />
+     |                             ^
+  49 |       <FeaturedVideoSection />
+  50 |
+  51 |       {/* --- NEW SECTION: IRUMUDI BANNER (Added Here) --- */}
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[22:51:50.873] Browser ERROR   ./app/page.tsx:48:29
+Parsing ecmascript source code failed
+  46 |       <EventBanner /> 
+  47 |       <
+> 48 |       <DailyMessageSection />
+     |                             ^
+  49 |       <FeaturedVideoSection />
+  50 |
+  51 |       {/* --- NEW SECTION: IRUMUDI BANNER (Added Here) --- */}
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[22:51:50.873] Browser ERROR   ./app/page.tsx:48:29
+Parsing ecmascript source code failed
+  46 |       <EventBanner /> 
+  47 |       <
+> 48 |       <DailyMessageSection />
+     |                             ^
+  49 |       <FeaturedVideoSection />
+  50 |
+  51 |       {/* --- NEW SECTION: IRUMUDI BANNER (Added Here) --- */}
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[22:51:52.665] Server  LOG      ○ Compiling /_error ...
+[22:51:53.874] Browser ERROR   ./app/page.tsx:48:29
+Parsing ecmascript source code failed
+  46 |       <EventBanner /> 
+  47 |       <
+> 48 |       <DailyMessageSection />
+     |                             ^
+  49 |       <FeaturedVideoSection />
+  50 |
+  51 |       {/* --- NEW SECTION: IRUMUDI BANNER (Added Here) --- */}
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[22:51:53.874] Browser ERROR   ./app/page.tsx:48:29
+Parsing ecmascript source code failed
+  46 |       <EventBanner /> 
+  47 |       <
+> 48 |       <DailyMessageSection />
+     |                             ^
+  49 |       <FeaturedVideoSection />
+  50 |
+  51 |       {/* --- NEW SECTION: IRUMUDI BANNER (Added Here) --- */}
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[22:51:53.876] Browser ERROR   ./app/page.tsx:48:29
+Parsing ecmascript source code failed
+  46 |       <EventBanner /> 
+  47 |       <
+> 48 |       <DailyMessageSection />
+     |                             ^
+  49 |       <FeaturedVideoSection />
+  50 |
+  51 |       {/* --- NEW SECTION: IRUMUDI BANNER (Added Here) --- */}
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[22:51:53.876] Browser ERROR   ./app/page.tsx:48:29
+Parsing ecmascript source code failed
+  46 |       <EventBanner /> 
+  47 |       <
+> 48 |       <DailyMessageSection />
+     |                             ^
+  49 |       <FeaturedVideoSection />
+  50 |
+  51 |       {/* --- NEW SECTION: IRUMUDI BANNER (Added Here) --- */}
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[22:51:55.864] Browser ERROR   ./app/page.tsx:48:29
+Parsing ecmascript source code failed
+  46 |       <EventBanner /> 
+  47 |       <
+> 48 |       <DailyMessageSection />
+     |                             ^
+  49 |       <FeaturedVideoSection />
+  50 |
+  51 |       {/* --- NEW SECTION: IRUMUDI BANNER (Added Here) --- */}
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[22:51:55.865] Browser ERROR   ./app/page.tsx:48:29
+Parsing ecmascript source code failed
+  46 |       <EventBanner /> 
+  47 |       <
+> 48 |       <DailyMessageSection />
+     |                             ^
+  49 |       <FeaturedVideoSection />
+  50 |
+  51 |       {/* --- NEW SECTION: IRUMUDI BANNER (Added Here) --- */}
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[22:52:12.862] Browser ERROR   ./app/page.tsx:48:29
+Parsing ecmascript source code failed
+  46 |       <EventBanner /> 
+  47 |       <AnnadhanamBannerPage
+> 48 |       <DailyMessageSection />
+     |                             ^
+  49 |       <FeaturedVideoSection />
+  50 |
+  51 |       {/* --- NEW SECTION: IRUMUDI BANNER (Added Here) --- */}
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[22:52:12.863] Browser ERROR   ./app/page.tsx:48:29
+Parsing ecmascript source code failed
+  46 |       <EventBanner /> 
+  47 |       <AnnadhanamBannerPage
+> 48 |       <DailyMessageSection />
+     |                             ^
+  49 |       <FeaturedVideoSection />
+  50 |
+  51 |       {/* --- NEW SECTION: IRUMUDI BANNER (Added Here) --- */}
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[22:52:14.909] Browser ERROR   uncaughtError: ReferenceError: AnnadhanamBannerPage is not defined
+[22:52:14.909] Browser ERROR   uncaughtError: ReferenceError: AnnadhanamBannerPage is not defined
+[22:52:20.084] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[22:52:20.084] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[22:52:20.098] Server  LOG      ✓ Compiled in 144ms
+[22:52:21.675] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\_bb262b2d._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[22:52:21.677] Server  ERROR    ⨯ ReferenceError: AnnadhanamBannerPage is not defined
+[22:52:21.718] Browser ERROR   uncaughtError: ReferenceError: AnnadhanamBannerPage is not defined
+[22:52:21.718] Browser ERROR   uncaughtError: ReferenceError: AnnadhanamBannerPage is not defined
+[22:52:21.827] Server  ERROR   C:\Marketly\omskamma\.next\dev\server\chunks\ssr\_bb262b2d._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[22:52:21.828] Server  ERROR    ⨯ ReferenceError: AnnadhanamBannerPage is not defined
+[22:52:23.115] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[22:52:24.824] Server  LOG      ✓ Compiled in 151ms
+[22:52:24.834] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[22:52:24.835] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[22:52:24.835] Browser ERROR   uncaughtError: ReferenceError: imp is not defined
+[22:52:24.844] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[22:52:24.867] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[22:52:24.868] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[22:52:25.434] Browser ERROR   uncaughtError: ReferenceError: imp is not defined
+[22:52:25.435] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[22:52:26.531] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[22:52:47.903] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1778147038/hero1_i2rvap_v06m2b.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:52:47.903] Browser WARN    Image with src "/navaratri.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:52:47.903] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:52:48.048] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[22:52:52.834] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[22:55:14.486] Server  LOG      ✓ Compiled in 333ms
+[22:58:44.297] Server  LOG      ✓ Compiled in 249ms
+[23:06:24.809] Server  LOG      ✓ Compiled in 169ms
+[23:06:26.480] Server  LOG      ✓ Compiled in 462ms
+[23:07:21.238] Server  LOG      ✓ Compiled in 130ms
+[23:09:20.827] Server  LOG      ✓ Compiled in 277ms
+[23:09:45.729] Server  LOG      ✓ Compiled in 136ms
+[23:11:33.223] Server  LOG      ✓ Compiled in 163ms
+[23:13:18.485] Server  LOG      ✓ Compiled in 175ms
+[23:13:29.873] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <SegmentViewNode type="page" pagePath="page.tsx">
+      <SegmentTrieNode>
+      <ClientPageRoot Component={function Home} serverProvidedParams={{...}}>
+        <Home params={Promise} searchParams={Promise}>
+          <main className="bg-white o...">
+            <EventPopup>
+            <HeroSection>
+            <EventBanner>
+            <AnnadhanamBanner>
+            <DailyMessageSection>
+            <FeaturedVideoSection>
+            <section>
+            <PilgrimServicesSection>
+            <section>
+            <SacredFestivalsSection>
+            <PoojaTimingsSection>
+            <PublicationsSection>
+            <ResourcesSection>
+            <EventsSection>
+            <GoogleCalendarSection>
+            <ActivitiesSection>
+            <section>
+            <ContactSection>
+              <section className="py-12 md:p...">
+                <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.8}} ...>
+                  <div className="max-w-5xl ..." style={{opacity:0}} ref={function useMotionRef.useCallback}>
+                    <h2>
+                    <div>
+                    <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{delay:0.4}} ...>
+                      <div className="mt-10 md:m..." style={{opacity:0}} ref={function useMotionRef.useCallback}>
+                        <p>
+                        <a href="https://wa..." target="_blank" rel="noopener n...">
+                          <motion.button whileHover={{scale:1.05}} whileTap={{scale:0.95}} className="px-8 py-3 ...">
+                            <button
+                              className="px-8 py-3 bg-[#a7150b] text-white rounded-lg font-bold hover:bg-[#8a0d08] tra..."
+                              tabIndex={0}
+                              style={{}}
+                              ref={function useMotionRef.useCallback}
+-                             fdprocessedid="fsvm7j"
+                            >
++                             Send us a Message
+            ...
+
+[23:13:29.873] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1778147038/hero1_i2rvap_v06m2b.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[23:13:29.873] Browser WARN    Image with src "/navaratri.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[23:13:29.873] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[23:13:29.873] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[23:13:55.924] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <SegmentViewNode type="page" pagePath="page.tsx">
+      <SegmentTrieNode>
+      <ClientPageRoot Component={function Home} serverProvidedParams={{...}}>
+        <Home params={Promise} searchParams={Promise}>
+          <main className="bg-white o...">
+            <EventPopup>
+            <HeroSection>
+            <EventBanner>
+            <AnnadhanamBanner>
+            <DailyMessageSection>
+            <FeaturedVideoSection>
+            <section>
+            <PilgrimServicesSection>
+            <section>
+            <SacredFestivalsSection>
+            <PoojaTimingsSection>
+            <PublicationsSection>
+            <ResourcesSection>
+            <EventsSection>
+            <GoogleCalendarSection>
+            <ActivitiesSection>
+            <section>
+            <ContactSection>
+              <section className="py-12 md:p...">
+                <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.8}} ...>
+                  <div className="max-w-5xl ..." style={{opacity:0}} ref={function useMotionRef.useCallback}>
+                    <h2>
+                    <div>
+                    <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{delay:0.4}} ...>
+                      <div className="mt-10 md:m..." style={{opacity:0}} ref={function useMotionRef.useCallback}>
+                        <p>
+                        <a href="https://wa..." target="_blank" rel="noopener n...">
+                          <motion.button whileHover={{scale:1.05}} whileTap={{scale:0.95}} className="px-8 py-3 ...">
+                            <button
+                              className="px-8 py-3 bg-[#a7150b] text-white rounded-lg font-bold hover:bg-[#8a0d08] tra..."
+                              tabIndex={0}
+                              style={{}}
+                              ref={function useMotionRef.useCallback}
+-                             fdprocessedid="58yl1"
+                            >
++                             Send us a Message
+            ...
+
+[23:13:55.924] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1778147038/hero1_i2rvap_v06m2b.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[23:13:55.924] Browser WARN    Image with src "/navaratri.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[23:13:55.924] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[23:13:55.924] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[23:14:07.438] Server  LOG      ✓ Compiled in 115ms
+[23:14:19.717] Server  LOG      ✓ Compiled in 142ms
+[23:16:27.506] Server  LOG      ✓ Compiled in 174ms
+[23:16:49.711] Server  LOG      ✓ Compiled in 128ms
+[23:16:58.759] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+            <SegmentViewNode type="page" pagePath="page.tsx">
+              <SegmentTrieNode>
+              <ClientPageRoot Component={function Home} serverProvidedParams={{...}}>
+                <Home params={Promise} searchParams={Promise}>
+                  <main className="bg-white o...">
+                    <EventPopup>
+                    <HeroSection>
+                    <EventBanner>
+                    <AnnadhanamBanner>
+                    <DailyMessageSection>
+                    <FeaturedVideoSection>
+                    <section>
+                    <PilgrimServicesSection>
+                    <section>
+                    <SacredFestivalsSection>
+                    <PoojaTimingsSection>
+                    ...
+                      <div className="grid md:gr...">
+                        ...
+                          <div>
+                            <LinkComponent href="/publicati...">
+                              <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                                <button
+                                  className="bg-[#ffc107] text-[#1a1a1a] px-6 py-2.5 rounded-lg font-bold text-sm hove..."
+-                                 fdprocessedid="050i2y"
+                                >
++                                 Learn More
+                        ...
+                          <div>
+                            <LinkComponent href="/publicati...">
+                              <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                                <button
+                                  className="bg-[#ffc107] text-[#1a1a1a] px-6 py-2.5 rounded-lg font-bold text-sm hove..."
+-                                 fdprocessedid="md31xh"
+                                >
++                                 Learn More
+                        ...
+                          <div>
+                            <LinkComponent href="/publicati...">
+                              <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                                <button
+                                  className="bg-[#ffc107] text-[#1a1a1a] px-6 py-2.5 rounded-lg font-bold text-sm hove..."
+-                                 fdprocessedid="ggh5d"
+                                >
++                                 Learn More
+                    <ResourcesSection>
+                      <section className="py-12 md:p...">
+                        <div className="max-w-7xl ...">
+                          <div className="text-cente...">
+                            <h2>
+                            <div className="inline-fle...">
+                              <button
+                                onClick={function onClick}
+                                className="flex items-center justify-center gap-2 px-6 py-2 md:px-8 md:py-3 rounded-fu..."
+-                               fdprocessedid="bg37ug"
+                              >
+                              <button
+                                onClick={function onClick}
+                                className="flex items-center justify-center gap-2 px-6 py-2 md:px-8 md:py-3 rounded-fu..."
+-                               fdprocessedid="ph30w9"
+                              >
+                          ...
+                            <div className="grid md:gr..." style={{opacity:0, ...}} ...>
+                              <div className="bg-white p...">
+                                <h3>
+                                <p>
+                                <LinkComponent href="/publicati...">
+                                  <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                                    <button
+                                      className="text-[#a7150b] font-bold flex items-center gap-2 text-xs md:text-sm u..."
+-                                     fdprocessedid="u88x3"
+                                    >
+                              <div className="bg-white p...">
+                                <h3>
+                                <p>
+                                <LinkComponent href="/publicati...">
+                                  <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                                    <button
+                                      className="text-[#a7150b] font-bold flex items-center gap-2 text-xs md:text-sm u..."
+-                                     fdprocessedid="kl315"
+                                    >
+                              <div className="bg-white p...">
+                                <h3>
+                                <p>
+                                <LinkComponent href="/publicati...">
+                                  <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                                    <button
+                                      className="text-[#a7150b] font-bold flex items-center gap-2 text-xs md:text-sm u..."
+-                                     fdprocessedid="gf6tm"
+                                    >
+                              <div className="bg-white p...">
+                                <h3>
+                                <p>
+                                <LinkComponent href="/publicati...">
+                                  <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                                    <button
+                                      className="text-[#a7150b] font-bold flex items-center gap-2 text-xs md:text-sm u..."
+-                                     fdprocessedid="kbc12p"
+                                    >
+                              <div className="bg-white p...">
+                                <h3>
+                                <p>
+                                <LinkComponent href="/publicati...">
+                                  <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                                    <button
+                                      className="text-[#a7150b] font-bold flex items-center gap-2 text-xs md:text-sm u..."
+-                                     fdprocessedid="zud5u5"
+                                    >
+                              <div className="bg-white p...">
+                                <h3>
+                                <p>
+                                <LinkComponent href="/publicati...">
+                                  <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                                    <button
+                                      className="text-[#a7150b] font-bold flex items-center gap-2 text-xs md:text-sm u..."
+-                                     fdprocessedid="f7u2ae"
+                                    >
+                              <div className="bg-white p...">
+                                <h3>
+                                <p>
+                                <LinkComponent href="/publicati...">
+                                  <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                                    <button
+                                      className="text-[#a7150b] font-bold flex items-center gap-2 text-xs md:text-sm u..."
+-                                     fdprocessedid="z2wzou"
+                                    >
+                              <div className="bg-white p...">
+                                <h3>
+                                <p>
+                                <LinkComponent href="/publicati...">
+                                  <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                                    <button
+                                      className="text-[#a7150b] font-bold flex items-center gap-2 text-xs md:text-sm u..."
+-                                     fdprocessedid="tp53pq"
+                                    >
+                              <div className="bg-white p...">
+                                <h3>
+                                <p>
+                                <LinkComponent href="/publicati...">
+                                  <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                                    <button
+                                      className="text-[#a7150b] font-bold flex items-center gap-2 text-xs md:text-sm u..."
+-                                     fdprocessedid="wkixwq"
+                                    >
+                              <div className="bg-white p...">
+                                <h3>
+                                <p>
+                                <LinkComponent href="/publicati...">
+                                  <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                                    <button
+                                      className="text-[#a7150b] font-bold flex items-center gap-2 text-xs md:text-sm u..."
+-                                     fdprocessedid="0xsb9s"
+                                    >
+                    <EventsSection>
+                      <section className="py-12 md:p...">
+                        <div className="max-w-6xl ...">
+                          <motion.div>
+                          <div>
+                          <div className="mt-10 md:m...">
+                            <LinkComponent href="/all-events">
+                              <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                                <button
+                                  className="px-6 py-2.5 md:px-8 md:py-3 bg-white border-2 border-[#a7150b] text-[#a71..."
+-                                 fdprocessedid="qppxnp"
+                                >
++                                 View Full Events
+                    <GoogleCalendarSection>
+                    ...
+                      <div className="flex flex-...">
+                        <LinkComponent href="https://ma...">
+                          <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                            <motion.button whileHover={{scale:1.05}} whileTap={{scale:0.95}} className="bg-[#5c0a0...">
+                              <button
+                                className="bg-[#5c0a06] text-white px-6 py-3 md:px-8 md:py-4 rounded-full font-bold sh..."
+                                tabIndex={0}
+                                style={{}}
+                                ref={function useMotionRef.useCallback}
+-                               fdprocessedid="id03pq"
+                              >
++                               Daily Abhisegam
+                        <LinkComponent href="https://ma...">
+                          <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                            <motion.button whileHover={{scale:1.05}} whileTap={{scale:0.95}} className="bg-[#5c0a0...">
+                              <button
+                                className="bg-[#5c0a06] text-white px-6 py-3 md:px-8 md:py-4 rounded-full font-bold sh..."
+                                tabIndex={0}
+                                style={{}}
+                                ref={function useMotionRef.useCallback}
+-                               fdprocessedid="ntovr"
+                              >
++                               Golden Chariot
+                        <LinkComponent href="https://as...">
+                          <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                            <motion.button whileHover={{scale:1.05}} whileTap={{scale:0.95}} className="bg-[#5c0a0...">
+                              <button
+                                className="bg-[#5c0a06] text-white px-6 py-3 md:px-8 md:py-4 rounded-full font-bold sh..."
+                                tabIndex={0}
+                                style={{}}
+                                ref={function useMotionRef.useCallback}
+-                               fdprocessedid="immqi2"
+                              >
++                               Women Welfare
+                        <LinkComponent href="https://ww...">
+                          <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                            <motion.button whileHover={{scale:1.05}} whileTap={{scale:0.95}} className="bg-[#5c0a0...">
+                              <button
+                                className="bg-[#5c0a06] text-white px-6 py-3 md:px-8 md:py-4 rounded-full font-bold sh..."
+                                tabIndex={0}
+                                style={{}}
+                                ref={function useMotionRef.useCallback}
+-                               fdprocessedid="mggyjt"
+                              >
++                               Annadhanam
+                    <section className="py-12 bg-o...">
+                      <div className="max-w-7xl ...">
+                        <motion.div>
+                        <div>
+                        <LinkComponent href="/activitie...">
+                          <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                            <button
+                              className="px-8 py-3 bg-[#a7150b] text-white rounded-full font-bold shadow-lg hover:bg-[..."
+-                             fdprocessedid="su6pvp"
+                            >
++                             Apply for Volunteering
+                    ...
+                      <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{delay:0.4}} ...>
+                        <div className="mt-10 md:m..." style={{opacity:0}} ref={function useMotionRef.useCallback}>
+                          <p>
+                          <a href="https://wa..." target="_blank" rel="noopener n...">
+                            <motion.button whileHover={{scale:1.05}} whileTap={{scale:0.95}} className="px-8 py-3 ...">
+                              <button
+                                className="px-8 py-3 bg-[#a7150b] text-white rounded-lg font-bold hover:bg-[#8a0d08] t..."
+                                tabIndex={0}
+                                style={{}}
+                                ref={function useMotionRef.useCallback}
+-                               fdprocessedid="kg3v6"
+                              >
++                               Send us a Message
+                    ...
+            ...
+          ...
+
+[23:16:58.759] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1778147038/hero1_i2rvap_v06m2b.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[23:16:58.759] Browser WARN    Image with src "/navaratri.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[23:16:58.759] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[23:16:58.759] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[23:17:19.197] Server  LOG      ✓ Compiled in 127ms
+[23:17:24.469] Server  LOG      ✓ Compiled in 228ms
+[23:18:03.955] Server  LOG      ✓ Compiled in 142ms
+[23:18:05.633] Server  LOG      ✓ Compiled in 122ms
+[23:18:19.857] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+            <SegmentViewNode type="page" pagePath="page.tsx">
+              <SegmentTrieNode>
+              <ClientPageRoot Component={function Home} serverProvidedParams={{...}}>
+                <Home params={Promise} searchParams={Promise}>
+                  <main className="bg-white o...">
+                    <EventPopup>
+                    <HeroSection>
+                    <EventBanner>
+                    <AnnadhanamBanner>
+                    <DailyMessageSection>
+                    <FeaturedVideoSection>
+                    <section>
+                    <PilgrimServicesSection>
+                    <section>
+                    <SacredFestivalsSection>
+                    <PoojaTimingsSection>
+                    ...
+                      <div className="grid md:gr...">
+                        ...
+                          <div>
+                            <LinkComponent href="/publicati...">
+                              <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                                <button
+                                  className="bg-[#ffc107] text-[#1a1a1a] px-6 py-2.5 rounded-lg font-bold text-sm hove..."
+-                                 fdprocessedid="6k32t6"
+                                >
++                                 Learn More
+                        ...
+                          <div>
+                            <LinkComponent href="/publicati...">
+                              <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                                <button
+                                  className="bg-[#ffc107] text-[#1a1a1a] px-6 py-2.5 rounded-lg font-bold text-sm hove..."
+-                                 fdprocessedid="avg1kxl"
+                                >
++                                 Learn More
+                        ...
+                          <div>
+                            <LinkComponent href="/publicati...">
+                              <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                                <button
+                                  className="bg-[#ffc107] text-[#1a1a1a] px-6 py-2.5 rounded-lg font-bold text-sm hove..."
+-                                 fdprocessedid="2evk8r"
+                                >
++                                 Learn More
+                    <ResourcesSection>
+                      <section className="py-12 md:p...">
+                        <div className="max-w-7xl ...">
+                          <div className="text-cente...">
+                            <h2>
+                            <div className="inline-fle...">
+                              <button
+                                onClick={function onClick}
+                                className="flex items-center justify-center gap-2 px-6 py-2 md:px-8 md:py-3 rounded-fu..."
+-                               fdprocessedid="p5lh7"
+                              >
+                              <button
+                                onClick={function onClick}
+                                className="flex items-center justify-center gap-2 px-6 py-2 md:px-8 md:py-3 rounded-fu..."
+-                               fdprocessedid="9cjzia"
+                              >
+                          ...
+                            <div className="grid md:gr..." style={{opacity:0, ...}} ...>
+                              <div className="bg-white p...">
+                                <h3>
+                                <p>
+                                <LinkComponent href="/publicati...">
+                                  <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                                    <button
+                                      className="text-[#a7150b] font-bold flex items-center gap-2 text-xs md:text-sm u..."
+-                                     fdprocessedid="phhgwh"
+                                    >
+                              <div className="bg-white p...">
+                                <h3>
+                                <p>
+                                <LinkComponent href="/publicati...">
+                                  <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                                    <button
+                                      className="text-[#a7150b] font-bold flex items-center gap-2 text-xs md:text-sm u..."
+-                                     fdprocessedid="0edop"
+                                    >
+                              <div className="bg-white p...">
+                                <h3>
+                                <p>
+                                <LinkComponent href="/publicati...">
+                                  <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                                    <button
+                                      className="text-[#a7150b] font-bold flex items-center gap-2 text-xs md:text-sm u..."
+-                                     fdprocessedid="c94v9j"
+                                    >
+                              <div className="bg-white p...">
+                                <h3>
+                                <p>
+                                <LinkComponent href="/publicati...">
+                                  <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                                    <button
+                                      className="text-[#a7150b] font-bold flex items-center gap-2 text-xs md:text-sm u..."
+-                                     fdprocessedid="6gj2nh"
+                                    >
+                              <div className="bg-white p...">
+                                <h3>
+                                <p>
+                                <LinkComponent href="/publicati...">
+                                  <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                                    <button
+                                      className="text-[#a7150b] font-bold flex items-center gap-2 text-xs md:text-sm u..."
+-                                     fdprocessedid="16n47"
+                                    >
+                              <div className="bg-white p...">
+                                <h3>
+                                <p>
+                                <LinkComponent href="/publicati...">
+                                  <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                                    <button
+                                      className="text-[#a7150b] font-bold flex items-center gap-2 text-xs md:text-sm u..."
+-                                     fdprocessedid="57oy8s"
+                                    >
+                              <div className="bg-white p...">
+                                <h3>
+                                <p>
+                                <LinkComponent href="/publicati...">
+                                  <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                                    <button
+                                      className="text-[#a7150b] font-bold flex items-center gap-2 text-xs md:text-sm u..."
+-                                     fdprocessedid="3l33kb"
+                                    >
+                              <div className="bg-white p...">
+                                <h3>
+                                <p>
+                                <LinkComponent href="/publicati...">
+                                  <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                                    <button
+                                      className="text-[#a7150b] font-bold flex items-center gap-2 text-xs md:text-sm u..."
+-                                     fdprocessedid="znkfda"
+                                    >
+                              <div className="bg-white p...">
+                                <h3>
+                                <p>
+                                <LinkComponent href="/publicati...">
+                                  <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                                    <button
+                                      className="text-[#a7150b] font-bold flex items-center gap-2 text-xs md:text-sm u..."
+-                                     fdprocessedid="7vk6nw"
+                                    >
+                              <div className="bg-white p...">
+                                <h3>
+                                <p>
+                                <LinkComponent href="/publicati...">
+                                  <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                                    <button
+                                      className="text-[#a7150b] font-bold flex items-center gap-2 text-xs md:text-sm u..."
+-                                     fdprocessedid="d4273"
+                                    >
+                    <EventsSection>
+                      <section className="py-12 md:p...">
+                        <div className="max-w-6xl ...">
+                          <motion.div>
+                          <div>
+                          <div className="mt-10 md:m...">
+                            <LinkComponent href="/all-events">
+                              <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                                <button
+                                  className="px-6 py-2.5 md:px-8 md:py-3 bg-white border-2 border-[#a7150b] text-[#a71..."
+-                                 fdprocessedid="v41ou"
+                                >
++                                 View Full Events
+                    <GoogleCalendarSection>
+                    ...
+                      <div className="flex flex-...">
+                        <LinkComponent href="https://ma...">
+                          <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                            <motion.button whileHover={{scale:1.05}} whileTap={{scale:0.95}} className="bg-[#5c0a0...">
+                              <button
+                                className="bg-[#5c0a06] text-white px-6 py-3 md:px-8 md:py-4 rounded-full font-bold sh..."
+                                tabIndex={0}
+                                style={{}}
+                                ref={function useMotionRef.useCallback}
+-                               fdprocessedid="7jzvj"
+                              >
++                               Daily Abhisegam
+                        <LinkComponent href="https://ma...">
+                          <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                            <motion.button whileHover={{scale:1.05}} whileTap={{scale:0.95}} className="bg-[#5c0a0...">
+                              <button
+                                className="bg-[#5c0a06] text-white px-6 py-3 md:px-8 md:py-4 rounded-full font-bold sh..."
+                                tabIndex={0}
+                                style={{}}
+                                ref={function useMotionRef.useCallback}
+-                               fdprocessedid="383ol"
+                              >
++                               Golden Chariot
+                        <LinkComponent href="https://as...">
+                          <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                            <motion.button whileHover={{scale:1.05}} whileTap={{scale:0.95}} className="bg-[#5c0a0...">
+                              <button
+                                className="bg-[#5c0a06] text-white px-6 py-3 md:px-8 md:py-4 rounded-full font-bold sh..."
+                                tabIndex={0}
+                                style={{}}
+                                ref={function useMotionRef.useCallback}
+-                               fdprocessedid="ehocyc"
+                              >
++                               Women Welfare
+                        <LinkComponent href="https://ww...">
+                          <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                            <motion.button whileHover={{scale:1.05}} whileTap={{scale:0.95}} className="bg-[#5c0a0...">
+                              <button
+                                className="bg-[#5c0a06] text-white px-6 py-3 md:px-8 md:py-4 rounded-full font-bold sh..."
+                                tabIndex={0}
+                                style={{}}
+                                ref={function useMotionRef.useCallback}
+-                               fdprocessedid="ts4gik"
+                              >
++                               Annadhanam
+                    <section className="py-12 bg-o...">
+                      <div className="max-w-7xl ...">
+                        <motion.div>
+                        <div>
+                        <LinkComponent href="/activitie...">
+                          <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                            <button
+                              className="px-8 py-3 bg-[#a7150b] text-white rounded-full font-bold shadow-lg hover:bg-[..."
+-                             fdprocessedid="60fqw"
+                            >
++                             Apply for Volunteering
+                    ...
+                      <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{delay:0.4}} ...>
+                        <div className="mt-10 md:m..." style={{opacity:0}} ref={function useMotionRef.useCallback}>
+                          <p>
+                          <a href="https://wa..." target="_blank" rel="noopener n...">
+                            <motion.button whileHover={{scale:1.05}} whileTap={{scale:0.95}} className="px-8 py-3 ...">
+                              <button
+                                className="px-8 py-3 bg-[#a7150b] text-white rounded-lg font-bold hover:bg-[#8a0d08] t..."
+                                tabIndex={0}
+                                style={{}}
+                                ref={function useMotionRef.useCallback}
+-                               fdprocessedid="bwnua"
+                              >
++                               Send us a Message
+                    ...
+            ...
+          ...
+
+[23:18:19.857] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1778147038/hero1_i2rvap_v06m2b.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[23:18:19.857] Browser WARN    Image with src "/navaratri.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[23:18:19.860] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[23:18:21.821] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[23:20:36.336] Server  LOG      ✓ Compiled in 139ms
+[23:20:55.743] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[23:20:56.265] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1778147038/hero1_i2rvap_v06m2b.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[23:20:56.265] Browser WARN    Image with src "/navaratri.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[23:20:58.322] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[23:21:03.359] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[23:22:23.747] Server  LOG      ✓ Compiled in 130ms
+[23:31:03.610] Server  LOG      ✓ Compiled in 265ms
+[23:32:36.201] Server  LOG      ✓ Compiled in 144ms
+[23:32:41.522] Server  LOG      ✓ Compiled in 141ms
+[23:32:41.877] Browser ERROR   ./app/page.tsx:48:21
+Parsing ecmascript source code failed
+  46 |       {/* <Julyevent /> */}
+  47 |       <
+> 48 |       <EventBanner /> 
+     |                     ^
+  49 |       <AnnadhanamBannerPage />
+  50 |       <DailyMessageSection />
+  51 |       <FeaturedVideoSection />
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[23:32:41.877] Browser ERROR   ./app/page.tsx:48:21
+Parsing ecmascript source code failed
+  46 |       {/* <Julyevent /> */}
+  47 |       <
+> 48 |       <EventBanner /> 
+     |                     ^
+  49 |       <AnnadhanamBannerPage />
+  50 |       <DailyMessageSection />
+  51 |       <FeaturedVideoSection />
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[23:32:41.877] Browser ERROR   ./app/page.tsx:48:21
+Parsing ecmascript source code failed
+  46 |       {/* <Julyevent /> */}
+  47 |       <
+> 48 |       <EventBanner /> 
+     |                     ^
+  49 |       <AnnadhanamBannerPage />
+  50 |       <DailyMessageSection />
+  51 |       <FeaturedVideoSection />
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[23:32:41.877] Browser ERROR   ./app/page.tsx:48:21
+Parsing ecmascript source code failed
+  46 |       {/* <Julyevent /> */}
+  47 |       <
+> 48 |       <EventBanner /> 
+     |                     ^
+  49 |       <AnnadhanamBannerPage />
+  50 |       <DailyMessageSection />
+  51 |       <FeaturedVideoSection />
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[23:32:42.875] Browser ERROR   ./app/page.tsx:48:21
+Parsing ecmascript source code failed
+  46 |       {/* <Julyevent /> */}
+  47 |       <
+> 48 |       <EventBanner /> 
+     |                     ^
+  49 |       <AnnadhanamBannerPage />
+  50 |       <DailyMessageSection />
+  51 |       <FeaturedVideoSection />
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[23:32:42.875] Browser ERROR   ./app/page.tsx:48:21
+Parsing ecmascript source code failed
+  46 |       {/* <Julyevent /> */}
+  47 |       <
+> 48 |       <EventBanner /> 
+     |                     ^
+  49 |       <AnnadhanamBannerPage />
+  50 |       <DailyMessageSection />
+  51 |       <FeaturedVideoSection />
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[23:32:43.880] Server  LOG      ✓ Compiled in 180ms
+[23:32:44.882] Browser ERROR   ./app/page.tsx:47:8
+Parsing ecmascript source code failed
+  45 |       {/* <IrumudiSection /> */}
+  46 |       {/* <Julyevent /> */}
+> 47 |       <'use client';
+     |        ^^^^^^^^^^^^
+  48 |
+  49 | import React, { useState } from 'react';
+  50 | import { motion } from 'framer-motion';
+
+Expected '</', got 'string literal (use client, 'use client')'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[23:32:44.883] Browser ERROR   ./app/page.tsx:47:8
+Parsing ecmascript source code failed
+  45 |       {/* <IrumudiSection /> */}
+  46 |       {/* <Julyevent /> */}
+> 47 |       <'use client';
+     |        ^^^^^^^^^^^^
+  48 |
+  49 | import React, { useState } from 'react';
+  50 | import { motion } from 'framer-motion';
+
+Expected '</', got 'string literal (use client, 'use client')'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[23:32:44.883] Browser ERROR   ./app/page.tsx:47:8
+Parsing ecmascript source code failed
+  45 |       {/* <IrumudiSection /> */}
+  46 |       {/* <Julyevent /> */}
+> 47 |       <'use client';
+     |        ^^^^^^^^^^^^
+  48 |
+  49 | import React, { useState } from 'react';
+  50 | import { motion } from 'framer-motion';
+
+Expected '</', got 'string literal (use client, 'use client')'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[23:32:45.350] Server  LOG      ✓ Compiled in 146ms
+[23:32:45.865] Browser ERROR   ./app/page.tsx:48:21
+Parsing ecmascript source code failed
+  46 |       {/* <Julyevent /> */}
+  47 |       <
+> 48 |       <EventBanner /> 
+     |                     ^
+  49 |       <AnnadhanamBannerPage />
+  50 |       <DailyMessageSection />
+  51 |       <FeaturedVideoSection />
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[23:32:45.865] Browser ERROR   ./app/page.tsx:48:21
+Parsing ecmascript source code failed
+  46 |       {/* <Julyevent /> */}
+  47 |       <
+> 48 |       <EventBanner /> 
+     |                     ^
+  49 |       <AnnadhanamBannerPage />
+  50 |       <DailyMessageSection />
+  51 |       <FeaturedVideoSection />
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[23:32:45.866] Browser ERROR   ./app/page.tsx:48:21
+Parsing ecmascript source code failed
+  46 |       {/* <Julyevent /> */}
+  47 |       <
+> 48 |       <EventBanner /> 
+     |                     ^
+  49 |       <AnnadhanamBannerPage />
+  50 |       <DailyMessageSection />
+  51 |       <FeaturedVideoSection />
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[23:32:47.871] Browser ERROR   ./app/page.tsx:48:21
+Parsing ecmascript source code failed
+  46 |       {/* <Julyevent /> */}
+  47 |       <L
+> 48 |       <EventBanner /> 
+     |                     ^
+  49 |       <AnnadhanamBannerPage />
+  50 |       <DailyMessageSection />
+  51 |       <FeaturedVideoSection />
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[23:32:47.872] Browser ERROR   ./app/page.tsx:48:21
+Parsing ecmascript source code failed
+  46 |       {/* <Julyevent /> */}
+  47 |       <L
+> 48 |       <EventBanner /> 
+     |                     ^
+  49 |       <AnnadhanamBannerPage />
+  50 |       <DailyMessageSection />
+  51 |       <FeaturedVideoSection />
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[23:32:47.873] Browser ERROR   ./app/page.tsx:48:21
+Parsing ecmascript source code failed
+  46 |       {/* <Julyevent /> */}
+  47 |       <L
+> 48 |       <EventBanner /> 
+     |                     ^
+  49 |       <AnnadhanamBannerPage />
+  50 |       <DailyMessageSection />
+  51 |       <FeaturedVideoSection />
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[23:32:50.877] Browser ERROR   ./app/page.tsx:48:21
+Parsing ecmascript source code failed
+  46 |       {/* <Julyevent /> */}
+  47 |       <Lac
+> 48 |       <EventBanner /> 
+     |                     ^
+  49 |       <AnnadhanamBannerPage />
+  50 |       <DailyMessageSection />
+  51 |       <FeaturedVideoSection />
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[23:32:50.878] Browser ERROR   ./app/page.tsx:48:21
+Parsing ecmascript source code failed
+  46 |       {/* <Julyevent /> */}
+  47 |       <Lac
+> 48 |       <EventBanner /> 
+     |                     ^
+  49 |       <AnnadhanamBannerPage />
+  50 |       <DailyMessageSection />
+  51 |       <FeaturedVideoSection />
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[23:32:50.879] Browser ERROR   ./app/page.tsx:48:21
+Parsing ecmascript source code failed
+  46 |       {/* <Julyevent /> */}
+  47 |       <Lac
+> 48 |       <EventBanner /> 
+     |                     ^
+  49 |       <AnnadhanamBannerPage />
+  50 |       <DailyMessageSection />
+  51 |       <FeaturedVideoSection />
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[23:33:05.901] Browser ERROR   ./app/page.tsx:48:21
+Parsing ecmascript source code failed
+  46 |       {/* <Julyevent /> */}
+  47 |       <Lak
+> 48 |       <EventBanner /> 
+     |                     ^
+  49 |       <AnnadhanamBannerPage />
+  50 |       <DailyMessageSection />
+  51 |       <FeaturedVideoSection />
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[23:33:05.917] Browser ERROR   ./app/page.tsx:48:21
+Parsing ecmascript source code failed
+  46 |       {/* <Julyevent /> */}
+  47 |       <Lak
+> 48 |       <EventBanner /> 
+     |                     ^
+  49 |       <AnnadhanamBannerPage />
+  50 |       <DailyMessageSection />
+  51 |       <FeaturedVideoSection />
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[23:33:05.918] Browser ERROR   ./app/page.tsx:48:21
+Parsing ecmascript source code failed
+  46 |       {/* <Julyevent /> */}
+  47 |       <Lak
+> 48 |       <EventBanner /> 
+     |                     ^
+  49 |       <AnnadhanamBannerPage />
+  50 |       <DailyMessageSection />
+  51 |       <FeaturedVideoSection />
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[23:33:10.866] Browser ERROR   ./app/page.tsx:48:21
+Parsing ecmascript source code failed
+  46 |       {/* <Julyevent /> */}
+  47 |       <Lakha
+> 48 |       <EventBanner /> 
+     |                     ^
+  49 |       <AnnadhanamBannerPage />
+  50 |       <DailyMessageSection />
+  51 |       <FeaturedVideoSection />
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[23:33:10.866] Browser ERROR   ./app/page.tsx:48:21
+Parsing ecmascript source code failed
+  46 |       {/* <Julyevent /> */}
+  47 |       <Lakha
+> 48 |       <EventBanner /> 
+     |                     ^
+  49 |       <AnnadhanamBannerPage />
+  50 |       <DailyMessageSection />
+  51 |       <FeaturedVideoSection />
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[23:33:10.866] Browser ERROR   ./app/page.tsx:48:21
+Parsing ecmascript source code failed
+  46 |       {/* <Julyevent /> */}
+  47 |       <Lakha
+> 48 |       <EventBanner /> 
+     |                     ^
+  49 |       <AnnadhanamBannerPage />
+  50 |       <DailyMessageSection />
+  51 |       <FeaturedVideoSection />
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[23:33:13.869] Browser ERROR   ./app/page.tsx:48:21
+Parsing ecmascript source code failed
+  46 |       {/* <Julyevent /> */}
+  47 |       <Lakharcha
+> 48 |       <EventBanner /> 
+     |                     ^
+  49 |       <AnnadhanamBannerPage />
+  50 |       <DailyMessageSection />
+  51 |       <FeaturedVideoSection />
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[23:33:13.869] Browser ERROR   ./app/page.tsx:48:21
+Parsing ecmascript source code failed
+  46 |       {/* <Julyevent /> */}
+  47 |       <Lakharcha
+> 48 |       <EventBanner /> 
+     |                     ^
+  49 |       <AnnadhanamBannerPage />
+  50 |       <DailyMessageSection />
+  51 |       <FeaturedVideoSection />
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[23:33:13.869] Browser ERROR   ./app/page.tsx:48:21
+Parsing ecmascript source code failed
+  46 |       {/* <Julyevent /> */}
+  47 |       <Lakharcha
+> 48 |       <EventBanner /> 
+     |                     ^
+  49 |       <AnnadhanamBannerPage />
+  50 |       <DailyMessageSection />
+  51 |       <FeaturedVideoSection />
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[23:33:21.864] Browser ERROR   ./app/page.tsx:49:21
+Parsing ecmascript source code failed
+  47 |       {/* <Julyevent /> */}
+  48 |       <LaksharchanaPage
+> 49 |       <EventBanner /> 
+     |                     ^
+  50 |       <AnnadhanamBannerPage />
+  51 |       <DailyMessageSection />
+  52 |       <FeaturedVideoSection />
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[23:33:21.865] Browser ERROR   ./app/page.tsx:49:21
+Parsing ecmascript source code failed
+  47 |       {/* <Julyevent /> */}
+  48 |       <LaksharchanaPage
+> 49 |       <EventBanner /> 
+     |                     ^
+  50 |       <AnnadhanamBannerPage />
+  51 |       <DailyMessageSection />
+  52 |       <FeaturedVideoSection />
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[23:33:21.866] Browser ERROR   ./app/page.tsx:49:21
+Parsing ecmascript source code failed
+  47 |       {/* <Julyevent /> */}
+  48 |       <LaksharchanaPage
+> 49 |       <EventBanner /> 
+     |                     ^
+  50 |       <AnnadhanamBannerPage />
+  51 |       <DailyMessageSection />
+  52 |       <FeaturedVideoSection />
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[23:33:23.668] Server  LOG      ✓ Compiled in 164ms
+[23:34:34.221] Server  LOG      ✓ Compiled in 138ms
+[23:38:14.337] Server  LOG      ✓ Compiled in 420ms
+[23:45:44.847] Server  LOG      ✓ Compiled in 155ms
+[23:47:18.032] Server  LOG      ✓ Compiled in 163ms
+[23:47:19.570] Server  LOG      ✓ Compiled in 180ms
+[23:47:53.601] Server  LOG      ✓ Compiled in 149ms
+[23:50:18.264] Server  LOG      ✓ Compiled in 267ms
+[23:50:19.492] Server  LOG      ✓ Compiled in 125ms
+[23:50:20.689] Server  LOG      ✓ Compiled in 128ms
+[23:51:43.367] Server  LOG      ✓ Compiled in 148ms
+[23:51:44.882] Server  LOG      ✓ Compiled in 325ms
+[23:52:01.174] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+            <SegmentViewNode type="page" pagePath="page.tsx">
+              <SegmentTrieNode>
+              <ClientPageRoot Component={function Home} serverProvidedParams={{...}}>
+                <Home params={Promise} searchParams={Promise}>
+                  <main className="bg-white o...">
+                    <EventPopup>
+                    <HeroSection>
+                    <NavarathriLaksharchanaBanner>
+                    <EventBanner>
+                    <AnnadhanamBanner>
+                    <DailyMessageSection>
+                    <FeaturedVideoSection>
+                    <section>
+                    <PilgrimServicesSection>
+                    <section>
+                    <SacredFestivalsSection>
+                    <PoojaTimingsSection>
+                    ...
+                      <div className="grid md:gr...">
+                        ...
+                          <div>
+                            <LinkComponent href="/publicati...">
+                              <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                                <button
+                                  className="bg-[#ffc107] text-[#1a1a1a] px-6 py-2.5 rounded-lg font-bold text-sm hove..."
+-                                 fdprocessedid="mtopl5"
+                                >
++                                 Learn More
+                        ...
+                          <div>
+                            <LinkComponent href="/publicati...">
+                              <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                                <button
+                                  className="bg-[#ffc107] text-[#1a1a1a] px-6 py-2.5 rounded-lg font-bold text-sm hove..."
+-                                 fdprocessedid="3eank"
+                                >
++                                 Learn More
+                        ...
+                          <div>
+                            <LinkComponent href="/publicati...">
+                              <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                                <button
+                                  className="bg-[#ffc107] text-[#1a1a1a] px-6 py-2.5 rounded-lg font-bold text-sm hove..."
+-                                 fdprocessedid="r8ppx6"
+                                >
++                                 Learn More
+                    <ResourcesSection>
+                      <section className="py-12 md:p...">
+                        <div className="max-w-7xl ...">
+                          <div className="text-cente...">
+                            <h2>
+                            <div className="inline-fle...">
+                              <button
+                                onClick={function onClick}
+                                className="flex items-center justify-center gap-2 px-6 py-2 md:px-8 md:py-3 rounded-fu..."
+-                               fdprocessedid="7c1m2"
+                              >
+                              <button
+                                onClick={function onClick}
+                                className="flex items-center justify-center gap-2 px-6 py-2 md:px-8 md:py-3 rounded-fu..."
+-                               fdprocessedid="u3y0q"
+                              >
+                          ...
+                            <div className="grid md:gr..." style={{opacity:0, ...}} ...>
+                              <div className="bg-white p...">
+                                <h3>
+                                <p>
+                                <LinkComponent href="/publicati...">
+                                  <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                                    <button
+                                      className="text-[#a7150b] font-bold flex items-center gap-2 text-xs md:text-sm u..."
+-                                     fdprocessedid="30op8b"
+                                    >
+                              <div className="bg-white p...">
+                                <h3>
+                                <p>
+                                <LinkComponent href="/publicati...">
+                                  <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                                    <button
+                                      className="text-[#a7150b] font-bold flex items-center gap-2 text-xs md:text-sm u..."
+-                                     fdprocessedid="jip58"
+                                    >
+                              <div className="bg-white p...">
+                                <h3>
+                                <p>
+                                <LinkComponent href="/publicati...">
+                                  <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                                    <button
+                                      className="text-[#a7150b] font-bold flex items-center gap-2 text-xs md:text-sm u..."
+-                                     fdprocessedid="s6t63q"
+                                    >
+                              <div className="bg-white p...">
+                                <h3>
+                                <p>
+                                <LinkComponent href="/publicati...">
+                                  <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                                    <button
+                                      className="text-[#a7150b] font-bold flex items-center gap-2 text-xs md:text-sm u..."
+-                                     fdprocessedid="69zmmh"
+                                    >
+                              <div className="bg-white p...">
+                                <h3>
+                                <p>
+                                <LinkComponent href="/publicati...">
+                                  <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                                    <button
+                                      className="text-[#a7150b] font-bold flex items-center gap-2 text-xs md:text-sm u..."
+-                                     fdprocessedid="wg4v2"
+                                    >
+                              <div className="bg-white p...">
+                                <h3>
+                                <p>
+                                <LinkComponent href="/publicati...">
+                                  <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                                    <button
+                                      className="text-[#a7150b] font-bold flex items-center gap-2 text-xs md:text-sm u..."
+-                                     fdprocessedid="4voja9"
+                                    >
+                              <div className="bg-white p...">
+                                <h3>
+                                <p>
+                                <LinkComponent href="/publicati...">
+                                  <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                                    <button
+                                      className="text-[#a7150b] font-bold flex items-center gap-2 text-xs md:text-sm u..."
+-                                     fdprocessedid="5a2siv"
+                                    >
+                              <div className="bg-white p...">
+                                <h3>
+                                <p>
+                                <LinkComponent href="/publicati...">
+                                  <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                                    <button
+                                      className="text-[#a7150b] font-bold flex items-center gap-2 text-xs md:text-sm u..."
+-                                     fdprocessedid="33lmr"
+                                    >
+                              <div className="bg-white p...">
+                                <h3>
+                                <p>
+                                <LinkComponent href="/publicati...">
+                                  <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                                    <button
+                                      className="text-[#a7150b] font-bold flex items-center gap-2 text-xs md:text-sm u..."
+-                                     fdprocessedid="4woxkk"
+                                    >
+                              <div className="bg-white p...">
+                                <h3>
+                                <p>
+                                <LinkComponent href="/publicati...">
+                                  <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                                    <button
+                                      className="text-[#a7150b] font-bold flex items-center gap-2 text-xs md:text-sm u..."
+-                                     fdprocessedid="y0n4rj"
+                                    >
+                    <EventsSection>
+                      <section className="py-12 md:p...">
+                        <div className="max-w-6xl ...">
+                          <motion.div>
+                          <div>
+                          <div className="mt-10 md:m...">
+                            <LinkComponent href="/all-events">
+                              <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                                <button
+                                  className="px-6 py-2.5 md:px-8 md:py-3 bg-white border-2 border-[#a7150b] text-[#a71..."
+-                                 fdprocessedid="lrcrhb"
+                                >
++                                 View Full Events
+                    <GoogleCalendarSection>
+                    ...
+                      <div className="flex flex-...">
+                        <LinkComponent href="https://ma...">
+                          <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                            <motion.button whileHover={{scale:1.05}} whileTap={{scale:0.95}} className="bg-[#5c0a0...">
+                              <button
+                                className="bg-[#5c0a06] text-white px-6 py-3 md:px-8 md:py-4 rounded-full font-bold sh..."
+                                tabIndex={0}
+                                style={{}}
+                                ref={function useMotionRef.useCallback}
+-                               fdprocessedid="u2cgok"
+                              >
++                               Daily Abhisegam
+                        <LinkComponent href="https://ma...">
+                          <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                            <motion.button whileHover={{scale:1.05}} whileTap={{scale:0.95}} className="bg-[#5c0a0...">
+                              <button
+                                className="bg-[#5c0a06] text-white px-6 py-3 md:px-8 md:py-4 rounded-full font-bold sh..."
+                                tabIndex={0}
+                                style={{}}
+                                ref={function useMotionRef.useCallback}
+-                               fdprocessedid="arkwuf"
+                              >
++                               Golden Chariot
+                        <LinkComponent href="https://as...">
+                          <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                            <motion.button whileHover={{scale:1.05}} whileTap={{scale:0.95}} className="bg-[#5c0a0...">
+                              <button
+                                className="bg-[#5c0a06] text-white px-6 py-3 md:px-8 md:py-4 rounded-full font-bold sh..."
+                                tabIndex={0}
+                                style={{}}
+                                ref={function useMotionRef.useCallback}
+-                               fdprocessedid="hrfz1f"
+                              >
++                               Women Welfare
+                        <LinkComponent href="https://ww...">
+                          <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                            <motion.button whileHover={{scale:1.05}} whileTap={{scale:0.95}} className="bg-[#5c0a0...">
+                              <button
+                                className="bg-[#5c0a06] text-white px-6 py-3 md:px-8 md:py-4 rounded-full font-bold sh..."
+                                tabIndex={0}
+                                style={{}}
+                                ref={function useMotionRef.useCallback}
+-                               fdprocessedid="2h2tzr"
+                              >
++                               Annadhanam
+                    <section className="py-12 bg-o...">
+                      <div className="max-w-7xl ...">
+                        <motion.div>
+                        <div>
+                        <LinkComponent href="/activitie...">
+                          <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                            <button
+                              className="px-8 py-3 bg-[#a7150b] text-white rounded-full font-bold shadow-lg hover:bg-[..."
+-                             fdprocessedid="2lwuy"
+                            >
++                             Apply for Volunteering
+                    ...
+                      <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{delay:0.4}} ...>
+                        <div className="mt-10 md:m..." style={{opacity:0}} ref={function useMotionRef.useCallback}>
+                          <p>
+                          <a href="https://wa..." target="_blank" rel="noopener n...">
+                            <motion.button whileHover={{scale:1.05}} whileTap={{scale:0.95}} className="px-8 py-3 ...">
+                              <button
+                                className="px-8 py-3 bg-[#a7150b] text-white rounded-lg font-bold hover:bg-[#8a0d08] t..."
+                                tabIndex={0}
+                                style={{}}
+                                ref={function useMotionRef.useCallback}
+-                               fdprocessedid="gwgu65"
+                              >
++                               Send us a Message
+                    ...
+            ...
+          ...
+
+[23:52:01.174] Browser WARN    Image with src "https://res.cloudinary.com/dvd7o5nph/image/upload/v1778147038/hero1_i2rvap_v06m2b.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[23:52:01.174] Browser WARN    Image with src "/navaratri.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[23:52:03.220] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[23:52:11.461] Server  LOG      ✓ Compiled in 125ms
+[23:52:27.715] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[23:52:32.262] Server  ERROR    ⨯ "upstream image" "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939123/om3_f76xrf.jpg" "resolved to private ip" "[\"64:ff9b::6810:4f06\",\"64:ff9b::6810:4e06\"]"
+[23:52:32.265] Server  ERROR    ⨯ "upstream image" "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939095/om5_ppv6nl.jpg" "resolved to private ip" "[\"64:ff9b::6810:4f06\",\"64:ff9b::6810:4e06\"]"
+[23:52:32.286] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\image-optimizer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:52:32.287] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:52:32.292] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\response-cache\index.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:52:32.295] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\lib\batcher.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:52:32.298] Server  ERROR   Error: "url" parameter is not allowed
+[23:52:32.317] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\image-optimizer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:52:32.318] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:52:32.319] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\server\response-cache\index.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:52:32.320] Server  ERROR   C:\Marketly\omskamma\node_modules\next\dist\lib\batcher.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:52:32.321] Server  ERROR   Error: "url" parameter is not allowed
+[23:52:32.441] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939095/om5_ppv6nl.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[23:52:32.442] Browser WARN    Image with src "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939123/om3_f76xrf.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[23:55:13.875] Server  LOG      ○ Compiling /online_services/donations ...
+[23:55:14.326] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[23:57:56.815] Server  LOG      ✓ Compiled in 265ms
+[24:00:05.233] Server  LOG      ✓ Compiled in 272ms
+[24:02:39.158] Server  LOG      ✓ Compiled in 129ms
+[24:02:39.880] Browser ERROR   uncaughtError: ReferenceError: ExternalLink is not defined
+[24:02:48.098] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[24:02:48.102] Server  LOG      ✓ Compiled in 145ms
